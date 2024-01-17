@@ -8,11 +8,99 @@
           "svtId": 0
         },
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "topAddFriendPointSvtEQ": {
-          "userSvtId": 0,
-          "svtId": 0
-        },
+        "seqLoginBonus": [
+          {
+            "num": 2,
+            "items": [
+              {
+                "name": "聖晶石",
+                "num": 1
+              },
+              {
+                "name": "1月交換券(2024)",
+                "num": 1
+              }
+            ],
+            "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            }
+          }
+        ],
+        "addFriendPoint": 0,
         "campaignbonus": [
+          {
+            "isDeemedLogin": false,
+            "name": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナス",
+            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "英霊結晶・星のフォウくん",
+                "num": 5
+              },
+              {
+                "name": "聖晶石",
+                "num": 1
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240114_x86oq5/x86oq5_k_05.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 2,
+                  "urlLink": "https://news.fate-go.jp/2024/sr_collaboration_cp/"
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10676,
+            "day": 5
+          },
           {
             "isDeemedLogin": false,
             "name": "盈月剣風帖開幕記念 ログインボーナス",
@@ -20,14 +108,14 @@
             "addDetail": "",
             "items": [
               {
-                "name": "黄金の果実",
+                "name": "白銀の果実",
                 "num": 1
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_01.png",
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_02.png",
                   "offset": [
                     2,
                     0
@@ -53,11 +141,59 @@
               ]
             },
             "eventId": 10679,
+            "day": 2
+          },
+          {
+            "isDeemedLogin": false,
+            "name": "Fate/Samurai Remnant×Fate/Grand Orderコラボレーションイベント「盈月剣風帖」開幕！",
+            "detail": "Fate/Samurai Remnant×Fate/Grand Orderコラボレーションイベント「盈月剣風帖」開幕！",
+            "addDetail": "",
+            "items": [],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240117_df5j1s/df5j1s_s_01.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 2,
+                  "urlLink": "https://www.gamecity.ne.jp/fate-sr/topics/20240116-trial.html"
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10701,
             "day": 1
           }
         ],
-        "addFriendPoint": 0,
-        "addFollowFriendPoint": 0
+        "addFollowFriendPoint": 0,
+        "topAddFriendPointSvtEQ": {
+          "userSvtId": 0,
+          "svtId": 0
+        },
+        "totalLoginBonus": [
+          {
+            "num": 206,
+            "items": [],
+            "script": {}
+          }
+        ]
       },
       "fail": {},
       "nid": "login"
@@ -678,9 +814,9 @@
       "userLogin": [
         {
           "userId": 119238492,
-          "seqLoginCount": 8,
-          "totalLoginCount": 205,
-          "lastLoginAt": 1705486041,
+          "seqLoginCount": 9,
+          "totalLoginCount": 206,
+          "lastLoginAt": 1705529098,
           "createdAt": 1686492765
         }
       ],
@@ -57477,6 +57613,102 @@
           "flag": 0,
           "updatedAt": 1705486041,
           "createdAt": 1705486041
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948172,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948173,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948194,
+          "messageRefType": 3,
+          "messageId": 2442,
+          "message": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナスです。(5/7)",
+          "fromType": 3,
+          "giftType": 1,
+          "objectId": 9570300,
+          "num": 5,
+          "limitCount": 0,
+          "lv": 1,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948195,
+          "messageRefType": 3,
+          "messageId": 2442,
+          "message": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナスです。(5/7)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948196,
+          "messageRefType": 3,
+          "messageId": 2452,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(2/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59661948202,
+          "messageRefType": 4,
+          "messageId": 569,
+          "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (1/17 13:00実施分)",
+          "fromType": 6,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 5,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         }
       ],
       "userNpcSvtRecord": [],
@@ -64603,7 +64835,7 @@
           "treasureDeviceId": 0,
           "treasureDeviceLv": 3,
           "exceedCount": 2,
-          "updatedAt": 1705486041
+          "updatedAt": 1705529098
         }
       ],
       "userGacha": [
@@ -64802,8 +65034,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64813,8 +65045,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64824,8 +65056,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64835,8 +65067,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64846,8 +65078,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64857,8 +65089,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64868,8 +65100,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64879,8 +65111,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64890,8 +65122,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64901,8 +65133,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64912,8 +65144,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64923,8 +65155,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64934,8 +65166,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64945,8 +65177,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64956,8 +65188,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64967,8 +65199,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64978,8 +65210,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -64989,8 +65221,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65000,8 +65232,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65011,8 +65243,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65022,8 +65254,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65033,8 +65265,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65044,8 +65276,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65055,8 +65287,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65066,8 +65298,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65077,8 +65309,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65088,8 +65320,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65099,8 +65331,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65110,8 +65342,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65121,8 +65353,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65132,8 +65364,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         },
         {
           "userId": 119238492,
@@ -65143,8 +65375,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705486041,
-          "createdAt": 1705486041
+          "updatedAt": 1705529098,
+          "createdAt": 1705529098
         }
       ],
       "userClassBoardSquare": [],
@@ -65201,6 +65433,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1705486041
+    "serverTime": 1705529098
   }
 }
