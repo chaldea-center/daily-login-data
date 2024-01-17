@@ -8,24 +8,26 @@
           "svtId": 0
         },
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "seqLoginBonus": [
+        "topAddFriendPointSvtEQ": {
+          "userSvtId": 0,
+          "svtId": 0
+        },
+        "campaignbonus": [
           {
-            "num": 1,
+            "isDeemedLogin": false,
+            "name": "盈月剣風帖開幕記念 ログインボーナス",
+            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+            "addDetail": "",
             "items": [
               {
-                "name": "フレンドポイント",
-                "num": 2000
-              },
-              {
-                "name": "1月交換券(2024)",
+                "name": "黄金の果実",
                 "num": 1
               }
             ],
-            "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_01.png",
                   "offset": [
                     2,
                     0
@@ -49,71 +51,13 @@
                 -50000,
                 0
               ]
-            }
+            },
+            "eventId": 10679,
+            "day": 1
           }
         ],
         "addFriendPoint": 0,
-        "campaignbonus": [
-          {
-            "isDeemedLogin": false,
-            "name": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナス",
-            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 1
-              },
-              {
-                "name": "白銀の果実",
-                "num": 1
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240114_x86oq5/x86oq5_k_04.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 2,
-                  "urlLink": "https://news.fate-go.jp/2024/sr_collaboration_cp/"
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10676,
-            "day": 4
-          }
-        ],
-        "addFollowFriendPoint": 0,
-        "topAddFriendPointSvtEQ": {
-          "userSvtId": 0,
-          "svtId": 0
-        },
-        "totalLoginBonus": [
-          {
-            "num": 205,
-            "items": [],
-            "script": {}
-          }
-        ]
+        "addFollowFriendPoint": 0
       },
       "fail": {},
       "nid": "login"
@@ -736,7 +680,7 @@
           "userId": 119238492,
           "seqLoginCount": 8,
           "totalLoginCount": 205,
-          "lastLoginAt": 1705442737,
+          "lastLoginAt": 1705486041,
           "createdAt": 1686492765
         }
       ],
@@ -33069,6 +33013,36 @@
       "userEventMissionFix": [
         {
           "userId": 119238492,
+          "missionId": 1033327,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 1033328,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 1033329,
+          "progressType": 3,
+          "num": 1
+        },
+        {
+          "userId": 119238492,
+          "missionId": 1033330,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 1033331,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
           "missionId": 2002709,
           "progressType": 3,
           "num": 0
@@ -33107,108 +33081,6 @@
           "userId": 119238492,
           "missionId": 2002715,
           "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045801,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045802,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045803,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045804,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045805,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045806,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045807,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045808,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045809,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045810,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045811,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045812,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045813,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045814,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045815,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045816,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 8045817,
-          "progressType": 3,
           "num": 0
         },
         {
@@ -57589,6 +57461,22 @@
           "flag": 0,
           "updatedAt": 1705442737,
           "createdAt": 1705442737
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59616345876,
+          "messageRefType": 3,
+          "messageId": 2451,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(1/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 100,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         }
       ],
       "userNpcSvtRecord": [],
@@ -64715,7 +64603,7 @@
           "treasureDeviceId": 0,
           "treasureDeviceLv": 3,
           "exceedCount": 2,
-          "updatedAt": 1705442737
+          "updatedAt": 1705486041
         }
       ],
       "userGacha": [
@@ -64908,14 +64796,25 @@
         },
         {
           "userId": 119238492,
+          "eventId": 80457,
+          "value": 0,
+          "flag": 0,
+          "tutorial": 0,
+          "tutorial2": 0,
+          "scriptFlag": 0,
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
+        },
+        {
+          "userId": 119238492,
           "eventId": 80038,
           "value": 0,
           "flag": 0,
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64925,8 +64824,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64936,8 +64835,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64947,8 +64846,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64958,8 +64857,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64969,8 +64868,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64980,8 +64879,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -64991,8 +64890,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65002,8 +64901,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65013,8 +64912,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65024,8 +64923,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65035,8 +64934,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65046,8 +64945,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65057,8 +64956,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65068,8 +64967,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65079,8 +64978,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65090,8 +64989,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65101,8 +65000,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65112,8 +65011,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65123,8 +65022,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65134,8 +65033,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65145,8 +65044,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65156,8 +65055,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65167,8 +65066,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65178,8 +65077,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65189,8 +65088,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65200,8 +65099,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65211,8 +65110,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65222,8 +65121,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65233,8 +65132,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         },
         {
           "userId": 119238492,
@@ -65244,8 +65143,8 @@
           "tutorial": 0,
           "tutorial2": 0,
           "scriptFlag": 0,
-          "updatedAt": 1705442737,
-          "createdAt": 1705442737
+          "updatedAt": 1705486041,
+          "createdAt": 1705486041
         }
       ],
       "userClassBoardSquare": [],
@@ -65302,6 +65201,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1705442737
+    "serverTime": 1705486041
   }
 }
