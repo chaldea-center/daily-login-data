@@ -6,10 +6,10 @@
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
         "seqLoginBonus": [
           {
-            "num": 3,
+            "num": 4,
             "items": [
               {
-                "name": "叡智の業火",
+                "name": "聖晶石",
                 "num": 1
               },
               {
@@ -17,11 +17,11 @@
                 "num": 1
               }
             ],
-            "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
                   "offset": [
                     2,
                     0
@@ -56,18 +56,18 @@
             "addDetail": "",
             "items": [
               {
-                "name": "英霊結晶・太陽のフォウくん",
-                "num": 5
-              },
-              {
                 "name": "聖晶石",
                 "num": 1
+              },
+              {
+                "name": "マナプリズム",
+                "num": 50
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240114_x86oq5/x86oq5_k_06.png",
+                  "bannerUrl": "/webview/loginbonus/20240114_x86oq5/x86oq5_k_07.png",
                   "offset": [
                     2,
                     0
@@ -94,7 +94,7 @@
               ]
             },
             "eventId": 10676,
-            "day": 6
+            "day": 7
           },
           {
             "isDeemedLogin": false,
@@ -110,7 +110,7 @@
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_03.png",
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_04.png",
                   "offset": [
                     2,
                     0
@@ -136,12 +136,12 @@
               ]
             },
             "eventId": 10679,
-            "day": 3
+            "day": 4
           }
         ],
         "totalLoginBonus": [
           {
-            "num": 207,
+            "num": 208,
             "items": [],
             "script": {}
           }
@@ -766,9 +766,9 @@
       "userLogin": [
         {
           "userId": 119238492,
-          "seqLoginCount": 10,
-          "totalLoginCount": 207,
-          "lastLoginAt": 1705629170,
+          "seqLoginCount": 11,
+          "totalLoginCount": 208,
+          "lastLoginAt": 1705715325,
           "createdAt": 1686492765
         }
       ],
@@ -57741,6 +57741,86 @@
           "flag": 0,
           "updatedAt": 1705629170,
           "createdAt": 1705629170
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59849729543,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705715325,
+          "createdAt": 1705715325
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59849729544,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705715325,
+          "createdAt": 1705715325
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59849729550,
+          "messageRefType": 3,
+          "messageId": 2444,
+          "message": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナスです。(7/7)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705715325,
+          "createdAt": 1705715325
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59849729551,
+          "messageRefType": 3,
+          "messageId": 2444,
+          "message": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナスです。(7/7)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 3,
+          "num": 50,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705715325,
+          "createdAt": 1705715325
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59849729552,
+          "messageRefType": 3,
+          "messageId": 2454,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(4/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705715325,
+          "createdAt": 1705715325
         }
       ],
       "userNpcSvtRecord": [],
@@ -65465,6 +65545,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1705629170
+    "serverTime": 1705715325
   }
 }
