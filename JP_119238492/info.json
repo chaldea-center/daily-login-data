@@ -1,7 +1,8 @@
 {
   "userId": 119238492,
   "region": "JP",
+  "name": "daily_bonus1",
   "start": 1705319170,
-  "startTotalLoginCount": 203,
-  "startSeqLoginCount": 6
+  "startSeqLoginCount": 6,
+  "startTotalLoginCount": 203
 }
