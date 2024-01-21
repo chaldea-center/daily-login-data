@@ -6,22 +6,22 @@
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
         "seqLoginBonus": [
           {
-            "num": 4,
+            "num": 5,
             "items": [
               {
-                "name": "聖晶石",
-                "num": 1
+                "name": "叡智の業火",
+                "num": 2
               },
               {
                 "name": "1月交換券(2024)",
                 "num": 1
               }
             ],
-            "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
                   "offset": [
                     2,
                     0
@@ -51,53 +51,6 @@
         "campaignbonus": [
           {
             "isDeemedLogin": false,
-            "name": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナス",
-            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 1
-              },
-              {
-                "name": "マナプリズム",
-                "num": 50
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240114_x86oq5/x86oq5_k_07.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 2,
-                  "urlLink": "https://news.fate-go.jp/2024/sr_collaboration_cp/"
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10676,
-            "day": 7
-          },
-          {
-            "isDeemedLogin": false,
             "name": "盈月剣風帖開幕記念 ログインボーナス",
             "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
             "addDetail": "",
@@ -110,7 +63,7 @@
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_04.png",
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_05.png",
                   "offset": [
                     2,
                     0
@@ -136,12 +89,12 @@
               ]
             },
             "eventId": 10679,
-            "day": 4
+            "day": 5
           }
         ],
         "totalLoginBonus": [
           {
-            "num": 208,
+            "num": 209,
             "items": [],
             "script": {}
           }
@@ -766,9 +719,9 @@
       "userLogin": [
         {
           "userId": 119238492,
-          "seqLoginCount": 11,
-          "totalLoginCount": 208,
-          "lastLoginAt": 1705715325,
+          "seqLoginCount": 12,
+          "totalLoginCount": 209,
+          "lastLoginAt": 1705802202,
           "createdAt": 1686492765
         }
       ],
@@ -57821,6 +57774,54 @@
           "flag": 0,
           "updatedAt": 1705715325,
           "createdAt": 1705715325
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59922344014,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+          "fromType": 2,
+          "giftType": 1,
+          "objectId": 9770500,
+          "num": 2,
+          "limitCount": 0,
+          "lv": 1,
+          "flag": 0,
+          "updatedAt": 1705802202,
+          "createdAt": 1705802202
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59922344015,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705802202,
+          "createdAt": 1705802202
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 59922344021,
+          "messageRefType": 3,
+          "messageId": 2455,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(5/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1705802202,
+          "createdAt": 1705802202
         }
       ],
       "userNpcSvtRecord": [],
@@ -65545,6 +65546,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1705715325
+    "serverTime": 1705802202
   }
 }
