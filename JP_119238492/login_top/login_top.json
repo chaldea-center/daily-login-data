@@ -3,102 +3,7 @@
     {
       "resCode": "00",
       "success": {
-        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "seqLoginBonus": [
-          {
-            "num": 1,
-            "items": [
-              {
-                "name": "フレンドポイント",
-                "num": 2000
-              },
-              {
-                "name": "1月交換券(2024)",
-                "num": 1
-              }
-            ],
-            "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            }
-          }
-        ],
-        "campaignbonus": [
-          {
-            "isDeemedLogin": false,
-            "name": "盈月剣風帖開幕記念 ログインボーナス",
-            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "黄金の果実",
-                "num": 1
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_08.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10679,
-            "day": 8
-          }
-        ],
-        "totalLoginBonus": [
-          {
-            "num": 212,
-            "items": [],
-            "script": {}
-          }
-        ]
+        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
       },
       "fail": {},
       "nid": "login"
@@ -721,7 +626,7 @@
           "userId": 119238492,
           "seqLoginCount": 15,
           "totalLoginCount": 212,
-          "lastLoginAt": 1706061210,
+          "lastLoginAt": 1706101878,
           "createdAt": 1686492765
         }
       ],
@@ -33054,36 +32959,6 @@
       "userEventMissionFix": [
         {
           "userId": 119238492,
-          "missionId": 1033327,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 1033328,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 1033329,
-          "progressType": 3,
-          "num": 1
-        },
-        {
-          "userId": 119238492,
-          "missionId": 1033330,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 1033331,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
           "missionId": 2002716,
           "progressType": 3,
           "num": 0
@@ -35533,14 +35408,6 @@
           "missionProgressType": 5,
           "updatedAt": 1700762702,
           "createdAt": 1700666388
-        },
-        {
-          "userId": 119238492,
-          "missionId": 1033329,
-          "missionTargetId": 200154,
-          "missionProgressType": 4,
-          "updatedAt": 1705287769,
-          "createdAt": 1705287769
         },
         {
           "userId": 119238492,
@@ -65722,6 +65589,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1706061210
+    "serverTime": 1706101878
   }
 }
