@@ -3,7 +3,102 @@
     {
       "resCode": "00",
       "success": {
-        "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+        "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+        "seqLoginBonus": [
+          {
+            "num": 4,
+            "items": [
+              {
+                "name": "聖晶石",
+                "num": 1
+              },
+              {
+                "name": "1月交換券(2024)",
+                "num": 1
+              }
+            ],
+            "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            }
+          }
+        ],
+        "campaignbonus": [
+          {
+            "isDeemedLogin": false,
+            "name": "盈月剣風帖開幕記念 ログインボーナス",
+            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "白銀の果実",
+                "num": 1
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_09.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10679,
+            "day": 9
+          }
+        ],
+        "totalLoginBonus": [
+          {
+            "num": 221,
+            "items": [],
+            "script": {}
+          }
+        ]
       },
       "fail": {},
       "nid": "login"
@@ -624,9 +719,9 @@
       "userLogin": [
         {
           "userId": 119201984,
-          "seqLoginCount": 87,
-          "totalLoginCount": 220,
-          "lastLoginAt": 1706101891,
+          "seqLoginCount": 88,
+          "totalLoginCount": 221,
+          "lastLoginAt": 1706147684,
           "createdAt": 1686396199
         }
       ],
@@ -40292,6 +40387,54 @@
           "flag": 0,
           "updatedAt": 1706061223,
           "createdAt": 1706061223
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 60166979409,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706147684,
+          "createdAt": 1706147684
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 60166979410,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706147684,
+          "createdAt": 1706147684
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 60166979416,
+          "messageRefType": 3,
+          "messageId": 2459,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(9/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706147684,
+          "createdAt": 1706147684
         }
       ],
       "userNpcSvtRecord": [],
@@ -48002,6 +48145,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1706101891
+    "serverTime": 1706147684
   }
 }

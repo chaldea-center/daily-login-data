@@ -158,5 +158,53 @@
     "flag": 0,
     "updatedAt": 1706061223,
     "createdAt": 1706061223
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 60166979409,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1706147684,
+    "createdAt": 1706147684
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 60166979410,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10077,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1706147684,
+    "createdAt": 1706147684
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 60166979416,
+    "messageRefType": 3,
+    "messageId": 2459,
+    "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(9/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1706147684,
+    "createdAt": 1706147684
   }
 ]
