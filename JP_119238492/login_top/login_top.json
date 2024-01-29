@@ -3,7 +3,102 @@
     {
       "resCode": "00",
       "success": {
-        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+        "seqLoginBonus": [
+          {
+            "num": 6,
+            "items": [
+              {
+                "name": "聖晶石",
+                "num": 2
+              },
+              {
+                "name": "1月交換券(2024)",
+                "num": 1
+              }
+            ],
+            "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            }
+          }
+        ],
+        "campaignbonus": [
+          {
+            "isDeemedLogin": false,
+            "name": "盈月剣風帖開幕記念 ログインボーナス",
+            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "白銀の果実",
+                "num": 1
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_13.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10679,
+            "day": 13
+          }
+        ],
+        "totalLoginBonus": [
+          {
+            "num": 217,
+            "items": [],
+            "script": {}
+          }
+        ]
       },
       "fail": {},
       "nid": "login"
@@ -624,9 +719,9 @@
       "userLogin": [
         {
           "userId": 119238492,
-          "seqLoginCount": 19,
-          "totalLoginCount": 216,
-          "lastLoginAt": 1706447262,
+          "seqLoginCount": 20,
+          "totalLoginCount": 217,
+          "lastLoginAt": 1706492451,
           "createdAt": 1686492765
         }
       ],
@@ -32959,44 +33054,44 @@
       "userEventMissionFix": [
         {
           "userId": 119238492,
-          "missionId": 2002716,
+          "missionId": 2002723,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119238492,
-          "missionId": 2002717,
+          "missionId": 2002724,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119238492,
-          "missionId": 2002718,
+          "missionId": 2002725,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119238492,
-          "missionId": 2002719,
+          "missionId": 2002726,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 2002727,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 2002728,
+          "progressType": 3,
+          "num": 0
+        },
+        {
+          "userId": 119238492,
+          "missionId": 2002729,
           "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 2002720,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 2002721,
-          "progressType": 3,
-          "num": 0
-        },
-        {
-          "userId": 119238492,
-          "missionId": 2002722,
-          "progressType": 3,
           "num": 0
         },
         {
@@ -57048,14 +57143,6 @@
       "userEventMissionConditionDetail": [
         {
           "userId": 119238492,
-          "conditionDetailId": 2002021,
-          "missionTargetId": 100391,
-          "progressNum": 20,
-          "updatedAt": 1705327680,
-          "createdAt": 1705327657
-        },
-        {
-          "userId": 119238492,
           "conditionDetailId": 3000024,
           "missionTargetId": 300020,
           "progressNum": 130,
@@ -58057,6 +58144,54 @@
           "flag": 0,
           "updatedAt": 1706406241,
           "createdAt": 1706406241
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60396825828,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 2,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706492451,
+          "createdAt": 1706492451
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60396825829,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706492451,
+          "createdAt": 1706492451
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60396825837,
+          "messageRefType": 3,
+          "messageId": 2463,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(13/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706492451,
+          "createdAt": 1706492451
         }
       ],
       "userNpcSvtRecord": [],
@@ -65781,6 +65916,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1706447262
+    "serverTime": 1706492451
   }
 }
