@@ -4,66 +4,22 @@
       "resCode": "00",
       "success": {
         "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-        "seqLoginBonus": [
-          {
-            "num": 2,
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 1
-              },
-              {
-                "name": "1月交換券(2024)",
-                "num": 1
-              }
-            ],
-            "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            }
-          }
-        ],
         "campaignbonus": [
           {
             "isDeemedLogin": false,
-            "name": "盈月剣風帖開幕記念 ログインボーナス",
-            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+            "name": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムプレゼント",
+            "detail": "開催期間中、初回ログインで「Fate/stay night 20th記念特別交換チケット」をプレゼント！",
             "addDetail": "",
             "items": [
               {
-                "name": "白銀の果実",
+                "name": "Fate/stay night 20th記念特別交換チケット",
                 "num": 1
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_14.png",
+                  "bannerUrl": "/webview/loginbonus/20240130_z8kd9h/z8kd9h_s_01.png",
                   "offset": [
                     2,
                     0
@@ -88,15 +44,51 @@
                 0
               ]
             },
-            "eventId": 10679,
-            "day": 14
-          }
-        ],
-        "totalLoginBonus": [
+            "eventId": 10681,
+            "day": 1
+          },
           {
-            "num": 226,
-            "items": [],
-            "script": {}
+            "isDeemedLogin": false,
+            "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "QP",
+                "num": 2000000
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_01.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 2,
+                  "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10683,
+            "day": 1
           }
         ]
       },
@@ -721,7 +713,7 @@
           "userId": 119201984,
           "seqLoginCount": 93,
           "totalLoginCount": 226,
-          "lastLoginAt": 1706578829,
+          "lastLoginAt": 1706620047,
           "createdAt": 1686396199
         }
       ],
@@ -40691,6 +40683,38 @@
           "flag": 0,
           "updatedAt": 1706578829,
           "createdAt": 1706578829
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 60482984251,
+          "messageRefType": 3,
+          "messageId": 2493,
+          "message": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムの\nプレゼントです。",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 94093701,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 2,
+          "updatedAt": 1706620047,
+          "createdAt": 1706620047
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 60482984252,
+          "messageRefType": 3,
+          "messageId": 2495,
+          "message": "「Fate/stay night」20周年記念\n特別ログインボーナスです。(1/7)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 1,
+          "num": 2000000,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706620047,
+          "createdAt": 1706620047
         }
       ],
       "userNpcSvtRecord": [],
@@ -47996,6 +48020,17 @@
         },
         {
           "userId": 119201984,
+          "eventId": 80467,
+          "value": 0,
+          "flag": 0,
+          "tutorial": 0,
+          "tutorial2": 0,
+          "scriptFlag": 0,
+          "updatedAt": 0,
+          "createdAt": 0
+        },
+        {
+          "userId": 119201984,
           "eventId": 80457,
           "value": 0,
           "flag": 0,
@@ -48392,6 +48427,13 @@
           "createdAt": 1686396199
         }
       ],
+      "exchangeSvt": [
+        {
+          "eventId": 80465,
+          "userSvtIds": [],
+          "svtIds": []
+        }
+      ],
       "userSvtCommandCode": [],
       "userSvtAppendPassiveSkillLv": [],
       "beforeBirthDay": [
@@ -48401,6 +48443,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1706578829
+    "serverTime": 1706620047
   }
 }

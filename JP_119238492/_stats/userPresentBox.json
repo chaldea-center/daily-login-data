@@ -3246,5 +3246,37 @@
     "flag": 0,
     "updatedAt": 1706578817,
     "createdAt": 1706578817
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 60482967674,
+    "messageRefType": 3,
+    "messageId": 2493,
+    "message": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムの\nプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94093701,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1706620034,
+    "createdAt": 1706620034
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 60482967675,
+    "messageRefType": 3,
+    "messageId": 2495,
+    "message": "「Fate/stay night」20周年記念\n特別ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 2000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1706620034,
+    "createdAt": 1706620034
   }
 ]
