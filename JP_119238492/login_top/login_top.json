@@ -4,22 +4,24 @@
       "resCode": "00",
       "success": {
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "campaignbonus": [
+        "seqLoginBonus": [
           {
-            "isDeemedLogin": false,
-            "name": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムプレゼント",
-            "detail": "開催期間中、初回ログインで「Fate/stay night 20th記念特別交換チケット」をプレゼント！",
-            "addDetail": "",
+            "num": 1,
             "items": [
               {
-                "name": "Fate/stay night 20th記念特別交換チケット",
+                "name": "フレンドポイント",
+                "num": 2000
+              },
+              {
+                "name": "1月交換券(2024)",
                 "num": 1
               }
             ],
+            "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240130_z8kd9h/z8kd9h_s_01.png",
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
                   "offset": [
                     2,
                     0
@@ -43,10 +45,10 @@
                 -50000,
                 0
               ]
-            },
-            "eventId": 10681,
-            "day": 1
-          },
+            }
+          }
+        ],
+        "campaignbonus": [
           {
             "isDeemedLogin": false,
             "name": "「Fate/stay night」20周年記念特別ログインボーナス",
@@ -54,14 +56,14 @@
             "addDetail": "",
             "items": [
               {
-                "name": "QP",
-                "num": 2000000
+                "name": "叡智の猛火",
+                "num": 20
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_01.png",
+                  "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_02.png",
                   "offset": [
                     2,
                     0
@@ -88,7 +90,56 @@
               ]
             },
             "eventId": 10683,
-            "day": 1
+            "day": 2
+          },
+          {
+            "isDeemedLogin": false,
+            "name": "盈月剣風帖開幕記念 ログインボーナス",
+            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "黄金の果実",
+                "num": 1
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_15.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10679,
+            "day": 15
+          }
+        ],
+        "totalLoginBonus": [
+          {
+            "num": 219,
+            "items": [],
+            "script": {}
           }
         ]
       },
@@ -711,9 +762,9 @@
       "userLogin": [
         {
           "userId": 119238492,
-          "seqLoginCount": 21,
-          "totalLoginCount": 218,
-          "lastLoginAt": 1706620034,
+          "seqLoginCount": 22,
+          "totalLoginCount": 219,
+          "lastLoginAt": 1706665257,
           "createdAt": 1686492765
         }
       ],
@@ -58280,6 +58331,70 @@
           "flag": 0,
           "updatedAt": 1706620034,
           "createdAt": 1706620034
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60540034890,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 4,
+          "num": 2000,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706665257,
+          "createdAt": 1706665257
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60540034891,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10077,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706665257,
+          "createdAt": 1706665257
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60540035048,
+          "messageRefType": 3,
+          "messageId": 2496,
+          "message": "「Fate/stay night」20周年記念\n特別ログインボーナスです。(2/7)",
+          "fromType": 3,
+          "giftType": 1,
+          "objectId": 9770400,
+          "num": 20,
+          "limitCount": 0,
+          "lv": 1,
+          "flag": 0,
+          "updatedAt": 1706665257,
+          "createdAt": 1706665257
+        },
+        {
+          "receiveUserId": 119238492,
+          "presentId": 60540035049,
+          "messageRefType": 3,
+          "messageId": 2465,
+          "message": "盈月剣風帖\n開幕記念 ログインボーナスです。(15/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 100,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1706665257,
+          "createdAt": 1706665257
         }
       ],
       "userNpcSvtRecord": [],
@@ -66022,6 +66137,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1706620034
+    "serverTime": 1706665257
   }
 }
