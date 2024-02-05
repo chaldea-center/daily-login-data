@@ -3,191 +3,7 @@
     {
       "resCode": "00",
       "success": {
-        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "seqLoginBonus": [
-          {
-            "num": 6,
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 2
-              },
-              {
-                "name": "2月交換券(2024)",
-                "num": 1
-              }
-            ],
-            "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            }
-          }
-        ],
-        "campaignbonus": [
-          {
-            "isDeemedLogin": false,
-            "name": "日替りログインボーナス",
-            "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 1
-              },
-              {
-                "name": "巡霊の葉",
-                "num": 80
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240205_fc3f04/fc3f04_s_01.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10687,
-            "day": 1
-          },
-          {
-            "isDeemedLogin": false,
-            "name": "「Fate/stay night」20周年記念特別ログインボーナス",
-            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "聖晶石",
-                "num": 20
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_07.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 2,
-                  "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10683,
-            "day": 7
-          },
-          {
-            "isDeemedLogin": false,
-            "name": "盈月剣風帖開幕記念 ログインボーナス",
-            "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "白銀の果実",
-                "num": 1
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_20.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10679,
-            "day": 20
-          }
-        ],
-        "totalLoginBonus": [
-          {
-            "num": 224,
-            "items": [],
-            "script": {}
-          }
-        ]
+        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
       },
       "fail": {},
       "nid": "login"
@@ -810,7 +626,7 @@
           "userId": 119238492,
           "seqLoginCount": 27,
           "totalLoginCount": 224,
-          "lastLoginAt": 1707097430,
+          "lastLoginAt": 1707138446,
           "createdAt": 1686492765
         }
       ],
@@ -66655,6 +66471,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1707097430
+    "serverTime": 1707138446
   }
 }
