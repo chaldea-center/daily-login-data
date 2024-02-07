@@ -1134,5 +1134,37 @@
     "flag": 0,
     "updatedAt": 1707269942,
     "createdAt": 1707269942
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 61194408089,
+    "messageRefType": 3,
+    "messageId": 2515,
+    "message": "オーディール・コール：新任務開放キャンペーン 第5弾限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94093201,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1707311260,
+    "createdAt": 1707311260
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 61194408090,
+    "messageRefType": 3,
+    "messageId": 2508,
+    "message": "バレンタイン2024\n開幕直前特別ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1707311260,
+    "createdAt": 1707311260
   }
 ]
