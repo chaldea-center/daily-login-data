@@ -3870,5 +3870,53 @@
     "flag": 0,
     "updatedAt": 1707183585,
     "createdAt": 1707183585
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61164565953,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1707269930,
+    "createdAt": 1707269930
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61164565954,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10078,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1707269930,
+    "createdAt": 1707269930
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61164566017,
+    "messageRefType": 3,
+    "messageId": 2502,
+    "message": "「巡霊の祝祭 第7弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1707269930,
+    "createdAt": 1707269930
   }
 ]
