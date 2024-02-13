@@ -3,149 +3,7 @@
     {
       "resCode": "00",
       "success": {
-        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-        "seqLoginBonus": [
-          {
-            "num": 7,
-            "items": [
-              {
-                "name": "獣の足跡",
-                "num": 1
-              },
-              {
-                "name": "呼符",
-                "num": 1
-              },
-              {
-                "name": "2月交換券(2024)",
-                "num": 1
-              }
-            ],
-            "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            }
-          }
-        ],
-        "campaignbonus": [
-          {
-            "isDeemedLogin": false,
-            "name": "日替りログインボーナス",
-            "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "巡霊の葉",
-                "num": 30
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240213_fc3f12/fc3f12_s_01.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10695,
-            "day": 1
-          },
-          {
-            "isDeemedLogin": false,
-            "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
-            "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
-            "addDetail": "",
-            "items": [
-              {
-                "name": "マナプリズム",
-                "num": 50
-              }
-            ],
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_07.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 2,
-                  "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            },
-            "eventId": 10677,
-            "day": 7
-          }
-        ],
-        "totalLoginBonus": [
-          {
-            "num": 232,
-            "items": [],
-            "script": {}
-          }
-        ]
+        "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
       },
       "fail": {},
       "nid": "login"
@@ -768,7 +626,7 @@
           "userId": 119238492,
           "seqLoginCount": 35,
           "totalLoginCount": 232,
-          "lastLoginAt": 1707788400,
+          "lastLoginAt": 1707829672,
           "createdAt": 1686492765
         }
       ],
@@ -58930,22 +58788,6 @@
         },
         {
           "receiveUserId": 119238492,
-          "presentId": 60482967674,
-          "messageRefType": 3,
-          "messageId": 2493,
-          "message": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムの\nプレゼントです。",
-          "fromType": 3,
-          "giftType": 2,
-          "objectId": 94093701,
-          "num": 1,
-          "limitCount": 0,
-          "lv": 0,
-          "flag": 2,
-          "updatedAt": 1706620034,
-          "createdAt": 1706620034
-        },
-        {
-          "receiveUserId": 119238492,
           "presentId": 60482967675,
           "messageRefType": 3,
           "messageId": 2495,
@@ -67478,17 +67320,6 @@
         },
         {
           "userId": 119238492,
-          "eventId": 80467,
-          "value": 0,
-          "flag": 0,
-          "tutorial": 0,
-          "tutorial2": 0,
-          "scriptFlag": 0,
-          "updatedAt": 0,
-          "createdAt": 0
-        },
-        {
-          "userId": 119238492,
           "eventId": 80457,
           "value": 0,
           "flag": 0,
@@ -67901,6 +67732,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1707788400
+    "serverTime": 1707829672
   }
 }
