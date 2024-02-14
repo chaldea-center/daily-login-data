@@ -1742,5 +1742,21 @@
     "flag": 0,
     "updatedAt": 1707874860,
     "createdAt": 1707874860
+  },
+  {
+    "receiveUserId": 119201984,
+    "presentId": 61813981086,
+    "messageRefType": 3,
+    "messageId": 2472,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1707929951,
+    "createdAt": 1707929951
   }
 ]

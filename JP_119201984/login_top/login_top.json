@@ -4,66 +4,22 @@
       "resCode": "00",
       "success": {
         "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-        "seqLoginBonus": [
-          {
-            "num": 3,
-            "items": [
-              {
-                "name": "叡智の業火",
-                "num": 1
-              },
-              {
-                "name": "2月交換券(2024)",
-                "num": 1
-              }
-            ],
-            "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-            "script": {
-              "banners": [
-                {
-                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-                  "offset": [
-                    2,
-                    0
-                  ],
-                  "size": [
-                    748,
-                    448
-                  ],
-                  "urlOpenType": 0
-                }
-              ],
-              "titleOffset": [
-                10000,
-                0
-              ],
-              "buttonOffset": [
-                0,
-                0
-              ],
-              "messageOffset": [
-                -50000,
-                0
-              ]
-            }
-          }
-        ],
         "campaignbonus": [
           {
             "isDeemedLogin": false,
-            "name": "日替りログインボーナス",
-            "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+            "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+            "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
             "addDetail": "",
             "items": [
               {
-                "name": "巡霊の葉",
-                "num": 30
+                "name": "黄金の果実",
+                "num": 1
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240214_fc3f13/fc3f13_s_01.png",
+                  "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_01.png",
                   "offset": [
                     2,
                     0
@@ -88,15 +44,8 @@
                 0
               ]
             },
-            "eventId": 10696,
+            "eventId": 10680,
             "day": 1
-          }
-        ],
-        "totalLoginBonus": [
-          {
-            "num": 241,
-            "items": [],
-            "script": {}
           }
         ]
       },
@@ -721,7 +670,7 @@
           "userId": 119201984,
           "seqLoginCount": 108,
           "totalLoginCount": 241,
-          "lastLoginAt": 1707874860,
+          "lastLoginAt": 1707929951,
           "createdAt": 1686396199
         }
       ],
@@ -33643,1058 +33592,122 @@
         },
         {
           "userId": 119201984,
-          "missionId": 30000019,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000020,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000021,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000022,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000023,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000024,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000025,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000026,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000027,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000028,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000029,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000030,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000031,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000032,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000033,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000034,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000035,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000036,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000037,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000038,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000039,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000040,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000041,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000042,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000043,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000044,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000045,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000046,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000047,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000048,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000049,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000050,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000051,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000052,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000053,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000054,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000055,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000056,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000057,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000058,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000059,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000060,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000061,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000062,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000063,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000064,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000065,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000066,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000067,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000068,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000069,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000070,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000071,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000072,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000073,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000074,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000075,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000076,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000077,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000078,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000079,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000080,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000081,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000082,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000083,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000084,
+          "missionId": 1033339,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000085,
+          "missionId": 1033340,
           "progressType": 0,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000086,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000087,
+          "missionId": 1033341,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000088,
+          "missionId": 1033342,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000089,
+          "missionId": 1033343,
           "progressType": 0,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000090,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000091,
+          "missionId": 1033344,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 30000092,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000093,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 30000094,
+          "missionId": 1033345,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457001,
+          "missionId": 1033346,
           "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457002,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457003,
+          "missionId": 1033347,
           "progressType": 0,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457004,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457005,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457006,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457007,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457008,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457009,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457010,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457011,
+          "missionId": 1033348,
           "progressType": 0,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457012,
+          "missionId": 1033349,
           "progressType": 0,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457013,
-          "progressType": 0,
+          "missionId": 1033350,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457014,
-          "progressType": 2,
+          "missionId": 1033351,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457015,
-          "progressType": 0,
+          "missionId": 1033352,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457016,
-          "progressType": 0,
+          "missionId": 1033353,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457017,
-          "progressType": 0,
+          "missionId": 1033354,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457018,
-          "progressType": 2,
+          "missionId": 1033355,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457019,
-          "progressType": 2,
+          "missionId": 1033356,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457020,
-          "progressType": 0,
+          "missionId": 1033357,
+          "progressType": 3,
           "num": 0
         },
         {
           "userId": 119201984,
-          "missionId": 80457021,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457022,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457023,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457024,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457025,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457026,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457027,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457028,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457029,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457030,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457031,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457032,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457033,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457034,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457035,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457036,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457037,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457038,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457039,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457040,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457041,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457042,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457043,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457044,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457045,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457046,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457047,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457048,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457049,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457050,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457051,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457052,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457053,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457054,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457055,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457056,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457057,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457058,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457059,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457060,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457061,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457062,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457063,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457064,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457065,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457066,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457067,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457068,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457069,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457070,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457071,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457072,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457073,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457074,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457075,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457076,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457077,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457078,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457079,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457080,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457081,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457082,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457083,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457084,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457085,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457086,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457087,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457088,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457089,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457090,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457091,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457092,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457093,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457094,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457095,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457096,
-          "progressType": 0,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457097,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457098,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457099,
-          "progressType": 2,
-          "num": 0
-        },
-        {
-          "userId": 119201984,
-          "missionId": 80457100,
-          "progressType": 2,
+          "missionId": 1033358,
+          "progressType": 3,
           "num": 0
         }
       ],
@@ -41974,22 +40987,6 @@
         },
         {
           "receiveUserId": 119201984,
-          "presentId": 61194408089,
-          "messageRefType": 3,
-          "messageId": 2515,
-          "message": "オーディール・コール：新任務開放キャンペーン 第5弾限定\n使用期限付コンティニューアイテムプレゼントです。",
-          "fromType": 3,
-          "giftType": 2,
-          "objectId": 94093201,
-          "num": 3,
-          "limitCount": 0,
-          "lv": 0,
-          "flag": 16,
-          "updatedAt": 1707311260,
-          "createdAt": 1707311260
-        },
-        {
-          "receiveUserId": 119201984,
           "presentId": 61194408090,
           "messageRefType": 3,
           "messageId": 2508,
@@ -42579,10 +41576,27 @@
           "flag": 0,
           "updatedAt": 1707874860,
           "createdAt": 1707874860
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61813981086,
+          "messageRefType": 3,
+          "messageId": 2472,
+          "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(1/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 100,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707929951,
+          "createdAt": 1707929951
         }
       ],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
+      "userGameCommon": [],
       "userDeck": [
         {
           "deckInfo": {
@@ -49884,7 +48898,7 @@
         },
         {
           "userId": 119201984,
-          "eventId": 80457,
+          "eventId": 80460,
           "value": 0,
           "flag": 0,
           "tutorial": 0,
@@ -50296,6 +49310,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1707874860
+    "serverTime": 1707929951
   }
 }
