@@ -4,7 +4,97 @@
       "resCode": "00",
       "success": {
         "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+        "seqLoginBonus": [
+          {
+            "num": 4,
+            "items": [
+              {
+                "name": "聖晶石",
+                "num": 1
+              },
+              {
+                "name": "2月交換券(2024)",
+                "num": 1
+              }
+            ],
+            "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            }
+          }
+        ],
         "campaignbonus": [
+          {
+            "isDeemedLogin": false,
+            "name": "日替りログインボーナス",
+            "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+            "addDetail": "",
+            "items": [
+              {
+                "name": "聖晶石",
+                "num": 3
+              },
+              {
+                "name": "巡霊の葉",
+                "num": 50
+              }
+            ],
+            "script": {
+              "banners": [
+                {
+                  "bannerUrl": "/webview/loginbonus/20240215_fc3f14/fc3f14_s_01.png",
+                  "offset": [
+                    2,
+                    0
+                  ],
+                  "size": [
+                    748,
+                    448
+                  ],
+                  "urlOpenType": 0
+                }
+              ],
+              "titleOffset": [
+                10000,
+                0
+              ],
+              "buttonOffset": [
+                0,
+                0
+              ],
+              "messageOffset": [
+                -50000,
+                0
+              ]
+            },
+            "eventId": 10697,
+            "day": 1
+          },
           {
             "isDeemedLogin": false,
             "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
@@ -12,14 +102,14 @@
             "addDetail": "",
             "items": [
               {
-                "name": "黄金の果実",
+                "name": "白銀の果実",
                 "num": 1
               }
             ],
             "script": {
               "banners": [
                 {
-                  "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_01.png",
+                  "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_02.png",
                   "offset": [
                     2,
                     0
@@ -45,7 +135,14 @@
               ]
             },
             "eventId": 10680,
-            "day": 1
+            "day": 2
+          }
+        ],
+        "totalLoginBonus": [
+          {
+            "num": 242,
+            "items": [],
+            "script": {}
           }
         ]
       },
@@ -668,9 +765,9 @@
       "userLogin": [
         {
           "userId": 119201984,
-          "seqLoginCount": 108,
-          "totalLoginCount": 241,
-          "lastLoginAt": 1707929951,
+          "seqLoginCount": 109,
+          "totalLoginCount": 242,
+          "lastLoginAt": 1707985938,
           "createdAt": 1686396199
         }
       ],
@@ -41592,6 +41689,102 @@
           "flag": 0,
           "updatedAt": 1707929951,
           "createdAt": 1707929951
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432735,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432736,
+          "messageRefType": 3,
+          "messageId": 21,
+          "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+          "fromType": 2,
+          "giftType": 2,
+          "objectId": 10078,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432748,
+          "messageRefType": 3,
+          "messageId": 2502,
+          "message": "「巡霊の祝祭 第7弾」開催記念\n特別日替りログインボーナスです。",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 3,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432749,
+          "messageRefType": 3,
+          "messageId": 2502,
+          "message": "「巡霊の祝祭 第7弾」開催記念\n特別日替りログインボーナスです。",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 48,
+          "num": 50,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432750,
+          "messageRefType": 3,
+          "messageId": 2473,
+          "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(2/21)",
+          "fromType": 3,
+          "giftType": 2,
+          "objectId": 101,
+          "num": 1,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
+        },
+        {
+          "receiveUserId": 119201984,
+          "presentId": 61836432751,
+          "messageRefType": 4,
+          "messageId": 570,
+          "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (2/14 13:00実施分)",
+          "fromType": 6,
+          "giftType": 2,
+          "objectId": 2,
+          "num": 5,
+          "limitCount": 0,
+          "lv": 0,
+          "flag": 0,
+          "updatedAt": 1707985938,
+          "createdAt": 1707985938
         }
       ],
       "userNpcSvtRecord": [],
@@ -49310,6 +49503,6 @@
       ],
       "userCommandCode": []
     },
-    "serverTime": 1707929951
+    "serverTime": 1707985938
   }
 }
