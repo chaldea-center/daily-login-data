@@ -1,5 +1,14 @@
-[
-  {
+{
+  "info": {
+    "userId": 119201984,
+    "friendCode": "597026622",
+    "region": "JP",
+    "name": "daily_bonus2",
+    "start": 1705808737,
+    "startSeqLoginCount": 84,
+    "startTotalLoginCount": 217
+  },
+  "userPresentBox": [{
     "receiveUserId": 119201984,
     "presentId": 59981604214,
     "messageRefType": 3,
@@ -14,8 +23,7 @@
     "flag": 0,
     "updatedAt": 1705888580,
     "createdAt": 1705888580
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 59981604215,
     "messageRefType": 3,
@@ -30,8 +38,7 @@
     "flag": 0,
     "updatedAt": 1705888580,
     "createdAt": 1705888580
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 59981604223,
     "messageRefType": 3,
@@ -46,8 +53,7 @@
     "flag": 0,
     "updatedAt": 1705888580,
     "createdAt": 1705888580
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60043632071,
     "messageRefType": 3,
@@ -62,8 +68,7 @@
     "flag": 0,
     "updatedAt": 1705974839,
     "createdAt": 1705974839
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60043632072,
     "messageRefType": 3,
@@ -78,8 +83,7 @@
     "flag": 0,
     "updatedAt": 1705974839,
     "createdAt": 1705974839
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60043632080,
     "messageRefType": 3,
@@ -94,8 +98,7 @@
     "flag": 0,
     "updatedAt": 1705974839,
     "createdAt": 1705974839
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60043632081,
     "messageRefType": 3,
@@ -110,8 +113,7 @@
     "flag": 0,
     "updatedAt": 1705974839,
     "createdAt": 1705974839
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60107879975,
     "messageRefType": 3,
@@ -126,8 +128,7 @@
     "flag": 0,
     "updatedAt": 1706061223,
     "createdAt": 1706061223
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60107879976,
     "messageRefType": 3,
@@ -142,8 +143,7 @@
     "flag": 0,
     "updatedAt": 1706061223,
     "createdAt": 1706061223
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60107879985,
     "messageRefType": 3,
@@ -158,8 +158,7 @@
     "flag": 0,
     "updatedAt": 1706061223,
     "createdAt": 1706061223
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60166979409,
     "messageRefType": 3,
@@ -174,8 +173,7 @@
     "flag": 0,
     "updatedAt": 1706147684,
     "createdAt": 1706147684
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60166979410,
     "messageRefType": 3,
@@ -190,8 +188,7 @@
     "flag": 0,
     "updatedAt": 1706147684,
     "createdAt": 1706147684
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60166979416,
     "messageRefType": 3,
@@ -206,8 +203,7 @@
     "flag": 0,
     "updatedAt": 1706147684,
     "createdAt": 1706147684
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60227226477,
     "messageRefType": 3,
@@ -222,8 +218,7 @@
     "flag": 0,
     "updatedAt": 1706233340,
     "createdAt": 1706233340
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60227226478,
     "messageRefType": 3,
@@ -238,8 +233,7 @@
     "flag": 0,
     "updatedAt": 1706233340,
     "createdAt": 1706233340
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60227226517,
     "messageRefType": 3,
@@ -254,8 +248,7 @@
     "flag": 0,
     "updatedAt": 1706233340,
     "createdAt": 1706233340
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60283227179,
     "messageRefType": 3,
@@ -270,8 +263,7 @@
     "flag": 0,
     "updatedAt": 1706319519,
     "createdAt": 1706319519
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60283227180,
     "messageRefType": 3,
@@ -286,8 +278,7 @@
     "flag": 0,
     "updatedAt": 1706319519,
     "createdAt": 1706319519
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60283227200,
     "messageRefType": 3,
@@ -302,8 +293,7 @@
     "flag": 0,
     "updatedAt": 1706319519,
     "createdAt": 1706319519
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60335715911,
     "messageRefType": 3,
@@ -318,8 +308,7 @@
     "flag": 0,
     "updatedAt": 1706406255,
     "createdAt": 1706406255
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60335715912,
     "messageRefType": 3,
@@ -334,8 +323,7 @@
     "flag": 0,
     "updatedAt": 1706406255,
     "createdAt": 1706406255
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60335715913,
     "messageRefType": 3,
@@ -350,8 +338,7 @@
     "flag": 0,
     "updatedAt": 1706406255,
     "createdAt": 1706406255
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60335715932,
     "messageRefType": 3,
@@ -366,8 +353,7 @@
     "flag": 0,
     "updatedAt": 1706406255,
     "createdAt": 1706406255
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60396835925,
     "messageRefType": 3,
@@ -382,8 +368,7 @@
     "flag": 0,
     "updatedAt": 1706492465,
     "createdAt": 1706492465
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60396835926,
     "messageRefType": 3,
@@ -398,8 +383,7 @@
     "flag": 0,
     "updatedAt": 1706492465,
     "createdAt": 1706492465
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60396835943,
     "messageRefType": 3,
@@ -414,8 +398,7 @@
     "flag": 0,
     "updatedAt": 1706492465,
     "createdAt": 1706492465
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60449949890,
     "messageRefType": 3,
@@ -430,8 +413,7 @@
     "flag": 0,
     "updatedAt": 1706578829,
     "createdAt": 1706578829
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60449949891,
     "messageRefType": 3,
@@ -446,8 +428,7 @@
     "flag": 0,
     "updatedAt": 1706578829,
     "createdAt": 1706578829
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60449949897,
     "messageRefType": 3,
@@ -462,8 +443,7 @@
     "flag": 0,
     "updatedAt": 1706578829,
     "createdAt": 1706578829
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60482984251,
     "messageRefType": 3,
@@ -478,8 +458,7 @@
     "flag": 2,
     "updatedAt": 1706620047,
     "createdAt": 1706620047
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60482984252,
     "messageRefType": 3,
@@ -494,8 +473,7 @@
     "flag": 0,
     "updatedAt": 1706620047,
     "createdAt": 1706620047
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60540048944,
     "messageRefType": 3,
@@ -510,8 +488,7 @@
     "flag": 0,
     "updatedAt": 1706665271,
     "createdAt": 1706665271
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60540048945,
     "messageRefType": 3,
@@ -526,8 +503,7 @@
     "flag": 0,
     "updatedAt": 1706665271,
     "createdAt": 1706665271
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60540048958,
     "messageRefType": 3,
@@ -542,8 +518,7 @@
     "flag": 0,
     "updatedAt": 1706665271,
     "createdAt": 1706665271
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60540048959,
     "messageRefType": 3,
@@ -558,8 +533,7 @@
     "flag": 0,
     "updatedAt": 1706665271,
     "createdAt": 1706665271
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593908,
     "messageRefType": 3,
@@ -574,8 +548,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593909,
     "messageRefType": 3,
@@ -590,8 +563,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593936,
     "messageRefType": 3,
@@ -606,8 +578,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593937,
     "messageRefType": 3,
@@ -622,8 +593,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593938,
     "messageRefType": 3,
@@ -638,8 +608,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60629593939,
     "messageRefType": 3,
@@ -654,8 +623,7 @@
     "flag": 0,
     "updatedAt": 1706751869,
     "createdAt": 1706751869
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755304,
     "messageRefType": 3,
@@ -670,8 +638,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755305,
     "messageRefType": 3,
@@ -686,8 +653,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755318,
     "messageRefType": 3,
@@ -702,8 +668,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755319,
     "messageRefType": 3,
@@ -718,8 +683,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755320,
     "messageRefType": 3,
@@ -734,8 +698,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60735755321,
     "messageRefType": 3,
@@ -750,8 +713,7 @@
     "flag": 0,
     "updatedAt": 1706838029,
     "createdAt": 1706838029
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60832344374,
     "messageRefType": 3,
@@ -766,8 +728,7 @@
     "flag": 0,
     "updatedAt": 1706924259,
     "createdAt": 1706924259
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60832344375,
     "messageRefType": 3,
@@ -782,8 +743,7 @@
     "flag": 0,
     "updatedAt": 1706924259,
     "createdAt": 1706924259
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60832344488,
     "messageRefType": 3,
@@ -798,8 +758,7 @@
     "flag": 0,
     "updatedAt": 1706924259,
     "createdAt": 1706924259
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60832344489,
     "messageRefType": 3,
@@ -814,8 +773,7 @@
     "flag": 0,
     "updatedAt": 1706924259,
     "createdAt": 1706924259
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60832344490,
     "messageRefType": 3,
@@ -830,8 +788,7 @@
     "flag": 0,
     "updatedAt": 1706924259,
     "createdAt": 1706924259
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196815,
     "messageRefType": 3,
@@ -846,8 +803,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196816,
     "messageRefType": 3,
@@ -862,8 +818,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196817,
     "messageRefType": 3,
@@ -878,8 +833,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196843,
     "messageRefType": 3,
@@ -894,8 +848,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196844,
     "messageRefType": 3,
@@ -910,8 +863,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 60921196845,
     "messageRefType": 3,
@@ -926,8 +878,7 @@
     "flag": 0,
     "updatedAt": 1707011046,
     "createdAt": 1707011046
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891425,
     "messageRefType": 3,
@@ -942,8 +893,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891426,
     "messageRefType": 3,
@@ -958,8 +908,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891517,
     "messageRefType": 3,
@@ -974,8 +923,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891518,
     "messageRefType": 3,
@@ -990,8 +938,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891519,
     "messageRefType": 3,
@@ -1006,8 +953,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61007891520,
     "messageRefType": 3,
@@ -1022,8 +968,7 @@
     "flag": 0,
     "updatedAt": 1707097443,
     "createdAt": 1707097443
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61092126369,
     "messageRefType": 3,
@@ -1038,8 +983,7 @@
     "flag": 0,
     "updatedAt": 1707183599,
     "createdAt": 1707183599
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61092126370,
     "messageRefType": 3,
@@ -1054,8 +998,7 @@
     "flag": 0,
     "updatedAt": 1707183599,
     "createdAt": 1707183599
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61092126379,
     "messageRefType": 3,
@@ -1070,8 +1013,7 @@
     "flag": 0,
     "updatedAt": 1707183599,
     "createdAt": 1707183599
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61092126380,
     "messageRefType": 3,
@@ -1086,8 +1028,7 @@
     "flag": 0,
     "updatedAt": 1707183599,
     "createdAt": 1707183599
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61164599144,
     "messageRefType": 3,
@@ -1102,8 +1043,7 @@
     "flag": 0,
     "updatedAt": 1707269942,
     "createdAt": 1707269942
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61164599145,
     "messageRefType": 3,
@@ -1118,8 +1058,7 @@
     "flag": 0,
     "updatedAt": 1707269942,
     "createdAt": 1707269942
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61164599155,
     "messageRefType": 3,
@@ -1134,8 +1073,7 @@
     "flag": 0,
     "updatedAt": 1707269942,
     "createdAt": 1707269942
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61194408089,
     "messageRefType": 3,
@@ -1150,8 +1088,7 @@
     "flag": 16,
     "updatedAt": 1707311260,
     "createdAt": 1707311260
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61194408090,
     "messageRefType": 3,
@@ -1166,8 +1103,7 @@
     "flag": 0,
     "updatedAt": 1707311260,
     "createdAt": 1707311260
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61250975167,
     "messageRefType": 3,
@@ -1182,8 +1118,7 @@
     "flag": 0,
     "updatedAt": 1707356353,
     "createdAt": 1707356353
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61250975168,
     "messageRefType": 3,
@@ -1198,8 +1133,7 @@
     "flag": 0,
     "updatedAt": 1707356353,
     "createdAt": 1707356353
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61250975232,
     "messageRefType": 3,
@@ -1214,8 +1148,7 @@
     "flag": 0,
     "updatedAt": 1707356353,
     "createdAt": 1707356353
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61250975233,
     "messageRefType": 3,
@@ -1230,8 +1163,7 @@
     "flag": 0,
     "updatedAt": 1707356353,
     "createdAt": 1707356353
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61250975234,
     "messageRefType": 3,
@@ -1246,8 +1178,7 @@
     "flag": 0,
     "updatedAt": 1707356353,
     "createdAt": 1707356353
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635065,
     "messageRefType": 3,
@@ -1262,8 +1193,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635066,
     "messageRefType": 3,
@@ -1278,8 +1208,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635082,
     "messageRefType": 3,
@@ -1294,8 +1223,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635083,
     "messageRefType": 3,
@@ -1310,8 +1238,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635084,
     "messageRefType": 3,
@@ -1326,8 +1253,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61342635085,
     "messageRefType": 3,
@@ -1342,8 +1268,7 @@
     "flag": 0,
     "updatedAt": 1707442724,
     "createdAt": 1707442724
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61439803659,
     "messageRefType": 3,
@@ -1358,8 +1283,7 @@
     "flag": 0,
     "updatedAt": 1707529059,
     "createdAt": 1707529059
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61439803660,
     "messageRefType": 3,
@@ -1374,8 +1298,7 @@
     "flag": 0,
     "updatedAt": 1707529059,
     "createdAt": 1707529059
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61439803687,
     "messageRefType": 3,
@@ -1390,8 +1313,7 @@
     "flag": 0,
     "updatedAt": 1707529059,
     "createdAt": 1707529059
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61439803688,
     "messageRefType": 3,
@@ -1406,8 +1328,7 @@
     "flag": 0,
     "updatedAt": 1707529059,
     "createdAt": 1707529059
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61439803689,
     "messageRefType": 3,
@@ -1422,8 +1343,7 @@
     "flag": 0,
     "updatedAt": 1707529059,
     "createdAt": 1707529059
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722255,
     "messageRefType": 3,
@@ -1438,8 +1358,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722256,
     "messageRefType": 3,
@@ -1454,8 +1373,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722257,
     "messageRefType": 3,
@@ -1470,8 +1388,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722357,
     "messageRefType": 3,
@@ -1486,8 +1403,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722358,
     "messageRefType": 3,
@@ -1502,8 +1418,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61527722359,
     "messageRefType": 3,
@@ -1518,8 +1433,7 @@
     "flag": 0,
     "updatedAt": 1707615848,
     "createdAt": 1707615848
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556180,
     "messageRefType": 3,
@@ -1534,8 +1448,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556181,
     "messageRefType": 3,
@@ -1550,8 +1463,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556245,
     "messageRefType": 3,
@@ -1566,8 +1478,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556246,
     "messageRefType": 3,
@@ -1582,8 +1493,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556247,
     "messageRefType": 3,
@@ -1598,8 +1508,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556248,
     "messageRefType": 3,
@@ -1614,8 +1523,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61609556249,
     "messageRefType": 3,
@@ -1630,8 +1538,7 @@
     "flag": 0,
     "updatedAt": 1707702022,
     "createdAt": 1707702022
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61720158261,
     "messageRefType": 3,
@@ -1646,8 +1553,7 @@
     "flag": 0,
     "updatedAt": 1707788414,
     "createdAt": 1707788414
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61720158262,
     "messageRefType": 3,
@@ -1662,8 +1568,7 @@
     "flag": 0,
     "updatedAt": 1707788414,
     "createdAt": 1707788414
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61720158272,
     "messageRefType": 3,
@@ -1678,8 +1583,7 @@
     "flag": 0,
     "updatedAt": 1707788414,
     "createdAt": 1707788414
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61720158273,
     "messageRefType": 3,
@@ -1694,8 +1598,7 @@
     "flag": 0,
     "updatedAt": 1707788414,
     "createdAt": 1707788414
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61794375178,
     "messageRefType": 3,
@@ -1710,8 +1613,7 @@
     "flag": 0,
     "updatedAt": 1707874860,
     "createdAt": 1707874860
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61794375179,
     "messageRefType": 3,
@@ -1726,8 +1628,7 @@
     "flag": 0,
     "updatedAt": 1707874860,
     "createdAt": 1707874860
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61794375189,
     "messageRefType": 3,
@@ -1742,8 +1643,7 @@
     "flag": 0,
     "updatedAt": 1707874860,
     "createdAt": 1707874860
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61813981086,
     "messageRefType": 3,
@@ -1758,8 +1658,7 @@
     "flag": 0,
     "updatedAt": 1707929951,
     "createdAt": 1707929951
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432735,
     "messageRefType": 3,
@@ -1774,8 +1673,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432736,
     "messageRefType": 3,
@@ -1790,8 +1688,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432748,
     "messageRefType": 3,
@@ -1806,8 +1703,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432749,
     "messageRefType": 3,
@@ -1822,8 +1718,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432750,
     "messageRefType": 3,
@@ -1838,8 +1733,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61836432751,
     "messageRefType": 4,
@@ -1854,8 +1748,7 @@
     "flag": 0,
     "updatedAt": 1707985938,
     "createdAt": 1707985938
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61864206125,
     "messageRefType": 3,
@@ -1870,8 +1763,7 @@
     "flag": 0,
     "updatedAt": 1708047631,
     "createdAt": 1708047631
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61864206126,
     "messageRefType": 3,
@@ -1886,8 +1778,7 @@
     "flag": 0,
     "updatedAt": 1708047631,
     "createdAt": 1708047631
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61864206135,
     "messageRefType": 3,
@@ -1902,8 +1793,7 @@
     "flag": 0,
     "updatedAt": 1708047631,
     "createdAt": 1708047631
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61890075947,
     "messageRefType": 3,
@@ -1918,8 +1808,7 @@
     "flag": 0,
     "updatedAt": 1708133960,
     "createdAt": 1708133960
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61890075948,
     "messageRefType": 3,
@@ -1934,8 +1823,7 @@
     "flag": 0,
     "updatedAt": 1708133960,
     "createdAt": 1708133960
-  },
-  {
+  }, {
     "receiveUserId": 119201984,
     "presentId": 61890075950,
     "messageRefType": 3,
@@ -1950,5 +1838,1357 @@
     "flag": 0,
     "updatedAt": 1708133960,
     "createdAt": 1708133960
-  }
-]
+  }],
+  "campaignbonus": [{
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_06.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 6,
+    "updatedAt": 1705888580
+  }, {
+    "isDeemedLogin": false,
+    "name": "リリース3100日突破キャンペーン 初回ログインボーナス",
+    "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 10
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240123_a5i76m/a5i76m_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10678,
+    "day": 1,
+    "updatedAt": 1705974839
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_07.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 7,
+    "updatedAt": 1705974839
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_08.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 8,
+    "updatedAt": 1706061223
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_09.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 9,
+    "updatedAt": 1706147684
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_10.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 10,
+    "updatedAt": 1706233340
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_11.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 11,
+    "updatedAt": 1706319519
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_12.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 12,
+    "updatedAt": 1706406255
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_13.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 13,
+    "updatedAt": 1706492465
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_14.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 14,
+    "updatedAt": 1706578829
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念\n「Fate/stay night」サーヴァント特別召喚アイテムプレゼント",
+    "detail": "開催期間中、初回ログインで「Fate/stay night 20th記念特別交換チケット」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "Fate/stay night 20th記念特別交換チケット",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_z8kd9h/z8kd9h_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10681,
+    "day": 1,
+    "updatedAt": 1706620047
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "QP",
+      "num": 2000000
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 1,
+    "updatedAt": 1706620047
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_15.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 15,
+    "updatedAt": 1706665271
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "叡智の猛火",
+      "num": 20
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_02.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 2,
+    "updatedAt": 1706665271
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_16.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 16,
+    "updatedAt": 1706751869
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念\n7万リポスト達成プレゼント",
+    "detail": "開催期間中、初回ログインで「聖晶石×20」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 20
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240201_j52f8h/j52f8h_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10682,
+    "day": 1,
+    "updatedAt": 1706751869
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "英霊結晶・星のフォウくん",
+      "num": 10
+    }, {
+      "name": "英霊結晶・太陽のフォウくん",
+      "num": 10
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_03.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 3,
+    "updatedAt": 1706751869
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_17.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 17,
+    "updatedAt": 1706838029
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 20
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_04.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 4,
+    "updatedAt": 1706838029
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 1
+    }, {
+      "name": "巡霊の葉",
+      "num": 50
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240202_fc3f01/fc3f01_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10684,
+    "day": 1,
+    "updatedAt": 1706838029
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_18.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 18,
+    "updatedAt": 1706924259
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "叡智の猛火",
+      "num": 20
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_05.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 5,
+    "updatedAt": 1706924259
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240203_fc3f02/fc3f02_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10685,
+    "day": 1,
+    "updatedAt": 1706924259
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_19.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 19,
+    "updatedAt": 1707011046
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "QP",
+      "num": 2000000
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_06.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 6,
+    "updatedAt": 1707011046
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240204_fc3f03/fc3f03_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10686,
+    "day": 1,
+    "updatedAt": 1707011046
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_20.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 20,
+    "updatedAt": 1707097443
+  }, {
+    "isDeemedLogin": false,
+    "name": "「Fate/stay night」20周年記念特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 20
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240130_px4ugw/px4ugw_k_07.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/fate-20th_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10683,
+    "day": 7,
+    "updatedAt": 1707097443
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 1
+    }, {
+      "name": "巡霊の葉",
+      "num": 80
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240205_fc3f04/fc3f04_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10687,
+    "day": 1,
+    "updatedAt": 1707097443
+  }, {
+    "isDeemedLogin": false,
+    "name": "盈月剣風帖開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240117_5f8m2c/5f8m2c_k_21.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10679,
+    "day": 21,
+    "updatedAt": 1707183599
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240206_fc3f05/fc3f05_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10688,
+    "day": 1,
+    "updatedAt": 1707183599
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_fc3f06/fc3f06_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10689,
+    "day": 1,
+    "updatedAt": 1707269942
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 1,
+    "updatedAt": 1707311260
+  }, {
+    "isDeemedLogin": false,
+    "name": "使用期限付コンティニューアイテムプレゼント！",
+    "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "霊脈石",
+      "num": 3
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_ya6ipj/ya6ipj_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10702,
+    "day": 1,
+    "updatedAt": 1707311260
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_02.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 2,
+    "updatedAt": 1707356353
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 3
+    }, {
+      "name": "巡霊の葉",
+      "num": 50
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240208_fc3f07/fc3f07_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10690,
+    "day": 1,
+    "updatedAt": 1707356353
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "QP",
+      "num": 2000000
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_03.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 3,
+    "updatedAt": 1707442724
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 1
+    }, {
+      "name": "巡霊の葉",
+      "num": 50
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240209_fc3f08/fc3f08_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10691,
+    "day": 1,
+    "updatedAt": 1707442724
+  }, {
+    "isDeemedLogin": false,
+    "name": "「FGO カルデア・サテライトステーション 2023-2024」新潟会場開催直前 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240209_igzua3/igzua3_k_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://fes.fate-go.jp/winter/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10698,
+    "day": 1,
+    "updatedAt": 1707442724
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "英霊結晶・星のフォウくん",
+      "num": 5
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_04.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 4,
+    "updatedAt": 1707529059
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240210_fc3f09/fc3f09_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10692,
+    "day": 1,
+    "updatedAt": 1707529059
+  }, {
+    "isDeemedLogin": false,
+    "name": "「FGO カルデア・サテライトステーション 2023-2024」新潟会場開催直前 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240209_igzua3/igzua3_k_02.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://fes.fate-go.jp/winter/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10698,
+    "day": 2,
+    "updatedAt": 1707529059
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "英霊結晶・太陽のフォウくん",
+      "num": 5
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_05.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 5,
+    "updatedAt": 1707615848
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240211_fc3f10/fc3f10_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10693,
+    "day": 1,
+    "updatedAt": 1707615848
+  }, {
+    "isDeemedLogin": false,
+    "name": "「FGO カルデア・サテライトステーション 2023-2024」新潟会場開催直前 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240209_igzua3/igzua3_k_03.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://fes.fate-go.jp/winter/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10698,
+    "day": 3,
+    "updatedAt": 1707615848
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "QP",
+      "num": 3000000
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_06.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 6,
+    "updatedAt": 1707702022
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 1
+    }, {
+      "name": "巡霊の葉",
+      "num": 80
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240212_fc3f11/fc3f11_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10694,
+    "day": 1,
+    "updatedAt": 1707702022
+  }, {
+    "isDeemedLogin": false,
+    "name": "「FGO カルデア・サテライトステーション 2023-2024」新潟会場開催記念 3万リポスト達成プレゼント",
+    "detail": "開催期間中、初回ログインで「聖晶石×6」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 6
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240212_7d72su/7d72su_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/0211ss/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10699,
+    "day": 1,
+    "updatedAt": 1707702022
+  }, {
+    "isDeemedLogin": false,
+    "name": "「FGO カルデア・サテライトステーション 2023-2024」新潟会場開催記念 初回ログインボーナス",
+    "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 10
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240212_juh97u/juh97u_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/0211ss/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10700,
+    "day": 1,
+    "updatedAt": 1707702022
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024\n開幕直前特別ログインボーナス",
+    "detail": "開催期間中、1日1回 最大7回ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "マナプリズム",
+      "num": 50
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240207_it9rj5/it9rj5_k_07.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 2,
+        "urlLink": "https://news.fate-go.jp/2024/valentine2024_cp/"
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10677,
+    "day": 7,
+    "updatedAt": 1707788414
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240213_fc3f12/fc3f12_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10695,
+    "day": 1,
+    "updatedAt": 1707788414
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "巡霊の葉",
+      "num": 30
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_fc3f13/fc3f13_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10696,
+    "day": 1,
+    "updatedAt": 1707874860
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 1,
+    "updatedAt": 1707929951
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_02.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 2,
+    "updatedAt": 1707985938
+  }, {
+    "isDeemedLogin": false,
+    "name": "日替りログインボーナス",
+    "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "聖晶石",
+      "num": 3
+    }, {
+      "name": "巡霊の葉",
+      "num": 50
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240215_fc3f14/fc3f14_s_01.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10697,
+    "day": 1,
+    "updatedAt": 1707985938
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_03.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 3,
+    "updatedAt": 1708047631
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_04.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 4,
+    "updatedAt": 1708133960
+  }]
+}

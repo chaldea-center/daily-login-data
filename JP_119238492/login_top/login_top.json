@@ -1,6 +1,5 @@
 {
-  "response": [
-    {
+  "response": [{
       "resCode": "00",
       "success": {
         "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
@@ -17,11 +16,9 @@
   ],
   "cache": {
     "updated": {
-      "userEventDeck": [
-        {
+      "userEventDeck": [{
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [
@@ -91,8 +88,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [
@@ -162,8 +158,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 0,
                 "userSvtEquipIds": [
@@ -233,8 +228,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 0,
                 "userSvtEquipIds": [
@@ -304,8 +298,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [
@@ -375,8 +368,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 168018575866,
                 "userSvtEquipIds": [
@@ -446,8 +438,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 0,
                 "userSvtEquipIds": [
@@ -517,8 +508,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 168018575866,
                 "userSvtEquipIds": [
@@ -587,51 +577,44 @@
           "deckNo": 64
         }
       ],
-      "mstTotalLogin": [
-        {
-          "script": {
-            "banners": [
-              {
-                "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00250.png",
-                "offset": [
-                  2,
-                  0
-                ],
-                "size": [
-                  748,
-                  448
-                ],
-                "urlOpenType": 0
-              }
-            ],
-            "titleOffset": [
-              10000,
+      "mstTotalLogin": [{
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00250.png",
+            "offset": [
+              2,
               0
             ],
-            "buttonOffset": [
-              0,
-              0
+            "size": [
+              748,
+              448
             ],
-            "messageOffset": [
-              -50000,
-              0
-            ]
-          },
-          "eventId": 40033,
-          "day": 250
-        }
-      ],
-      "userLogin": [
-        {
-          "userId": 119238492,
-          "seqLoginCount": 39,
-          "totalLoginCount": 236,
-          "lastLoginAt": 1708175292,
-          "createdAt": 1686492765
-        }
-      ],
-      "userShop": [
-        {
+            "urlOpenType": 0
+          }],
+          "titleOffset": [
+            10000,
+            0
+          ],
+          "buttonOffset": [
+            0,
+            0
+          ],
+          "messageOffset": [
+            -50000,
+            0
+          ]
+        },
+        "eventId": 40033,
+        "day": 250
+      }],
+      "userLogin": [{
+        "userId": 119238492,
+        "seqLoginCount": 39,
+        "totalLoginCount": 236,
+        "lastLoginAt": 1708175292,
+        "createdAt": 1686492765
+      }],
+      "userShop": [{
           "userId": 119238492,
           "shopId": 5000001,
           "num": 219,
@@ -653,18 +636,15 @@
           "updatedAt": 1705327573
         }
       ],
-      "userContinue": [
-        {
-          "userId": 119238492,
-          "isDel": 0,
-          "continueKey": "eM51pQuvd4"
-        }
-      ]
+      "userContinue": [{
+        "userId": 119238492,
+        "isDel": 0,
+        "continueKey": "eM51pQuvd4"
+      }]
     },
     "deleted": {},
     "replaced": {
-      "userSvtCollection": [
-        {
+      "userSvtCollection": [{
           "dateTimeOfGachas": null,
           "tdPlayed": [],
           "costumeIds": [],
@@ -21713,8 +21693,7 @@
           "createdAt": 1687386403
         }
       ],
-      "userGachaExtraCount": [
-        {
+      "userGachaExtraCount": [{
           "userId": 119238492,
           "extraGroupId": 440,
           "count": 0
@@ -21736,8 +21715,7 @@
         }
       ],
       "userSvtStorage": [],
-      "userEventSuperBoss": [
-        {
+      "userEventSuperBoss": [{
           "userId": 119238492,
           "eventId": 80421,
           "superBossId": 1,
@@ -21756,19 +21734,16 @@
           "createdAt": 1687386604
         }
       ],
-      "userEventDataLost": [
-        {
-          "dataLostSvtInfo": {},
-          "restartSvtInfo": {},
-          "userId": 119238492,
-          "dataLostBattleId": 1,
-          "eventId": 80421,
-          "updatedAt": 1687386681,
-          "createdAt": 1687386492
-        }
-      ],
-      "userSvtVoicePlayed": [
-        {
+      "userEventDataLost": [{
+        "dataLostSvtInfo": {},
+        "restartSvtInfo": {},
+        "userId": 119238492,
+        "dataLostBattleId": 1,
+        "eventId": 80421,
+        "updatedAt": 1687386681,
+        "createdAt": 1687386492
+      }],
+      "userSvtVoicePlayed": [{
           "voicePlayed": [],
           "userId": 119238492,
           "svtId": 101400,
@@ -21787,8 +21762,7 @@
           "createdAt": 1686732111
         }
       ],
-      "userQuest": [
-        {
+      "userQuest": [{
           "userId": 119238492,
           "questId": 1000000,
           "questPhase": 1,
@@ -32639,8 +32613,7 @@
           "createdAt": 1687424764
         }
       ],
-      "userSvtCoin": [
-        {
+      "userSvtCoin": [{
           "userId": 119238492,
           "svtId": 101200,
           "num": 30,
@@ -32956,8 +32929,7 @@
           "createdAt": 1688892357
         }
       ],
-      "userEventMissionFix": [
-        {
+      "userEventMissionFix": [{
           "userId": 119238492,
           "missionId": 2002737,
           "progressType": 3,
@@ -33120,8 +33092,7 @@
           "num": 0
         }
       ],
-      "userEventMission": [
-        {
+      "userEventMission": [{
           "userId": 119238492,
           "missionId": 10001,
           "missionTargetId": 10001,
@@ -35138,8 +35109,7 @@
           "createdAt": 1705286903
         }
       ],
-      "userSvt": [
-        {
+      "userSvt": [{
           "atk": 1416,
           "hp": 1727,
           "svtId": 101200,
@@ -55557,8 +55527,7 @@
         }
       ],
       "userPrivilege": [],
-      "userEquip": [
-        {
+      "userEquip": [{
           "id": 129295290,
           "userId": 119238492,
           "equipId": 1,
@@ -55586,16 +55555,13 @@
           "createdAt": 1686732091
         }
       ],
-      "tblUserGame": [
-        {
-          "userId": 119238492,
-          "friendPoint": 234215,
-          "updatedAt": 1707939222,
-          "createdAt": 1686492765
-        }
-      ],
-      "userCommandCodeCollection": [
-        {
+      "tblUserGame": [{
+        "userId": 119238492,
+        "friendPoint": 234215,
+        "updatedAt": 1707939222,
+        "createdAt": 1686492765
+      }],
+      "userCommandCodeCollection": [{
           "userId": 119238492,
           "commandCodeId": 8400010,
           "status": 1,
@@ -56733,8 +56699,7 @@
         }
       ],
       "userSvtAppendPassiveSkill": [],
-      "userEventMissionConditionDetail": [
-        {
+      "userEventMissionConditionDetail": [{
           "userId": 119238492,
           "conditionDetailId": 3000024,
           "missionTargetId": 300020,
@@ -56905,8 +56870,7 @@
       ],
       "userGachaDrawLog": [],
       "userQuestRoute": [],
-      "userPresentBox": [
-        {
+      "userPresentBox": [{
           "receiveUserId": 119238492,
           "presentId": 59518567399,
           "messageRefType": 3,
@@ -59310,11 +59274,9 @@
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
       "userGameCommon": [],
-      "userDeck": [
-        {
+      "userDeck": [{
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 168018575866,
                 "userSvtEquipIds": [],
@@ -59382,8 +59344,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59451,8 +59412,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59520,8 +59480,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59589,8 +59548,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59658,8 +59616,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59727,8 +59684,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59796,8 +59752,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59865,8 +59820,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -59934,8 +59888,7 @@
         },
         {
           "deckInfo": {
-            "svts": [
-              {
+            "svts": [{
                 "id": 1,
                 "userSvtId": 167706009684,
                 "userSvtEquipIds": [],
@@ -60002,8 +59955,7 @@
           "cost": 0
         }
       ],
-      "userItem": [
-        {
+      "userItem": [{
           "userId": 119238492,
           "itemId": 16,
           "num": 5,
@@ -60725,8 +60677,7 @@
           "createdAt": 1705325250
         }
       ],
-      "userQuestInfo": [
-        {
+      "userQuestInfo": [{
           "dropSvtIds": [
             -1
           ],
@@ -66372,71 +66323,68 @@
           "eventId": 0
         }
       ],
-      "userSvtLeader": [
-        {
-          "dispLimitCount": 13,
-          "imageLimitCount": 13,
-          "commandCardLimitCount": 13,
-          "iconLimitCount": 13,
-          "portraitLimitCount": 13,
-          "battleVoice": 0,
-          "randomLimitCountTargets": [],
-          "classPassive": [],
-          "equipTarget1": {
-            "userId": 0,
-            "userSvtId": 0,
-            "svtId": 0,
-            "limitCount": 0,
-            "lv": 0,
-            "exp": 0,
-            "hp": 0,
-            "atk": 0,
-            "skillId1": 0,
-            "skillLv1": 0,
-            "skillId2": 0,
-            "skillLv2": 0,
-            "skillId3": 0,
-            "skillLv3": 0,
-            "addSkills": [],
-            "updatedAt": 0
-          },
-          "commandCode": [],
-          "commandCardParam": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "appendPassiveSkill": [],
-          "script": {},
-          "eventSvtPoint": 0,
-          "userId": 119238492,
-          "supportDeckId": 1,
-          "classId": 0,
-          "userSvtId": 167706009684,
-          "svtId": 800100,
-          "limitCount": 4,
-          "lv": 90,
-          "exp": 12148500,
-          "hp": 14248,
-          "atk": 9653,
-          "adjustHp": 0,
-          "adjustAtk": 0,
+      "userSvtLeader": [{
+        "dispLimitCount": 13,
+        "imageLimitCount": 13,
+        "commandCardLimitCount": 13,
+        "iconLimitCount": 13,
+        "portraitLimitCount": 13,
+        "battleVoice": 0,
+        "randomLimitCountTargets": [],
+        "classPassive": [],
+        "equipTarget1": {
+          "userId": 0,
+          "userSvtId": 0,
+          "svtId": 0,
+          "limitCount": 0,
+          "lv": 0,
+          "exp": 0,
+          "hp": 0,
+          "atk": 0,
           "skillId1": 0,
+          "skillLv1": 0,
           "skillId2": 0,
+          "skillLv2": 0,
           "skillId3": 0,
-          "skillLv1": 1,
-          "skillLv2": 1,
-          "skillLv3": 1,
-          "treasureDeviceId": 0,
-          "treasureDeviceLv": 3,
-          "exceedCount": 2,
+          "skillLv3": 0,
+          "addSkills": [],
           "updatedAt": 0
-        }
-      ],
-      "userGacha": [
-        {
+        },
+        "commandCode": [],
+        "commandCardParam": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "appendPassiveSkill": [],
+        "script": {},
+        "eventSvtPoint": 0,
+        "userId": 119238492,
+        "supportDeckId": 1,
+        "classId": 0,
+        "userSvtId": 167706009684,
+        "svtId": 800100,
+        "limitCount": 4,
+        "lv": 90,
+        "exp": 12148500,
+        "hp": 14248,
+        "atk": 9653,
+        "adjustHp": 0,
+        "adjustAtk": 0,
+        "skillId1": 0,
+        "skillId2": 0,
+        "skillId3": 0,
+        "skillLv1": 1,
+        "skillLv2": 1,
+        "skillLv3": 1,
+        "treasureDeviceId": 0,
+        "treasureDeviceLv": 3,
+        "exceedCount": 2,
+        "updatedAt": 0
+      }],
+      "userGacha": [{
           "userId": 119238492,
           "gachaId": 1,
           "num": 20,
@@ -66479,8 +66427,7 @@
           "status": 0
         }
       ],
-      "userEvent": [
-        {
+      "userEvent": [{
           "userId": 119238492,
           "eventId": -94,
           "value": 0,
@@ -66978,63 +66925,57 @@
       ],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
-      "userGame": [
-        {
-          "fixMainSupportDeckIds": [],
-          "fixEventSupportDeckIds": [],
-          "message": "",
-          "stone": 1940,
-          "friendKeep": 91,
-          "svtKeep": 800,
-          "svtEquipKeep": 800,
-          "userId": 119238492,
-          "name": "daily_bonus1",
-          "birthDay": 0,
-          "actMax": 137,
-          "actRecoverAt": 1705361773,
-          "carryOverActPoint": 0,
-          "rpRecoverAt": 1686492765,
-          "carryOverRaidPoint": 0,
-          "genderType": 1,
-          "lv": 127,
-          "exp": 64051467,
-          "qp": 527925613,
-          "costMax": 111,
-          "friendCode": "879881241",
-          "favoriteUserSvtId": 167706009684,
-          "pushUserSvtId": 0,
-          "flag": 512,
-          "commandSpellRecoverAt": 1686492765,
-          "svtStorageAdjust": 255,
-          "svtEquipStorageAdjust": 0,
-          "userEquipId": 129295290,
-          "freeStone": 1940,
-          "chargeStone": 0,
-          "mana": 44,
-          "rarePri": 5,
-          "activeDeckId": 679260477,
-          "mainSupportDeckId": 1,
-          "eventSupportDeckId": 0,
-          "tutorial1": 989897726,
-          "tutorial2": 150,
-          "updatedAt": 1705327762,
-          "createdAt": 1686492765
-        }
-      ],
-      "exchangeSvt": [
-        {
-          "eventId": 80465,
-          "userSvtIds": [],
-          "svtIds": []
-        }
-      ],
+      "userGame": [{
+        "fixMainSupportDeckIds": [],
+        "fixEventSupportDeckIds": [],
+        "message": "",
+        "stone": 1940,
+        "friendKeep": 91,
+        "svtKeep": 800,
+        "svtEquipKeep": 800,
+        "userId": 119238492,
+        "name": "daily_bonus1",
+        "birthDay": 0,
+        "actMax": 137,
+        "actRecoverAt": 1705361773,
+        "carryOverActPoint": 0,
+        "rpRecoverAt": 1686492765,
+        "carryOverRaidPoint": 0,
+        "genderType": 1,
+        "lv": 127,
+        "exp": 64051467,
+        "qp": 527925613,
+        "costMax": 111,
+        "friendCode": "879881241",
+        "favoriteUserSvtId": 167706009684,
+        "pushUserSvtId": 0,
+        "flag": 512,
+        "commandSpellRecoverAt": 1686492765,
+        "svtStorageAdjust": 255,
+        "svtEquipStorageAdjust": 0,
+        "userEquipId": 129295290,
+        "freeStone": 1940,
+        "chargeStone": 0,
+        "mana": 44,
+        "rarePri": 5,
+        "activeDeckId": 679260477,
+        "mainSupportDeckId": 1,
+        "eventSupportDeckId": 0,
+        "tutorial1": 989897726,
+        "tutorial2": 150,
+        "updatedAt": 1705327762,
+        "createdAt": 1686492765
+      }],
+      "exchangeSvt": [{
+        "eventId": 80465,
+        "userSvtIds": [],
+        "svtIds": []
+      }],
       "userSvtCommandCode": [],
       "userSvtAppendPassiveSkillLv": [],
-      "beforeBirthDay": [
-        {
-          "oldBirthDay": 0
-        }
-      ],
+      "beforeBirthDay": [{
+        "oldBirthDay": 0
+      }],
       "userCommandCode": []
     },
     "serverTime": 1708175292
