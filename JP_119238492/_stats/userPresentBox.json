@@ -4686,5 +4686,53 @@
     "flag": 0,
     "updatedAt": 1708047618,
     "createdAt": 1708047618
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61890073974,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708133947,
+    "createdAt": 1708133947
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61890073975,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10078,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708133947,
+    "createdAt": 1708133947
+  },
+  {
+    "receiveUserId": 119238492,
+    "presentId": 61890073986,
+    "messageRefType": 3,
+    "messageId": 2475,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(4/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708133947,
+    "createdAt": 1708133947
   }
 ]
