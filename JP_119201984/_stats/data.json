@@ -1838,6 +1838,66 @@
     "flag": 0,
     "updatedAt": 1708133960,
     "createdAt": 1708133960
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 61914850936,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708220659,
+    "createdAt": 1708220659
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 61914850937,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708220659,
+    "createdAt": 1708220659
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 61914850938,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10078,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708220659,
+    "createdAt": 1708220659
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 61914850946,
+    "messageRefType": 3,
+    "messageId": 2476,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(5/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708220659,
+    "createdAt": 1708220659
   }],
   "campaignbonus": [{
     "isDeemedLogin": false,
@@ -3190,5 +3250,28 @@
     "eventId": 10680,
     "day": 4,
     "updatedAt": 1708133960
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "白銀の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_05.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 5,
+    "updatedAt": 1708220659
   }]
 }
