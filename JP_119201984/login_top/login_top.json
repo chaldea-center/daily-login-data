@@ -2,57 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "2月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_08.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10680,
-        "day": 8
-      }],
-      "totalLoginBonus": [{
-        "num": 248,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -492,7 +442,7 @@
         "userId": 119201984,
         "seqLoginCount": 115,
         "totalLoginCount": 248,
-        "lastLoginAt": 1708479670,
+        "lastLoginAt": 1708520945,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31823,36 +31773,6 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033339,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033340,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033341,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033342,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033343,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033344,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033345,
         "progressType": 3,
         "num": 0
@@ -43123,6 +43043,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1708479670
+    "serverTime": 1708520945
   }
 }
