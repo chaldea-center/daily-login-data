@@ -4598,6 +4598,51 @@
     "flag": 0,
     "updatedAt": 1708393172,
     "createdAt": 1708393172
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62003521614,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708479656,
+    "createdAt": 1708479656
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62003521615,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10078,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708479656,
+    "createdAt": 1708479656
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62003521619,
+    "messageRefType": 3,
+    "messageId": 2479,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(8/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1708479656,
+    "createdAt": 1708479656
   }],
   "campaignbonus": [{
     "isDeemedLogin": false,
@@ -6290,5 +6335,28 @@
     "eventId": 10680,
     "day": 7,
     "updatedAt": 1708393172
+  }, {
+    "isDeemedLogin": false,
+    "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+    "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+    "addDetail": "",
+    "items": [{
+      "name": "黄金の果実",
+      "num": 1
+    }],
+    "script": {
+      "banners": [{
+        "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_08.png",
+        "offset": [2, 0],
+        "size": [748, 448],
+        "urlOpenType": 0
+      }],
+      "titleOffset": [10000, 0],
+      "buttonOffset": [0, 0],
+      "messageOffset": [-50000, 0]
+    },
+    "eventId": 10680,
+    "day": 8,
+    "updatedAt": 1708479656
   }]
 }
