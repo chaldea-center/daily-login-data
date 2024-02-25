@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "2月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_12.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10680,
+        "day": 12
+      }],
+      "totalLoginBonus": [{
+        "num": 252,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +493,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 118,
-        "totalLoginCount": 251,
-        "lastLoginAt": 1708780148,
+        "seqLoginCount": 119,
+        "totalLoginCount": 252,
+        "lastLoginAt": 1708825437,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -39555,6 +39608,66 @@
         "flag": 0,
         "updatedAt": 1708738626,
         "createdAt": 1708738626
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62171339774,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708825437,
+        "createdAt": 1708825437
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62171339775,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708825437,
+        "createdAt": 1708825437
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62171339776,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10078,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708825437,
+        "createdAt": 1708825437
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62171339782,
+        "messageRefType": 3,
+        "messageId": 2483,
+        "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(12/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708825437,
+        "createdAt": 1708825437
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43123,6 +43236,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1708780148
+    "serverTime": 1708825437
   }
 }
