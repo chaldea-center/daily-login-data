@@ -2,7 +2,57 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "2月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_13.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10680,
+        "day": 13
+      }],
+      "totalLoginBonus": [{
+        "num": 245,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +490,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 47,
-        "totalLoginCount": 244,
-        "lastLoginAt": 1708866530,
+        "seqLoginCount": 48,
+        "totalLoginCount": 245,
+        "lastLoginAt": 1708911752,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -31211,37 +31261,37 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2002744,
+        "missionId": 2002751,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002745,
+        "missionId": 2002752,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002746,
+        "missionId": 2002753,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002747,
+        "missionId": 2002754,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002755,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002748,
+        "missionId": 2002756,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002749,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002750,
+        "missionId": 2002757,
         "progressType": 3,
         "num": 0
       }],
@@ -56592,6 +56642,51 @@
         "flag": 0,
         "updatedAt": 1708825424,
         "createdAt": 1708825424
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62215556487,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708911752,
+        "createdAt": 1708911752
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62215556488,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10078,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708911752,
+        "createdAt": 1708911752
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62215556501,
+        "messageRefType": 3,
+        "messageId": 2484,
+        "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(13/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1708911752,
+        "createdAt": 1708911752
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -60172,6 +60267,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1708866530
+    "serverTime": 1708911752
   }
 }
