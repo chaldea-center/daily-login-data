@@ -2378,6 +2378,21 @@
     "flag": 0,
     "updatedAt": 1709084514,
     "createdAt": 1709084514
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62327226722,
+    "messageRefType": 3,
+    "messageId": 2531,
+    "message": "「奏章Ⅱ」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94094701,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1709125720,
+    "createdAt": 1709125720
   }],
   "loginResult": {
     "loginMessages": [],
@@ -4006,6 +4021,29 @@
       "eventId": 10680,
       "day": 15,
       "updatedAt": 1709084514
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240228_2nfykj/2nfykj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10705,
+      "day": 1,
+      "updatedAt": 1709125720
     }]
   }
 }
