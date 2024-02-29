@@ -4988,6 +4988,81 @@
     "flag": 16,
     "updatedAt": 1709125706,
     "createdAt": 1709125706
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62378533628,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709170772,
+    "createdAt": 1709170772
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62378533629,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10078,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709170772,
+    "createdAt": 1709170772
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62378533646,
+    "messageRefType": 3,
+    "messageId": 2487,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709170772,
+    "createdAt": 1709170772
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62378533647,
+    "messageRefType": 3,
+    "messageId": 2532,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709170772,
+    "createdAt": 1709170772
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62378533648,
+    "messageRefType": 3,
+    "messageId": 2532,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709170772,
+    "createdAt": 1709170772
   }],
   "loginResult": {
     "loginMessages": [],
@@ -6892,6 +6967,56 @@
       "eventId": 10705,
       "day": 1,
       "updatedAt": 1709125706
+    }, {
+      "isDeemedLogin": false,
+      "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10680,
+      "day": 16,
+      "updatedAt": 1709170772
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "黄金の果実",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10706,
+      "day": 1,
+      "updatedAt": 1709170772
     }]
   }
 }
