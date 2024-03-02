@@ -2,7 +2,96 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_18.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10680,
+        "day": 18
+      }, {
+        "isDeemedLogin": false,
+        "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 2
+        }, {
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10706,
+        "day": 3
+      }],
+      "totalLoginBonus": [{
+        "num": 250,
+        "items": [{
+          "name": "聖晶石",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00250.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -426,7 +515,7 @@
       "mstTotalLogin": [{
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00250.png",
+            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00300.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -436,13 +525,13 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 40033,
-        "day": 250
+        "day": 300
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 52,
-        "totalLoginCount": 249,
-        "lastLoginAt": 1709298485,
+        "seqLoginCount": 53,
+        "totalLoginCount": 250,
+        "lastLoginAt": 1709343486,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -56921,6 +57010,96 @@
         "flag": 0,
         "updatedAt": 1709257627,
         "createdAt": 1709257627
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506773985,
+        "messageRefType": 3,
+        "messageId": 10018,
+        "message": "通算ログイン250日目のボーナスです",
+        "fromType": 1,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506773986,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506773987,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506774005,
+        "messageRefType": 3,
+        "messageId": 2489,
+        "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(18/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506774006,
+        "messageRefType": 3,
+        "messageId": 2534,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(3/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 62506774007,
+        "messageRefType": 3,
+        "messageId": 2534,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(3/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709343486,
+        "createdAt": 1709343486
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -60496,6 +60675,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709298485
+    "serverTime": 1709343486
   }
 }
