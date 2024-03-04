@@ -2,7 +2,83 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_20.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10680,
+        "day": 20
+      }, {
+        "isDeemedLogin": false,
+        "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 3
+        }, {
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10706,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 260,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +516,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 126,
-        "totalLoginCount": 259,
-        "lastLoginAt": 1709471302,
+        "seqLoginCount": 127,
+        "totalLoginCount": 260,
+        "lastLoginAt": 1709517472,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31738,38 +31814,38 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2002751,
+        "missionId": 2002758,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002752,
+        "missionId": 2002759,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002753,
+        "missionId": 2002760,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002754,
+        "missionId": 2002761,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002762,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002763,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002764,
         "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002755,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002756,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002757,
-        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -40094,6 +40170,81 @@
         "flag": 0,
         "updatedAt": 1709430145,
         "createdAt": 1709430145
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62648015241,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709517472,
+        "createdAt": 1709517472
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62648015242,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709517472,
+        "createdAt": 1709517472
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62648015255,
+        "messageRefType": 3,
+        "messageId": 2491,
+        "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(20/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709517472,
+        "createdAt": 1709517472
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62648015256,
+        "messageRefType": 3,
+        "messageId": 2536,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1709517472,
+        "createdAt": 1709517472
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62648015257,
+        "messageRefType": 3,
+        "messageId": 2536,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709517472,
+        "createdAt": 1709517472
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43657,6 +43808,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709471302
+    "serverTime": 1709517472
   }
 }
