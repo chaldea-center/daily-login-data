@@ -5378,6 +5378,111 @@
     "flag": 0,
     "updatedAt": 1709517458,
     "createdAt": 1709517458
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323810,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323811,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323812,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323823,
+    "messageRefType": 3,
+    "messageId": 2492,
+    "message": "バレンタイン2024 ～チョコレート・リバーのその先に～\n開幕記念 ログインボーナスです。(21/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323824,
+    "messageRefType": 3,
+    "messageId": 2537,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323825,
+    "messageRefType": 3,
+    "messageId": 2537,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62764323834,
+    "messageRefType": 4,
+    "messageId": 571,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/4 1:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709602798,
+    "createdAt": 1709602798
   }],
   "loginResult": {
     "loginMessages": [],
@@ -7550,6 +7655,56 @@
       "eventId": 10706,
       "day": 5,
       "updatedAt": 1709517458
+    }, {
+      "isDeemedLogin": false,
+      "name": "バレンタイン2024 ～チョコレート・リバーのその先に～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240214_bm6jaw/bm6jaw_k_21.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10680,
+      "day": 21,
+      "updatedAt": 1709602798
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 3
+      }, {
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10706,
+      "day": 6,
+      "updatedAt": 1709602798
     }]
   }
 }
