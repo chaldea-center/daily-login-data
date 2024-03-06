@@ -2873,6 +2873,66 @@
     "flag": 0,
     "updatedAt": 1709602811,
     "createdAt": 1709602811
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62863566504,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1709689245,
+    "createdAt": 1709689245
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62863566505,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709689245,
+    "createdAt": 1709689245
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62863566517,
+    "messageRefType": 3,
+    "messageId": 2538,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 100,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709689245,
+    "createdAt": 1709689245
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62863566518,
+    "messageRefType": 3,
+    "messageId": 2538,
+    "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709689245,
+    "createdAt": 1709689245
   }],
   "loginResult": {
     "loginMessages": [],
@@ -4824,6 +4884,33 @@
       "eventId": 10706,
       "day": 6,
       "updatedAt": 1709602811
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 100
+      }, {
+        "name": "黄金の果実",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10706,
+      "day": 7,
+      "updatedAt": 1709689245
     }]
   }
 }

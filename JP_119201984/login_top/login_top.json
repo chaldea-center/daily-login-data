@@ -2,7 +2,61 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「奏章Ⅱ」開幕直前ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "マナプリズム",
+          "num": 100
+        }, {
+          "name": "黄金の果実",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10706,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 262,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +494,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 128,
-        "totalLoginCount": 261,
-        "lastLoginAt": 1709644116,
+        "seqLoginCount": 129,
+        "totalLoginCount": 262,
+        "lastLoginAt": 1709689245,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40259,6 +40313,66 @@
         "flag": 0,
         "updatedAt": 1709602811,
         "createdAt": 1709602811
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62863566504,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1709689245,
+        "createdAt": 1709689245
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62863566505,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709689245,
+        "createdAt": 1709689245
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62863566517,
+        "messageRefType": 3,
+        "messageId": 2538,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 3,
+        "num": 100,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709689245,
+        "createdAt": 1709689245
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62863566518,
+        "messageRefType": 3,
+        "messageId": 2538,
+        "message": "「奏章Ⅱ」開幕直前ログインボーナスです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709689245,
+        "createdAt": 1709689245
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43822,6 +43936,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709644116
+    "serverTime": 1709689245
   }
 }
