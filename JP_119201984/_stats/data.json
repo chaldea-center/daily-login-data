@@ -2933,6 +2933,36 @@
     "flag": 0,
     "updatedAt": 1709689245,
     "createdAt": 1709689245
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62882423865,
+    "messageRefType": 3,
+    "messageId": 2516,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709730502,
+    "createdAt": 1709730502
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 62882423866,
+    "messageRefType": 3,
+    "messageId": 2530,
+    "message": "「カルデアボーイズコレクション2024」 \n期間限定概念礼装交換券\n「CBC2024特別交換券」のプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94093304,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1709730502,
+    "createdAt": 1709730502
   }],
   "loginResult": {
     "loginMessages": [],
@@ -4911,6 +4941,54 @@
       "eventId": 10706,
       "day": 7,
       "updatedAt": 1709689245
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 1,
+      "updatedAt": 1709730502
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデアボーイズコレクション2024」開催記念初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで\n「CBC2024特別交換券」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "CBC2024特別交換券",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_w2emt9/w2emt9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10704,
+      "day": 1,
+      "updatedAt": 1709730502
     }]
   }
 }

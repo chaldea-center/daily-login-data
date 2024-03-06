@@ -3,59 +3,52 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "3月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "「奏章Ⅱ」開幕直前ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "マナプリズム",
-          "num": 100
-        }, {
           "name": "黄金の果実",
-          "num": 3
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240229_una54d/una54d_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+            "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10706,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 262,
-        "items": [],
-        "script": {}
+        "eventId": 10703,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「カルデアボーイズコレクション2024」開催記念初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで\n「CBC2024特別交換券」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "CBC2024特別交換券",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240306_w2emt9/w2emt9_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/cbc2024_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10704,
+        "day": 1
       }]
     },
     "fail": {},
@@ -496,7 +489,7 @@
         "userId": 119201984,
         "seqLoginCount": 129,
         "totalLoginCount": 262,
-        "lastLoginAt": 1709689245,
+        "lastLoginAt": 1709730502,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40373,6 +40366,36 @@
         "flag": 0,
         "updatedAt": 1709689245,
         "createdAt": 1709689245
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62882423865,
+        "messageRefType": 3,
+        "messageId": 2516,
+        "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709730502,
+        "createdAt": 1709730502
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62882423866,
+        "messageRefType": 3,
+        "messageId": 2530,
+        "message": "「カルデアボーイズコレクション2024」 \n期間限定概念礼装交換券\n「CBC2024特別交換券」のプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94093304,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 2,
+        "updatedAt": 1709730502,
+        "createdAt": 1709730502
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43577,6 +43600,16 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
+        "eventId": 80462,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119201984,
         "eventId": 80038,
         "value": 0,
         "flag": 0,
@@ -43936,6 +43969,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709689245
+    "serverTime": 1709730502
   }
 }
