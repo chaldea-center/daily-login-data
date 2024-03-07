@@ -3,18 +3,40 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
         "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
@@ -25,30 +47,12 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10703,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "「カルデアボーイズコレクション2024」開催記念初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで\n「CBC2024特別交換券」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "CBC2024特別交換券",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240306_w2emt9/w2emt9_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/cbc2024_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10704,
-        "day": 1
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 263,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -487,9 +491,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 129,
-        "totalLoginCount": 262,
-        "lastLoginAt": 1709730502,
+        "seqLoginCount": 130,
+        "totalLoginCount": 263,
+        "lastLoginAt": 1709774756,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40396,6 +40400,66 @@
         "flag": 2,
         "updatedAt": 1709730502,
         "createdAt": 1709730502
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62959632050,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709774756,
+        "createdAt": 1709774756
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62959632051,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709774756,
+        "createdAt": 1709774756
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62959632063,
+        "messageRefType": 3,
+        "messageId": 2517,
+        "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709774756,
+        "createdAt": 1709774756
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 62959632066,
+        "messageRefType": 4,
+        "messageId": 572,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/6 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1709774756,
+        "createdAt": 1709774756
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43969,6 +44033,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709730502
+    "serverTime": 1709774756
   }
 }

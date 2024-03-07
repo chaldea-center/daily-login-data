@@ -5573,6 +5573,66 @@
     "flag": 2,
     "updatedAt": 1709730488,
     "createdAt": 1709730488
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62959625751,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709774742,
+    "createdAt": 1709774742
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62959625752,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709774742,
+    "createdAt": 1709774742
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62959625764,
+    "messageRefType": 3,
+    "messageId": 2517,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709774742,
+    "createdAt": 1709774742
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 62959625767,
+    "messageRefType": 4,
+    "messageId": 572,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/6 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1709774742,
+    "createdAt": 1709774742
   }],
   "loginResult": {
     "loginMessages": [],
@@ -7870,6 +7930,30 @@
       "eventId": 10704,
       "day": 1,
       "updatedAt": 1709730488
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 2,
+      "updatedAt": 1709774742
     }]
   }
 }
