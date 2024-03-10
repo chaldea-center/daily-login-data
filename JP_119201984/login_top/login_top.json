@@ -2,7 +2,61 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10703,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 266,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +494,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 132,
-        "totalLoginCount": 265,
-        "lastLoginAt": 1709995529,
+        "seqLoginCount": 133,
+        "totalLoginCount": 266,
+        "lastLoginAt": 1710035066,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -37451,7 +37505,67 @@
       }],
       "userGachaDrawLog": [],
       "userQuestRoute": [],
-      "userPresentBox": [],
+      "userPresentBox": [{
+        "receiveUserId": 119201984,
+        "presentId": 63257609292,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710035066,
+        "createdAt": 1710035066
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 63257609293,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710035066,
+        "createdAt": 1710035066
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 63257609294,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710035066,
+        "createdAt": 1710035066
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 63257609444,
+        "messageRefType": 3,
+        "messageId": 2520,
+        "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(5/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710035066,
+        "createdAt": 1710035066
+      }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
       "userGameCommon": [],
@@ -41058,6 +41172,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1709995529
+    "serverTime": 1710035066
   }
 }
