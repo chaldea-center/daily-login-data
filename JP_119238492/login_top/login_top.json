@@ -2,7 +2,58 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10703,
+        "day": 6
+      }],
+      "totalLoginBonus": [{
+        "num": 259,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +491,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 61,
-        "totalLoginCount": 258,
-        "lastLoginAt": 1710076140,
+        "seqLoginCount": 62,
+        "totalLoginCount": 259,
+        "lastLoginAt": 1710121258,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -31224,37 +31275,37 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2002758,
+        "missionId": 2002765,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002759,
+        "missionId": 2002766,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002760,
+        "missionId": 2002767,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002761,
+        "missionId": 2002768,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002769,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002762,
+        "missionId": 2002770,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2002763,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002764,
+        "missionId": 2002771,
         "progressType": 0,
         "num": 0
       }],
@@ -37710,6 +37761,51 @@
         "flag": 0,
         "updatedAt": 1710035059,
         "createdAt": 1710035059
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 63365211590,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710121258,
+        "createdAt": 1710121258
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 63365211591,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710121258,
+        "createdAt": 1710121258
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 63365211592,
+        "messageRefType": 3,
+        "messageId": 2521,
+        "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(6/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1710121258,
+        "createdAt": 1710121258
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -41319,6 +41415,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1710076140
+    "serverTime": 1710121258
   }
 }

@@ -5768,6 +5768,51 @@
     "flag": 0,
     "updatedAt": 1710035059,
     "createdAt": 1710035059
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63365211590,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121258,
+    "createdAt": 1710121258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63365211591,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121258,
+    "createdAt": 1710121258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63365211592,
+    "messageRefType": 3,
+    "messageId": 2521,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(6/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121258,
+    "createdAt": 1710121258
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8161,6 +8206,30 @@
       "eventId": 10703,
       "day": 5,
       "updatedAt": 1710035059
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 6,
+      "updatedAt": 1710121258
     }]
   }
 }

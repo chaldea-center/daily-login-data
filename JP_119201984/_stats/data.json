@@ -3173,6 +3173,51 @@
     "flag": 0,
     "updatedAt": 1710035066,
     "createdAt": 1710035066
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 63365227962,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121265,
+    "createdAt": 1710121265
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 63365227963,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121265,
+    "createdAt": 1710121265
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 63365227970,
+    "messageRefType": 3,
+    "messageId": 2521,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(6/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710121265,
+    "createdAt": 1710121265
   }],
   "loginResult": {
     "loginMessages": [],
@@ -5295,6 +5340,30 @@
       "eventId": 10703,
       "day": 5,
       "updatedAt": 1710035066
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 6,
+      "updatedAt": 1710121265
     }]
   }
 }
