@@ -5918,6 +5918,51 @@
     "flag": 0,
     "updatedAt": 1710294166,
     "createdAt": 1710294166
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63645693029,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710380429,
+    "createdAt": 1710380429
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63645693030,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710380429,
+    "createdAt": 1710380429
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63645693165,
+    "messageRefType": 3,
+    "messageId": 2524,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(9/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710380429,
+    "createdAt": 1710380429
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8383,6 +8428,30 @@
       "eventId": 10703,
       "day": 8,
       "updatedAt": 1710294166
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 9,
+      "updatedAt": 1710380429
     }]
   }
 }
