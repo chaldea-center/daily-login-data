@@ -5963,6 +5963,51 @@
     "flag": 0,
     "updatedAt": 1710380429,
     "createdAt": 1710380429
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63731722969,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1710466888,
+    "createdAt": 1710466888
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63731722970,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710466888,
+    "createdAt": 1710466888
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63731722985,
+    "messageRefType": 3,
+    "messageId": 2525,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(10/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710466888,
+    "createdAt": 1710466888
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8452,6 +8497,30 @@
       "eventId": 10703,
       "day": 9,
       "updatedAt": 1710380429
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 10,
+      "updatedAt": 1710466888
     }]
   }
 }
