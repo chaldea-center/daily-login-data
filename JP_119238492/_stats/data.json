@@ -6008,6 +6008,96 @@
     "flag": 0,
     "updatedAt": 1710466888,
     "createdAt": 1710466888
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749459,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749460,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749488,
+    "messageRefType": 3,
+    "messageId": 2539,
+    "message": "「奏章Ⅱ」\n開幕直前特別回数ログインボーナスです。(1/5)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749489,
+    "messageRefType": 3,
+    "messageId": 2539,
+    "message": "「奏章Ⅱ」\n開幕直前特別回数ログインボーナスです。(1/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749490,
+    "messageRefType": 3,
+    "messageId": 2526,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(11/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 63840749492,
+    "messageRefType": 4,
+    "messageId": 573,
+    "message": "2024年3月20日(水) 13:00のメンテナンス実施にともなう、一部キャンペーンおよび期間限定聖晶石召喚の開催期間変更についてのお詫び (3/15 18:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710553112,
+    "createdAt": 1710553112
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8521,6 +8611,57 @@
       "eventId": 10703,
       "day": 10,
       "updatedAt": 1710466888
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_11.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 11,
+      "updatedAt": 1710553112
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅱ」開幕直前特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 10
+      }, {
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240316_j9t27g/j9t27g_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10707,
+      "day": 1,
+      "updatedAt": 1710553112
     }]
   }
 }
