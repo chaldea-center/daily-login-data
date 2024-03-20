@@ -3713,6 +3713,66 @@
     "flag": 0,
     "updatedAt": 1710812453,
     "createdAt": 1710812453
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 64277133041,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1710898825,
+    "createdAt": 1710898825
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 64277133042,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710898825,
+    "createdAt": 1710898825
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 64277133207,
+    "messageRefType": 3,
+    "messageId": 2543,
+    "message": "「奏章Ⅱ」\n開幕直前特別回数ログインボーナスです。(5/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710898825,
+    "createdAt": 1710898825
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 64277133208,
+    "messageRefType": 3,
+    "messageId": 2567,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710898825,
+    "createdAt": 1710898825
   }],
   "loginResult": {
     "loginMessages": [],
@@ -6156,6 +6216,54 @@
       "eventId": 10707,
       "day": 4,
       "updatedAt": 1710812453
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 15,
+      "updatedAt": 1710898825
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅱ」開幕直前特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240316_j9t27g/j9t27g_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10707,
+      "day": 5,
+      "updatedAt": 1710898825
     }]
   }
 }
