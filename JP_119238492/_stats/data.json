@@ -6383,6 +6383,81 @@
     "flag": 0,
     "updatedAt": 1710898817,
     "createdAt": 1710898817
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64382556573,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710985315,
+    "createdAt": 1710985315
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64382556574,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710985315,
+    "createdAt": 1710985315
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64382556581,
+    "messageRefType": 3,
+    "messageId": 2568,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710985315,
+    "createdAt": 1710985315
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64382556582,
+    "messageRefType": 3,
+    "messageId": 2544,
+    "message": "FGO カルデア放送局 Vol.21 奏章Ⅱ 開幕直前SP\n放送記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710985315,
+    "createdAt": 1710985315
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64382556584,
+    "messageRefType": 4,
+    "messageId": 574,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/20 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1710985315,
+    "createdAt": 1710985315
   }],
   "loginResult": {
     "loginMessages": [],
@@ -9145,6 +9220,54 @@
       "eventId": 10707,
       "day": 5,
       "updatedAt": 1710898817
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 16,
+      "updatedAt": 1710985315
+    }, {
+      "isDeemedLogin": false,
+      "name": "FGO カルデア放送局 Vol.21 奏章Ⅱ 開幕直前SP\n放送記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240321_5fg7a5/5fg7a5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_chapter_id/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10712,
+      "day": 1,
+      "updatedAt": 1710985315
     }]
   }
 }
