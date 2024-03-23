@@ -6503,6 +6503,51 @@
     "flag": 0,
     "updatedAt": 1711071601,
     "createdAt": 1711071601
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64562555508,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711157910,
+    "createdAt": 1711157910
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64562555509,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711157910,
+    "createdAt": 1711157910
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 64562555520,
+    "messageRefType": 3,
+    "messageId": 2570,
+    "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(18/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711157910,
+    "createdAt": 1711157910
   }],
   "loginResult": {
     "loginMessages": [],
@@ -9337,6 +9382,30 @@
       "eventId": 10703,
       "day": 17,
       "updatedAt": 1711071601
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_18.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10703,
+      "day": 18,
+      "updatedAt": 1711157910
     }]
   }
 }
