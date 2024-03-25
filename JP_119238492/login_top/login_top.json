@@ -2,7 +2,81 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「AnimeJapan 2024」出展記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240325_626z5g/626z5g_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/0324aj2024/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10713,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "CBC2024 シャルルマーニュのモンジョワ・騎士道！開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240306_tufrj2/tufrj2_k_20.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/cbc2024/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10703,
+        "day": 20
+      }],
+      "totalLoginBonus": [{
+        "num": 273,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +514,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 75,
-        "totalLoginCount": 272,
-        "lastLoginAt": 1711285737,
+        "seqLoginCount": 76,
+        "totalLoginCount": 273,
+        "lastLoginAt": 1711330977,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -31224,41 +31298,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2002772,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002773,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002774,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002775,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002776,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002777,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002778,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033359,
         "progressType": 3,
         "num": 0
@@ -31380,6 +31419,41 @@
       }, {
         "userId": 119238492,
         "missionId": 1033383,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002779,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002780,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002781,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002782,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002783,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002784,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002785,
         "progressType": 3,
         "num": 0
       }],
@@ -38660,6 +38734,66 @@
         "flag": 0,
         "updatedAt": 1711244846,
         "createdAt": 1711244846
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 64714887857,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711330977,
+        "createdAt": 1711330977
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 64714887858,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711330977,
+        "createdAt": 1711330977
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 64714887865,
+        "messageRefType": 3,
+        "messageId": 2572,
+        "message": "CBC2024 シャルルマーニュのモンジョワ・騎士道！\n開幕記念 ログインボーナスです。(20/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711330977,
+        "createdAt": 1711330977
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 64714887866,
+        "messageRefType": 3,
+        "messageId": 2545,
+        "message": "「AnimeJapan 2024」出展記念\n初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711330977,
+        "createdAt": 1711330977
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42259,6 +42393,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711285737
+    "serverTime": 1711330977
   }
 }
