@@ -2,34 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "3月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 283,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -469,7 +442,7 @@
         "userId": 119201984,
         "seqLoginCount": 150,
         "totalLoginCount": 283,
-        "lastLoginAt": 1711503693,
+        "lastLoginAt": 1711544899,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31813,96 +31786,6 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033359,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033360,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033361,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033362,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033363,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033364,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033365,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033366,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033367,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033368,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033369,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033370,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033371,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033372,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033373,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033374,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033375,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033376,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033377,
         "progressType": 3,
         "num": 0
@@ -33743,20 +33626,6 @@
         "missionProgressType": 5,
         "updatedAt": 1707311260,
         "createdAt": 1700723527
-      }, {
-        "userId": 119201984,
-        "missionId": 1033373,
-        "missionTargetId": 200160,
-        "missionProgressType": 5,
-        "updatedAt": 1709993905,
-        "createdAt": 1709125720
-      }, {
-        "userId": 119201984,
-        "missionId": 1033374,
-        "missionTargetId": 200160,
-        "missionProgressType": 5,
-        "updatedAt": 1709993905,
-        "createdAt": 1709125720
       }, {
         "userId": 119201984,
         "missionId": 30000060,
@@ -42220,6 +42089,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711503693
+    "serverTime": 1711544899
   }
 }
