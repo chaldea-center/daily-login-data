@@ -2,7 +2,34 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "3月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "totalLoginBonus": [{
+        "num": 284,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +467,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 150,
-        "totalLoginCount": 283,
-        "lastLoginAt": 1711544899,
+        "seqLoginCount": 151,
+        "totalLoginCount": 284,
+        "lastLoginAt": 1711590088,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -38492,6 +38519,36 @@
         "flag": 0,
         "updatedAt": 1711503693,
         "createdAt": 1711503693
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 64918488758,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711590088,
+        "createdAt": 1711590088
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 64918488759,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10079,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711590088,
+        "createdAt": 1711590088
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42089,6 +42146,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711544899
+    "serverTime": 1711590088
   }
 }
