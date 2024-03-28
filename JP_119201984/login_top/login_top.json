@@ -2,34 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "3月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 284,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -469,7 +442,7 @@
         "userId": 119201984,
         "seqLoginCount": 151,
         "totalLoginCount": 284,
-        "lastLoginAt": 1711590088,
+        "lastLoginAt": 1711631337,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42146,6 +42119,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711590088
+    "serverTime": 1711631337
   }
 }
