@@ -4223,6 +4223,51 @@
     "flag": 0,
     "updatedAt": 1711717742,
     "createdAt": 1711717742
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65058787286,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711762680,
+    "createdAt": 1711762680
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65058787287,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711762680,
+    "createdAt": 1711762680
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65058787329,
+    "messageRefType": 3,
+    "messageId": 2547,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711762680,
+    "createdAt": 1711762680
   }],
   "loginResult": {
     "loginMessages": [],
@@ -6953,6 +6998,30 @@
       "eventId": 10732,
       "day": 1,
       "updatedAt": 1711717742
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10714,
+      "day": 2,
+      "updatedAt": 1711762680
     }]
   }
 }
