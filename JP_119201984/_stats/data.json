@@ -4268,6 +4268,66 @@
     "flag": 0,
     "updatedAt": 1711762680,
     "createdAt": 1711762680
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65134916782,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711849753,
+    "createdAt": 1711849753
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65134916783,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711849753,
+    "createdAt": 1711849753
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65134916784,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10079,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711849753,
+    "createdAt": 1711849753
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 65134916865,
+    "messageRefType": 3,
+    "messageId": 2548,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1711849753,
+    "createdAt": 1711849753
   }],
   "loginResult": {
     "loginMessages": [],
@@ -7022,6 +7082,30 @@
       "eventId": 10714,
       "day": 2,
       "updatedAt": 1711762680
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10714,
+      "day": 3,
+      "updatedAt": 1711849753
     }]
   }
 }
