@@ -2,81 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "「Fate/Dream Striker」リリース記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 10
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240401_az3f96/az3f96_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://www.fate-go.jp/fate-ds/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10717,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10714,
-        "day": 4
-      }],
-      "totalLoginBonus": [{
-        "num": 288,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -516,7 +442,7 @@
         "userId": 119201984,
         "seqLoginCount": 155,
         "totalLoginCount": 288,
-        "lastLoginAt": 1711936427,
+        "lastLoginAt": 1711976922,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42418,6 +42344,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711936427
+    "serverTime": 1711976922
   }
 }
