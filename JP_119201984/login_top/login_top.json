@@ -2,7 +2,81 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「Fate/Dream Striker」リリース記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240401_az3f96/az3f96_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://www.fate-go.jp/fate-ds/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10717,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10714,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 288,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +514,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 154,
-        "totalLoginCount": 287,
-        "lastLoginAt": 1711890565,
+        "seqLoginCount": 155,
+        "totalLoginCount": 288,
+        "lastLoginAt": 1711936427,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31751,38 +31825,38 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2002779,
+        "missionId": 2002786,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002780,
+        "missionId": 2002787,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002781,
+        "missionId": 2002788,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002782,
+        "missionId": 2002789,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002783,
+        "missionId": 2002790,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002784,
+        "missionId": 2002791,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002792,
         "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002785,
-        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -33598,6 +33672,34 @@
         "missionProgressType": 4,
         "updatedAt": 1711717742,
         "createdAt": 1711717742
+      }, {
+        "userId": 119201984,
+        "missionId": 1033393,
+        "missionTargetId": 200164,
+        "missionProgressType": 4,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "userId": 119201984,
+        "missionId": 1033394,
+        "missionTargetId": 200164,
+        "missionProgressType": 4,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "userId": 119201984,
+        "missionId": 1033395,
+        "missionTargetId": 200164,
+        "missionProgressType": 4,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "userId": 119201984,
+        "missionId": 1033396,
+        "missionTargetId": 200164,
+        "missionProgressType": 4,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
       }, {
         "userId": 119201984,
         "missionId": 30000060,
@@ -38659,6 +38761,66 @@
         "flag": 0,
         "updatedAt": 1711849753,
         "createdAt": 1711849753
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65219920023,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65219920024,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65219920087,
+        "messageRefType": 3,
+        "messageId": 2574,
+        "message": "「Fate/Dream Striker」リリース記念\n初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65219920088,
+        "messageRefType": 3,
+        "messageId": 2549,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナスです。(4/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1711936427,
+        "createdAt": 1711936427
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42256,6 +42418,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711890565
+    "serverTime": 1711936427
   }
 }
