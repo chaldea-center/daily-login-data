@@ -2,7 +2,58 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10714,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 289,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +491,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 155,
-        "totalLoginCount": 288,
-        "lastLoginAt": 1711976922,
+        "seqLoginCount": 156,
+        "totalLoginCount": 289,
+        "lastLoginAt": 1712022370,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -38747,6 +38798,51 @@
         "flag": 0,
         "updatedAt": 1711936427,
         "createdAt": 1711936427
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65293139393,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712022370,
+        "createdAt": 1712022370
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65293139394,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712022370,
+        "createdAt": 1712022370
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 65293139440,
+        "messageRefType": 3,
+        "messageId": 2550,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712022370,
+        "createdAt": 1712022370
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42344,6 +42440,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1711976922
+    "serverTime": 1712022370
   }
 }
