@@ -2,58 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240329_392m3w/392m3w_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/new_master_spring_cp3/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10714,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 290,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -493,7 +442,7 @@
         "userId": 119201984,
         "seqLoginCount": 157,
         "totalLoginCount": 290,
-        "lastLoginAt": 1712108546,
+        "lastLoginAt": 1712149883,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42116,7 +42065,7 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
-        "eventId": 80462,
+        "eventId": 80473,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -42485,6 +42434,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1712108546
+    "serverTime": 1712149883
   }
 }
