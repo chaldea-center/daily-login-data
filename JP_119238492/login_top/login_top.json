@@ -2,7 +2,57 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "巡霊の葉",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240406_e3fg03/e3fg03_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10720,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 285,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -440,9 +490,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 87,
-        "totalLoginCount": 284,
-        "lastLoginAt": 1712322586,
+        "seqLoginCount": 88,
+        "totalLoginCount": 285,
+        "lastLoginAt": 1712367587,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -39171,6 +39221,66 @@
         "flag": 0,
         "updatedAt": 1712281312,
         "createdAt": 1712281312
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 65622771830,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712367587,
+        "createdAt": 1712367587
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 65622771831,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712367587,
+        "createdAt": 1712367587
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 65622771937,
+        "messageRefType": 3,
+        "messageId": 2577,
+        "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712367587,
+        "createdAt": 1712367587
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 65622771970,
+        "messageRefType": 4,
+        "messageId": 575,
+        "message": "2024年4月3日(水)18:00のゲームアップデート以降、ゲームにログインできない場合があったことへのお詫び(4/6 0:50掲載分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1712367587,
+        "createdAt": 1712367587
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42770,6 +42880,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1712322586
+    "serverTime": 1712367587
   }
 }
