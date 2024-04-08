@@ -7328,6 +7328,51 @@
     "flag": 0,
     "updatedAt": 1712454542,
     "createdAt": 1712454542
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 65804967634,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712540609,
+    "createdAt": 1712540609
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 65804967635,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712540609,
+    "createdAt": 1712540609
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 65804967644,
+    "messageRefType": 3,
+    "messageId": 2577,
+    "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712540609,
+    "createdAt": 1712540609
   }],
   "loginResult": {
     "loginMessages": [],
@@ -10595,6 +10640,29 @@
       "eventId": 10721,
       "day": 1,
       "updatedAt": 1712454542
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240408_e3fg05/e3fg05_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10722,
+      "day": 1,
+      "updatedAt": 1712540609
     }]
   }
 }
