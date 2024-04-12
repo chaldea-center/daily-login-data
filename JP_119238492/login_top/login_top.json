@@ -2,57 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "巡霊の葉",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240412_e3fg09/e3fg09_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10726,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 291,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
     },
     "fail": {},
     "nid": "login"
@@ -69,42 +19,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -120,42 +82,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -171,42 +145,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -222,42 +208,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -273,42 +271,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -324,42 +334,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -375,42 +397,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001224,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -426,42 +460,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1
           }, {
             "id": 2,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6
@@ -492,7 +538,7 @@
         "userId": 119238492,
         "seqLoginCount": 94,
         "totalLoginCount": 291,
-        "lastLoginAt": 1712886160,
+        "lastLoginAt": 1712927306,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -20912,6 +20958,7 @@
         "svtId": 800100,
         "createdAt": 1686732111
       }],
+      "userAccountLinkage": [],
       "userQuest": [{
         "userId": 119238492,
         "questId": 1000000,
@@ -36590,6 +36637,7 @@
         "updatedAt": 1712236123,
         "createdAt": 1686492765
       }],
+      "userInterruptionQuest": [],
       "userCommandCodeCollection": [{
         "userId": 119238492,
         "commandCodeId": 8400010,
@@ -39620,42 +39668,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575864,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39673,42 +39733,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39726,42 +39798,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39779,42 +39863,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39832,42 +39928,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39885,42 +39993,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39938,42 +40058,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -39991,42 +40123,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -40044,42 +40188,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -40097,42 +40253,54 @@
           "svts": [{
             "id": 1,
             "userSvtId": 167706009684,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
+            "svtId": 0,
             "userSvtEquipIds": [],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 3,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 4,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 5,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
           }, {
             "id": 6,
             "userSvtId": 0,
+            "svtId": 0,
             "userSvtEquipIds": [0],
+            "svtEquipIds": null,
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0
@@ -43159,6 +43327,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80468,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -43210,6 +43388,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1712886160
+    "serverTime": 1712927306
   }
 }
