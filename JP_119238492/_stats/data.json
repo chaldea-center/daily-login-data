@@ -7598,6 +7598,66 @@
     "flag": 0,
     "updatedAt": 1712886160,
     "createdAt": 1712886160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66186149504,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712971711,
+    "createdAt": 1712971711
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66186149505,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712971711,
+    "createdAt": 1712971711
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66186149519,
+    "messageRefType": 3,
+    "messageId": 2577,
+    "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712971711,
+    "createdAt": 1712971711
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66186149520,
+    "messageRefType": 4,
+    "messageId": 576,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/12 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1712971711,
+    "createdAt": 1712971711
   }],
   "loginResult": {
     "loginMessages": [],
@@ -10986,6 +11046,29 @@
       "eventId": 10726,
       "day": 1,
       "updatedAt": 1712886160
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240413_e3fg10/e3fg10_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10727,
+      "day": 1,
+      "updatedAt": 1712971711
     }]
   }
 }
