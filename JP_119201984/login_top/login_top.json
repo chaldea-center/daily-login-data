@@ -3,58 +3,29 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
           "name": "聖晶石",
-          "num": 3
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240417_e3fg14/e3fg14_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10731,
+        "eventId": 10734,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 304,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -591,7 +562,7 @@
         "userId": 119201984,
         "seqLoginCount": 171,
         "totalLoginCount": 304,
-        "lastLoginAt": 1713318171,
+        "lastLoginAt": 1713359337,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31934,6 +31905,36 @@
         "missionId": 2002806,
         "progressType": 0,
         "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033397,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033398,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033399,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033400,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033401,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033402,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -39798,6 +39799,21 @@
         "flag": 0,
         "updatedAt": 1713318171,
         "createdAt": 1713318171
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 66539966079,
+        "messageRefType": 3,
+        "messageId": 2600,
+        "message": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713359337,
+        "createdAt": 1713359337
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43525,6 +43541,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1713318171
+    "serverTime": 1713359337
   }
 }
