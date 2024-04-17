@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 3
+        }, {
+          "name": "巡霊の葉",
+          "num": 50
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240417_e3fg14/e3fg14_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10731,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 296,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +589,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 98,
-        "totalLoginCount": 295,
-        "lastLoginAt": 1713272948,
+        "seqLoginCount": 99,
+        "totalLoginCount": 296,
+        "lastLoginAt": 1713318163,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -39884,6 +39937,66 @@
         "flag": 0,
         "updatedAt": 1713231766,
         "createdAt": 1713231766
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66510466138,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713318163,
+        "createdAt": 1713318163
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66510466139,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713318163,
+        "createdAt": 1713318163
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66510466566,
+        "messageRefType": 3,
+        "messageId": 2577,
+        "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713318163,
+        "createdAt": 1713318163
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66510466567,
+        "messageRefType": 3,
+        "messageId": 2577,
+        "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 50,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713318163,
+        "createdAt": 1713318163
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43613,6 +43726,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1713272948
+    "serverTime": 1713318163
   }
 }

@@ -7823,6 +7823,66 @@
     "flag": 0,
     "updatedAt": 1713231766,
     "createdAt": 1713231766
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66510466138,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713318163,
+    "createdAt": 1713318163
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66510466139,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713318163,
+    "createdAt": 1713318163
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66510466566,
+    "messageRefType": 3,
+    "messageId": 2577,
+    "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713318163,
+    "createdAt": 1713318163
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66510466567,
+    "messageRefType": 3,
+    "messageId": 2577,
+    "message": "「巡霊の祝祭 第8弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713318163,
+    "createdAt": 1713318163
   }],
   "loginResult": {
     "loginMessages": [],
@@ -11306,6 +11366,32 @@
       "eventId": 10730,
       "day": 1,
       "updatedAt": 1713231766
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 3
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240417_e3fg14/e3fg14_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10731,
+      "day": 1,
+      "updatedAt": 1713318163
     }]
   }
 }
