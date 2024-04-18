@@ -5303,6 +5303,51 @@
     "flag": 0,
     "updatedAt": 1713359337,
     "createdAt": 1713359337
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 66598312998,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713404544,
+    "createdAt": 1713404544
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 66598312999,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713404544,
+    "createdAt": 1713404544
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 66598313128,
+    "messageRefType": 3,
+    "messageId": 2601,
+    "message": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713404544,
+    "createdAt": 1713404544
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8583,6 +8628,30 @@
       "eventId": 10734,
       "day": 1,
       "updatedAt": 1713359337
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10734,
+      "day": 2,
+      "updatedAt": 1713404544
     }]
   }
 }
