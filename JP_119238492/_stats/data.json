@@ -8033,6 +8033,66 @@
     "flag": 0,
     "updatedAt": 1713577335,
     "createdAt": 1713577335
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66816465579,
+    "messageRefType": 3,
+    "messageId": 10019,
+    "message": "通算ログイン300日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713664264,
+    "createdAt": 1713664264
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66816465580,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1713664264,
+    "createdAt": 1713664264
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66816465581,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713664264,
+    "createdAt": 1713664264
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66816465615,
+    "messageRefType": 3,
+    "messageId": 2604,
+    "message": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1713664264,
+    "createdAt": 1713664264
   }],
   "loginResult": {
     "loginMessages": [],
@@ -8054,6 +8114,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1709343486
+    }, {
+      "num": 300,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00300.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1713664264
     }],
     "loginFortuneBonus": [],
     "campaignDirectBonus": [],
@@ -11638,6 +11716,30 @@
       "eventId": 10734,
       "day": 4,
       "updatedAt": 1713577335
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10734,
+      "day": 5,
+      "updatedAt": 1713664264
     }]
   }
 }
