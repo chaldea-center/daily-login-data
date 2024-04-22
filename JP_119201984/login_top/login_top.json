@@ -2,58 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 5
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10734,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 309,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -589,7 +538,7 @@
         "userId": 119201984,
         "seqLoginCount": 176,
         "totalLoginCount": 309,
-        "lastLoginAt": 1713750497,
+        "lastLoginAt": 1713791370,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31899,36 +31848,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 1033397,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033398,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033399,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033400,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033401,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033402,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 2002807,
         "progressType": 3,
         "num": 0
@@ -31960,6 +31879,36 @@
       }, {
         "userId": 119201984,
         "missionId": 2002813,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033397,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033398,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033399,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033400,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033401,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033402,
         "progressType": 3,
         "num": 0
       }],
@@ -43808,6 +43757,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1713750497
+    "serverTime": 1713791370
   }
 }
