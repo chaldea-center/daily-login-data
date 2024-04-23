@@ -8138,6 +8138,66 @@
     "flag": 0,
     "updatedAt": 1713750491,
     "createdAt": 1713750491
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66958702996,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713836690,
+    "createdAt": 1713836690
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66958702997,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713836690,
+    "createdAt": 1713836690
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66958702998,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713836690,
+    "createdAt": 1713836690
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 66958703009,
+    "messageRefType": 3,
+    "messageId": 2606,
+    "message": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1713836690,
+    "createdAt": 1713836690
   }],
   "loginResult": {
     "loginMessages": [],
@@ -11809,6 +11869,30 @@
       "eventId": 10734,
       "day": 6,
       "updatedAt": 1713750491
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10734,
+      "day": 7,
+      "updatedAt": 1713836690
     }]
   }
 }

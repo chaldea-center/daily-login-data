@@ -2,7 +2,61 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240417_t2g9yj/t2g9yj_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/mahoyo_collaboration_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10734,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 302,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +590,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 104,
-        "totalLoginCount": 301,
-        "lastLoginAt": 1713791364,
+        "seqLoginCount": 105,
+        "totalLoginCount": 302,
+        "lastLoginAt": 1713836690,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -40229,6 +40283,66 @@
         "flag": 0,
         "updatedAt": 1713750491,
         "createdAt": 1713750491
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66958702996,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713836690,
+        "createdAt": 1713836690
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66958702997,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713836690,
+        "createdAt": 1713836690
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66958702998,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713836690,
+        "createdAt": 1713836690
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 66958703009,
+        "messageRefType": 3,
+        "messageId": 2606,
+        "message": "魔法使いの夜×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1713836690,
+        "createdAt": 1713836690
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43958,6 +44072,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1713791364
+    "serverTime": 1713836690
   }
 }
