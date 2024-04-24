@@ -2,34 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 311,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -565,7 +538,7 @@
         "userId": 119201984,
         "seqLoginCount": 178,
         "totalLoginCount": 311,
-        "lastLoginAt": 1713923197,
+        "lastLoginAt": 1713964528,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31910,32 +31883,32 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033397,
+        "missionId": 1033403,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033398,
+        "missionId": 1033404,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033399,
+        "missionId": 1033405,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033400,
+        "missionId": 1033406,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033401,
+        "missionId": 1033407,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033402,
+        "missionId": 1033408,
         "progressType": 3,
         "num": 0
       }],
@@ -43859,6 +43832,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1713923197
+    "serverTime": 1713964528
   }
 }
