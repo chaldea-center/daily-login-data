@@ -8228,6 +8228,36 @@
     "flag": 0,
     "updatedAt": 1713923190,
     "createdAt": 1713923190
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67083844250,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714009607,
+    "createdAt": 1714009607
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67083844251,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714009607,
+    "createdAt": 1714009607
   }],
   "loginResult": {
     "loginMessages": [],
