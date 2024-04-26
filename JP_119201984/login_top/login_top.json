@@ -3,19 +3,18 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 5,
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
         "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "4月交換券(2024)",
+          "name": "黄金の果実",
           "num": 1
         }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
+            "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,12 +22,9 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 313,
-        "items": [],
-        "script": {}
+        },
+        "eventId": 10736,
+        "day": 1
       }]
     },
     "fail": {},
@@ -565,7 +561,7 @@
         "userId": 119201984,
         "seqLoginCount": 180,
         "totalLoginCount": 313,
-        "lastLoginAt": 1714095866,
+        "lastLoginAt": 1714154118,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40192,6 +40188,21 @@
         "flag": 0,
         "updatedAt": 1714095866,
         "createdAt": 1714095866
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67159662596,
+        "messageRefType": 3,
+        "messageId": 2579,
+        "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714154118,
+        "createdAt": 1714154118
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43307,6 +43318,7 @@
         "eventId": 0
       }],
       "userSvtLeader": [{
+        "afterTransformSvtInfo": null,
         "dispLimitCount": 13,
         "imageLimitCount": 13,
         "commandCardLimitCount": 13,
@@ -43541,6 +43553,16 @@
       }, {
         "userId": 119201984,
         "eventId": 80473,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119201984,
+        "eventId": 80472,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -43919,6 +43941,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1714095866
+    "serverTime": 1714154118
   }
 }

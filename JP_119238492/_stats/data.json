@@ -8288,6 +8288,21 @@
     "flag": 0,
     "updatedAt": 1714095859,
     "createdAt": 1714095859
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67159658903,
+    "messageRefType": 3,
+    "messageId": 2579,
+    "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714154111,
+    "createdAt": 1714154111
   }],
   "loginResult": {
     "loginMessages": [],
@@ -11983,6 +11998,29 @@
       "eventId": 10734,
       "day": 7,
       "updatedAt": 1713836690
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10736,
+      "day": 1,
+      "updatedAt": 1714154111
     }]
   }
 }
