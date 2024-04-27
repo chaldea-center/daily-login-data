@@ -3,63 +3,36 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "4月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "「魔法使いの夜」コラボレーションイベント開幕記念放送\nFGO カルデア放送局SP 放送記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！10万リポスト達成プレゼント",
+        "detail": "開催期間中、初回ログインで10万リポスト達成報酬をプレゼント！",
         "addDetail": "",
         "items": [{
+          "name": "QP",
+          "num": 5000000
+        }, {
           "name": "聖晶石",
-          "num": 14
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240427_wri7kp/wri7kp_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/0426nico/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10735,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
+          "num": 12
+        }, {
+          "name": "マナプリズム",
+          "num": 100
+        }, {
+          "name": "レアプリズム",
           "num": 1
+        }, {
+          "name": "黄金の果実",
+          "num": 5
+        }, {
+          "name": "白銀の果実",
+          "num": 5
+        }, {
+          "name": "呼符",
+          "num": 5
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_02.png",
+            "bannerUrl": "/webview/loginbonus/20240427_b28z2d/b28z2d_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -68,13 +41,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10736,
-        "day": 2
-      }],
-      "totalLoginBonus": [{
-        "num": 314,
-        "items": [],
-        "script": {}
+        "eventId": 10733,
+        "day": 1
       }]
     },
     "fail": {},
@@ -611,7 +579,7 @@
         "userId": 119201984,
         "seqLoginCount": 181,
         "totalLoginCount": 314,
-        "lastLoginAt": 1714182169,
+        "lastLoginAt": 1714223380,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40328,6 +40296,111 @@
         "flag": 0,
         "updatedAt": 1714182169,
         "createdAt": 1714182169
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999673,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 5000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999674,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 12,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999675,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 3,
+        "num": 100,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999676,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 18,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999677,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999678,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67245999679,
+        "messageRefType": 3,
+        "messageId": 2576,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2024！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714223380,
+        "createdAt": 1714223380
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44066,6 +44139,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1714182169
+    "serverTime": 1714223380
   }
 }
