@@ -3,18 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "4月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「魔法使いの夜」コラボレーションイベント開幕記念放送\nFGO カルデア放送局SP 放送記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240427_wri7kp/wri7kp_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/0426nico/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10735,
+        "day": 1
+      }, {
         "isDeemedLogin": false,
         "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -24,7 +69,12 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10736,
-        "day": 1
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 314,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -559,9 +609,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 180,
-        "totalLoginCount": 313,
-        "lastLoginAt": 1714154118,
+        "seqLoginCount": 181,
+        "totalLoginCount": 314,
+        "lastLoginAt": 1714182169,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40203,6 +40253,81 @@
         "flag": 0,
         "updatedAt": 1714154118,
         "createdAt": 1714154118
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67184828220,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714182169,
+        "createdAt": 1714182169
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67184828221,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10080,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714182169,
+        "createdAt": 1714182169
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67184828246,
+        "messageRefType": 3,
+        "messageId": 2578,
+        "message": "「魔法使いの夜」コラボレーションイベント開幕記念放送\nFGO カルデア放送局SP 放送記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714182169,
+        "createdAt": 1714182169
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67184828247,
+        "messageRefType": 3,
+        "messageId": 2580,
+        "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714182169,
+        "createdAt": 1714182169
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 67184828249,
+        "messageRefType": 4,
+        "messageId": 577,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/26 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1714182169,
+        "createdAt": 1714182169
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -43941,6 +44066,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1714154118
+    "serverTime": 1714182169
   }
 }
