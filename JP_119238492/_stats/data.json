@@ -8483,6 +8483,66 @@
     "flag": 0,
     "updatedAt": 1714223372,
     "createdAt": 1714223372
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67327296444,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1714269183,
+    "createdAt": 1714269183
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67327296445,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714269183,
+    "createdAt": 1714269183
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67327296479,
+    "messageRefType": 3,
+    "messageId": 2581,
+    "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(3/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714269183,
+    "createdAt": 1714269183
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67327296482,
+    "messageRefType": 4,
+    "messageId": 578,
+    "message": "コラボレーションイベントにおける「怪異大量発生クエスト」の開放条件変更に関するお詫び (4/28 0:45掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714269183,
+    "createdAt": 1714269183
   }],
   "loginResult": {
     "loginMessages": [],
@@ -12289,6 +12349,29 @@
       "eventId": 10733,
       "day": 1,
       "updatedAt": 1714223372
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10736,
+      "day": 3,
+      "updatedAt": 1714269183
     }]
   }
 }
