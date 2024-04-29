@@ -8543,6 +8543,51 @@
     "flag": 0,
     "updatedAt": 1714269183,
     "createdAt": 1714269183
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67420715358,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714355215,
+    "createdAt": 1714355215
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67420715359,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10080,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714355215,
+    "createdAt": 1714355215
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67420715427,
+    "messageRefType": 3,
+    "messageId": 2582,
+    "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(4/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714355215,
+    "createdAt": 1714355215
   }],
   "loginResult": {
     "loginMessages": [],
@@ -12372,6 +12417,29 @@
       "eventId": 10736,
       "day": 3,
       "updatedAt": 1714269183
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240426_886j4u/886j4u_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10736,
+      "day": 4,
+      "updatedAt": 1714355215
     }]
   }
 }
