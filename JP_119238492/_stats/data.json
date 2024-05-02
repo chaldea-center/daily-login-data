@@ -8693,6 +8693,66 @@
     "flag": 0,
     "updatedAt": 1714528418,
     "createdAt": 1714528418
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67616101637,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714614275,
+    "createdAt": 1714614275
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67616101638,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10081,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714614275,
+    "createdAt": 1714614275
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67616101649,
+    "messageRefType": 3,
+    "messageId": 2607,
+    "message": "【リリース3200日突破キャンペーン】\nグランドオーダー発令から3200日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714614275,
+    "createdAt": 1714614275
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 67616101650,
+    "messageRefType": 3,
+    "messageId": 2585,
+    "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(7/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1714614275,
+    "createdAt": 1714614275
   }],
   "loginResult": {
     "loginMessages": [],
@@ -12591,6 +12651,52 @@
       "eventId": 10736,
       "day": 6,
       "updatedAt": 1714528418
+    }, {
+      "isDeemedLogin": false,
+      "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240426_886j4u/m3p8un_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10736,
+      "day": 7,
+      "updatedAt": 1714614275
+    }, {
+      "isDeemedLogin": false,
+      "name": "リリース3200日突破キャンペーン 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240502_t5mxzz/t5mxzz_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10737,
+      "day": 1,
+      "updatedAt": 1714614275
     }]
   }
 }
