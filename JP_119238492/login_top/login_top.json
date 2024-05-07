@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "5月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "魔法使いの夜アフターナイト／隈乃温泉殺人事件 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240426_886j4u/m3p8un_k_12.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10736,
+        "day": 12
+      }],
+      "totalLoginBonus": [{
+        "num": 316,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +589,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 118,
-        "totalLoginCount": 315,
-        "lastLoginAt": 1715001011,
+        "seqLoginCount": 119,
+        "totalLoginCount": 316,
+        "lastLoginAt": 1715046582,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41059,6 +41112,66 @@
         "flag": 0,
         "updatedAt": 1714960174,
         "createdAt": 1714960174
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68047006905,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715046582,
+        "createdAt": 1715046582
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68047006906,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715046582,
+        "createdAt": 1715046582
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68047006907,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10081,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715046582,
+        "createdAt": 1715046582
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68047006924,
+        "messageRefType": 3,
+        "messageId": 2590,
+        "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(12/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715046582,
+        "createdAt": 1715046582
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44789,6 +44902,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1715001011
+    "serverTime": 1715046582
   }
 }
