@@ -4,18 +4,18 @@
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
       "seqLoginBonus": [{
-        "num": 1,
+        "num": 2,
         "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
+          "name": "聖晶石",
+          "num": 1
         }, {
           "name": "5月交換券(2024)",
           "num": 1
         }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -31,12 +31,12 @@
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "白銀の果実",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240426_886j4u/m3p8un_k_14.png",
+            "bannerUrl": "/webview/loginbonus/20240426_886j4u/m3p8un_k_15.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -46,10 +46,10 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10736,
-        "day": 14
+        "day": 15
       }],
       "totalLoginBonus": [{
-        "num": 318,
+        "num": 319,
         "items": [],
         "script": {}
       }]
@@ -586,9 +586,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 1,
-        "totalLoginCount": 318,
-        "lastLoginAt": 1715352332,
+        "seqLoginCount": 2,
+        "totalLoginCount": 319,
+        "lastLoginAt": 1715391794,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41159,6 +41159,51 @@
         "flag": 0,
         "updatedAt": 1715352332,
         "createdAt": 1715352332
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68334459927,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715391794,
+        "createdAt": 1715391794
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68334459928,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10081,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715391794,
+        "createdAt": 1715391794
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 68334459935,
+        "messageRefType": 3,
+        "messageId": 2593,
+        "message": "魔法使いの夜アフターナイト／隈乃温泉殺人事件\n開幕記念 ログインボーナスです。(15/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1715391794,
+        "createdAt": 1715391794
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44889,6 +44934,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1715352332
+    "serverTime": 1715391794
   }
 }
