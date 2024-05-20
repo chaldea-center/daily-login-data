@@ -6938,6 +6938,51 @@
     "flag": 0,
     "updatedAt": 1716083638,
     "createdAt": 1716083638
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 69072289971,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1716169743,
+    "createdAt": 1716169743
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 69072289972,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10081,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1716169743,
+    "createdAt": 1716169743
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 69072289983,
+    "messageRefType": 3,
+    "messageId": 2611,
+    "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(4/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1716169743,
+    "createdAt": 1716169743
   }],
   "loginResult": {
     "loginMessages": [],
@@ -11026,6 +11071,29 @@
       "eventId": 10738,
       "day": 3,
       "updatedAt": 1716083638
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10738,
+      "day": 4,
+      "updatedAt": 1716169743
     }]
   }
 }
