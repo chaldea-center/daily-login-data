@@ -2,7 +2,57 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "5月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10738,
+        "day": 6
+      }],
+      "totalLoginBonus": [{
+        "num": 338,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +586,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 12,
-        "totalLoginCount": 337,
-        "lastLoginAt": 1716297006,
+        "seqLoginCount": 13,
+        "totalLoginCount": 338,
+        "lastLoginAt": 1716342565,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41950,6 +42000,51 @@
         "flag": 0,
         "updatedAt": 1716256011,
         "createdAt": 1716256011
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69227691674,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716342565,
+        "createdAt": 1716342565
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69227691675,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10081,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716342565,
+        "createdAt": 1716342565
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69227691698,
+        "messageRefType": 3,
+        "messageId": 2613,
+        "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(6/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716342565,
+        "createdAt": 1716342565
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45688,6 +45783,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1716297006
+    "serverTime": 1716342565
   }
 }
