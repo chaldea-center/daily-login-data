@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "5月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10738,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 331,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +589,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 13,
-        "totalLoginCount": 330,
-        "lastLoginAt": 1716383368,
+        "seqLoginCount": 14,
+        "totalLoginCount": 331,
+        "lastLoginAt": 1716428834,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42209,6 +42262,66 @@
         "flag": 0,
         "updatedAt": 1716342558,
         "createdAt": 1716342558
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 69307541786,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716428834,
+        "createdAt": 1716428834
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 69307541787,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716428834,
+        "createdAt": 1716428834
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 69307541788,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10081,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716428834,
+        "createdAt": 1716428834
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 69307541813,
+        "messageRefType": 3,
+        "messageId": 2614,
+        "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(7/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1716428834,
+        "createdAt": 1716428834
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45949,6 +46062,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1716383368
+    "serverTime": 1716428834
   }
 }
