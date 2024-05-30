@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "5月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_14.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10738,
+        "day": 14
+      }],
+      "totalLoginBonus": [{
+        "num": 346,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +589,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 20,
-        "totalLoginCount": 345,
-        "lastLoginAt": 1716988161,
+        "seqLoginCount": 21,
+        "totalLoginCount": 346,
+        "lastLoginAt": 1717033967,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41825,6 +41878,66 @@
         "flag": 0,
         "updatedAt": 1716947748,
         "createdAt": 1716947748
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69844254050,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717033967,
+        "createdAt": 1717033967
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69844254051,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717033967,
+        "createdAt": 1717033967
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69844254052,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10081,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717033967,
+        "createdAt": 1717033967
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 69844254367,
+        "messageRefType": 3,
+        "messageId": 2621,
+        "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(14/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717033967,
+        "createdAt": 1717033967
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45563,6 +45676,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1716988161
+    "serverTime": 1717033967
   }
 }
