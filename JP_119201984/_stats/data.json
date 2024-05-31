@@ -7508,6 +7508,21 @@
     "flag": 0,
     "updatedAt": 1717120351,
     "createdAt": 1717120351
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 69949173102,
+    "messageRefType": 3,
+    "messageId": 2651,
+    "message": "幕間の物語キャンペーン 第19弾\n特別ログインボーナスです。(1/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1717160946,
+    "createdAt": 1717160946
   }],
   "loginResult": {
     "loginMessages": [],
@@ -11872,6 +11887,29 @@
       "eventId": 10738,
       "day": 15,
       "updatedAt": 1717120351
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕間の物語キャンペーン 第19弾 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240531_veh4d2/veh4d2_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10741,
+      "day": 1,
+      "updatedAt": 1717160946
     }]
   }
 }
