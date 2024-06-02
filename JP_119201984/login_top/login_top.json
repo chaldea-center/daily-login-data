@@ -2,7 +2,79 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "6月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_17.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10738,
+        "day": 17
+      }, {
+        "isDeemedLogin": false,
+        "name": "幕間の物語キャンペーン 第19弾 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240531_veh4d2/veh4d2_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10741,
+        "day": 3
+      }],
+      "totalLoginBonus": [{
+        "num": 349,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +608,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 23,
-        "totalLoginCount": 348,
-        "lastLoginAt": 1717247207,
+        "seqLoginCount": 24,
+        "totalLoginCount": 349,
+        "lastLoginAt": 1717293357,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42040,6 +42112,66 @@
         "flag": 0,
         "updatedAt": 1717206933,
         "createdAt": 1717206933
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70104623714,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1717293357,
+        "createdAt": 1717293357
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70104623715,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10082,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717293357,
+        "createdAt": 1717293357
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70104623751,
+        "messageRefType": 3,
+        "messageId": 2624,
+        "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(17/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717293357,
+        "createdAt": 1717293357
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70104623752,
+        "messageRefType": 3,
+        "messageId": 2653,
+        "message": "幕間の物語キャンペーン 第19弾\n特別ログインボーナスです。(3/5)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1717293357,
+        "createdAt": 1717293357
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45778,6 +45910,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1717247207
+    "serverTime": 1717293357
   }
 }
