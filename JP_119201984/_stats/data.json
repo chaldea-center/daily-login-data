@@ -7718,6 +7718,66 @@
     "flag": 0,
     "updatedAt": 1717379663,
     "createdAt": 1717379663
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 70279235465,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1717465976,
+    "createdAt": 1717465976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 70279235466,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10082,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1717465976,
+    "createdAt": 1717465976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 70279235499,
+    "messageRefType": 3,
+    "messageId": 2626,
+    "message": "カルデア・サマーアドベンチャー！ アンケート復刻版\n開幕記念 ログインボーナスです。(19/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1717465976,
+    "createdAt": 1717465976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 70279235500,
+    "messageRefType": 3,
+    "messageId": 2655,
+    "message": "幕間の物語キャンペーン 第19弾\n特別ログインボーナスです。(5/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1717465976,
+    "createdAt": 1717465976
   }],
   "loginResult": {
     "loginMessages": [],
@@ -12261,6 +12321,52 @@
       "eventId": 10741,
       "day": 4,
       "updatedAt": 1717379663
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・サマーアドベンチャー！ アンケート復刻版 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240517_rd29nu/rd29nu_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10738,
+      "day": 19,
+      "updatedAt": 1717465976
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕間の物語キャンペーン 第19弾 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240531_veh4d2/veh4d2_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10741,
+      "day": 5,
+      "updatedAt": 1717465976
     }]
   }
 }
