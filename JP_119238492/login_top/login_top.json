@@ -2,7 +2,34 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "6月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "totalLoginBonus": [{
+        "num": 346,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +563,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 28,
-        "totalLoginCount": 345,
-        "lastLoginAt": 1717679391,
+        "seqLoginCount": 29,
+        "totalLoginCount": 346,
+        "lastLoginAt": 1717725274,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42549,6 +42576,36 @@
         "flag": 0,
         "updatedAt": 1717638735,
         "createdAt": 1717638735
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 70528353684,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717725274,
+        "createdAt": 1717725274
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 70528353685,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10082,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717725274,
+        "createdAt": 1717725274
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -46289,6 +46346,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1717679391
+    "serverTime": 1717725274
   }
 }
