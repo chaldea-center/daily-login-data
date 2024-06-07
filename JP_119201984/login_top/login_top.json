@@ -3,19 +3,18 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
         "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "6月交換券(2024)",
+          "name": "黄金の果実",
           "num": 1
         }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/p6xdt2_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,12 +22,9 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 354,
-        "items": [],
-        "script": {}
+        },
+        "eventId": 10739,
+        "day": 1
       }]
     },
     "fail": {},
@@ -565,7 +561,7 @@
         "userId": 119201984,
         "seqLoginCount": 29,
         "totalLoginCount": 354,
-        "lastLoginAt": 1717725281,
+        "lastLoginAt": 1717765826,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31918,6 +31914,66 @@
         "missionId": 1033427,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033409,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033410,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033411,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033412,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033413,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033414,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033415,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033416,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033417,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033418,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033419,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033420,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -42407,6 +42463,21 @@
         "flag": 0,
         "updatedAt": 1717725281,
         "createdAt": 1717725281
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70541743079,
+        "messageRefType": 3,
+        "messageId": 2629,
+        "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1717765826,
+        "createdAt": 1717765826
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45766,6 +45837,16 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
+        "eventId": 80476,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119201984,
         "eventId": 80038,
         "value": 0,
         "flag": 0,
@@ -46145,6 +46226,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1717725281
+    "serverTime": 1717765826
   }
 }
