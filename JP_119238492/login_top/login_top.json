@@ -3,69 +3,7 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "6月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/p6xdt2_k_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10739,
-        "day": 5
-      }],
-      "totalLoginBonus": [{
-        "num": 350,
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00350.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }]
+      "freeShopIds": [6000113, 6000606]
     },
     "fail": {},
     "nid": "login"
@@ -601,7 +539,7 @@
         "userId": 119238492,
         "seqLoginCount": 33,
         "totalLoginCount": 350,
-        "lastLoginAt": 1718070883,
+        "lastLoginAt": 1718111462,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46677,6 +46615,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1718070883
+    "serverTime": 1718111462
   }
 }
