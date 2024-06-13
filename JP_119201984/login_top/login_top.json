@@ -2,7 +2,60 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "6月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/p6xdt2_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10739,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 360,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +589,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 34,
-        "totalLoginCount": 359,
-        "lastLoginAt": 1718197825,
+        "seqLoginCount": 35,
+        "totalLoginCount": 360,
+        "lastLoginAt": 1718243633,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42685,6 +42738,66 @@
         "flag": 0,
         "updatedAt": 1718157267,
         "createdAt": 1718157267
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70947477180,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718243633,
+        "createdAt": 1718243633
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70947477181,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718243633,
+        "createdAt": 1718243633
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70947477182,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10082,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718243633,
+        "createdAt": 1718243633
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 70947477228,
+        "messageRefType": 3,
+        "messageId": 2635,
+        "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(7/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718243633,
+        "createdAt": 1718243633
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -46433,6 +46546,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1718197825
+    "serverTime": 1718243633
   }
 }
