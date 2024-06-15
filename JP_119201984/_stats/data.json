@@ -8273,6 +8273,51 @@
     "flag": 0,
     "updatedAt": 1718330052,
     "createdAt": 1718330052
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71095790961,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1718416389,
+    "createdAt": 1718416389
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71095790962,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10082,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1718416389,
+    "createdAt": 1718416389
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71095790969,
+    "messageRefType": 3,
+    "messageId": 2637,
+    "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(9/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1718416389,
+    "createdAt": 1718416389
   }],
   "loginResult": {
     "loginMessages": [],
@@ -13092,6 +13137,29 @@
       "eventId": 10739,
       "day": 8,
       "updatedAt": 1718330052
+    }, {
+      "isDeemedLogin": false,
+      "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/sut4bd_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10739,
+      "day": 9,
+      "updatedAt": 1718416389
     }]
   }
 }
