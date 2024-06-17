@@ -2,7 +2,57 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "6月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/sut4bd_k_11.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10739,
+        "day": 11
+      }],
+      "totalLoginBonus": [{
+        "num": 364,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +586,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 38,
-        "totalLoginCount": 363,
-        "lastLoginAt": 1718543295,
+        "seqLoginCount": 39,
+        "totalLoginCount": 364,
+        "lastLoginAt": 1718589438,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31848,42 +31898,47 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2002856,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002857,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002858,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002859,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002860,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002861,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002862,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033440,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033441,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002863,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002864,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002865,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002866,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002867,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002868,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002869,
         "progressType": 3,
         "num": 0
       }],
@@ -42825,6 +42880,51 @@
         "flag": 0,
         "updatedAt": 1718503178,
         "createdAt": 1718503178
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 71247359925,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718589438,
+        "createdAt": 1718589438
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 71247359926,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10082,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718589438,
+        "createdAt": 1718589438
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 71247359950,
+        "messageRefType": 3,
+        "messageId": 2639,
+        "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(11/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1718589438,
+        "createdAt": 1718589438
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -46563,6 +46663,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1718543295
+    "serverTime": 1718589438
   }
 }
