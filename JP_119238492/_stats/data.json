@@ -11258,12 +11258,31 @@
     "flag": 0,
     "updatedAt": 1718934774,
     "createdAt": 1718934774
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 71623979726,
+    "messageRefType": 3,
+    "messageId": 2656,
+    "message": "幕間の物語キャンペーン 第20弾\n特別ログインボーナスです。(1/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1718975381,
+    "createdAt": 1718975381
   }],
   "loginResult": {
     "loginMessages": [{
       "title": "",
       "message": "6月19日(水) 18:00実施のメンテナンス以降、\r\nゲームがプレイできなかった日についても、\r\nログインしたこととみなす対応をおこないました。\r\n\r\n▼対象は以下となります。\r\n「連続ログインボーナス」\r\n「通算ログインボーナス」\r\n「連続ログイン日数」\r\n「通算ログイン日数」\r\n「期間限定のログインボーナス」",
       "updatedAt": 1718888973
+    }, {
+      "title": "",
+      "message": "6月19日(水) 18:00実施のメンテナンス以降、\r\nゲームがプレイできなかった日についても、\r\nログインしたこととみなす対応をおこないました。\r\n\r\n▼対象は以下となります。\r\n「連続ログインボーナス」\r\n「通算ログインボーナス」\r\n「連続ログイン日数」\r\n「通算ログイン日数」\r\n「期間限定のログインボーナス」",
+      "updatedAt": 1718975381
     }],
     "totalLoginBonus": [{
       "num": 250,
@@ -16561,6 +16580,29 @@
       "eventId": 10746,
       "day": 2,
       "updatedAt": 1718934774
+    }, {
+      "isDeemedLogin": true,
+      "name": "幕間の物語キャンペーン 第20弾 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240621_9soar/9s7oar_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10742,
+      "day": 1,
+      "updatedAt": 1718975381
     }]
   }
 }
