@@ -2,22 +2,41 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "loginMessages": [{
-        "title": "",
-        "message": "6月19日(水) 18:00実施のメンテナンス以降、\r\nゲームがプレイできなかった日についても、\r\nログインしたこととみなす対応をおこないました。\r\n\r\n▼対象は以下となります。\r\n「連続ログインボーナス」\r\n「通算ログインボーナス」\r\n「連続ログイン日数」\r\n「通算ログイン日数」\r\n「期間限定のログインボーナス」"
+      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "6月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
       }],
       "campaignbonus": [{
-        "isDeemedLogin": true,
+        "isDeemedLogin": false,
         "name": "幕間の物語キャンペーン 第20弾 特別ログインボーナス",
         "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "呼符",
-          "num": 1
+          "name": "叡智の業火",
+          "num": 3
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240621_9soar/9s7oar_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20240621_9soar/9s7oar_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -27,9 +46,58 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10742,
-        "day": 1
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "「踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～」\n開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 2000000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240620_8eyxbh/8eyxbh_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/dragon_castle_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10746,
+        "day": 3
+      }, {
+        "isDeemedLogin": false,
+        "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/sut4bd_k_16.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10739,
+        "day": 16
       }],
-      "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D"
+      "totalLoginBonus": [{
+        "num": 361,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -563,9 +631,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 43,
-        "totalLoginCount": 360,
-        "lastLoginAt": 1718975381,
+        "seqLoginCount": 44,
+        "totalLoginCount": 361,
+        "lastLoginAt": 1719021080,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -31383,6 +31451,31 @@
         "num": 0
       }, {
         "userId": 119238492,
+        "missionId": 1033421,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1033422,
+        "progressType": 3,
+        "num": 2
+      }, {
+        "userId": 119238492,
+        "missionId": 1033423,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119238492,
+        "missionId": 1033424,
+        "progressType": 3,
+        "num": 4
+      }, {
+        "userId": 119238492,
+        "missionId": 1033425,
+        "progressType": 3,
+        "num": 5
+      }, {
+        "userId": 119238492,
         "missionId": 1033440,
         "progressType": 3,
         "num": 0
@@ -31413,29 +31506,9 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033421,
+        "missionId": 1033446,
         "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033422,
-        "progressType": 3,
-        "num": 2
-      }, {
-        "userId": 119238492,
-        "missionId": 1033423,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119238492,
-        "missionId": 1033424,
-        "progressType": 3,
-        "num": 4
-      }, {
-        "userId": 119238492,
-        "missionId": 1033425,
-        "progressType": 3,
-        "num": 5
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -43451,6 +43524,81 @@
         "flag": 0,
         "updatedAt": 1718975381,
         "createdAt": 1718975381
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 71722069577,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1719021080,
+        "createdAt": 1719021080
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 71722069578,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10082,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1719021080,
+        "createdAt": 1719021080
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 71722069631,
+        "messageRefType": 3,
+        "messageId": 2657,
+        "message": "幕間の物語キャンペーン 第20弾\n特別ログインボーナスです。(2/5)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1719021080,
+        "createdAt": 1719021080
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 71722069632,
+        "messageRefType": 3,
+        "messageId": 2644,
+        "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(16/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1719021080,
+        "createdAt": 1719021080
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 71722069633,
+        "messageRefType": 3,
+        "messageId": 2664,
+        "message": "「踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～」\n開幕直前特別ログインボーナスです。(3/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 2000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1719021080,
+        "createdAt": 1719021080
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -47191,6 +47339,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1718975381
+    "serverTime": 1719021080
   }
 }
