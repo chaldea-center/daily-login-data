@@ -538,7 +538,7 @@
         "userId": 119201984,
         "seqLoginCount": 45,
         "totalLoginCount": 370,
-        "lastLoginAt": 1719148043,
+        "lastLoginAt": 1719166419,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31848,41 +31848,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2002863,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002864,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002865,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002866,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002867,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002868,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002869,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033421,
         "progressType": 3,
         "num": 1
@@ -31944,6 +31909,46 @@
       }, {
         "userId": 119201984,
         "missionId": 1033447,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033448,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002870,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002871,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002872,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002873,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002874,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002875,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002876,
         "progressType": 3,
         "num": 0
       }],
@@ -47108,6 +47113,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1719148043
+    "serverTime": 1719166419
   }
 }
