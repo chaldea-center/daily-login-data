@@ -8813,6 +8813,81 @@
     "flag": 0,
     "updatedAt": 1719107902,
     "createdAt": 1719107902
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71916450267,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719194166,
+    "createdAt": 1719194166
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71916450268,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10082,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719194166,
+    "createdAt": 1719194166
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71916450301,
+    "messageRefType": 3,
+    "messageId": 2659,
+    "message": "幕間の物語キャンペーン 第20弾\n特別ログインボーナスです。(4/5)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1719194166,
+    "createdAt": 1719194166
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71916450302,
+    "messageRefType": 3,
+    "messageId": 2646,
+    "message": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～\nアンケート復刻版 開幕記念 ログインボーナスです。(18/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719194166,
+    "createdAt": 1719194166
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 71916450303,
+    "messageRefType": 3,
+    "messageId": 2666,
+    "message": "「踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～」\n開幕直前特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1719194166,
+    "createdAt": 1719194166
   }],
   "loginResult": {
     "loginMessages": [{
@@ -14012,6 +14087,76 @@
       "eventId": 10746,
       "day": 4,
       "updatedAt": 1719107902
+    }, {
+      "isDeemedLogin": false,
+      "name": "螺旋証明世界 リリムハーロット ～喝采なき薔薇～ アンケート復刻版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240607_p6xdt2/sut4bd_k_18.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10739,
+      "day": 18,
+      "updatedAt": 1719194166
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕間の物語キャンペーン 第20弾 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 特別ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240621_9soar/9s7oar_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10742,
+      "day": 4,
+      "updatedAt": 1719194166
+    }, {
+      "isDeemedLogin": false,
+      "name": "「踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～」\n開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240620_8eyxbh/8eyxbh_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/dragon_castle_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10746,
+      "day": 5,
+      "updatedAt": 1719194166
     }]
   }
 }
