@@ -9128,6 +9128,81 @@
     "flag": 0,
     "updatedAt": 1719580175,
     "createdAt": 1719580175
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 72348147166,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719625976,
+    "createdAt": 1719625976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 72348147167,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10082,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719625976,
+    "createdAt": 1719625976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 72348147185,
+    "messageRefType": 3,
+    "messageId": 2661,
+    "message": "FGO カルデア放送局 ライト版 \nFGO Fes. 2024＆ゲーム最新情報\n放送記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719625976,
+    "createdAt": 1719625976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 72348147186,
+    "messageRefType": 3,
+    "messageId": 2670,
+    "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719625976,
+    "createdAt": 1719625976
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 72348147191,
+    "messageRefType": 4,
+    "messageId": 582,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (6/28 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1719625976,
+    "createdAt": 1719625976
   }],
   "loginResult": {
     "loginMessages": [{
@@ -14560,6 +14635,53 @@
       "eventId": 10745,
       "day": 1,
       "updatedAt": 1719580175
+    }, {
+      "isDeemedLogin": false,
+      "name": "FGO カルデア放送局 ライト版 FGO Fes. 2024＆ゲーム最新情報 放送記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240629_98mtkt/98mtkt_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/0628nico/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10744,
+      "day": 1,
+      "updatedAt": 1719625976
+    }, {
+      "isDeemedLogin": false,
+      "name": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240628_nt5rnz/nt5rnz_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10745,
+      "day": 2,
+      "updatedAt": 1719625976
     }]
   }
 }
