@@ -12188,6 +12188,51 @@
     "flag": 0,
     "updatedAt": 1720317669,
     "createdAt": 1720317669
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 73055737909,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1720403879,
+    "createdAt": 1720403879
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 73055737910,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10083,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1720403879,
+    "createdAt": 1720403879
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 73055737919,
+    "messageRefType": 3,
+    "messageId": 2679,
+    "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(11/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1720403879,
+    "createdAt": 1720403879
   }],
   "loginResult": {
     "loginMessages": [{
@@ -18122,6 +18167,29 @@
       "eventId": 10745,
       "day": 10,
       "updatedAt": 1720317669
+    }, {
+      "isDeemedLogin": false,
+      "name": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240628_nt5rnz/nt5rnz_k_11.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10745,
+      "day": 11,
+      "updatedAt": 1720403879
     }]
   }
 }
