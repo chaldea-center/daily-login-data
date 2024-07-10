@@ -9713,6 +9713,36 @@
     "flag": 0,
     "updatedAt": 1720576612,
     "createdAt": 1720576612
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 73230816781,
+    "messageRefType": 3,
+    "messageId": 2704,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1720617178,
+    "createdAt": 1720617178
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 73230816782,
+    "messageRefType": 3,
+    "messageId": 2711,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1720617178,
+    "createdAt": 1720617178
   }],
   "loginResult": {
     "loginMessages": [{
@@ -15445,6 +15475,52 @@
       "eventId": 10745,
       "day": 13,
       "updatedAt": 1720576612
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240710_m6wh3y/m6wh3y_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10753,
+      "day": 1,
+      "updatedAt": 1720617178
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×5」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240710_42ixnh/42ixnh_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10754,
+      "day": 1,
+      "updatedAt": 1720617178
     }]
   }
 }
