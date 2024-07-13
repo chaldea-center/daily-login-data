@@ -2,102 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "7月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 2000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240711_s2ed5w/s2ed5w_k_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10748,
-        "day": 3
-      }, {
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240710_m6wh3y/m6wh3y_k_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10753,
-        "day": 4
-      }, {
-        "isDeemedLogin": false,
-        "name": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～ 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240628_nt5rnz/nt5rnz_k_16.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10745,
-        "day": 16
-      }],
-      "totalLoginBonus": [{
-        "num": 390,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -633,7 +538,7 @@
         "userId": 119201984,
         "seqLoginCount": 65,
         "totalLoginCount": 390,
-        "lastLoginAt": 1720835752,
+        "lastLoginAt": 1720876135,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -42605,6 +42510,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1720835752
+    "serverTime": 1720876135
   }
 }
