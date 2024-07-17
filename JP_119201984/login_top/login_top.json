@@ -2,7 +2,80 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "7月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "マナプリズム",
+          "num": 50
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240711_s2ed5w/s2ed5w_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10748,
+        "day": 7
+      }, {
+        "isDeemedLogin": false,
+        "name": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240628_nt5rnz/nt5rnz_k_20.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10745,
+        "day": 20
+      }],
+      "totalLoginBonus": [{
+        "num": 394,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +609,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 68,
-        "totalLoginCount": 393,
-        "lastLoginAt": 1721135165,
+        "seqLoginCount": 69,
+        "totalLoginCount": 394,
+        "lastLoginAt": 1721181477,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -38987,6 +39060,66 @@
         "flag": 0,
         "updatedAt": 1721095117,
         "createdAt": 1721095117
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74003083476,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721181477,
+        "createdAt": 1721181477
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74003083477,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10083,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721181477,
+        "createdAt": 1721181477
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74003083495,
+        "messageRefType": 3,
+        "messageId": 2688,
+        "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(20/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721181477,
+        "createdAt": 1721181477
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74003083496,
+        "messageRefType": 3,
+        "messageId": 2703,
+        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 3,
+        "num": 50,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721181477,
+        "createdAt": 1721181477
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42735,6 +42868,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1721135165
+    "serverTime": 1721181477
   }
 }
