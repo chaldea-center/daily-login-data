@@ -2,7 +2,57 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "7月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240717_rkpi69/rkpi69_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10749,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 397,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -536,9 +586,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 71,
-        "totalLoginCount": 396,
-        "lastLoginAt": 1721401733,
+        "seqLoginCount": 72,
+        "totalLoginCount": 397,
+        "lastLoginAt": 1721440470,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -39207,6 +39257,66 @@
         "flag": 16,
         "updatedAt": 1721354230,
         "createdAt": 1721354230
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74304698410,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721440470,
+        "createdAt": 1721440470
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74304698411,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10083,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721440470,
+        "createdAt": 1721440470
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74304698477,
+        "messageRefType": 3,
+        "messageId": 2707,
+        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94100301,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1721440470,
+        "createdAt": 1721440470
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74304698492,
+        "messageRefType": 4,
+        "messageId": 583,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/19 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721440470,
+        "createdAt": 1721440470
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42955,6 +43065,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1721401733
+    "serverTime": 1721440470
   }
 }

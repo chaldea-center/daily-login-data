@@ -13013,6 +13013,66 @@
     "flag": 16,
     "updatedAt": 1721354224,
     "createdAt": 1721354224
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74304682953,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721440462,
+    "createdAt": 1721440462
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74304682954,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10083,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721440462,
+    "createdAt": 1721440462
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74304682968,
+    "messageRefType": 3,
+    "messageId": 2707,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1721440462,
+    "createdAt": 1721440462
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74304682971,
+    "messageRefType": 4,
+    "messageId": 583,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/19 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721440462,
+    "createdAt": 1721440462
   }],
   "loginResult": {
     "loginMessages": [{
@@ -19621,6 +19681,29 @@
       "eventId": 10749,
       "day": 3,
       "updatedAt": 1721354224
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240717_rkpi69/rkpi69_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10749,
+      "day": 4,
+      "updatedAt": 1721440462
     }]
   }
 }
