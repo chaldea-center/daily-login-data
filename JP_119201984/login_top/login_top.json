@@ -2,57 +2,7 @@
   "response": [{
     "resCode": "00",
     "success": {
-      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "7月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240717_rkpi69/rkpi69_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10749,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 399,
-        "items": [],
-        "script": {}
-      }]
+      "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4"
     },
     "fail": {},
     "nid": "login"
@@ -588,7 +538,7 @@
         "userId": 119201984,
         "seqLoginCount": 74,
         "totalLoginCount": 399,
-        "lastLoginAt": 1721613695,
+        "lastLoginAt": 1721653966,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31899,31 +31849,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 1033485,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033486,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033487,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033488,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033489,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 2002898,
         "progressType": 3,
         "num": 0
@@ -31956,6 +31881,31 @@
         "userId": 119201984,
         "missionId": 2002904,
         "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033485,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033486,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033487,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033488,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033489,
+        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -43155,6 +43105,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1721613695
+    "serverTime": 1721653966
   }
 }
