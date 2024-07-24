@@ -3,19 +3,41 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 6,
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "ハンティングクエスト 第14弾\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
         "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "7月交換券(2024)",
+          "name": "黄金の果実",
           "num": 1
         }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "bannerUrl": "/webview/loginbonus/20240724_z76thc/z76thc_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/huntingquest14/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10747,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240724_cxt6by/cxt6by_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,12 +45,9 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "totalLoginBonus": [{
-        "num": 401,
-        "items": [],
-        "script": {}
+        },
+        "eventId": 10750,
+        "day": 1
       }]
     },
     "fail": {},
@@ -565,7 +584,7 @@
         "userId": 119201984,
         "seqLoginCount": 76,
         "totalLoginCount": 401,
-        "lastLoginAt": 1721786271,
+        "lastLoginAt": 1721826752,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31911,27 +31930,27 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033485,
+        "missionId": 1033490,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033486,
+        "missionId": 1033491,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033487,
+        "missionId": 1033492,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033488,
+        "missionId": 1033493,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033489,
+        "missionId": 1033494,
         "progressType": 3,
         "num": 0
       }],
@@ -39474,6 +39493,36 @@
         "flag": 0,
         "updatedAt": 1721786271,
         "createdAt": 1721786271
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74672476146,
+        "messageRefType": 3,
+        "messageId": 2704,
+        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94100301,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1721826752,
+        "createdAt": 1721826752
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 74672476147,
+        "messageRefType": 3,
+        "messageId": 2690,
+        "message": "ハンティングクエスト 第14弾\n特別ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1721826752,
+        "createdAt": 1721826752
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -42843,6 +42892,16 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
+        "eventId": 80486,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119201984,
         "eventId": 80038,
         "value": 0,
         "flag": 0,
@@ -43222,6 +43281,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1721786271
+    "serverTime": 1721826752
   }
 }
