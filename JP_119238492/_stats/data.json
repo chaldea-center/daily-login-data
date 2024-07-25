@@ -13268,6 +13268,81 @@
     "flag": 0,
     "updatedAt": 1721826745,
     "createdAt": 1721826745
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74735354289,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721872651,
+    "createdAt": 1721872651
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74735354290,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721872651,
+    "createdAt": 1721872651
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74735354291,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10083,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721872651,
+    "createdAt": 1721872651
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74735354313,
+    "messageRefType": 3,
+    "messageId": 2705,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1721872651,
+    "createdAt": 1721872651
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74735354314,
+    "messageRefType": 3,
+    "messageId": 2691,
+    "message": "ハンティングクエスト 第14弾\n特別ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1721872651,
+    "createdAt": 1721872651
   }],
   "loginResult": {
     "loginMessages": [{
@@ -20015,6 +20090,53 @@
       "eventId": 10750,
       "day": 1,
       "updatedAt": 1721826745
+    }, {
+      "isDeemedLogin": false,
+      "name": "ハンティングクエスト 第14弾\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240724_z76thc/z76thc_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/huntingquest14/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10747,
+      "day": 2,
+      "updatedAt": 1721872651
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240724_cxt6by/cxt6by_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10750,
+      "day": 2,
+      "updatedAt": 1721872651
     }]
   }
 }
