@@ -13403,6 +13403,81 @@
     "flag": 0,
     "updatedAt": 1721959049,
     "createdAt": 1721959049
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74933895667,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722045328,
+    "createdAt": 1722045328
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74933895668,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10083,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722045328,
+    "createdAt": 1722045328
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74933895725,
+    "messageRefType": 3,
+    "messageId": 2712,
+    "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1722045328,
+    "createdAt": 1722045328
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74933895726,
+    "messageRefType": 3,
+    "messageId": 2707,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1722045328,
+    "createdAt": 1722045328
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 74933895727,
+    "messageRefType": 3,
+    "messageId": 2693,
+    "message": "ハンティングクエスト 第14弾\n特別ログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722045328,
+    "createdAt": 1722045328
   }],
   "loginResult": {
     "loginMessages": [{
@@ -20244,6 +20319,77 @@
       "eventId": 10750,
       "day": 3,
       "updatedAt": 1721959049
+    }, {
+      "isDeemedLogin": false,
+      "name": "ハンティングクエスト 第14弾\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240724_z76thc/z76thc_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/huntingquest14/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10747,
+      "day": 4,
+      "updatedAt": 1722045328
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240724_cxt6by/cxt6by_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10750,
+      "day": 4,
+      "updatedAt": 1722045328
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 9日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240727_gim92w/gim92w_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/9th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10755,
+      "day": 1,
+      "updatedAt": 1722045328
     }]
   }
 }
