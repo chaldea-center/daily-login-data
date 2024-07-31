@@ -11108,6 +11108,51 @@
     "flag": 0,
     "updatedAt": 1722304686,
     "createdAt": 1722304686
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 75386074710,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722389769,
+    "createdAt": 1722389769
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 75386074711,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10083,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722389769,
+    "createdAt": 1722389769
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 75386074767,
+    "messageRefType": 3,
+    "messageId": 2712,
+    "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722389769,
+    "createdAt": 1722389769
   }],
   "loginResult": {
     "loginMessages": [{
@@ -17980,6 +18025,30 @@
       "eventId": 10758,
       "day": 1,
       "updatedAt": 1722304686
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 9日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240731_ms992z/ms992z_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/9th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10759,
+      "day": 1,
+      "updatedAt": 1722389769
     }]
   }
 }
