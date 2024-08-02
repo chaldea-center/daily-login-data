@@ -3,79 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "8月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240731_k8x946/k8x946_k_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10751,
-        "day": 3
-      }, {
-        "isDeemedLogin": false,
-        "name": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」 開催直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 9日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "叡智の業火",
-          "num": 10
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240802_546wn2/546wn2_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/9th_anniversary_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10761,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 410,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -611,7 +540,7 @@
         "userId": 119201984,
         "seqLoginCount": 85,
         "totalLoginCount": 410,
-        "lastLoginAt": 1722563907,
+        "lastLoginAt": 1722604332,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -37778,6 +37707,35 @@
         "updatedAt": 1687420269,
         "createdAt": 1686463448
       }],
+      "userGachaPickupCollateral": [{
+        "userId": 119201984,
+        "gachaPickupCollateralGroupId": 306,
+        "type": 1,
+        "rarity": 5,
+        "stackLoseNum": 110,
+        "getNum": 0
+      }, {
+        "userId": 119201984,
+        "gachaPickupCollateralGroupId": 320,
+        "type": 1,
+        "rarity": 5,
+        "stackLoseNum": 2,
+        "getNum": 1
+      }, {
+        "userId": 119201984,
+        "gachaPickupCollateralGroupId": 330,
+        "type": 1,
+        "rarity": 5,
+        "stackLoseNum": 36,
+        "getNum": 0
+      }, {
+        "userId": 119201984,
+        "gachaPickupCollateralGroupId": 367,
+        "type": 1,
+        "rarity": 5,
+        "stackLoseNum": 48,
+        "getNum": 0
+      }],
       "userGachaDrawLog": [],
       "userQuestRoute": [],
       "userPresentBox": [{
@@ -40273,6 +40231,7 @@
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
+      "userPaymentLimit": [],
       "userGameCommon": [],
       "userDeck": [{
         "deckInfo": {
@@ -43995,6 +43954,7 @@
         "favoriteUserSvtId": 167525658841,
         "pushUserSvtId": 0,
         "flag": 512,
+        "commandSpellUseAt": 0,
         "commandSpellRecoverAt": 1686396199,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
@@ -44018,6 +43978,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1722563907
+    "serverTime": 1722604332
   }
 }
