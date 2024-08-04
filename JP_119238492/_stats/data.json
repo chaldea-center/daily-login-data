@@ -13988,6 +13988,66 @@
     "flag": 0,
     "updatedAt": 1722650173,
     "createdAt": 1722650173
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 75811637833,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1722736996,
+    "createdAt": 1722736996
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 75811637834,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722736996,
+    "createdAt": 1722736996
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 75811637848,
+    "messageRefType": 3,
+    "messageId": 2712,
+    "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100101,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722736996,
+    "createdAt": 1722736996
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 75811637849,
+    "messageRefType": 3,
+    "messageId": 2708,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1722736996,
+    "createdAt": 1722736996
   }],
   "loginResult": {
     "loginMessages": [{
@@ -21319,6 +21379,53 @@
       "eventId": 10762,
       "day": 1,
       "updatedAt": 1722650173
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240731_k8x946/k8x946_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10751,
+      "day": 5,
+      "updatedAt": 1722736996
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 9日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "星見のティーポット",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240804_4a1m7s/4a1m7s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/9th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10763,
+      "day": 1,
+      "updatedAt": 1722736996
     }]
   }
 }
