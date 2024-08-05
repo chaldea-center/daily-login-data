@@ -11543,6 +11543,36 @@
     "flag": 0,
     "updatedAt": 1722823230,
     "createdAt": 1722823230
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 76012876480,
+    "messageRefType": 4,
+    "messageId": 585,
+    "message": "アペンドスキル追加に関する対応不足についてのお詫び (8/5 17:30掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 100,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722863573,
+    "createdAt": 1722863573
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 76012876481,
+    "messageRefType": 4,
+    "messageId": 586,
+    "message": "アペンドスキル追加に関する対応不足についてのお詫び (8/5 17:30掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 20,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1722863573,
+    "createdAt": 1722863573
   }],
   "loginResult": {
     "loginMessages": [{
