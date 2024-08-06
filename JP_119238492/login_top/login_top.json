@@ -3,86 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "8月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "9周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 3000000
-        }, {
-          "name": "フレンドポイント",
-          "num": 100000
-        }, {
-          "name": "獣の足跡",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10767,
-        "day": 2
-      }, {
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240731_k8x946/k8x946_k_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10751,
-        "day": 7
-      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 406,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -618,7 +540,7 @@
         "userId": 119238492,
         "seqLoginCount": 89,
         "totalLoginCount": 406,
-        "lastLoginAt": 1722909511,
+        "lastLoginAt": 1722949952,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45037,6 +44959,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1722909511
+    "serverTime": 1722949952
   }
 }
