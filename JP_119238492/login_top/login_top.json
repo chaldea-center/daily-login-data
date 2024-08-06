@@ -3,8 +3,86 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "9周年記念特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 3000000
+        }, {
+          "name": "フレンドポイント",
+          "num": 100000
+        }, {
+          "name": "獣の足跡",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10767,
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240731_k8x946/k8x946_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10751,
+        "day": 7
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 406,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -538,9 +616,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 88,
-        "totalLoginCount": 405,
-        "lastLoginAt": 1722863566,
+        "seqLoginCount": 89,
+        "totalLoginCount": 406,
+        "lastLoginAt": 1722909511,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -40897,6 +40975,96 @@
         "flag": 0,
         "updatedAt": 1722863566,
         "createdAt": 1722863566
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899483,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899484,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899583,
+        "messageRefType": 3,
+        "messageId": 2710,
+        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94100301,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899584,
+        "messageRefType": 3,
+        "messageId": 2750,
+        "message": "9周年記念\n特別回数ログインボーナスです。(2/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899585,
+        "messageRefType": 3,
+        "messageId": 2750,
+        "message": "9周年記念\n特別回数ログインボーナスです。(2/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 100000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 76133899586,
+        "messageRefType": 3,
+        "messageId": 2750,
+        "message": "9周年記念\n特別回数ログインボーナスです。(2/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722909511,
+        "createdAt": 1722909511
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44846,7 +45014,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1722783600,
+        "commandSpellRecoverAt": 1722870000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -44859,7 +45027,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1722823224,
+        "updatedAt": 1722909511,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -44869,6 +45037,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1722863566
+    "serverTime": 1722909511
   }
 }
