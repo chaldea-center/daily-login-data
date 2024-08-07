@@ -3,8 +3,84 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "ショートアニメ「FGO 藤丸立香はわからない」Season2公開記念 特別ログインボーナス",
+        "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "「FGO 藤丸立香はわからない」Season2",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240807_9y1rp2/9y1rp2_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://anime.fate-go.jp/nazomaru/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10769,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "9周年記念特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 3000000
+        }, {
+          "name": "星見のティーポット",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10767,
+        "day": 3
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 415,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -538,9 +614,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 89,
-        "totalLoginCount": 414,
-        "lastLoginAt": 1722949959,
+        "seqLoginCount": 90,
+        "totalLoginCount": 415,
+        "lastLoginAt": 1722996054,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -40814,6 +40890,81 @@
         "flag": 0,
         "updatedAt": 1722909519,
         "createdAt": 1722909519
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76295638045,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722996054,
+        "createdAt": 1722996054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76295638046,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722996054,
+        "createdAt": 1722996054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76295638061,
+        "messageRefType": 3,
+        "messageId": 2760,
+        "message": "ショートアニメ「FGO 藤丸立香はわからない」Season2\n公開記念 特別ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9308790,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1722996054,
+        "createdAt": 1722996054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76295638062,
+        "messageRefType": 3,
+        "messageId": 2751,
+        "message": "9周年記念\n特別回数ログインボーナスです。(3/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722996054,
+        "createdAt": 1722996054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76295638063,
+        "messageRefType": 3,
+        "messageId": 2751,
+        "message": "9周年記念\n特別回数ログインボーナスです。(3/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94100101,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1722996054,
+        "createdAt": 1722996054
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44751,7 +44902,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1722870000,
+        "commandSpellRecoverAt": 1722956400,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -44764,7 +44915,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1722909519,
+        "updatedAt": 1722996054,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -44774,6 +44925,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1722949959
+    "serverTime": 1722996054
   }
 }
