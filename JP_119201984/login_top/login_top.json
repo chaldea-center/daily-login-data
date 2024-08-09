@@ -3,109 +3,18 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "8月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "「水着イベント2024」開幕直前カウントダウンログインボーナス",
-        "detail": "開催期間中、1日1回 7日間日替わりでログインボーナスをプレゼント！",
+        "name": " ",
+        "detail": "アペンドスキルの今後の対応についての\r\nディレクターレターを更新いたしました。\r\n\r\nアペンドスキル2つ分の解放に必要な\r\nサーヴァントコイン240枚を獲得する手段を、\r\n後日、新たに追加する方針といたしましたので、\r\n必ずご確認いただけますようお願いいたします。\r\n\r\n詳細につきましてはお知らせをご確認ください。\r\n[00FFFF][url=https://news.fate-go.jp/2024/0805vcbsdj/][u]公式サイト お知らせ[/u][/url][-]",
         "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240809_3fb32r/3fb32r_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10772,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240807_s36bk8/s36bk8_k_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10752,
-        "day": 3
-      }, {
-        "isDeemedLogin": false,
-        "name": "9周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 2
-        }, {
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 2
-        }, {
-          "name": "QP",
-          "num": 3000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10767,
-        "day": 5
+        "items": [],
+        "script": {},
+        "eventId": 0,
+        "day": 0
       }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 417,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -641,7 +550,7 @@
         "userId": 119201984,
         "seqLoginCount": 92,
         "totalLoginCount": 417,
-        "lastLoginAt": 1723168858,
+        "lastLoginAt": 1723209153,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -45110,6 +45019,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1723168858
+    "serverTime": 1723209153
   }
 }
