@@ -14588,6 +14588,141 @@
     "flag": 16,
     "updatedAt": 1723168851,
     "createdAt": 1723168851
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181059,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181060,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181270,
+    "messageRefType": 3,
+    "messageId": 2761,
+    "message": "【リリース3300日突破キャンペーン】\nグランドオーダー発令から3300日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181271,
+    "messageRefType": 3,
+    "messageId": 2762,
+    "message": "「水着イベント2024」開幕直前カウントダウンログインボーナス\nです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181272,
+    "messageRefType": 3,
+    "messageId": 2754,
+    "message": "9周年記念\n特別回数ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181273,
+    "messageRefType": 3,
+    "messageId": 2754,
+    "message": "9周年記念\n特別回数ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 46,
+    "num": 20,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181274,
+    "messageRefType": 3,
+    "messageId": 2707,
+    "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94100301,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181306,
+    "messageRefType": 4,
+    "messageId": 587,
+    "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (8/9 17:30実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 76804181307,
+    "messageRefType": 4,
+    "messageId": 587,
+    "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (8/9 17:30実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723255160,
+    "createdAt": 1723255160
   }],
   "loginResult": {
     "loginMessages": [{
@@ -22328,6 +22463,102 @@
       "eventId": 0,
       "day": 0,
       "updatedAt": 1723209145
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240807_s36bk8/s36bk8_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10752,
+      "day": 4,
+      "updatedAt": 1723255160
+    }, {
+      "isDeemedLogin": false,
+      "name": "9周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "ピュアプリズム",
+        "num": 20
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10767,
+      "day": 6,
+      "updatedAt": 1723255160
+    }, {
+      "isDeemedLogin": false,
+      "name": "リリース3300日突破キャンペーン 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240810_7gae49/7gae49_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10770,
+      "day": 1,
+      "updatedAt": 1723255160
+    }, {
+      "isDeemedLogin": false,
+      "name": "「水着イベント2024」開幕直前カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替わりでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240810_djwt8w/djwt8w_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10773,
+      "day": 1,
+      "updatedAt": 1723255160
     }]
   }
 }

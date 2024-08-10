@@ -3,18 +3,128 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": " ",
-        "detail": "アペンドスキルの今後の対応についての\r\nディレクターレターを更新いたしました。\r\n\r\nアペンドスキル2つ分の解放に必要な\r\nサーヴァントコイン240枚を獲得する手段を、\r\n後日、新たに追加する方針といたしましたので、\r\n必ずご確認いただけますようお願いいたします。\r\n\r\n詳細につきましてはお知らせをご確認ください。\r\n[00FFFF][url=https://news.fate-go.jp/2024/0805vcbsdj/][u]公式サイト お知らせ[/u][/url][-]",
+        "name": "リリース3300日突破キャンペーン 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
         "addDetail": "",
-        "items": [],
-        "script": {},
-        "eventId": 0,
-        "day": 0
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240810_7gae49/7gae49_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10770,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「水着イベント2024」開幕直前カウントダウンログインボーナス",
+        "detail": "開催期間中、1日1回 7日間日替わりでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240810_djwt8w/djwt8w_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10773,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、1日1回 最大7回 コンティニューアイテム「霊脈石」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240807_s36bk8/s36bk8_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10752,
+        "day": 4
+      }, {
+        "isDeemedLogin": false,
+        "name": "9周年記念特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 3000000
+        }, {
+          "name": "ピュアプリズム",
+          "num": 20
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10767,
+        "day": 6
       }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 418,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -548,9 +658,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 92,
-        "totalLoginCount": 417,
-        "lastLoginAt": 1723209153,
+        "seqLoginCount": 93,
+        "totalLoginCount": 418,
+        "lastLoginAt": 1723255166,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41049,6 +41159,141 @@
         "flag": 16,
         "updatedAt": 1723168858,
         "createdAt": 1723168858
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204197,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204198,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204303,
+        "messageRefType": 3,
+        "messageId": 2761,
+        "message": "【リリース3300日突破キャンペーン】\nグランドオーダー発令から3300日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204304,
+        "messageRefType": 3,
+        "messageId": 2762,
+        "message": "「水着イベント2024」開幕直前カウントダウンログインボーナス\nです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204305,
+        "messageRefType": 3,
+        "messageId": 2754,
+        "message": "9周年記念\n特別回数ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204306,
+        "messageRefType": 3,
+        "messageId": 2754,
+        "message": "9周年記念\n特別回数ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 46,
+        "num": 20,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204307,
+        "messageRefType": 3,
+        "messageId": 2707,
+        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94100301,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204324,
+        "messageRefType": 4,
+        "messageId": 587,
+        "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (8/9 17:30実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 76804204326,
+        "messageRefType": 4,
+        "messageId": 587,
+        "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (8/9 17:30実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723255166,
+        "createdAt": 1723255166
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -44996,7 +45241,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1723129200,
+        "commandSpellRecoverAt": 1723215600,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -45009,7 +45254,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1723168858,
+        "updatedAt": 1723255166,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -45019,6 +45264,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1723209153
+    "serverTime": 1723255166
   }
 }
