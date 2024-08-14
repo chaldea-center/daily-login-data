@@ -15008,6 +15008,81 @@
     "flag": 16,
     "updatedAt": 1723514479,
     "createdAt": 1723514479
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 77420140077,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723600797,
+    "createdAt": 1723600797
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 77420140078,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723600797,
+    "createdAt": 1723600797
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 77420140117,
+    "messageRefType": 3,
+    "messageId": 2762,
+    "message": "「水着イベント2024」開幕直前カウントダウンログインボーナス\nです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723600797,
+    "createdAt": 1723600797
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 77420140118,
+    "messageRefType": 3,
+    "messageId": 2758,
+    "message": "9周年記念\n特別回数ログインボーナスです。(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723600797,
+    "createdAt": 1723600797
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 77420140119,
+    "messageRefType": 3,
+    "messageId": 2758,
+    "message": "9周年記念\n特別回数ログインボーナスです。(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 6999,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1723600797,
+    "createdAt": 1723600797
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23066,6 +23141,56 @@
       "eventId": 10776,
       "day": 1,
       "updatedAt": 1723514479
+    }, {
+      "isDeemedLogin": false,
+      "name": "9周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "伝承結晶",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10767,
+      "day": 10,
+      "updatedAt": 1723600797
+    }, {
+      "isDeemedLogin": false,
+      "name": "「水着イベント2024」開幕直前カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替わりでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "獣の足跡",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_mrdps2/mrdps2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10777,
+      "day": 1,
+      "updatedAt": 1723600797
     }]
   }
 }
