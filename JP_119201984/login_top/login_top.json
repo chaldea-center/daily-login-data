@@ -3,66 +3,18 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "8月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "「水着イベント2024」開幕直前カウントダウンログインボーナス",
-        "detail": "開催期間中、1日1回 7日間日替わりでログインボーナスをプレゼント！",
+        "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "獣の足跡",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240814_mrdps2/mrdps2_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/2024summer_participation_cp2/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10777,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "9周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 3000000
-        }, {
-          "name": "伝承結晶",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240805_oiyu1g/oiyu1g_k_10.png",
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -71,16 +23,11 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10767,
-        "day": 10
+        "eventId": 10766,
+        "day": 1
       }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 422,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -616,7 +563,7 @@
         "userId": 119201984,
         "seqLoginCount": 97,
         "totalLoginCount": 422,
-        "lastLoginAt": 1723600805,
+        "lastLoginAt": 1723641202,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31962,27 +31909,47 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033509,
+        "missionId": 1033500,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033510,
+        "missionId": 1033501,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033511,
+        "missionId": 1033502,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033512,
+        "missionId": 1033503,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033513,
+        "missionId": 1033504,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033505,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033506,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033507,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033508,
         "progressType": 3,
         "num": 0
       }],
@@ -41580,6 +41547,21 @@
         "flag": 0,
         "updatedAt": 1723600805,
         "createdAt": 1723600805
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 77455038978,
+        "messageRefType": 3,
+        "messageId": 2728,
+        "message": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n開幕記念 ログインボーナスです。(1/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1723641202,
+        "createdAt": 1723641202
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45130,26 +45112,6 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
-        "eventId": 80483,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119201984,
-        "eventId": 80484,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119201984,
         "eventId": 80487,
         "value": 0,
         "flag": 0,
@@ -45161,6 +45123,16 @@
       }, {
         "userId": 119201984,
         "eventId": 80489,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119201984,
+        "eventId": 80485,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -45550,6 +45522,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1723600805
+    "serverTime": 1723641202
   }
 }
