@@ -3,84 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "8月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "FGOカルデア放送局 ライト版 ～水着イベント2024～ 放送記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 14
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240815_rna242/rna242_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/2024summer/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10765,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10766,
-        "day": 2
-      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 423,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -616,7 +540,7 @@
         "userId": 119201984,
         "seqLoginCount": 98,
         "totalLoginCount": 423,
-        "lastLoginAt": 1723686774,
+        "lastLoginAt": 1723727517,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -45255,16 +45179,6 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
-        "eventId": 80487,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119201984,
         "eventId": 80489,
         "value": 0,
         "flag": 0,
@@ -45665,6 +45579,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1723686774
+    "serverTime": 1723727517
   }
 }
