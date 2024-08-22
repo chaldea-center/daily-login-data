@@ -12848,6 +12848,66 @@
     "flag": 0,
     "updatedAt": 1724222648,
     "createdAt": 1724222648
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78138763104,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724292100,
+    "createdAt": 1724292100
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78138763105,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724292100,
+    "createdAt": 1724292100
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78138763106,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724292100,
+    "createdAt": 1724292100
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78138763115,
+    "messageRefType": 3,
+    "messageId": 2736,
+    "message": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n開幕記念 ログインボーナスです。(9/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724292100,
+    "createdAt": 1724292100
   }],
   "loginResult": {
     "loginMessages": [{
@@ -20893,6 +20953,29 @@
       "eventId": 10766,
       "day": 8,
       "updatedAt": 1724222648
+    }, {
+      "isDeemedLogin": false,
+      "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 9,
+      "updatedAt": 1724292100
     }]
   }
 }
