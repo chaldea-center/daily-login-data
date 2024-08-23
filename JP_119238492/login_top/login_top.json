@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_10.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 10
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 423,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -538,9 +588,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 105,
-        "totalLoginCount": 422,
-        "lastLoginAt": 1724332374,
+        "seqLoginCount": 106,
+        "totalLoginCount": 423,
+        "lastLoginAt": 1724378400,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42080,6 +42130,51 @@
         "flag": 0,
         "updatedAt": 1724292093,
         "createdAt": 1724292093
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78216927319,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724378400,
+        "createdAt": 1724378400
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78216927320,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724378400,
+        "createdAt": 1724378400
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78216927395,
+        "messageRefType": 3,
+        "messageId": 2737,
+        "message": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n開幕記念 ログインボーナスです。(10/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724378400,
+        "createdAt": 1724378400
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -46009,7 +46104,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1724252400,
+        "commandSpellRecoverAt": 1724338800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -46022,7 +46117,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1724292093,
+        "updatedAt": 1724378400,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -46032,6 +46127,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1724332374
+    "serverTime": 1724378400
   }
 }
