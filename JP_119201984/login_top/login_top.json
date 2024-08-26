@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_13.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 13
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 434,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -538,9 +588,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 108,
-        "totalLoginCount": 433,
-        "lastLoginAt": 1724591378,
+        "seqLoginCount": 109,
+        "totalLoginCount": 434,
+        "lastLoginAt": 1724637682,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -31851,37 +31901,37 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2002926,
+        "missionId": 2002933,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002927,
+        "missionId": 2002934,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002928,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2002929,
+        "missionId": 2002935,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002930,
+        "missionId": 2002936,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002931,
+        "missionId": 2002937,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2002932,
+        "missionId": 2002938,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2002939,
         "progressType": 0,
         "num": 0
       }],
@@ -42042,6 +42092,51 @@
         "flag": 0,
         "updatedAt": 1724551560,
         "createdAt": 1724551560
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78450474587,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724637682,
+        "createdAt": 1724637682
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78450474588,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724637682,
+        "createdAt": 1724637682
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78450474607,
+        "messageRefType": 3,
+        "messageId": 2740,
+        "message": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n開幕記念 ログインボーナスです。(13/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724637682,
+        "createdAt": 1724637682
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -45959,7 +46054,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1724511600,
+        "commandSpellRecoverAt": 1724598000,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -45972,7 +46067,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1724551560,
+        "updatedAt": 1724637682,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -45982,6 +46077,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1724591378
+    "serverTime": 1724637682
   }
 }
