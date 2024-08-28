@@ -15743,6 +15743,51 @@
     "flag": 0,
     "updatedAt": 1724724102,
     "createdAt": 1724724102
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 78609023184,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724810577,
+    "createdAt": 1724810577
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 78609023185,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724810577,
+    "createdAt": 1724810577
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 78609023232,
+    "messageRefType": 3,
+    "messageId": 2742,
+    "message": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！\n開幕記念 ログインボーナスです。(15/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724810577,
+    "createdAt": 1724810577
   }],
   "loginResult": {
     "loginMessages": [{
@@ -24197,6 +24242,29 @@
       "eventId": 10766,
       "day": 14,
       "updatedAt": 1724724102
+    }, {
+      "isDeemedLogin": false,
+      "name": "ＢＢプレゼンツ☆セレブサマー・エクスペリエンス！ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/tsn92c_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 15,
+      "updatedAt": 1724810577
     }]
   }
 }
