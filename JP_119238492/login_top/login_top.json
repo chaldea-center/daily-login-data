@@ -3,8 +3,61 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "8月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_16.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 16
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 429,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4056,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 111,
-        "totalLoginCount": 428,
-        "lastLoginAt": 1724850852,
+        "seqLoginCount": 112,
+        "totalLoginCount": 429,
+        "lastLoginAt": 1724897031,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45845,6 +45898,81 @@
         "flag": 4,
         "updatedAt": 1724850852,
         "createdAt": 1724850852
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78755777859,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724897031,
+        "createdAt": 1724897031
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78755777860,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724897031,
+        "createdAt": 1724897031
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78755777861,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10084,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724897031,
+        "createdAt": 1724897031
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78755777882,
+        "messageRefType": 3,
+        "messageId": 2743,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(16/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724897031,
+        "createdAt": 1724897031
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 78755777895,
+        "messageRefType": 4,
+        "messageId": 589,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (8/28 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1724897031,
+        "createdAt": 1724897031
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -49784,7 +49912,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1724770800,
+        "commandSpellRecoverAt": 1724857200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -49797,7 +49925,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1724810577,
+        "updatedAt": 1724897031,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -49807,6 +49935,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1724850852
+    "serverTime": 1724897031
   }
 }
