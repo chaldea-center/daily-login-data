@@ -13283,6 +13283,51 @@
     "flag": 0,
     "updatedAt": 1724897038,
     "createdAt": 1724897038
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78839292702,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724983484,
+    "createdAt": 1724983484
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78839292703,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10084,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724983484,
+    "createdAt": 1724983484
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 78839292717,
+    "messageRefType": 3,
+    "messageId": 2744,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(17/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1724983484,
+    "createdAt": 1724983484
   }],
   "loginResult": {
     "loginMessages": [{
@@ -21512,6 +21557,29 @@
       "eventId": 10766,
       "day": 16,
       "updatedAt": 1724897038
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_17.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 17,
+      "updatedAt": 1724983484
     }]
   }
 }
