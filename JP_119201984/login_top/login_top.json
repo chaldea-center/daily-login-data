@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "9月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_19.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 19
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 440,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -3998,14 +4048,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40036,
+        "eventId": 40037,
         "day": 450
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 114,
-        "totalLoginCount": 439,
-        "lastLoginAt": 1725109886,
+        "seqLoginCount": 115,
+        "totalLoginCount": 440,
+        "lastLoginAt": 1725157013,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35349,6 +35399,176 @@
         "missionId": 2002939,
         "progressType": 0,
         "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033477,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033478,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033479,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033480,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033481,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033482,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033483,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033484,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033514,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033515,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033516,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033517,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033518,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033519,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033520,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033521,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033522,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033523,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033524,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033525,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033526,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033527,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033528,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033529,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033530,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033531,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033532,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033533,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033534,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033535,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033536,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033537,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033538,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033539,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -42179,36 +42399,6 @@
         "createdAt": 1720576612
       }, {
         "receiveUserId": 119201984,
-        "presentId": 73230816781,
-        "messageRefType": 3,
-        "messageId": 2704,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73230816782,
-        "messageRefType": 3,
-        "messageId": 2711,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73322225798,
         "messageRefType": 3,
         "messageId": 21,
@@ -42250,21 +42440,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1720663047,
-        "createdAt": 1720663047
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73322225872,
-        "messageRefType": 3,
-        "messageId": 2705,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1720663047,
         "createdAt": 1720663047
       }, {
@@ -42329,21 +42504,6 @@
         "createdAt": 1720749347
       }, {
         "receiveUserId": 119201984,
-        "presentId": 73436925161,
-        "messageRefType": 3,
-        "messageId": 2706,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1720749347,
-        "createdAt": 1720749347
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73436925162,
         "messageRefType": 3,
         "messageId": 2683,
@@ -42400,21 +42560,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1720835752,
-        "createdAt": 1720835752
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73544471289,
-        "messageRefType": 3,
-        "messageId": 2707,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1720835752,
         "createdAt": 1720835752
       }, {
@@ -42479,21 +42624,6 @@
         "createdAt": 1720922670
       }, {
         "receiveUserId": 119201984,
-        "presentId": 73658834003,
-        "messageRefType": 3,
-        "messageId": 2708,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1720922670,
-        "createdAt": 1720922670
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73658834004,
         "messageRefType": 3,
         "messageId": 2685,
@@ -42554,21 +42684,6 @@
         "createdAt": 1721008882
       }, {
         "receiveUserId": 119201984,
-        "presentId": 73767291395,
-        "messageRefType": 3,
-        "messageId": 2709,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721008882,
-        "createdAt": 1721008882
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73767291396,
         "messageRefType": 3,
         "messageId": 2686,
@@ -42625,21 +42740,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1721095117,
-        "createdAt": 1721095117
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73895927225,
-        "messageRefType": 3,
-        "messageId": 2710,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1721095117,
         "createdAt": 1721095117
       }, {
@@ -42734,21 +42834,6 @@
         "createdAt": 1721181477
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74041567872,
-        "messageRefType": 3,
-        "messageId": 2704,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721221885,
-        "createdAt": 1721221885
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74117068361,
         "messageRefType": 3,
         "messageId": 21,
@@ -42809,21 +42894,6 @@
         "createdAt": 1721267803
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74117068394,
-        "messageRefType": 3,
-        "messageId": 2705,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721267803,
-        "createdAt": 1721267803
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74207918913,
         "messageRefType": 3,
         "messageId": 21,
@@ -42854,21 +42924,6 @@
         "createdAt": 1721354230
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74207918962,
-        "messageRefType": 3,
-        "messageId": 2706,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721354230,
-        "createdAt": 1721354230
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74304698410,
         "messageRefType": 3,
         "messageId": 21,
@@ -42895,21 +42950,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1721440470,
-        "createdAt": 1721440470
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74304698477,
-        "messageRefType": 3,
-        "messageId": 2707,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1721440470,
         "createdAt": 1721440470
       }, {
@@ -42959,21 +42999,6 @@
         "createdAt": 1721527315
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74398339148,
-        "messageRefType": 3,
-        "messageId": 2708,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721527315,
-        "createdAt": 1721527315
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74483089067,
         "messageRefType": 3,
         "messageId": 21,
@@ -43000,21 +43025,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1721613695,
-        "createdAt": 1721613695
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74483089106,
-        "messageRefType": 3,
-        "messageId": 2709,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1721613695,
         "createdAt": 1721613695
       }, {
@@ -43064,21 +43074,6 @@
         "createdAt": 1721699883
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74557081036,
-        "messageRefType": 3,
-        "messageId": 2710,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721699883,
-        "createdAt": 1721699883
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74640509160,
         "messageRefType": 3,
         "messageId": 21,
@@ -43107,21 +43102,6 @@
         "flag": 0,
         "updatedAt": 1721786271,
         "createdAt": 1721786271
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74672476146,
-        "messageRefType": 3,
-        "messageId": 2704,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721826752,
-        "createdAt": 1721826752
       }, {
         "receiveUserId": 119201984,
         "presentId": 74672476147,
@@ -43184,21 +43164,6 @@
         "createdAt": 1721872659
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74735367508,
-        "messageRefType": 3,
-        "messageId": 2705,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1721872659,
-        "createdAt": 1721872659
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74735367509,
         "messageRefType": 3,
         "messageId": 2691,
@@ -43240,21 +43205,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1721959056,
-        "createdAt": 1721959056
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74831079492,
-        "messageRefType": 3,
-        "messageId": 2706,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1721959056,
         "createdAt": 1721959056
       }, {
@@ -43319,21 +43269,6 @@
         "createdAt": 1722045335
       }, {
         "receiveUserId": 119201984,
-        "presentId": 74933905443,
-        "messageRefType": 3,
-        "messageId": 2707,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722045335,
-        "createdAt": 1722045335
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74933905444,
         "messageRefType": 3,
         "messageId": 2693,
@@ -43394,21 +43329,6 @@
         "createdAt": 1722132164
       }, {
         "receiveUserId": 119201984,
-        "presentId": 75051257498,
-        "messageRefType": 3,
-        "messageId": 2708,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722132164,
-        "createdAt": 1722132164
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 75051257499,
         "messageRefType": 3,
         "messageId": 2694,
@@ -43450,36 +43370,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1722218415,
-        "createdAt": 1722218415
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75165595896,
-        "messageRefType": 3,
-        "messageId": 2712,
-        "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1722218415,
-        "createdAt": 1722218415
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75165595897,
-        "messageRefType": 3,
-        "messageId": 2709,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1722218415,
         "createdAt": 1722218415
       }, {
@@ -43544,21 +43434,6 @@
         "createdAt": 1722304686
       }, {
         "receiveUserId": 119201984,
-        "presentId": 75283066319,
-        "messageRefType": 3,
-        "messageId": 2710,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722304686,
-        "createdAt": 1722304686
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 75283066320,
         "messageRefType": 3,
         "messageId": 2696,
@@ -43619,21 +43494,6 @@
         "createdAt": 1722389769
       }, {
         "receiveUserId": 119201984,
-        "presentId": 75431842420,
-        "messageRefType": 3,
-        "messageId": 2704,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722431518,
-        "createdAt": 1722431518
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 75495129919,
         "messageRefType": 3,
         "messageId": 21,
@@ -43675,36 +43535,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1722477908,
-        "createdAt": 1722477908
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75495129926,
-        "messageRefType": 3,
-        "messageId": 2712,
-        "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1722477908,
-        "createdAt": 1722477908
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75495129927,
-        "messageRefType": 3,
-        "messageId": 2705,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1722477908,
         "createdAt": 1722477908
       }, {
@@ -43754,21 +43584,6 @@
         "createdAt": 1722563907
       }, {
         "receiveUserId": 119201984,
-        "presentId": 75599309846,
-        "messageRefType": 3,
-        "messageId": 2706,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722563907,
-        "createdAt": 1722563907
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 75695863789,
         "messageRefType": 3,
         "messageId": 21,
@@ -43810,21 +43625,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1722650181,
-        "createdAt": 1722650181
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75695863827,
-        "messageRefType": 3,
-        "messageId": 2707,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1722650181,
         "createdAt": 1722650181
       }, {
@@ -43874,36 +43674,6 @@
         "createdAt": 1722737003
       }, {
         "receiveUserId": 119201984,
-        "presentId": 75811648581,
-        "messageRefType": 3,
-        "messageId": 2712,
-        "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100101,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1722737003,
-        "createdAt": 1722737003
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75811648582,
-        "messageRefType": 3,
-        "messageId": 2708,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722737003,
-        "createdAt": 1722737003
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 75938952275,
         "messageRefType": 3,
         "messageId": 21,
@@ -43930,21 +43700,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1722823230,
-        "createdAt": 1722823230
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75938952318,
-        "messageRefType": 3,
-        "messageId": 2709,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1722823230,
         "createdAt": 1722823230
       }, {
@@ -44069,21 +43824,6 @@
         "createdAt": 1722909519
       }, {
         "receiveUserId": 119201984,
-        "presentId": 76133916347,
-        "messageRefType": 3,
-        "messageId": 2710,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1722909519,
-        "createdAt": 1722909519
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 76133916348,
         "messageRefType": 3,
         "messageId": 2750,
@@ -44187,36 +43927,6 @@
         "flag": 0,
         "updatedAt": 1722996054,
         "createdAt": 1722996054
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 76295638063,
-        "messageRefType": 3,
-        "messageId": 2751,
-        "message": "9周年記念\n特別回数ログインボーナスです。(3/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100101,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1722996054,
-        "createdAt": 1722996054
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 76341782310,
-        "messageRefType": 3,
-        "messageId": 2704,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1723036413,
-        "createdAt": 1723036413
       }, {
         "receiveUserId": 119201984,
         "presentId": 76446385172,
@@ -44324,21 +44034,6 @@
         "createdAt": 1723082380
       }, {
         "receiveUserId": 119201984,
-        "presentId": 76446385247,
-        "messageRefType": 3,
-        "messageId": 2705,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1723082380,
-        "createdAt": 1723082380
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 76612956999,
         "messageRefType": 3,
         "messageId": 21,
@@ -44429,21 +44124,6 @@
         "createdAt": 1723168858
       }, {
         "receiveUserId": 119201984,
-        "presentId": 76612957165,
-        "messageRefType": 3,
-        "messageId": 2706,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1723168858,
-        "createdAt": 1723168858
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 76804204197,
         "messageRefType": 3,
         "messageId": 21,
@@ -44530,21 +44210,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1723255166,
-        "createdAt": 1723255166
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 76804204307,
-        "messageRefType": 3,
-        "messageId": 2707,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1723255166,
         "createdAt": 1723255166
       }, {
@@ -44654,21 +44319,6 @@
         "createdAt": 1723341913
       }, {
         "receiveUserId": 119201984,
-        "presentId": 76978035120,
-        "messageRefType": 3,
-        "messageId": 2708,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1723341913,
-        "createdAt": 1723341913
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 77123495915,
         "messageRefType": 3,
         "messageId": 21,
@@ -44740,21 +44390,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1723428139,
-        "createdAt": 1723428139
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 77123495969,
-        "messageRefType": 3,
-        "messageId": 2709,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1723428139,
         "createdAt": 1723428139
       }, {
@@ -44845,21 +44480,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1723514487,
-        "createdAt": 1723514487
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 77264893853,
-        "messageRefType": 3,
-        "messageId": 2710,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾限定\n使用期限付コンティニューアイテムプレゼントです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94100301,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1723514487,
         "createdAt": 1723514487
       }, {
@@ -45837,6 +45457,51 @@
         "flag": 0,
         "updatedAt": 1725069819,
         "createdAt": 1725069819
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78997604028,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1725157013,
+        "createdAt": 1725157013
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78997604029,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10085,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725157013,
+        "createdAt": 1725157013
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 78997604058,
+        "messageRefType": 3,
+        "messageId": 2746,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(19/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725157013,
+        "createdAt": 1725157013
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -49764,7 +49429,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1725030000,
+        "commandSpellRecoverAt": 1725116400,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -49777,7 +49442,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1725069819,
+        "updatedAt": 1725157013,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -49787,6 +49452,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1725109886
+    "serverTime": 1725157013
   }
 }
