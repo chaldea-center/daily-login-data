@@ -3,18 +3,40 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "9月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "霊脈石",
-          "num": 3
+          "name": "白銀の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240901_c82cbx/c82cbx_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_20.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,12 +45,16 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10778,
-        "day": 1
+        "eventId": 10766,
+        "day": 20
       }],
-      "freeShopIds": [6000968],
+      "addRecommendSupportFriendPoint": 0,
       "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0
+      "totalLoginBonus": [{
+        "num": 433,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4027,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 115,
-        "totalLoginCount": 432,
-        "lastLoginAt": 1725196374,
+        "seqLoginCount": 116,
+        "totalLoginCount": 433,
+        "lastLoginAt": 1725242766,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34813,41 +34839,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2002933,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002934,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002935,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002936,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002937,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002938,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2002939,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033477,
         "progressType": 3,
         "num": 1
@@ -35015,6 +35006,41 @@
         "userId": 119238492,
         "missionId": 1033539,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002940,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002941,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002942,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002943,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002944,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002945,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2002946,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -45706,6 +45732,51 @@
         "flag": 16,
         "updatedAt": 1725196374,
         "createdAt": 1725196374
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 79078434358,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725242766,
+        "createdAt": 1725242766
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 79078434359,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10085,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725242766,
+        "createdAt": 1725242766
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 79078434474,
+        "messageRefType": 3,
+        "messageId": 2747,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(20/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725242766,
+        "createdAt": 1725242766
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -49655,7 +49726,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1725116400,
+        "commandSpellRecoverAt": 1725202800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -49668,7 +49739,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1725157006,
+        "updatedAt": 1725242766,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -49678,6 +49749,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1725196374
+    "serverTime": 1725242766
   }
 }
