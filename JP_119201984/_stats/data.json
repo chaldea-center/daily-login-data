@@ -13478,6 +13478,66 @@
     "flag": 0,
     "updatedAt": 1725242774,
     "createdAt": 1725242774
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79194340663,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1725329018,
+    "createdAt": 1725329018
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79194340664,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725329018,
+    "createdAt": 1725329018
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79194340718,
+    "messageRefType": 3,
+    "messageId": 2748,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(21/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725329018,
+    "createdAt": 1725329018
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79194340730,
+    "messageRefType": 4,
+    "messageId": 590,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (9/2 2:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 4,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725329018,
+    "createdAt": 1725329018
   }],
   "loginResult": {
     "loginMessages": [{
@@ -21822,6 +21882,29 @@
       "eventId": 10766,
       "day": 20,
       "updatedAt": 1725242774
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_21.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 21,
+      "updatedAt": 1725329018
     }]
   }
 }
