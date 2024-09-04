@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "9月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_22.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 22
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 443,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 117,
-        "totalLoginCount": 442,
-        "lastLoginAt": 1725369307,
+        "seqLoginCount": 118,
+        "totalLoginCount": 443,
+        "lastLoginAt": 1725415496,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -45614,6 +45664,51 @@
         "flag": 0,
         "updatedAt": 1725329018,
         "createdAt": 1725329018
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79288894446,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725415496,
+        "createdAt": 1725415496
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79288894447,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10085,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725415496,
+        "createdAt": 1725415496
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79288894462,
+        "messageRefType": 3,
+        "messageId": 2763,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(22/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725415496,
+        "createdAt": 1725415496
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -49551,7 +49646,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1725289200,
+        "commandSpellRecoverAt": 1725375600,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -49564,7 +49659,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1725329018,
+        "updatedAt": 1725415496,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -49574,6 +49669,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1725369307
+    "serverTime": 1725415496
   }
 }
