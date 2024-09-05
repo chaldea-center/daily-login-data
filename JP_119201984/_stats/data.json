@@ -13583,6 +13583,66 @@
     "flag": 0,
     "updatedAt": 1725415496,
     "createdAt": 1725415496
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79370875058,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725501921,
+    "createdAt": 1725501921
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79370875059,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725501921,
+    "createdAt": 1725501921
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79370875060,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725501921,
+    "createdAt": 1725501921
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79370875124,
+    "messageRefType": 3,
+    "messageId": 2764,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(23/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1725501921,
+    "createdAt": 1725501921
   }],
   "loginResult": {
     "loginMessages": [{
@@ -21973,6 +22033,29 @@
       "eventId": 10766,
       "day": 22,
       "updatedAt": 1725415496
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_23.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 23,
+      "updatedAt": 1725501921
     }]
   }
 }
