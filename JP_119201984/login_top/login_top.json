@@ -3,8 +3,81 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "9月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(中編)開幕直前カウントダウンログインボーナス",
+        "detail": "開催期間中、1日1回 6日間日替わりでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 3000000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240908_3ulm8j/3ulm8j_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10782,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_26.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 26
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 447,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4076,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 121,
-        "totalLoginCount": 446,
-        "lastLoginAt": 1725714690,
+        "seqLoginCount": 122,
+        "totalLoginCount": 447,
+        "lastLoginAt": 1725761451,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35349,176 +35422,6 @@
         "missionId": 2002946,
         "progressType": 0,
         "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033477,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033478,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033479,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033480,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033481,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033482,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033483,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033484,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033514,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033515,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033516,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033517,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033518,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033519,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033520,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033521,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033522,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033523,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033524,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033525,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033526,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033527,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033528,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033529,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033530,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033531,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033532,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033533,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033534,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033535,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033536,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033537,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033538,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033539,
-        "progressType": 3,
-        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -37522,55 +37425,6 @@
         "missionProgressType": 4,
         "updatedAt": 1722776952,
         "createdAt": 1722776952
-      }, {
-        "userId": 119201984,
-        "missionId": 1033477,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033478,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033479,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033480,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033481,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033482,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
-      }, {
-        "userId": 119201984,
-        "missionId": 1033483,
-        "missionTargetId": 200176,
-        "missionProgressType": 4,
-        "updatedAt": 1720617178,
-        "createdAt": 1720617178
       }, {
         "userId": 119201984,
         "missionId": 1033540,
@@ -45839,6 +45693,66 @@
         "flag": 0,
         "updatedAt": 1725674595,
         "createdAt": 1725674595
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79660770477,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1725761451,
+        "createdAt": 1725761451
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79660770478,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10085,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725761451,
+        "createdAt": 1725761451
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79660770520,
+        "messageRefType": 3,
+        "messageId": 2823,
+        "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(中編)開幕直前\nカウントダウンログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725761451,
+        "createdAt": 1725761451
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 79660770521,
+        "messageRefType": 3,
+        "messageId": 2767,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(26/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1725761451,
+        "createdAt": 1725761451
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -49776,7 +49690,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1725634800,
+        "commandSpellRecoverAt": 1725721200,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -49789,7 +49703,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1725674595,
+        "updatedAt": 1725761451,
         "createdAt": 1686396199
       }],
       "userSvtCommandCode": [],
@@ -49799,6 +49713,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1725714690
+    "serverTime": 1725761451
   }
 }
