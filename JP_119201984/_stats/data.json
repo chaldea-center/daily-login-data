@@ -13943,6 +13943,81 @@
     "flag": 0,
     "updatedAt": 1725933996,
     "createdAt": 1725933996
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79940089548,
+    "messageRefType": 3,
+    "messageId": 10022,
+    "message": "通算ログイン450日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726020349,
+    "createdAt": 1726020349
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79940089549,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726020349,
+    "createdAt": 1726020349
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79940089550,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726020349,
+    "createdAt": 1726020349
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79940089584,
+    "messageRefType": 3,
+    "messageId": 2823,
+    "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(中編)開幕直前\nカウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726020349,
+    "createdAt": 1726020349
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 79940089585,
+    "messageRefType": 3,
+    "messageId": 2770,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(29/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726020349,
+    "createdAt": 1726020349
   }],
   "loginResult": {
     "loginMessages": [{
@@ -14026,6 +14101,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1721699883
+    }, {
+      "num": 450,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00450.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1726020349
     }],
     "loginFortuneBonus": [],
     "campaignDirectBonus": [],
@@ -22591,6 +22684,53 @@
       "eventId": 10784,
       "day": 1,
       "updatedAt": 1725933996
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/jx3cca_k_29.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 29,
+      "updatedAt": 1726020349
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(中編)開幕直前カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 6日間日替わりでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "獣の足跡",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240911_6fu8d5/6fu8d5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10785,
+      "day": 1,
+      "updatedAt": 1726020349
     }]
   }
 }
