@@ -14318,6 +14318,66 @@
     "flag": 0,
     "updatedAt": 1726537398,
     "createdAt": 1726537398
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80511865093,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726625198,
+    "createdAt": 1726625198
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80511865094,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726625198,
+    "createdAt": 1726625198
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80511865113,
+    "messageRefType": 3,
+    "messageId": 2824,
+    "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナスです。(1/8)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726625198,
+    "createdAt": 1726625198
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80511865114,
+    "messageRefType": 3,
+    "messageId": 2777,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(36/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726625198,
+    "createdAt": 1726625198
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23169,6 +23229,53 @@
       "eventId": 10766,
       "day": 35,
       "updatedAt": 1726537398
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/4br7bs_k_36.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 36,
+      "updatedAt": 1726625198
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大8回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240918_p7y1bb/p7y1bb_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10786,
+      "day": 1,
+      "updatedAt": 1726625198
     }]
   }
 }
