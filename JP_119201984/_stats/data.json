@@ -14513,6 +14513,81 @@
     "flag": 0,
     "updatedAt": 1726798092,
     "createdAt": 1726798092
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80802463865,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726884381,
+    "createdAt": 1726884381
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80802463866,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726884381,
+    "createdAt": 1726884381
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80802464109,
+    "messageRefType": 3,
+    "messageId": 2827,
+    "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナスです。(4/8)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1726884381,
+    "createdAt": 1726884381
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80802464110,
+    "messageRefType": 3,
+    "messageId": 2780,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(39/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726884381,
+    "createdAt": 1726884381
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 80802464158,
+    "messageRefType": 4,
+    "messageId": 592,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (9/20 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1726884381,
+    "createdAt": 1726884381
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23505,6 +23580,53 @@
       "eventId": 10786,
       "day": 3,
       "updatedAt": 1726798092
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/4br7bs_k_39.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 39,
+      "updatedAt": 1726884381
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大8回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240918_p7y1bb/p7y1bb_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10786,
+      "day": 4,
+      "updatedAt": 1726884381
     }]
   }
 }
