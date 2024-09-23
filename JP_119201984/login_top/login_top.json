@@ -3,104 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "9月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "「京都国際マンガ・アニメフェア2024」出展記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 10
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240923_c3yxc9/c3yxc9_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/0913kyomaf/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10779,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大8回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240918_p7y1bb/p7y1bb_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp2/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10786,
-        "day": 6
-      }, {
-        "isDeemedLogin": false,
-        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/4br7bs_k_41.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10766,
-        "day": 41
-      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 462,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4101,7 +4005,7 @@
         "userId": 119201984,
         "seqLoginCount": 137,
         "totalLoginCount": 462,
-        "lastLoginAt": 1727057464,
+        "lastLoginAt": 1727097474,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35412,31 +35316,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 1033553,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033554,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033555,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033556,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033557,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 2002961,
         "progressType": 3,
         "num": 0
@@ -35469,6 +35348,31 @@
         "userId": 119201984,
         "missionId": 2002967,
         "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033553,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033554,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033555,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033556,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033557,
+        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -50671,6 +50575,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1727057464
+    "serverTime": 1727097474
   }
 }
