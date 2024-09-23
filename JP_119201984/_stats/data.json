@@ -14648,6 +14648,81 @@
     "flag": 0,
     "updatedAt": 1726971351,
     "createdAt": 1726971351
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 81006147823,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1727057464,
+    "createdAt": 1727057464
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 81006147824,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10085,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1727057464,
+    "createdAt": 1727057464
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 81006148034,
+    "messageRefType": 3,
+    "messageId": 2822,
+    "message": "「京都国際マンガ・アニメフェア2024」出展記念\n初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1727057464,
+    "createdAt": 1727057464
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 81006148035,
+    "messageRefType": 3,
+    "messageId": 2829,
+    "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナスです。(6/8)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1727057464,
+    "createdAt": 1727057464
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 81006148036,
+    "messageRefType": 3,
+    "messageId": 2782,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(41/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1727057464,
+    "createdAt": 1727057464
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23734,6 +23809,77 @@
       "eventId": 10786,
       "day": 5,
       "updatedAt": 1726971351
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/4br7bs_k_41.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 41,
+      "updatedAt": 1727057464
+    }, {
+      "isDeemedLogin": false,
+      "name": "「京都国際マンガ・アニメフェア2024」出展記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240923_c3yxc9/c3yxc9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/0913kyomaf/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10779,
+      "day": 1,
+      "updatedAt": 1727057464
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション」(後編)\n開幕直前&攻略応援特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大8回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240918_p7y1bb/p7y1bb_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/ordeal_call_3_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10786,
+      "day": 6,
+      "updatedAt": 1727057464
     }]
   }
 }
