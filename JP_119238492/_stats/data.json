@@ -17738,6 +17738,21 @@
     "flag": 0,
     "updatedAt": 1727745665,
     "createdAt": 1727745665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 81702277716,
+    "messageRefType": 3,
+    "messageId": 2832,
+    "message": "「Lostbelt No.5」クリア応援キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94136501,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1727785971,
+    "createdAt": 1727785971
   }],
   "loginResult": {
     "loginMessages": [{
@@ -27398,6 +27413,29 @@
       "eventId": 10766,
       "day": 49,
       "updatedAt": 1727745665
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241001_hp2p28/hp2p28_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10792,
+      "day": 1,
+      "updatedAt": 1727785971
     }]
   }
 }
