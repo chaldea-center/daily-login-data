@@ -3,58 +3,9 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "10月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/sx6paa_k_52.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10766,
-        "day": 52
-      }],
-      "addRecommendSupportFriendPoint": 0,
+      "freeShopIds": [6000103, 6000569, 6000590, 6000989, 6000990, 6000991, 6000992, 6000993],
       "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 473,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPoint": 0
     },
     "fail": {},
     "nid": "login"
@@ -4048,14 +3999,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40037,
+        "eventId": 40038,
         "day": 500
       }],
       "userLogin": [{
         "userId": 119201984,
         "seqLoginCount": 148,
         "totalLoginCount": 473,
-        "lastLoginAt": 1728004474,
+        "lastLoginAt": 1728045124,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -4063,6 +4014,7 @@
         "shopId": 5000001,
         "num": 218,
         "flag": 0,
+        "resetNum": 0,
         "updatedAt": 1687420428
       }],
       "userContinue": [{
@@ -35429,6 +35381,31 @@
         "missionId": 1033545,
         "progressType": 3,
         "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033559,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033560,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033561,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033562,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033563,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -47194,6 +47171,21 @@
         "flag": 0,
         "updatedAt": 1728004474,
         "createdAt": 1728004474
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 81944499559,
+        "messageRefType": 1,
+        "messageId": 0,
+        "message": "「メインクエスト」のクリア報酬増量にともない、\r\nすでにクリア済みのクエストについてクリア報酬増量分をプレゼントいたします。",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 46,
+        "num": 1150,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 4,
+        "updatedAt": 1728045124,
+        "createdAt": 1728045124
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51120,7 +51112,7 @@
         "fixEventSupportDeckIds": [],
         "message": "daily_bonus2",
         "stone": 2474,
-        "friendKeep": 94,
+        "friendKeep": 97,
         "svtKeep": 900,
         "svtEquipKeep": 900,
         "userId": 119201984,
@@ -51164,6 +51156,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1728004474
+    "serverTime": 1728045124
   }
 }

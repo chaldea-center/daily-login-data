@@ -17903,6 +17903,21 @@
     "flag": 0,
     "updatedAt": 1728004467,
     "createdAt": 1728004467
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 81944488877,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「メインクエスト」のクリア報酬増量にともない、\r\nすでにクリア済みのクエストについてクリア報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 46,
+    "num": 1150,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 4,
+    "updatedAt": 1728045106,
+    "createdAt": 1728045106
   }],
   "loginResult": {
     "loginMessages": [{
