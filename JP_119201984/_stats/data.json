@@ -15383,6 +15383,66 @@
     "flag": 0,
     "updatedAt": 1728090799,
     "createdAt": 1728090799
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82150052900,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1728177568,
+    "createdAt": 1728177568
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82150052901,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10086,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728177568,
+    "createdAt": 1728177568
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82150052941,
+    "messageRefType": 3,
+    "messageId": 2796,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(54/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728177568,
+    "createdAt": 1728177568
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82150052942,
+    "messageRefType": 3,
+    "messageId": 2849,
+    "message": "3000万DL記念\n3000万DLおめでとう、マスター！\n身を粉にして用意したプレゼントだ、受け取ってくれると嬉しいな。 by オベロン(2/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1728177568,
+    "createdAt": 1728177568
   }],
   "loginResult": {
     "loginMessages": [{
@@ -24911,6 +24971,53 @@
       "eventId": 10801,
       "day": 1,
       "updatedAt": 1728090799
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/sx6paa_k_54.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 54,
+      "updatedAt": 1728177568
+    }, {
+      "isDeemedLogin": false,
+      "name": "3000万DL記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241005_gk4by3/gk4by3_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/3000man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10801,
+      "day": 2,
+      "updatedAt": 1728177568
     }]
   }
 }
