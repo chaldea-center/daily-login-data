@@ -15443,6 +15443,21 @@
     "flag": 0,
     "updatedAt": 1728177568,
     "createdAt": 1728177568
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82185155716,
+    "messageRefType": 3,
+    "messageId": 2858,
+    "message": "3000万DL突破記念\n10万リポスト達成プレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728217752,
+    "createdAt": 1728217752
   }],
   "loginResult": {
     "loginMessages": [{
@@ -25018,6 +25033,29 @@
       "eventId": 10801,
       "day": 2,
       "updatedAt": 1728177568
+    }, {
+      "isDeemedLogin": false,
+      "name": "3000万DL突破記念 10万リポスト達成プレゼント",
+      "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241006_xsxu32/xsxu32_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10802,
+      "day": 1,
+      "updatedAt": 1728217752
     }]
   }
 }

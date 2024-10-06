@@ -3,63 +3,18 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "10月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
-        "name": "3000万DL記念 特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "name": "3000万DL突破記念 10万リポスト達成プレゼント",
+        "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "叡智の業火",
+          "name": "聖晶石",
           "num": 30
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241005_gk4by3/gk4by3_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/3000man/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10801,
-        "day": 2
-      }, {
-        "isDeemedLogin": false,
-        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/sx6paa_k_54.png",
+            "bannerUrl": "/webview/loginbonus/20241006_xsxu32/xsxu32_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -68,16 +23,11 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10766,
-        "day": 54
+        "eventId": 10802,
+        "day": 1
       }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 467,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4078,7 +4028,7 @@
         "userId": 119238492,
         "seqLoginCount": 150,
         "totalLoginCount": 467,
-        "lastLoginAt": 1728177561,
+        "lastLoginAt": 1728217745,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -37098,6 +37048,13 @@
         "createdAt": 1727785971
       }, {
         "userId": 119238492,
+        "missionId": 1033579,
+        "missionTargetId": 200193,
+        "missionProgressType": 4,
+        "updatedAt": 1728217745,
+        "createdAt": 1728217745
+      }, {
+        "userId": 119238492,
         "missionId": 30000060,
         "missionTargetId": 300020,
         "missionProgressType": 5,
@@ -47568,6 +47525,21 @@
         "flag": 0,
         "updatedAt": 1728177561,
         "createdAt": 1728177561
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 82185150586,
+        "messageRefType": 3,
+        "messageId": 2858,
+        "message": "3000万DL突破記念\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1728217745,
+        "createdAt": 1728217745
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51160,6 +51132,26 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80500,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80501,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80038,
         "value": 0,
         "flag": 0,
@@ -51543,6 +51535,15 @@
         "updatedAt": 1728177561,
         "createdAt": 1686492765
       }],
+      "combineExp": [{
+        "presentIds": [],
+        "userSvtIds": []
+      }],
+      "exchangeSvt": [{
+        "eventId": 80504,
+        "userSvtIds": [],
+        "svtIds": []
+      }],
       "userSvtCommandCode": [],
       "userSvtAppendPassiveSkillLv": [],
       "beforeBirthDay": [{
@@ -51550,6 +51551,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1728177561
+    "serverTime": 1728217745
   }
 }
