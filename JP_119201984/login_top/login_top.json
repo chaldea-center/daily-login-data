@@ -3,8 +3,81 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "10月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "3000万DL記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 30000000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241005_gk4by3/gk4by3_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/3000man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10801,
+        "day": 4
+      }, {
+        "isDeemedLogin": false,
+        "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/sx6paa_k_56.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 56
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 477,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4076,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 151,
-        "totalLoginCount": 476,
-        "lastLoginAt": 1728304400,
+        "seqLoginCount": 152,
+        "totalLoginCount": 477,
+        "lastLoginAt": 1728350054,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35352,36 +35425,6 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 1033540,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033541,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033542,
-        "progressType": 3,
-        "num": 4
-      }, {
-        "userId": 119201984,
-        "missionId": 1033543,
-        "progressType": 3,
-        "num": 2
-      }, {
-        "userId": 119201984,
-        "missionId": 1033544,
-        "progressType": 3,
-        "num": 4
-      }, {
-        "userId": 119201984,
-        "missionId": 1033545,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
         "missionId": 1033559,
         "progressType": 3,
         "num": 0
@@ -37408,48 +37451,6 @@
         "missionProgressType": 4,
         "updatedAt": 1722776952,
         "createdAt": 1722776952
-      }, {
-        "userId": 119201984,
-        "missionId": 1033540,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
-      }, {
-        "userId": 119201984,
-        "missionId": 1033541,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
-      }, {
-        "userId": 119201984,
-        "missionId": 1033542,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
-      }, {
-        "userId": 119201984,
-        "missionId": 1033543,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
-      }, {
-        "userId": 119201984,
-        "missionId": 1033544,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
-      }, {
-        "userId": 119201984,
-        "missionId": 1033545,
-        "missionTargetId": 200184,
-        "missionProgressType": 4,
-        "updatedAt": 1725196381,
-        "createdAt": 1725196381
       }, {
         "userId": 119201984,
         "missionId": 1033564,
@@ -47402,6 +47403,66 @@
         "flag": 0,
         "updatedAt": 1728263796,
         "createdAt": 1728263796
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 82385539161,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1728350054,
+        "createdAt": 1728350054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 82385539162,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10086,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1728350054,
+        "createdAt": 1728350054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 82385539436,
+        "messageRefType": 3,
+        "messageId": 2798,
+        "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(56/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1728350054,
+        "createdAt": 1728350054
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 82385539437,
+        "messageRefType": 3,
+        "messageId": 2851,
+        "message": "3000万DL記念\n3000万DLおめでとう、マスター！\n身を粉にして用意したプレゼントだ、受け取ってくれると嬉しいな。 by オベロン(4/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 30000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1728350054,
+        "createdAt": 1728350054
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51369,7 +51430,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1728226800,
+        "commandSpellRecoverAt": 1728313200,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51382,7 +51443,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1728263796,
+        "updatedAt": 1728350054,
         "createdAt": 1686396199
       }],
       "combineExp": [{
@@ -51401,6 +51462,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1728304400
+    "serverTime": 1728350054
   }
 }
