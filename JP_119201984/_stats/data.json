@@ -15863,6 +15863,96 @@
     "flag": 0,
     "updatedAt": 1728609242,
     "createdAt": 1728609242
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984043929,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984043930,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10086,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984044299,
+    "messageRefType": 3,
+    "messageId": 2861,
+    "message": "「10月開幕予定 期間限定イベント」直前ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 2000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984044300,
+    "messageRefType": 3,
+    "messageId": 2861,
+    "message": "「10月開幕予定 期間限定イベント」直前ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94136501,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984044301,
+    "messageRefType": 3,
+    "messageId": 2802,
+    "message": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション\n開幕記念 ログインボーナスです。(60/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 82984044302,
+    "messageRefType": 3,
+    "messageId": 2855,
+    "message": "3000万DL記念\n3000万DLおめでとう、マスター！\n身を粉にして用意したプレゼントだ、受け取ってくれると嬉しいな。 by オベロン(8/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 18,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1728695562,
+    "createdAt": 1728695562
   }],
   "loginResult": {
     "loginMessages": [{
@@ -25756,6 +25846,80 @@
       "eventId": 10801,
       "day": 7,
       "updatedAt": 1728609242
+    }, {
+      "isDeemedLogin": false,
+      "name": "奏章Ⅲ 新霊長後継戦 アーキタイプ・インセプション 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/sx6paa_k_60.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 60,
+      "updatedAt": 1728695562
+    }, {
+      "isDeemedLogin": false,
+      "name": "「10月開幕予定 期間限定イベント」直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 2000000
+      }, {
+        "name": "霊脈石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241010_u79fge/u79fge_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/2024oct_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10794,
+      "day": 3,
+      "updatedAt": 1728695562
+    }, {
+      "isDeemedLogin": false,
+      "name": "3000万DL記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "レアプリズム",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241005_gk4by3/gk4by3_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/3000man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10801,
+      "day": 8,
+      "updatedAt": 1728695562
     }]
   }
 }
