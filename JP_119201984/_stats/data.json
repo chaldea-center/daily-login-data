@@ -16283,6 +16283,96 @@
     "flag": 0,
     "updatedAt": 1729041331,
     "createdAt": 1729041331
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367279,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367280,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367281,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10086,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367494,
+    "messageRefType": 3,
+    "messageId": 2833,
+    "message": "Fate/Grand Order カルデア放送局 ライト版 ゲーム最新情報\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367495,
+    "messageRefType": 3,
+    "messageId": 2808,
+    "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(65/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 83676367566,
+    "messageRefType": 4,
+    "messageId": 594,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/16 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1729127678,
+    "createdAt": 1729127678
   }],
   "loginResult": {
     "loginMessages": [{
@@ -26498,6 +26588,53 @@
       "eventId": 10794,
       "day": 7,
       "updatedAt": 1729041331
+    }, {
+      "isDeemedLogin": false,
+      "name": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/n6ga48_k_65.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 65,
+      "updatedAt": 1729127678
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版 ゲーム最新情報 配信記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241017_ja8jz9/ja8jz9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/1016nico/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10804,
+      "day": 1,
+      "updatedAt": 1729127678
     }]
   }
 }

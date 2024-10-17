@@ -3,8 +3,84 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "10月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局 ライト版 ゲーム最新情報 配信記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241017_ja8jz9/ja8jz9_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/1016nico/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10804,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/n6ga48_k_65.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 65
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 486,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4079,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 160,
-        "totalLoginCount": 485,
-        "lastLoginAt": 1729081947,
+        "seqLoginCount": 161,
+        "totalLoginCount": 486,
+        "lastLoginAt": 1729127678,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41322,96 +41398,6 @@
       "userQuestRoute": [],
       "userPresentBox": [{
         "receiveUserId": 119201984,
-        "presentId": 73132136947,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1720490247,
-        "createdAt": 1720490247
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73132136948,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10083,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720490247,
-        "createdAt": 1720490247
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73132136979,
-        "messageRefType": 3,
-        "messageId": 2680,
-        "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(12/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720490247,
-        "createdAt": 1720490247
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73197092075,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720576612,
-        "createdAt": 1720576612
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73197092076,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10083,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720576612,
-        "createdAt": 1720576612
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73197092086,
-        "messageRefType": 3,
-        "messageId": 2681,
-        "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(13/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720576612,
-        "createdAt": 1720576612
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73322225798,
         "messageRefType": 3,
         "messageId": 21,
@@ -47365,6 +47351,96 @@
         "flag": 0,
         "updatedAt": 1729041331,
         "createdAt": 1729041331
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367279,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367280,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367281,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10086,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367494,
+        "messageRefType": 3,
+        "messageId": 2833,
+        "message": "Fate/Grand Order カルデア放送局 ライト版 ゲーム最新情報\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367495,
+        "messageRefType": 3,
+        "messageId": 2808,
+        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(65/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83676367566,
+        "messageRefType": 4,
+        "messageId": 594,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/16 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729127678,
+        "createdAt": 1729127678
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51332,7 +51408,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1729004400,
+        "commandSpellRecoverAt": 1729090800,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51345,7 +51421,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1729041331,
+        "updatedAt": 1729127678,
         "createdAt": 1686396199
       }],
       "combineExp": [{
@@ -51364,6 +51440,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1729081947
+    "serverTime": 1729127678
   }
 }
