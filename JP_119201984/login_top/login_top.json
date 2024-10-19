@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "10月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20240814_tsn92c/n6ga48_k_67.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10766,
+        "day": 67
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 488,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 162,
-        "totalLoginCount": 487,
-        "lastLoginAt": 1729254719,
+        "seqLoginCount": 163,
+        "totalLoginCount": 488,
+        "lastLoginAt": 1729300445,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41322,51 +41372,6 @@
       "userQuestRoute": [],
       "userPresentBox": [{
         "receiveUserId": 119201984,
-        "presentId": 73322225873,
-        "messageRefType": 3,
-        "messageId": 2682,
-        "message": "踊るドラゴン・キャッスル！ ～深海の姫君とふたつの宝玉～\n開幕記念 ログインボーナスです。(14/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720663047,
-        "createdAt": 1720663047
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73322225874,
-        "messageRefType": 3,
-        "messageId": 2697,
-        "message": "「水着イベント2024」参加条件クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720663047,
-        "createdAt": 1720663047
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 73436925144,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1720749347,
-        "createdAt": 1720749347
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 73436925145,
         "messageRefType": 3,
         "messageId": 21,
@@ -47365,6 +47370,51 @@
         "flag": 0,
         "updatedAt": 1729214089,
         "createdAt": 1729214089
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83868626573,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729300445,
+        "createdAt": 1729300445
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83868626574,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10086,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729300445,
+        "createdAt": 1729300445
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 83868626700,
+        "messageRefType": 3,
+        "messageId": 2810,
+        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(67/78)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1729300445,
+        "createdAt": 1729300445
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51332,7 +51382,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1729177200,
+        "commandSpellRecoverAt": 1729263600,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51345,7 +51395,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1729214089,
+        "updatedAt": 1729300445,
         "createdAt": 1686396199
       }],
       "combineExp": [{
@@ -51364,6 +51414,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1729254719
+    "serverTime": 1729300445
   }
 }
