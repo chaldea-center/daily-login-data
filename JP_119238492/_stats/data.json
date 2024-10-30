@@ -19538,6 +19538,51 @@
     "flag": 0,
     "updatedAt": 1730164588,
     "createdAt": 1730164588
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 84763936533,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730250927,
+    "createdAt": 1730250927
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 84763936534,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10086,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730250927,
+    "createdAt": 1730250927
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 84763936609,
+    "messageRefType": 3,
+    "messageId": 2821,
+    "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(78/78)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730250927,
+    "createdAt": 1730250927
   }],
   "loginResult": {
     "loginMessages": [{
@@ -30347,6 +30392,29 @@
       "eventId": 10766,
       "day": 77,
       "updatedAt": 1730164588
+    }, {
+      "isDeemedLogin": false,
+      "name": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大78回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20240814_tsn92c/n6ga48_k_78.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10766,
+      "day": 78,
+      "updatedAt": 1730250927
     }]
   }
 }
