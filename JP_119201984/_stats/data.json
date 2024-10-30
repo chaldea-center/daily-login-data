@@ -16973,6 +16973,21 @@
     "flag": 0,
     "updatedAt": 1730250935,
     "createdAt": 1730250935
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 84800333394,
+    "messageRefType": 3,
+    "messageId": 2890,
+    "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1730291586,
+    "createdAt": 1730291586
   }],
   "loginResult": {
     "loginMessages": [{
@@ -27534,6 +27549,30 @@
       "eventId": 10766,
       "day": 78,
       "updatedAt": 1730250935
+    }, {
+      "isDeemedLogin": false,
+      "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10812,
+      "day": 1,
+      "updatedAt": 1730291586
     }]
   }
 }
