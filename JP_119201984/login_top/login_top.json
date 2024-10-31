@@ -3,75 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "10月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 5
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10812,
-        "day": 2
-      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 500,
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00500.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4072,7 +4005,7 @@
         "userId": 119201984,
         "seqLoginCount": 175,
         "totalLoginCount": 500,
-        "lastLoginAt": 1730337374,
+        "lastLoginAt": 1730377935,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35417,6 +35350,21 @@
         "missionId": 2003002,
         "progressType": 0,
         "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033546,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033552,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033558,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -50982,16 +50930,6 @@
         "createdAt": 0
       }, {
         "userId": 119201984,
-        "eventId": 80491,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119201984,
         "eventId": 80493,
         "value": 0,
         "flag": 0,
@@ -51427,6 +51365,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1730337374
+    "serverTime": 1730377935
   }
 }
