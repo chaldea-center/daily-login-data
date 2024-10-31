@@ -3,18 +3,43 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "10月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "campaignbonus": [{
         "isDeemedLogin": false,
         "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
         "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "叡智の業火",
-          "num": 3
+          "name": "英霊結晶・星のフォウくん",
+          "num": 5
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
@@ -25,10 +50,28 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10812,
-        "day": 1
+        "day": 2
       }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 500,
+        "items": [{
+          "name": "聖晶石",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00500.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4013,7 +4056,7 @@
       "mstTotalLogin": [{
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00500.png",
+            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00550.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -4023,13 +4066,13 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 40038,
-        "day": 500
+        "day": 550
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 174,
-        "totalLoginCount": 499,
-        "lastLoginAt": 1730291586,
+        "seqLoginCount": 175,
+        "totalLoginCount": 500,
+        "lastLoginAt": 1730337374,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -41346,81 +41389,6 @@
       "userQuestRoute": [],
       "userPresentBox": [{
         "receiveUserId": 119201984,
-        "presentId": 74483089068,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10083,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721613695,
-        "createdAt": 1721613695
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74557081016,
-        "messageRefType": 3,
-        "messageId": 10021,
-        "message": "通算ログイン400日目のボーナスです",
-        "fromType": 1,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721699883,
-        "createdAt": 1721699883
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74557081017,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1721699883,
-        "createdAt": 1721699883
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74557081018,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10083,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721699883,
-        "createdAt": 1721699883
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74640509160,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721786271,
-        "createdAt": 1721786271
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74640509161,
         "messageRefType": 3,
         "messageId": 21,
@@ -47389,6 +47357,81 @@
         "flag": 0,
         "updatedAt": 1730291586,
         "createdAt": 1730291586
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 84860180262,
+        "messageRefType": 3,
+        "messageId": 10023,
+        "message": "通算ログイン500日目のボーナスです",
+        "fromType": 1,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730337374,
+        "createdAt": 1730337374
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 84860180263,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730337374,
+        "createdAt": 1730337374
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 84860180264,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730337374,
+        "createdAt": 1730337374
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 84860180265,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10086,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730337374,
+        "createdAt": 1730337374
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 84860180339,
+        "messageRefType": 3,
+        "messageId": 2891,
+        "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(2/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1730337374,
+        "createdAt": 1730337374
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51356,7 +51399,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1730214000,
+        "commandSpellRecoverAt": 1730300400,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51369,7 +51412,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1730250935,
+        "updatedAt": 1730337374,
         "createdAt": 1686396199
       }],
       "exchangeSvt": [{
@@ -51384,6 +51427,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1730291586
+    "serverTime": 1730337374
   }
 }
