@@ -3,18 +3,19 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "campaignbonus": [{
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
-        "addDetail": "",
+      "seqLoginBonus": [{
+        "num": 2,
         "items": [{
-          "name": "霊脈石",
-          "num": 3
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "11月交換券(2024)",
+          "num": 1
         }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241101_xlsc4c/xlsc4c_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -22,13 +23,39 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 10807,
-        "day": 1
+        }
       }],
-      "freeShopIds": [6001001, 6001002],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10812,
+        "day": 4
+      }],
+      "addRecommendSupportFriendPoint": 0,
       "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0
+      "totalLoginBonus": [{
+        "num": 502,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4022,14 +4049,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40038,
+        "eventId": 40039,
         "day": 550
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 176,
-        "totalLoginCount": 501,
-        "lastLoginAt": 1730464280,
+        "seqLoginCount": 177,
+        "totalLoginCount": 502,
+        "lastLoginAt": 1730510020,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -47386,6 +47413,51 @@
         "flag": 16,
         "updatedAt": 1730464280,
         "createdAt": 1730464280
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85012775239,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730510020,
+        "createdAt": 1730510020
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85012775240,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10087,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730510020,
+        "createdAt": 1730510020
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85012775282,
+        "messageRefType": 3,
+        "messageId": 2893,
+        "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(4/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1730510020,
+        "createdAt": 1730510020
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51333,7 +51405,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1730386800,
+        "commandSpellRecoverAt": 1730473200,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51346,8 +51418,13 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1730424042,
+        "updatedAt": 1730510020,
         "createdAt": 1686396199
+      }],
+      "exchangeSvt": [{
+        "eventId": 80504,
+        "userSvtIds": [],
+        "svtIds": []
       }],
       "userSvtCommandCode": [],
       "userSvtAppendPassiveSkillLv": [],
@@ -51356,6 +51433,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1730464280
+    "serverTime": 1730510020
   }
 }
