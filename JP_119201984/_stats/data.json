@@ -17168,6 +17168,51 @@
     "flag": 0,
     "updatedAt": 1730510020,
     "createdAt": 1730510020
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 85104303316,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1730596794,
+    "createdAt": 1730596794
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 85104303317,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730596794,
+    "createdAt": 1730596794
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 85104303358,
+    "messageRefType": 3,
+    "messageId": 2894,
+    "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1730596794,
+    "createdAt": 1730596794
   }],
   "loginResult": {
     "loginMessages": [{
@@ -27866,6 +27911,30 @@
       "eventId": 10812,
       "day": 4,
       "updatedAt": 1730510020
+    }, {
+      "isDeemedLogin": false,
+      "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10812,
+      "day": 5,
+      "updatedAt": 1730596794
     }]
   }
 }

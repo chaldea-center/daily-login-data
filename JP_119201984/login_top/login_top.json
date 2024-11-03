@@ -3,8 +3,59 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "11月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 5
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10812,
+        "day": 5
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 503,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4054,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 177,
-        "totalLoginCount": 502,
-        "lastLoginAt": 1730550607,
+        "seqLoginCount": 178,
+        "totalLoginCount": 503,
+        "lastLoginAt": 1730596794,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -47407,6 +47458,51 @@
         "flag": 0,
         "updatedAt": 1730510020,
         "createdAt": 1730510020
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85104303316,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1730596794,
+        "createdAt": 1730596794
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85104303317,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10087,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730596794,
+        "createdAt": 1730596794
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85104303358,
+        "messageRefType": 3,
+        "messageId": 2894,
+        "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1730596794,
+        "createdAt": 1730596794
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51354,7 +51450,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1730473200,
+        "commandSpellRecoverAt": 1730559600,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51367,7 +51463,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1730510020,
+        "updatedAt": 1730596794,
         "createdAt": 1686396199
       }],
       "exchangeSvt": [{
@@ -51382,6 +51478,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1730550607
+    "serverTime": 1730596794
   }
 }
