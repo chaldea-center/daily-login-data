@@ -19808,6 +19808,51 @@
     "flag": 0,
     "updatedAt": 1730596787,
     "createdAt": 1730596787
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85189397522,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730682994,
+    "createdAt": 1730682994
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85189397523,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730682994,
+    "createdAt": 1730682994
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85189397572,
+    "messageRefType": 3,
+    "messageId": 2895,
+    "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1730682994,
+    "createdAt": 1730682994
   }],
   "loginResult": {
     "loginMessages": [{
@@ -30783,6 +30828,30 @@
       "eventId": 10812,
       "day": 5,
       "updatedAt": 1730596787
+    }, {
+      "isDeemedLogin": false,
+      "name": "秋の戦力増強キャンペーン特別ログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241030_7e25jf/7e25jf_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/autumn_enhancement_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10812,
+      "day": 6,
+      "updatedAt": 1730682994
     }]
   }
 }
