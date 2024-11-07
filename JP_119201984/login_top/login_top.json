@@ -3,8 +3,62 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "11月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241107_j3ywgd/j3ywgd_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/mystery_house_crafters_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10805,
+        "day": 1
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 507,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4057,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 181,
-        "totalLoginCount": 506,
-        "lastLoginAt": 1730896347,
+        "seqLoginCount": 182,
+        "totalLoginCount": 507,
+        "lastLoginAt": 1730942030,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35317,271 +35371,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2003003,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003004,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003005,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003006,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003007,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003008,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003009,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033564,
-        "progressType": 3,
-        "num": 4
-      }, {
-        "userId": 119201984,
-        "missionId": 1033565,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119201984,
-        "missionId": 1033566,
-        "progressType": 3,
-        "num": 5
-      }, {
-        "userId": 119201984,
-        "missionId": 1033567,
-        "progressType": 3,
-        "num": 4
-      }, {
-        "userId": 119201984,
-        "missionId": 1033568,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033569,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033570,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119201984,
-        "missionId": 1033571,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119201984,
-        "missionId": 1033572,
-        "progressType": 3,
-        "num": 2
-      }, {
-        "userId": 119201984,
-        "missionId": 1033573,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119201984,
-        "missionId": 1033574,
-        "progressType": 3,
-        "num": 3
-      }, {
-        "userId": 119201984,
-        "missionId": 1033575,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033579,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119201984,
-        "missionId": 1033580,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033581,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033582,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033583,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033584,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033585,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033586,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033587,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033588,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033589,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033590,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033591,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033592,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033593,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033594,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033595,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033596,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033597,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033598,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033599,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033600,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033601,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033602,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033609,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033610,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033611,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033612,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033613,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033614,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033615,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033616,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033617,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 1033618,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 80490001,
         "progressType": 2,
         "num": 0
@@ -36079,6 +35868,271 @@
         "userId": 119201984,
         "missionId": 80490100,
         "progressType": 2,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003003,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003004,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003005,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003006,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003007,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003008,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003009,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033564,
+        "progressType": 3,
+        "num": 4
+      }, {
+        "userId": 119201984,
+        "missionId": 1033565,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119201984,
+        "missionId": 1033566,
+        "progressType": 3,
+        "num": 5
+      }, {
+        "userId": 119201984,
+        "missionId": 1033567,
+        "progressType": 3,
+        "num": 4
+      }, {
+        "userId": 119201984,
+        "missionId": 1033568,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033569,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033570,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119201984,
+        "missionId": 1033571,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119201984,
+        "missionId": 1033572,
+        "progressType": 3,
+        "num": 2
+      }, {
+        "userId": 119201984,
+        "missionId": 1033573,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119201984,
+        "missionId": 1033574,
+        "progressType": 3,
+        "num": 3
+      }, {
+        "userId": 119201984,
+        "missionId": 1033575,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033579,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 1033580,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033581,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033582,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033583,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033584,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033585,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033586,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033587,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033588,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033589,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033590,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033591,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033592,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033593,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033594,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033595,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033596,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033597,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033598,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033599,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033600,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033601,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033602,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033609,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033610,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033611,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033612,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033613,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033614,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033615,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033616,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033617,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 1033618,
+        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -42094,51 +42148,6 @@
       "userQuestRoute": [],
       "userPresentBox": [{
         "receiveUserId": 119201984,
-        "presentId": 74735367459,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721872659,
-        "createdAt": 1721872659
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74735367509,
-        "messageRefType": 3,
-        "messageId": 2691,
-        "message": "ハンティングクエスト 第14弾\n特別ログインボーナスです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721872659,
-        "createdAt": 1721872659
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 74831079459,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1721959056,
-        "createdAt": 1721959056
-      }, {
-        "receiveUserId": 119201984,
         "presentId": 74831079493,
         "messageRefType": 3,
         "messageId": 2692,
@@ -48122,6 +48131,66 @@
         "flag": 0,
         "updatedAt": 1730855593,
         "createdAt": 1730855593
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85421634780,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730942030,
+        "createdAt": 1730942030
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85421634781,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730942030,
+        "createdAt": 1730942030
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85421634782,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10087,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730942030,
+        "createdAt": 1730942030
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85421634867,
+        "messageRefType": 3,
+        "messageId": 2897,
+        "message": "「ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～」開幕直前特別ログインボーナスです。\n(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1730942030,
+        "createdAt": 1730942030
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52069,7 +52138,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1730818800,
+        "commandSpellRecoverAt": 1730905200,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -52082,7 +52151,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1730855593,
+        "updatedAt": 1730942030,
         "createdAt": 1686396199
       }],
       "exchangeSvt": [{
@@ -52097,6 +52166,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1730896347
+    "serverTime": 1730942030
   }
 }

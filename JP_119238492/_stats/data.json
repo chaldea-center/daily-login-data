@@ -19928,6 +19928,66 @@
     "flag": 0,
     "updatedAt": 1730855586,
     "createdAt": 1730855586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85421626487,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730942023,
+    "createdAt": 1730942023
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85421626488,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730942023,
+    "createdAt": 1730942023
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85421626489,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730942023,
+    "createdAt": 1730942023
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85421626683,
+    "messageRefType": 3,
+    "messageId": 2897,
+    "message": "「ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～」開幕直前特別ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1730942023,
+    "createdAt": 1730942023
   }],
   "loginResult": {
     "loginMessages": [{
@@ -30951,6 +31011,30 @@
       "eventId": 10812,
       "day": 7,
       "updatedAt": 1730769197
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241107_j3ywgd/j3ywgd_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mystery_house_crafters_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10805,
+      "day": 1,
+      "updatedAt": 1730942023
     }]
   }
 }
