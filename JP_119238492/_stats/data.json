@@ -19988,6 +19988,66 @@
     "flag": 0,
     "updatedAt": 1730942023,
     "createdAt": 1730942023
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85510015021,
+    "messageRefType": 3,
+    "messageId": 10023,
+    "message": "通算ログイン500日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731028410,
+    "createdAt": 1731028410
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85510015022,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731028410,
+    "createdAt": 1731028410
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85510015023,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731028410,
+    "createdAt": 1731028410
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85510015086,
+    "messageRefType": 3,
+    "messageId": 2898,
+    "message": "「ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～」開幕直前特別ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731028410,
+    "createdAt": 1731028410
   }],
   "loginResult": {
     "loginMessages": [{
@@ -20089,6 +20149,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1726711727
+    }, {
+      "num": 500,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00500.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1731028410
     }],
     "loginFortuneBonus": [],
     "campaignDirectBonus": [],
@@ -31035,6 +31113,30 @@
       "eventId": 10805,
       "day": 1,
       "updatedAt": 1730942023
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241107_j3ywgd/j3ywgd_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mystery_house_crafters_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10805,
+      "day": 2,
+      "updatedAt": 1731028410
     }]
   }
 }
