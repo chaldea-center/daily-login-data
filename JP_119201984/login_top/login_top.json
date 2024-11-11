@@ -3,8 +3,59 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "11月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "campaignbonus": [{
+        "isDeemedLogin": false,
+        "name": "「ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "QP",
+          "num": 1000000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241107_j3ywgd/j3ywgd_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/mystery_house_crafters_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10805,
+        "day": 5
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 511,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4054,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 185,
-        "totalLoginCount": 510,
-        "lastLoginAt": 1731241719,
+        "seqLoginCount": 186,
+        "totalLoginCount": 511,
+        "lastLoginAt": 1731287705,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35817,41 +35868,6 @@
         "num": 0
       }, {
         "userId": 119201984,
-        "missionId": 2003003,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003004,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003005,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003006,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003007,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003008,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003009,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033609,
         "progressType": 3,
         "num": 0
@@ -35899,6 +35915,41 @@
         "userId": 119201984,
         "missionId": 1033618,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003010,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003011,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003012,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003013,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003014,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003015,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003016,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -41822,51 +41873,6 @@
       "userGachaDrawLog": [],
       "userQuestRoute": [],
       "userPresentBox": [{
-        "receiveUserId": 119201984,
-        "presentId": 75283066192,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1722304686,
-        "createdAt": 1722304686
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75283066318,
-        "messageRefType": 3,
-        "messageId": 2712,
-        "message": "「FGO Expo ～Fate/Grand Order Fes. 2024 9th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1722304686,
-        "createdAt": 1722304686
-      }, {
-        "receiveUserId": 119201984,
-        "presentId": 75283066320,
-        "messageRefType": 3,
-        "messageId": 2696,
-        "message": "ハンティングクエスト 第14弾\n特別ログインボーナスです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1722304686,
-        "createdAt": 1722304686
-      }, {
         "receiveUserId": 119201984,
         "presentId": 75386074710,
         "messageRefType": 3,
@@ -47866,6 +47872,51 @@
         "flag": 0,
         "updatedAt": 1731201492,
         "createdAt": 1731201492
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85739211874,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1731287705,
+        "createdAt": 1731287705
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85739211875,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10087,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1731287705,
+        "createdAt": 1731287705
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 85739211913,
+        "messageRefType": 3,
+        "messageId": 2901,
+        "message": "「ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～」開幕直前特別ログインボーナスです。\n(5/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 1000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1731287705,
+        "createdAt": 1731287705
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51813,7 +51864,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1731164400,
+        "commandSpellRecoverAt": 1731250800,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51826,7 +51877,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1731201492,
+        "updatedAt": 1731287705,
         "createdAt": 1686396199
       }],
       "exchangeSvt": [{
@@ -51841,6 +51892,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1731241719
+    "serverTime": 1731287705
   }
 }
