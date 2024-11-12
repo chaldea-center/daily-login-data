@@ -20183,6 +20183,51 @@
     "flag": 0,
     "updatedAt": 1731287698,
     "createdAt": 1731287698
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85811449161,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1731373971,
+    "createdAt": 1731373971
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85811449162,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731373971,
+    "createdAt": 1731373971
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 85811449315,
+    "messageRefType": 3,
+    "messageId": 2902,
+    "message": "「ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～」開幕直前特別ログインボーナスです。\n(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731373971,
+    "createdAt": 1731373971
   }],
   "loginResult": {
     "loginMessages": [{
@@ -31344,6 +31389,30 @@
       "eventId": 10805,
       "day": 5,
       "updatedAt": 1731287698
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241107_j3ywgd/j3ywgd_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/mystery_house_crafters_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10805,
+      "day": 6,
+      "updatedAt": 1731373971
     }]
   }
 }
