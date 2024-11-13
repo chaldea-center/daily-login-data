@@ -17663,6 +17663,21 @@
     "flag": 0,
     "updatedAt": 1731460461,
     "createdAt": 1731460461
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 85916588264,
+    "messageRefType": 3,
+    "messageId": 2868,
+    "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1731501128,
+    "createdAt": 1731501128
   }],
   "loginResult": {
     "loginMessages": [{
@@ -17785,7 +17800,7 @@
     }],
     "loginFortuneBonus": [],
     "campaignDirectBonus": [],
-    "campaignbonus": [{
+    "campaignBonus": [{
       "isDeemedLogin": false,
       "name": "盈月剣風帖開幕記念 ログインボーナス",
       "detail": "開催期間中、1日1回 最大21回ログインボーナスをプレゼント！",
@@ -28601,6 +28616,49 @@
       "eventId": 10805,
       "day": 7,
       "updatedAt": 1731460461
+    }, {
+      "isDeemedLogin": false,
+      "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
+      "detail": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241113_di4x2y/di4x2y_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10806,
+      "day": 1,
+      "updatedAt": 1731501128
+    }, {
+      "isDeemedLogin": false,
+      "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241113_yjkw97/yjkw97_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10809,
+      "day": 1,
+      "updatedAt": 1731501128
     }]
   }
 }
