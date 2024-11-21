@@ -3,45 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "11月交換券(2024)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～\n開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
+        "detail": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241113_yjkw97/yjkw97_k_09.png",
+            "bannerUrl": "/webview/loginbonus/20241113_di4x2y/di4x2y_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,13 +22,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10809,
-        "day": 9
-      }],
-      "totalLoginBonus": [{
-        "num": 521,
-        "items": [],
-        "script": {}
+        "eventId": 10813,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4058,7 +4025,7 @@
         "userId": 119201984,
         "seqLoginCount": 196,
         "totalLoginCount": 521,
-        "lastLoginAt": 1732151868,
+        "lastLoginAt": 1732192468,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -51335,6 +51302,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1732151868
+    "serverTime": 1732192468
   }
 }

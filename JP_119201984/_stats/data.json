@@ -29325,6 +29325,26 @@
       "eventId": 10809,
       "day": 9,
       "updatedAt": 1732151868
+    }, {
+      "isDeemedLogin": false,
+      "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
+      "detail": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241113_di4x2y/di4x2y_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10813,
+      "day": 1,
+      "updatedAt": 1732192468
     }]
   }
 }
