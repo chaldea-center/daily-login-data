@@ -20993,6 +20993,66 @@
     "flag": 0,
     "updatedAt": 1732670422,
     "createdAt": 1732670422
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 87112352859,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732756787,
+    "createdAt": 1732756787
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 87112352860,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732756787,
+    "createdAt": 1732756787
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 87112352861,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732756787,
+    "createdAt": 1732756787
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 87112352979,
+    "messageRefType": 3,
+    "messageId": 2883,
+    "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732756787,
+    "createdAt": 1732756787
   }],
   "loginResult": {
     "loginMessages": [{
@@ -32634,6 +32694,29 @@
       "eventId": 10809,
       "day": 15,
       "updatedAt": 1732670422
+    }, {
+      "isDeemedLogin": false,
+      "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241113_yjkw97/yjkw97_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10809,
+      "day": 16,
+      "updatedAt": 1732756787
     }]
   }
 }
