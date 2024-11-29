@@ -18443,6 +18443,51 @@
     "flag": 0,
     "updatedAt": 1732756795,
     "createdAt": 1732756795
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 87189151911,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732843203,
+    "createdAt": 1732843203
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 87189151912,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10087,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732843203,
+    "createdAt": 1732843203
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 87189151931,
+    "messageRefType": 3,
+    "messageId": 2884,
+    "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(17/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1732843203,
+    "createdAt": 1732843203
   }],
   "loginResult": {
     "loginMessages": [{
@@ -29836,6 +29881,29 @@
       "eventId": 10809,
       "day": 16,
       "updatedAt": 1732756795
+    }, {
+      "isDeemedLogin": false,
+      "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241113_yjkw97/yjkw97_k_17.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10809,
+      "day": 17,
+      "updatedAt": 1732843203
     }]
   }
 }
