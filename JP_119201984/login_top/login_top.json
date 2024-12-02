@@ -3,21 +3,42 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "00-72-2E-AE-0C-A2-49-16-F6-72-29-D3-EF-24-38-B4",
-      "freeShopIds": [6001012, 6001013],
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "12月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+        "name": "ぶち壊せ！ ミステリーハウス・クラフターズ ～星の鉱員と日の出の翼～\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "霊脈石",
-          "num": 3
+          "name": "白銀の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20241201_6b878k/6b878k_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20241113_yjkw97/yjkw97_k_20.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,8 +47,13 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10817,
-        "day": 1
+        "eventId": 10809,
+        "day": 20
+      }],
+      "totalLoginBonus": [{
+        "num": 532,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4027,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119201984,
-        "seqLoginCount": 206,
-        "totalLoginCount": 531,
-        "lastLoginAt": 1733056318,
+        "seqLoginCount": 207,
+        "totalLoginCount": 532,
+        "lastLoginAt": 1733102563,
         "createdAt": 1686396199
       }],
       "userShop": [{
@@ -35342,41 +35368,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119201984,
-        "missionId": 2003024,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003025,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003026,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003027,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003028,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003029,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
-        "missionId": 2003030,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119201984,
         "missionId": 1033576,
         "progressType": 3,
         "num": 0
@@ -35420,6 +35411,41 @@
         "missionId": 1033608,
         "progressType": 3,
         "num": 1
+      }, {
+        "userId": 119201984,
+        "missionId": 2003031,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003032,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003033,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003034,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003035,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003036,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119201984,
+        "missionId": 2003037,
+        "progressType": 0,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119201984,
@@ -47158,6 +47184,51 @@
         "flag": 16,
         "updatedAt": 1733056318,
         "createdAt": 1733056318
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 87433792878,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1733102563,
+        "createdAt": 1733102563
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 87433792879,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10088,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1733102563,
+        "createdAt": 1733102563
+      }, {
+        "receiveUserId": 119201984,
+        "presentId": 87433792910,
+        "messageRefType": 3,
+        "messageId": 2887,
+        "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(20/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1733102563,
+        "createdAt": 1733102563
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51095,7 +51166,7 @@
         "pushUserSvtId": 0,
         "flag": 512,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1732978800,
+        "commandSpellRecoverAt": 1733065200,
         "svtStorageAdjust": 0,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129215583,
@@ -51108,7 +51179,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 453026430,
         "tutorial2": 150,
-        "updatedAt": 1733017174,
+        "updatedAt": 1733102563,
         "createdAt": 1686396199
       }],
       "exchangeSvt": [{
@@ -51123,6 +51194,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1733056318
+    "serverTime": 1733102563
   }
 }
