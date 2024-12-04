@@ -3,34 +3,31 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「クリスマス2024」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
         "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "12月交換券(2024)",
+          "name": "黄金の果実",
           "num": 1
         }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "bannerUrl": "/webview/loginbonus/20241204_3hb3nt/3hb3nt_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2024/christmas2024_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 526,
-        "items": [],
-        "script": {}
+        },
+        "eventId": 10818,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4032,7 +4029,7 @@
         "userId": 119238492,
         "seqLoginCount": 209,
         "totalLoginCount": 526,
-        "lastLoginAt": 1733275294,
+        "lastLoginAt": 1733315717,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -37001,6 +36998,55 @@
         "createdAt": 1733056311
       }, {
         "userId": 119238492,
+        "missionId": 1033626,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033627,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033628,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033629,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033630,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033631,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
+        "missionId": 1033632,
+        "missionTargetId": 200197,
+        "missionProgressType": 4,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
+      }, {
+        "userId": 119238492,
         "missionId": 30000060,
         "missionTargetId": 300020,
         "missionProgressType": 5,
@@ -47456,6 +47502,21 @@
         "flag": 0,
         "updatedAt": 1733275294,
         "createdAt": 1733275294
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 87618961086,
+        "messageRefType": 3,
+        "messageId": 2936,
+        "message": "「クリスマス2024」開幕直前特別ログインボーナスです。\n(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1733315717,
+        "createdAt": 1733315717
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51403,7 +51464,7 @@
         "friendCode": "879881241",
         "favoriteUserSvtId": 167706009684,
         "pushUserSvtId": 0,
-        "flag": 512,
+        "flag": 134218240,
         "commandSpellUseAt": 0,
         "commandSpellRecoverAt": 1733238000,
         "svtStorageAdjust": 255,
@@ -51418,7 +51479,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1733275294,
+        "updatedAt": 1733315717,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -51433,6 +51494,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1733275294
+    "serverTime": 1733315717
   }
 }

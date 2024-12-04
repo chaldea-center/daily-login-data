@@ -18713,6 +18713,21 @@
     "flag": 0,
     "updatedAt": 1733275301,
     "createdAt": 1733275301
+  }, {
+    "receiveUserId": 119201984,
+    "presentId": 87618970904,
+    "messageRefType": 3,
+    "messageId": 2936,
+    "message": "「クリスマス2024」開幕直前特別ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1733315724,
+    "createdAt": 1733315724
   }],
   "loginResult": {
     "loginMessages": [{
@@ -30244,6 +30259,30 @@
       "eventId": 10809,
       "day": 21,
       "updatedAt": 1733188894
+    }, {
+      "isDeemedLogin": false,
+      "name": "「クリスマス2024」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241204_3hb3nt/3hb3nt_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/christmas2024_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10818,
+      "day": 1,
+      "updatedAt": 1733315724
     }]
   }
 }
