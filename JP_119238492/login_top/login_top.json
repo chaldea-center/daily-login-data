@@ -3,8 +3,58 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "12月交換券(2024)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "スペース・ファンタズムーン アナザー・クリスマス 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20241225_gc92wz/gc92wz_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10821,
+        "day": 3
+      }],
+      "totalLoginBonus": [{
+        "num": 545,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 2,
-        "totalLoginCount": 544,
-        "lastLoginAt": 1735302476,
+        "seqLoginCount": 3,
+        "totalLoginCount": 545,
+        "lastLoginAt": 1735347998,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41486,81 +41536,6 @@
         "createdAt": 1724850852
       }, {
         "receiveUserId": 119238492,
-        "presentId": 79370861994,
-        "messageRefType": 3,
-        "messageId": 2764,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(23/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725501913,
-        "createdAt": 1725501913
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79466774479,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725588323,
-        "createdAt": 1725588323
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79466774480,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725588323,
-        "createdAt": 1725588323
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79466774516,
-        "messageRefType": 3,
-        "messageId": 2823,
-        "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(中編)開幕直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725588323,
-        "createdAt": 1725588323
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79466774517,
-        "messageRefType": 3,
-        "messageId": 2765,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(24/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725588323,
-        "createdAt": 1725588323
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 79561649492,
         "messageRefType": 3,
         "messageId": 21,
@@ -47844,6 +47819,81 @@
         "flag": 4,
         "updatedAt": 1735261671,
         "createdAt": 1735261671
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88333941787,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1735347998,
+        "createdAt": 1735347998
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88333941788,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10088,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735347998,
+        "createdAt": 1735347998
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88333941823,
+        "messageRefType": 3,
+        "messageId": 2914,
+        "message": "スペース・ファンタズムーン アナザー・クリスマス\n開幕記念 ログインボーナスです。(3/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735347998,
+        "createdAt": 1735347998
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88333941826,
+        "messageRefType": 4,
+        "messageId": 602,
+        "message": "臨時メンテナンス実施のお詫び (12/27 2:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735347998,
+        "createdAt": 1735347998
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88333941827,
+        "messageRefType": 4,
+        "messageId": 603,
+        "message": "臨時メンテナンス実施のお詫び (12/27 2:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735347998,
+        "createdAt": 1735347998
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51814,7 +51864,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1735225200,
+        "commandSpellRecoverAt": 1735311600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51827,7 +51877,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1735261671,
+        "updatedAt": 1735347998,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -51837,6 +51887,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735302476
+    "serverTime": 1735347998
   }
 }

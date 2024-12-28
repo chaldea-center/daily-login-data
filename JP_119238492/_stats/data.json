@@ -22748,6 +22748,81 @@
     "flag": 4,
     "updatedAt": 1735261671,
     "createdAt": 1735261671
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88333941787,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1735347998,
+    "createdAt": 1735347998
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88333941788,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10088,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735347998,
+    "createdAt": 1735347998
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88333941823,
+    "messageRefType": 3,
+    "messageId": 2914,
+    "message": "スペース・ファンタズムーン アナザー・クリスマス\n開幕記念 ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735347998,
+    "createdAt": 1735347998
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88333941826,
+    "messageRefType": 4,
+    "messageId": 602,
+    "message": "臨時メンテナンス実施のお詫び (12/27 2:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735347998,
+    "createdAt": 1735347998
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88333941827,
+    "messageRefType": 4,
+    "messageId": 603,
+    "message": "臨時メンテナンス実施のお詫び (12/27 2:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735347998,
+    "createdAt": 1735347998
   }],
   "loginResult": {
     "loginMessages": [{
@@ -34597,6 +34672,29 @@
       "eventId": 10821,
       "day": 2,
       "updatedAt": 1735261671
+    }, {
+      "isDeemedLogin": false,
+      "name": "スペース・ファンタズムーン アナザー・クリスマス 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241225_gc92wz/gc92wz_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10821,
+      "day": 3,
+      "updatedAt": 1735347998
     }]
   }
 }
