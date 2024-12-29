@@ -22823,6 +22823,66 @@
     "flag": 0,
     "updatedAt": 1735347998,
     "createdAt": 1735347998
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88362825696,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735434852,
+    "createdAt": 1735434852
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88362825697,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10088,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735434852,
+    "createdAt": 1735434852
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88362825721,
+    "messageRefType": 3,
+    "messageId": 2943,
+    "message": "Fate Project 大晦日TVスペシャル2024\n放送カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735434852,
+    "createdAt": 1735434852
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88362825722,
+    "messageRefType": 3,
+    "messageId": 2915,
+    "message": "スペース・ファンタズムーン アナザー・クリスマス\n開幕記念 ログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735434852,
+    "createdAt": 1735434852
   }],
   "loginResult": {
     "loginMessages": [{
@@ -34695,6 +34755,53 @@
       "eventId": 10821,
       "day": 3,
       "updatedAt": 1735347998
+    }, {
+      "isDeemedLogin": false,
+      "name": "スペース・ファンタズムーン アナザー・クリスマス 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241225_gc92wz/gc92wz_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10821,
+      "day": 4,
+      "updatedAt": 1735434852
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate Project 大晦日TVスペシャル2024 放送カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241229_ex5b3g/ex5b3g_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/tvspecial2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10830,
+      "day": 1,
+      "updatedAt": 1735434852
     }]
   }
 }
