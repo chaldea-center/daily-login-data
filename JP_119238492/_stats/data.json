@@ -22943,6 +22943,81 @@
     "flag": 0,
     "updatedAt": 1735521025,
     "createdAt": 1735521025
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88412722094,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735607258,
+    "createdAt": 1735607258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88412722095,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10088,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735607258,
+    "createdAt": 1735607258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88412722157,
+    "messageRefType": 3,
+    "messageId": 2917,
+    "message": "スペース・ファンタズムーン アナザー・クリスマス\n開幕記念 ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735607258,
+    "createdAt": 1735607258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88412722158,
+    "messageRefType": 3,
+    "messageId": 2945,
+    "message": "Fate Project 大晦日TVスペシャル2024\n放送カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735607258,
+    "createdAt": 1735607258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88412722159,
+    "messageRefType": 3,
+    "messageId": 2945,
+    "message": "Fate Project 大晦日TVスペシャル2024\n放送カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735607258,
+    "createdAt": 1735607258
   }],
   "loginResult": {
     "loginMessages": [{
@@ -34909,6 +34984,83 @@
       "eventId": 10831,
       "day": 1,
       "updatedAt": 1735521025
+    }, {
+      "isDeemedLogin": false,
+      "name": "スペース・ファンタズムーン アナザー・クリスマス 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "※本日はキャンペーン期間最終日です。\n以降のボーナスは獲得できません。",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241225_gc92wz/gc92wz_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10821,
+      "day": 6,
+      "updatedAt": 1735607258
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate Project 大晦日TVスペシャル2024 放送カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }, {
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241231_t75w4n/t75w4n_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/tvspecial2024/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10832,
+      "day": 1,
+      "updatedAt": 1735607258
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ネコ108」撃破応援ログインボーナス",
+      "detail": "開催期間中、初回ログインで「黄金の果実×5」＆「月見のティーポット×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 5
+      }, {
+        "name": "月見のティーポット",
+        "num": 10
+      }],
+      "script": {
+        "directReward": 1,
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20241230_1n0c8o/1n0c8o_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10886,
+      "day": 1,
+      "updatedAt": 1735607258
     }]
   }
 }
