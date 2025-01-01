@@ -23018,6 +23018,141 @@
     "flag": 0,
     "updatedAt": 1735607258,
     "createdAt": 1735607258
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423502,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423503,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423504,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423505,
+    "messageRefType": 3,
+    "messageId": 2960,
+    "message": "2025年お正月キャンペーン\n1日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 10000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423506,
+    "messageRefType": 3,
+    "messageId": 2960,
+    "message": "2025年お正月キャンペーン\n1日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 6517,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423554,
+    "messageRefType": 3,
+    "messageId": 2957,
+    "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423555,
+    "messageRefType": 3,
+    "messageId": 2957,
+    "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 20000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423556,
+    "messageRefType": 3,
+    "messageId": 2956,
+    "message": "2025年お正月キャンペーン\nお年玉ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88457423557,
+    "messageRefType": 3,
+    "messageId": 3001,
+    "message": "お正月キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94140002,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1735694030,
+    "createdAt": 1735694030
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23138,7 +23273,25 @@
       },
       "updatedAt": 1731028410
     }],
-    "loginFortuneBonus": [],
+    "loginFortuneBonus": [{
+      "eventId": 10854,
+      "rewards": [{
+        "day": 1,
+        "idx": 3
+      }],
+      "logs": [{
+        "day": 1,
+        "idx": 3
+      }],
+      "details": [{
+        "idx": 3,
+        "iconId": 80686,
+        "name": "ココ吉",
+        "giftId": 700705,
+        "script": {}
+      }],
+      "updatedAt": 1735694030
+    }],
     "campaignDirectBonus": [],
     "campaignBonus": [{
       "isDeemedLogin": false,
@@ -35061,6 +35214,78 @@
       "eventId": 10886,
       "day": 1,
       "updatedAt": 1735607258
+    }, {
+      "isDeemedLogin": false,
+      "name": "2025年お正月キャンペーン　お年玉ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250101_64fh1n/64fh1n_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10834,
+      "day": 1,
+      "updatedAt": 1735694030
+    }, {
+      "isDeemedLogin": false,
+      "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
+      "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 30
+      }, {
+        "name": "フレンドポイント",
+        "num": 20000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250101_gw5we4/gw5we4_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10835,
+      "day": 1,
+      "updatedAt": 1735694030
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250101_ghsr54/ghsr54_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10840,
+      "day": 1,
+      "updatedAt": 1735694030
     }]
   }
 }

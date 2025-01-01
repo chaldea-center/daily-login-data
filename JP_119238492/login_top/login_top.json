@@ -3,8 +3,127 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "1月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "loginFortuneBonus": [{
+        "eventId": 10854,
+        "rewards": [{
+          "day": 1,
+          "idx": 3
+        }],
+        "logs": [{
+          "day": 1,
+          "idx": 3
+        }],
+        "details": [{
+          "idx": 3,
+          "iconId": 80686,
+          "name": "ココ吉",
+          "giftId": 700705,
+          "script": {}
+        }]
+      }],
+      "freeShopIds": [6000882, 6000958, 6000959, 6000960],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250101_ghsr54/ghsr54_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10840,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
+        "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 30
+        }, {
+          "name": "フレンドポイント",
+          "num": 20000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250101_gw5we4/gw5we4_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10835,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "2025年お正月キャンペーン　お年玉ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250101_64fh1n/64fh1n_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10834,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 549,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -3998,14 +4117,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40039,
+        "eventId": 40040,
         "day": 550
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 6,
-        "totalLoginCount": 548,
-        "lastLoginAt": 1735648082,
+        "seqLoginCount": 7,
+        "totalLoginCount": 549,
+        "lastLoginAt": 1735694030,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -4029,8 +4148,7 @@
         "flag": 0,
         "resetNum": 0,
         "updatedAt": 1705327573
-      }],
-      "boxGachaHistory": []
+      }]
     },
     "deleted": {},
     "replaced": {
@@ -34833,6 +34951,36 @@
         "missionId": 2003065,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033620,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1033621,
+        "progressType": 3,
+        "num": 5
+      }, {
+        "userId": 119238492,
+        "missionId": 1033622,
+        "progressType": 3,
+        "num": 5
+      }, {
+        "userId": 119238492,
+        "missionId": 1033623,
+        "progressType": 3,
+        "num": 6
+      }, {
+        "userId": 119238492,
+        "missionId": 1033624,
+        "progressType": 3,
+        "num": 6
+      }, {
+        "userId": 119238492,
+        "missionId": 1033625,
+        "progressType": 3,
+        "num": 1
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -41486,156 +41634,6 @@
         "createdAt": 1724850852
       }, {
         "receiveUserId": 119238492,
-        "presentId": 79848521966,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725933989,
-        "createdAt": 1725933989
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79848522004,
-        "messageRefType": 3,
-        "messageId": 2823,
-        "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(中編)開幕直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1725933989,
-        "createdAt": 1725933989
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79848522005,
-        "messageRefType": 3,
-        "messageId": 2769,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(28/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1725933989,
-        "createdAt": 1725933989
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79940077910,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726020342,
-        "createdAt": 1726020342
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79940077911,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726020342,
-        "createdAt": 1726020342
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79940077946,
-        "messageRefType": 3,
-        "messageId": 2823,
-        "message": "「奏章Ⅲ 新霊長後継戦\nアーキタイプ・インセプション」(中編)開幕直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726020342,
-        "createdAt": 1726020342
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 79940077947,
-        "messageRefType": 3,
-        "messageId": 2770,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(29/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726020342,
-        "createdAt": 1726020342
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80030061073,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726106743,
-        "createdAt": 1726106743
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80030061074,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726106743,
-        "createdAt": 1726106743
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80030061075,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726106743,
-        "createdAt": 1726106743
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80030061102,
         "messageRefType": 3,
         "messageId": 2771,
@@ -41681,21 +41679,6 @@
         "createdAt": 1726193212
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80119234898,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726193212,
-        "createdAt": 1726193212
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80119234933,
         "messageRefType": 3,
         "messageId": 2772,
@@ -41718,21 +41701,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726279477,
-        "createdAt": 1726279477
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80196287611,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -41771,21 +41739,6 @@
         "createdAt": 1726366503
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80266546121,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726366503,
-        "createdAt": 1726366503
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80266546144,
         "messageRefType": 3,
         "messageId": 2774,
@@ -41808,21 +41761,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726452823,
-        "createdAt": 1726452823
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80349672316,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -41861,21 +41799,6 @@
         "createdAt": 1726537391
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80424507066,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726537391,
-        "createdAt": 1726537391
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80424507123,
         "messageRefType": 3,
         "messageId": 2776,
@@ -41899,21 +41822,6 @@
         "giftType": 2,
         "objectId": 2,
         "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726625191,
-        "createdAt": 1726625191
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80511851376,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
@@ -41996,21 +41904,6 @@
         "createdAt": 1726711727
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80604643858,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726711727,
-        "createdAt": 1726711727
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80604643868,
         "messageRefType": 3,
         "messageId": 2825,
@@ -42056,21 +41949,6 @@
         "createdAt": 1726798084
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80699550606,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726798084,
-        "createdAt": 1726798084
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80699550675,
         "messageRefType": 3,
         "messageId": 2826,
@@ -42108,21 +41986,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726884373,
-        "createdAt": 1726884373
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 80802446367,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -42191,21 +42054,6 @@
         "createdAt": 1726971344
       }, {
         "receiveUserId": 119238492,
-        "presentId": 80896522949,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1726971344,
-        "createdAt": 1726971344
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 80896522970,
         "messageRefType": 3,
         "messageId": 2828,
@@ -42243,21 +42091,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727057457,
-        "createdAt": 1727057457
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81006138927,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -42326,21 +42159,6 @@
         "createdAt": 1727143886
       }, {
         "receiveUserId": 119238492,
-        "presentId": 81111475049,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727143886,
-        "createdAt": 1727143886
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 81111475072,
         "messageRefType": 3,
         "messageId": 2830,
@@ -42379,21 +42197,6 @@
         "giftType": 2,
         "objectId": 2,
         "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727230347,
-        "createdAt": 1727230347
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81203554314,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
@@ -42446,21 +42249,6 @@
         "createdAt": 1727313231
       }, {
         "receiveUserId": 119238492,
-        "presentId": 81287061147,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727313231,
-        "createdAt": 1727313231
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 81287061276,
         "messageRefType": 3,
         "messageId": 2785,
@@ -42491,21 +42279,6 @@
         "createdAt": 1727399667
       }, {
         "receiveUserId": 119238492,
-        "presentId": 81369408048,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727399667,
-        "createdAt": 1727399667
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 81369408132,
         "messageRefType": 3,
         "messageId": 2786,
@@ -42528,21 +42301,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727486019,
-        "createdAt": 1727486019
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81441845308,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -42581,21 +42339,6 @@
         "createdAt": 1727572796
       }, {
         "receiveUserId": 119238492,
-        "presentId": 81517687677,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727572796,
-        "createdAt": 1727572796
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 81517687702,
         "messageRefType": 3,
         "messageId": 2788,
@@ -42618,21 +42361,6 @@
         "fromType": 2,
         "giftType": 2,
         "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727658988,
-        "createdAt": 1727658988
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81599925902,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10085,
         "num": 1,
         "limitCount": 0,
         "lv": 0,
@@ -46016,21 +45744,6 @@
         "createdAt": 1733017167
       }, {
         "receiveUserId": 119238492,
-        "presentId": 87367646665,
-        "messageRefType": 3,
-        "messageId": 2905,
-        "message": "「Lostbelt No.7」クリア応援キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94139201,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1733056311,
-        "createdAt": 1733056311
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 87433782456,
         "messageRefType": 3,
         "messageId": 21,
@@ -47844,6 +47557,141 @@
         "flag": 0,
         "updatedAt": 1735607258,
         "createdAt": 1735607258
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423502,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423503,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423504,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10089,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423505,
+        "messageRefType": 3,
+        "messageId": 2960,
+        "message": "2025年お正月キャンペーン\n1日目のおみくじボーナスです。",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 10000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423506,
+        "messageRefType": 3,
+        "messageId": 2960,
+        "message": "2025年お正月キャンペーン\n1日目のおみくじボーナスです。",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 6517,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423554,
+        "messageRefType": 3,
+        "messageId": 2957,
+        "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(1/3)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423555,
+        "messageRefType": 3,
+        "messageId": 2957,
+        "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(1/3)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 20000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423556,
+        "messageRefType": 3,
+        "messageId": 2956,
+        "message": "2025年お正月キャンペーン\nお年玉ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88457423557,
+        "messageRefType": 3,
+        "messageId": 3001,
+        "message": "お正月キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94140002,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1735694030,
+        "createdAt": 1735694030
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -48690,7 +48538,6 @@
         "name": "",
         "cost": 0
       }],
-      "userBoxGacha": [],
       "userItem": [{
         "userId": 119238492,
         "itemId": 16,
@@ -51423,7 +51270,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80506,
+        "eventId": 80507,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -51433,17 +51280,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80509,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 2,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80507,
+        "eventId": 80512,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -51820,7 +51657,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1735570800,
+        "commandSpellRecoverAt": 1735657200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51833,7 +51670,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1735607258,
+        "updatedAt": 1735694030,
         "createdAt": 1686492765
       }],
       "userSvtCommandCode": [],
@@ -51843,6 +51680,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735648082
+    "serverTime": 1735694030
   }
 }
