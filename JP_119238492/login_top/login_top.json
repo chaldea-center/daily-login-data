@@ -3,127 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "1月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "loginFortuneBonus": [{
-        "eventId": 10854,
-        "rewards": [{
-          "day": 1,
-          "idx": 3
-        }],
-        "logs": [{
-          "day": 1,
-          "idx": 3
-        }],
-        "details": [{
-          "idx": 3,
-          "iconId": 80686,
-          "name": "ココ吉",
-          "giftId": 700705,
-          "script": {}
-        }]
-      }],
-      "freeShopIds": [6000882, 6000958, 6000959, 6000960],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250101_ghsr54/ghsr54_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10840,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
-        "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "叡智の業火",
-          "num": 30
-        }, {
-          "name": "フレンドポイント",
-          "num": 20000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250101_gw5we4/gw5we4_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10835,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "2025年お正月キャンペーン　お年玉ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250101_64fh1n/64fh1n_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10834,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 549,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4124,7 +4005,7 @@
         "userId": 119238492,
         "seqLoginCount": 7,
         "totalLoginCount": 549,
-        "lastLoginAt": 1735694030,
+        "lastLoginAt": 1735734476,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -51680,6 +51561,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735694030
+    "serverTime": 1735734476
   }
 }
