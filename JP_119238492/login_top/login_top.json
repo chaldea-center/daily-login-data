@@ -3,95 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "1月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "loginFortuneBonus": [{
-        "eventId": 10854,
-        "rewards": [{
-          "day": 2,
-          "idx": 3
-        }],
-        "logs": [{
-          "day": 1,
-          "idx": 3
-        }, {
-          "day": 2,
-          "idx": 3
-        }],
-        "details": [{
-          "idx": 3,
-          "iconId": 80686,
-          "name": "ココ吉",
-          "giftId": 700705,
-          "script": {}
-        }]
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
-        "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 10000000
-        }, {
-          "name": "伝承結晶",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250102_k3yk45/k3yk45_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10836,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 550,
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00550.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4092,7 +4005,7 @@
         "userId": 119238492,
         "seqLoginCount": 8,
         "totalLoginCount": 550,
-        "lastLoginAt": 1735780036,
+        "lastLoginAt": 1735820911,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -51773,6 +51686,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735780036
+    "serverTime": 1735820911
   }
 }
