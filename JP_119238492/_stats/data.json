@@ -23153,6 +23153,111 @@
     "flag": 16,
     "updatedAt": 1735694030,
     "createdAt": 1735694030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271351,
+    "messageRefType": 3,
+    "messageId": 10024,
+    "message": "通算ログイン550日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271352,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271353,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271354,
+    "messageRefType": 3,
+    "messageId": 2960,
+    "message": "2025年お正月キャンペーン\n2日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 10000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271355,
+    "messageRefType": 3,
+    "messageId": 2960,
+    "message": "2025年お正月キャンペーン\n2日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 6517,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271374,
+    "messageRefType": 3,
+    "messageId": 2958,
+    "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(2/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 10000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88486271375,
+    "messageRefType": 3,
+    "messageId": 2958,
+    "message": "2025年お正月キャンペーン\n三が日限定のログインボーナスです。(2/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 6999,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1735780036,
+    "createdAt": 1735780036
   }],
   "loginResult": {
     "loginMessages": [{
@@ -23272,6 +23377,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1731028410
+    }, {
+      "num": 550,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00550.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1735780036
     }],
     "loginFortuneBonus": [{
       "eventId": 10854,
@@ -23291,6 +23414,27 @@
         "script": {}
       }],
       "updatedAt": 1735694030
+    }, {
+      "eventId": 10854,
+      "rewards": [{
+        "day": 2,
+        "idx": 3
+      }],
+      "logs": [{
+        "day": 1,
+        "idx": 3
+      }, {
+        "day": 2,
+        "idx": 3
+      }],
+      "details": [{
+        "idx": 3,
+        "iconId": 80686,
+        "name": "ココ吉",
+        "giftId": 700705,
+        "script": {}
+      }],
+      "updatedAt": 1735780036
     }],
     "campaignDirectBonus": [],
     "campaignBonus": [{
@@ -35286,6 +35430,32 @@
       "eventId": 10840,
       "day": 1,
       "updatedAt": 1735694030
+    }, {
+      "isDeemedLogin": false,
+      "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
+      "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 10000000
+      }, {
+        "name": "伝承結晶",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250102_k3yk45/k3yk45_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10836,
+      "day": 1,
+      "updatedAt": 1735780036
     }]
   }
 }
