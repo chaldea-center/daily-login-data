@@ -3,82 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "1月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "loginFortuneBonus": [{
-        "eventId": 10854,
-        "rewards": [{
-          "day": 3,
-          "idx": 3
-        }],
-        "logs": [{
-          "day": 1,
-          "idx": 3
-        }, {
-          "day": 2,
-          "idx": 3
-        }, {
-          "day": 3,
-          "idx": 3
-        }],
-        "details": [{
-          "idx": 3,
-          "iconId": 80686,
-          "name": "ココ吉",
-          "giftId": 700705,
-          "script": {}
-        }]
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "2025年お正月キャンペーン　三が日限定ログインボーナス",
-        "detail": "開催期間中、三が日限定のログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖杯",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250103_b3sfd5/b3sfd5_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10837,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 551,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4079,7 +4005,7 @@
         "userId": 119238492,
         "seqLoginCount": 9,
         "totalLoginCount": 551,
-        "lastLoginAt": 1735866498,
+        "lastLoginAt": 1735907299,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34953,11 +34879,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033658,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033652,
         "progressType": 3,
         "num": 0
@@ -34969,6 +34890,11 @@
       }, {
         "userId": 119238492,
         "missionId": 1033654,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033658,
         "progressType": 3,
         "num": 0
       }, {
@@ -51900,6 +51826,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735866498
+    "serverTime": 1735907299
   }
 }
