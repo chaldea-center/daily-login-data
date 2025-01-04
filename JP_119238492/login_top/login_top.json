@@ -3,61 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "1月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "2025年お正月キャンペーン 10万リポスト達成プレゼント",
-        "detail": "開催期間中、初回ログインでお正月限定概念礼装&2025万QPをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "ファースト・カリグラフィー",
-          "num": 1
-        }, {
-          "name": "QP",
-          "num": 20250000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250104_6li5ys/6li5ys_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10838,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 552,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4058,7 +4005,7 @@
         "userId": 119238492,
         "seqLoginCount": 10,
         "totalLoginCount": 552,
-        "lastLoginAt": 1735952798,
+        "lastLoginAt": 1735993598,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34947,16 +34894,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033658,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033659,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033655,
         "progressType": 3,
         "num": 0
@@ -34968,6 +34905,16 @@
       }, {
         "userId": 119238492,
         "missionId": 1033657,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033658,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033659,
         "progressType": 3,
         "num": 0
       }, {
@@ -51959,6 +51906,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1735952798
+    "serverTime": 1735993598
   }
 }
