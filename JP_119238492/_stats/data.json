@@ -23438,6 +23438,36 @@
     "flag": 0,
     "updatedAt": 1735952798,
     "createdAt": 1735952798
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88564009180,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736039616,
+    "createdAt": 1736039616
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88564009181,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736039616,
+    "createdAt": 1736039616
   }],
   "loginResult": {
     "loginMessages": [{
