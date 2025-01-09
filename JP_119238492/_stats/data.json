@@ -23633,6 +23633,81 @@
     "flag": 0,
     "updatedAt": 1736298511,
     "createdAt": 1736298511
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88662036891,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736384881,
+    "createdAt": 1736384881
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88662036892,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736384881,
+    "createdAt": 1736384881
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88662036901,
+    "messageRefType": 3,
+    "messageId": 3003,
+    "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736384881,
+    "createdAt": 1736384881
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88662036902,
+    "messageRefType": 3,
+    "messageId": 2996,
+    "message": "「FGO カルデア・サテライトステーション 2024-2025」\n福島会場開催直前 ログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736384881,
+    "createdAt": 1736384881
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88662036903,
+    "messageRefType": 3,
+    "messageId": 2946,
+    "message": "「1月開幕予定 期間限定イベント」開幕直前特別ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736384881,
+    "createdAt": 1736384881
   }],
   "loginResult": {
     "loginMessages": [{
@@ -35956,6 +36031,77 @@
       "eventId": 10859,
       "day": 1,
       "updatedAt": 1736298511
+    }, {
+      "isDeemedLogin": false,
+      "name": "「1月開幕予定 期間限定イベント」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250108_ge98gl/ge98gl_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/2025january_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10833,
+      "day": 1,
+      "updatedAt": 1736384881
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2024-2025」福島会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250109_k3ha7y/k3ha7y_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10846,
+      "day": 1,
+      "updatedAt": 1736384881
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250109_zy9k03/e3fg03_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10860,
+      "day": 1,
+      "updatedAt": 1736384881
     }]
   }
 }
