@@ -23873,6 +23873,96 @@
     "flag": 0,
     "updatedAt": 1736557721,
     "createdAt": 1736557721
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331651,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331652,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331708,
+    "messageRefType": 3,
+    "messageId": 3003,
+    "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331709,
+    "messageRefType": 3,
+    "messageId": 3000,
+    "message": "「FGO カルデア・サテライトステーション 2024-2025」\n福島会場開催記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331710,
+    "messageRefType": 3,
+    "messageId": 2999,
+    "message": "「FGO カルデア・サテライトステーション 2024-2025」\n福島会場開催記念 3万リポスト達成プレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 6,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 88747331711,
+    "messageRefType": 3,
+    "messageId": 2949,
+    "message": "「1月開幕予定 期間限定イベント」開幕直前特別ログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1736644497,
+    "createdAt": 1736644497
   }],
   "loginResult": {
     "loginMessages": [{
@@ -36412,6 +36502,101 @@
       "eventId": 10862,
       "day": 1,
       "updatedAt": 1736557721
+    }, {
+      "isDeemedLogin": false,
+      "name": "「1月開幕予定 期間限定イベント」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250108_ge98gl/ge98gl_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/2025january_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10833,
+      "day": 4,
+      "updatedAt": 1736644497
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2024-2025」福島会場開催記念 3万リポスト達成プレゼント",
+      "detail": "開催期間中、初回ログインで「聖晶石×6」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 6
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250112_x6mc4g/x6mc4g_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/winter2025_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10847,
+      "day": 1,
+      "updatedAt": 1736644497
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2024-2025」福島会場開催記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250112_mf2yjz/mf2yjz_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2024/winter2025_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10848,
+      "day": 1,
+      "updatedAt": 1736644497
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250112_zy9k06/e3fg06_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10863,
+      "day": 1,
+      "updatedAt": 1736644497
     }]
   }
 }
