@@ -3,20 +3,42 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "1月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
         "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,16 +48,19 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10849,
-        "day": 1
+        "day": 2
       }, {
         "isDeemedLogin": false,
-        "name": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
-        "detail": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
         "addDetail": "",
-        "items": [],
+        "items": [{
+          "name": "巡霊の葉",
+          "num": 30
+        }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250115_m9nri0/m9nri0_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250116_zy9k10/e3fg10_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -44,8 +69,13 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10850,
+        "eventId": 10867,
         "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 564,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4045,9 +4075,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 21,
-        "totalLoginCount": 563,
-        "lastLoginAt": 1736944073,
+        "seqLoginCount": 22,
+        "totalLoginCount": 564,
+        "lastLoginAt": 1736989559,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34841,41 +34871,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003073,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003074,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003075,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003076,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003077,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003078,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003079,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 8051201,
         "progressType": 3,
         "num": 0
@@ -34958,6 +34953,41 @@
         "userId": 119238492,
         "missionId": 8051217,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003073,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003074,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003075,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003076,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003077,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003078,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003079,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -41584,81 +41614,6 @@
         "createdAt": 1724850852
       }, {
         "receiveUserId": 119238492,
-        "presentId": 81599925931,
-        "messageRefType": 3,
-        "messageId": 2789,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(48/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727658988,
-        "createdAt": 1727658988
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81674319941,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1727745665,
-        "createdAt": 1727745665
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81674319942,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10086,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727745665,
-        "createdAt": 1727745665
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81674319984,
-        "messageRefType": 3,
-        "messageId": 2790,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(49/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727745665,
-        "createdAt": 1727745665
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 81756627984,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1727831663,
-        "createdAt": 1727831663
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 81756627985,
         "messageRefType": 3,
         "messageId": 21,
@@ -47942,6 +47897,81 @@
         "flag": 0,
         "updatedAt": 1736944073,
         "createdAt": 1736944073
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88867540805,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1736989559,
+        "createdAt": 1736989559
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88867540806,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10089,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1736989559,
+        "createdAt": 1736989559
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88867540825,
+        "messageRefType": 3,
+        "messageId": 3003,
+        "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1736989559,
+        "createdAt": 1736989559
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88867540826,
+        "messageRefType": 3,
+        "messageId": 2976,
+        "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1736989559,
+        "createdAt": 1736989559
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 88867540827,
+        "messageRefType": 4,
+        "messageId": 606,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (1/15 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1736989559,
+        "createdAt": 1736989559
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51919,7 +51949,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1736866800,
+        "commandSpellRecoverAt": 1736953200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51932,7 +51962,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1736903198,
+        "updatedAt": 1736989559,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -51947,6 +51977,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1736944073
+    "serverTime": 1736989559
   }
 }
