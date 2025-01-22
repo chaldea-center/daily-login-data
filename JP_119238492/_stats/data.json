@@ -24578,6 +24578,66 @@
     "flag": 0,
     "updatedAt": 1737421555,
     "createdAt": 1737421555
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89035279275,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1737508069,
+    "createdAt": 1737508069
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89035279276,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1737508069,
+    "createdAt": 1737508069
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89035279277,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1737508069,
+    "createdAt": 1737508069
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89035279287,
+    "messageRefType": 3,
+    "messageId": 2982,
+    "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(8/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1737508069,
+    "createdAt": 1737508069
   }],
   "loginResult": {
     "loginMessages": [{
@@ -37658,6 +37718,29 @@
       "eventId": 10849,
       "day": 7,
       "updatedAt": 1737421555
+    }, {
+      "isDeemedLogin": false,
+      "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10849,
+      "day": 8,
+      "updatedAt": 1737508069
     }]
   }
 }
