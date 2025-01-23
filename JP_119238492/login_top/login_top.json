@@ -3,42 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "1月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
+        "detail": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_09.png",
+            "bannerUrl": "/webview/loginbonus/20250123_le307v/le307v_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -47,13 +22,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10849,
-        "day": 9
-      }],
-      "totalLoginBonus": [{
-        "num": 571,
-        "items": [],
-        "script": {}
+        "eventId": 10851,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4055,7 +4025,7 @@
         "userId": 119238492,
         "seqLoginCount": 29,
         "totalLoginCount": 571,
-        "lastLoginAt": 1737594378,
+        "lastLoginAt": 1737635317,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -51910,6 +51880,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1737594378
+    "serverTime": 1737635317
   }
 }

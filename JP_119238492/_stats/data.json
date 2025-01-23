@@ -37809,6 +37809,26 @@
       "eventId": 10849,
       "day": 9,
       "updatedAt": 1737594378
+    }, {
+      "isDeemedLogin": false,
+      "name": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
+      "detail": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250123_le307v/le307v_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10851,
+      "day": 1,
+      "updatedAt": 1737635317
     }]
   }
 }
