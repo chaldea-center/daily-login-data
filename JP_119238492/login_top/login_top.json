@@ -3,17 +3,42 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
-        "detail": "「育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～」開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "1月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250123_le307v/le307v_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_10.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -22,8 +47,13 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10851,
-        "day": 1
+        "eventId": 10849,
+        "day": 10
+      }],
+      "totalLoginBonus": [{
+        "num": 572,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4023,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 29,
-        "totalLoginCount": 571,
-        "lastLoginAt": 1737635317,
+        "seqLoginCount": 30,
+        "totalLoginCount": 572,
+        "lastLoginAt": 1737680800,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41522,51 +41552,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 82501041482,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10086,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1728436434,
-        "createdAt": 1728436434
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 82501041764,
-        "messageRefType": 3,
-        "messageId": 2799,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(57/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1728436434,
-        "createdAt": 1728436434
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 82501041765,
-        "messageRefType": 3,
-        "messageId": 2852,
-        "message": "3000万DL記念\n3000万DLおめでとう、マスター！\n身を粉にして用意したプレゼントだ、受け取ってくれると嬉しいな。 by オベロン(5/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1728436434,
-        "createdAt": 1728436434
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 82501041766,
         "messageRefType": 3,
         "messageId": 2852,
@@ -47865,6 +47850,51 @@
         "flag": 0,
         "updatedAt": 1737594378,
         "createdAt": 1737594378
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89084331462,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1737680800,
+        "createdAt": 1737680800
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89084331463,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10089,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1737680800,
+        "createdAt": 1737680800
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89084331477,
+        "messageRefType": 3,
+        "messageId": 2984,
+        "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(10/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1737680800,
+        "createdAt": 1737680800
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51852,7 +51882,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1737558000,
+        "commandSpellRecoverAt": 1737644400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51865,7 +51895,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1737594378,
+        "updatedAt": 1737680800,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -51880,6 +51910,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1737635317
+    "serverTime": 1737680800
   }
 }
