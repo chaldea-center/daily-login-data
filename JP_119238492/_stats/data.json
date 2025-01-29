@@ -24998,6 +24998,96 @@
     "flag": 0,
     "updatedAt": 1738026379,
     "createdAt": 1738026379
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686068,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686069,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686070,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10089,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686083,
+    "messageRefType": 3,
+    "messageId": 3004,
+    "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686084,
+    "messageRefType": 3,
+    "messageId": 3004,
+    "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89220686085,
+    "messageRefType": 3,
+    "messageId": 2989,
+    "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738112784,
+    "createdAt": 1738112784
   }],
   "loginResult": {
     "loginMessages": [{
@@ -38357,6 +38447,55 @@
       "eventId": 10875,
       "day": 1,
       "updatedAt": 1738026379
+    }, {
+      "isDeemedLogin": false,
+      "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10849,
+      "day": 15,
+      "updatedAt": 1738112784
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250129_zr4p05/zr4p05_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10876,
+      "day": 1,
+      "updatedAt": 1738112784
     }]
   }
 }
