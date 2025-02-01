@@ -3,45 +3,20 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "2月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "巡霊の葉",
-          "num": 30
+          "name": "霊脈石",
+          "num": 3
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250201_zr4p08/zr4p08_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250201_j2sa4n/j2sa4n_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,35 +25,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10879,
+        "eventId": 10895,
         "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_18.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10849,
-        "day": 18
-      }],
-      "totalLoginBonus": [{
-        "num": 580,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4080,7 +4028,7 @@
         "userId": 119238492,
         "seqLoginCount": 38,
         "totalLoginCount": 580,
-        "lastLoginAt": 1738372229,
+        "lastLoginAt": 1738412693,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47680,6 +47628,21 @@
         "flag": 0,
         "updatedAt": 1738372229,
         "createdAt": 1738372229
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89307111597,
+        "messageRefType": 3,
+        "messageId": 3018,
+        "message": "「奏章Ⅱ」クリア応援キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94142101,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1738412693,
+        "createdAt": 1738412693
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51330,6 +51293,56 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71518,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71519,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71520,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71521,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80523,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71515,
         "value": 0,
         "flag": 0,
@@ -51718,6 +51731,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80518,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -51775,6 +51798,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1738372229
+    "serverTime": 1738412693
   }
 }
