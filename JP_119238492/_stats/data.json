@@ -25373,6 +25373,66 @@
     "flag": 0,
     "updatedAt": 1738458608,
     "createdAt": 1738458608
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89350074507,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1738544870,
+    "createdAt": 1738544870
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89350074508,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10090,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738544870,
+    "createdAt": 1738544870
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89350074534,
+    "messageRefType": 3,
+    "messageId": 3004,
+    "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738544870,
+    "createdAt": 1738544870
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89350074535,
+    "messageRefType": 3,
+    "messageId": 2994,
+    "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(20/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1738544870,
+    "createdAt": 1738544870
   }],
   "loginResult": {
     "loginMessages": [{
@@ -38991,6 +39051,52 @@
       "eventId": 10880,
       "day": 1,
       "updatedAt": 1738458608
+    }, {
+      "isDeemedLogin": false,
+      "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_20.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10849,
+      "day": 20,
+      "updatedAt": 1738544870
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250203_zr4p10/zr4p10_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10881,
+      "day": 1,
+      "updatedAt": 1738544870
     }]
   }
 }

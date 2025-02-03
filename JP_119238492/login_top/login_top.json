@@ -3,8 +3,80 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "2月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "巡霊の葉",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250203_zr4p10/zr4p10_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10881,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250115_35s2gd/35s2gd_k_20.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10849,
+        "day": 20
+      }],
+      "totalLoginBonus": [{
+        "num": 582,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4075,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 39,
-        "totalLoginCount": 581,
-        "lastLoginAt": 1738499074,
+        "seqLoginCount": 40,
+        "totalLoginCount": 582,
+        "lastLoginAt": 1738544870,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34799,41 +34871,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003087,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003088,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003089,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003090,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003091,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003092,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003093,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033633,
         "progressType": 3,
         "num": 0
@@ -34861,6 +34898,41 @@
         "userId": 119238492,
         "missionId": 1033638,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003094,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003095,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003096,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003097,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003098,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003099,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003100,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -47680,6 +47752,66 @@
         "flag": 0,
         "updatedAt": 1738458608,
         "createdAt": 1738458608
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89350074507,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1738544870,
+        "createdAt": 1738544870
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89350074508,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10090,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1738544870,
+        "createdAt": 1738544870
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89350074534,
+        "messageRefType": 3,
+        "messageId": 3004,
+        "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1738544870,
+        "createdAt": 1738544870
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89350074535,
+        "messageRefType": 3,
+        "messageId": 2994,
+        "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(20/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1738544870,
+        "createdAt": 1738544870
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51807,7 +51939,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1738422000,
+        "commandSpellRecoverAt": 1738508400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51820,7 +51952,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1738458608,
+        "updatedAt": 1738544870,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -51835,6 +51967,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1738499074
+    "serverTime": 1738544870
   }
 }
