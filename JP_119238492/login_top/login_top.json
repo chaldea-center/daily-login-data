@@ -3,8 +3,82 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "2月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「FGO カルデア・サテライトステーション 2024-2025」岡山会場開催直前 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250207_k9hhn5/k9hhn5_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://fes.fate-go.jp/winter/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10887,
+        "day": 3
+      }, {
+        "isDeemedLogin": false,
+        "name": "「バレンタイン2025」開幕直前\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250206_h22j2a/h22j2a_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/valentine2025_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10891,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 588,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4077,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 45,
-        "totalLoginCount": 587,
-        "lastLoginAt": 1739017524,
+        "seqLoginCount": 46,
+        "totalLoginCount": 588,
+        "lastLoginAt": 1739063487,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41552,66 +41626,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 84291566468,
-        "messageRefType": 3,
-        "messageId": 2815,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(72/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1729732465,
-        "createdAt": 1729732465
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 84373733830,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1729818912,
-        "createdAt": 1729818912
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 84373733998,
-        "messageRefType": 3,
-        "messageId": 2816,
-        "message": "妖精双六虫籠遊戯 まだ見ぬ完璧なあなたへ\n開幕記念 ログインボーナスです。(73/78)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1729818912,
-        "createdAt": 1729818912
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 84455639210,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1729905172,
-        "createdAt": 1729905172
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 84455639300,
         "messageRefType": 3,
         "messageId": 2817,
@@ -47895,6 +47909,66 @@
         "flag": 0,
         "updatedAt": 1738976738,
         "createdAt": 1738976738
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89479510853,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739063487,
+        "createdAt": 1739063487
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89479510854,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10090,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739063487,
+        "createdAt": 1739063487
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89479510863,
+        "messageRefType": 3,
+        "messageId": 3007,
+        "message": "「FGO カルデア・サテライトステーション 2024-2025」\n岡山会場開催直前 ログインボーナスです。(3/3)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739063487,
+        "createdAt": 1739063487
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89479510864,
+        "messageRefType": 3,
+        "messageId": 3013,
+        "message": "「バレンタイン2025」開幕直前\n特別ログインボーナスです。(4/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1739063487,
+        "createdAt": 1739063487
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52002,7 +52076,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1738940400,
+        "commandSpellRecoverAt": 1739026800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52015,7 +52089,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1738976738,
+        "updatedAt": 1739063487,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52030,6 +52104,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1739017524
+    "serverTime": 1739063487
   }
 }

@@ -25793,6 +25793,66 @@
     "flag": 0,
     "updatedAt": 1738976738,
     "createdAt": 1738976738
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89479510853,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739063487,
+    "createdAt": 1739063487
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89479510854,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10090,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739063487,
+    "createdAt": 1739063487
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89479510863,
+    "messageRefType": 3,
+    "messageId": 3007,
+    "message": "「FGO カルデア・サテライトステーション 2024-2025」\n岡山会場開催直前 ログインボーナスです。(3/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739063487,
+    "createdAt": 1739063487
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89479510864,
+    "messageRefType": 3,
+    "messageId": 3013,
+    "message": "「バレンタイン2025」開幕直前\n特別ログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1739063487,
+    "createdAt": 1739063487
   }],
   "loginResult": {
     "loginMessages": [{
@@ -39698,6 +39758,54 @@
       "eventId": 10891,
       "day": 3,
       "updatedAt": 1738976738
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2024-2025」岡山会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250207_k9hhn5/k9hhn5_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10887,
+      "day": 3,
+      "updatedAt": 1739063487
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2025」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250206_h22j2a/h22j2a_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/valentine2025_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10891,
+      "day": 4,
+      "updatedAt": 1739063487
     }]
   }
 }
