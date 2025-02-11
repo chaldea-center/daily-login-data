@@ -25943,6 +25943,81 @@
     "flag": 0,
     "updatedAt": 1739149736,
     "createdAt": 1739149736
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89521386133,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739236042,
+    "createdAt": 1739236042
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89521386134,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10090,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739236042,
+    "createdAt": 1739236042
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89521386144,
+    "messageRefType": 3,
+    "messageId": 3017,
+    "message": "「バレンタイン2025」\n開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739236042,
+    "createdAt": 1739236042
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89521386145,
+    "messageRefType": 3,
+    "messageId": 3015,
+    "message": "「バレンタイン2025」開幕直前\n特別ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1739236042,
+    "createdAt": 1739236042
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89521386149,
+    "messageRefType": 4,
+    "messageId": 609,
+    "message": "マスターレベル180の開放条件の一部を撤廃する対応についてのお詫び(2/10 18:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739236042,
+    "createdAt": 1739236042
   }],
   "loginResult": {
     "loginMessages": [{
@@ -39991,6 +40066,53 @@
       "eventId": 10892,
       "day": 1,
       "updatedAt": 1739149736
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2025」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250206_h22j2a/h22j2a_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/valentine2025_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10891,
+      "day": 6,
+      "updatedAt": 1739236042
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2025」開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250211_gsd335/gsd335_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10893,
+      "day": 1,
+      "updatedAt": 1739236042
     }]
   }
 }
