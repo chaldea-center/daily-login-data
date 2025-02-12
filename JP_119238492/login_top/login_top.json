@@ -3,45 +3,20 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "2月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「バレンタイン2025」開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "呼符",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250212_rx8wrs/rx8wrs_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,36 +25,27 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10894,
+        "eventId": 10890,
         "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "「バレンタイン2025」開幕直前\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
+        "detail": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 5
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250206_h22j2a/h22j2a_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20250212_e8r627/e8r627_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/valentine2025_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10891,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 591,
-        "items": [],
-        "script": {}
+        "eventId": 10896,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4081,7 +4047,7 @@
         "userId": 119238492,
         "seqLoginCount": 49,
         "totalLoginCount": 591,
-        "lastLoginAt": 1739322455,
+        "lastLoginAt": 1739363320,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34910,56 +34876,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033665,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033666,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033667,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033668,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033669,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033670,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033671,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033672,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033673,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033674,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033691,
         "progressType": 3,
         "num": 0
@@ -34986,6 +34902,46 @@
       }, {
         "userId": 119238492,
         "missionId": 1033696,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033697,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033698,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033699,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033700,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033701,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033702,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033703,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033704,
         "progressType": 3,
         "num": 0
       }],
@@ -41628,21 +41584,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 85012766514,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1730510013,
-        "createdAt": 1730510013
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 85012766515,
         "messageRefType": 3,
         "messageId": 21,
@@ -47971,6 +47912,21 @@
         "flag": 0,
         "updatedAt": 1739322455,
         "createdAt": 1739322455
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89549623913,
+        "messageRefType": 3,
+        "messageId": 3019,
+        "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739363320,
+        "createdAt": 1739363320
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51551,26 +51507,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71517,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80511,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71516,
         "value": 0,
         "flag": 0,
@@ -51642,6 +51578,26 @@
       }, {
         "userId": 119238492,
         "eventId": 80517,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71522,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80514,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52106,6 +52062,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1739322455
+    "serverTime": 1739363320
   }
 }

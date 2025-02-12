@@ -26093,6 +26093,21 @@
     "flag": 0,
     "updatedAt": 1739322455,
     "createdAt": 1739322455
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89549623913,
+    "messageRefType": 3,
+    "messageId": 3019,
+    "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1739363320,
+    "createdAt": 1739363320
   }],
   "loginResult": {
     "loginMessages": [{
@@ -40235,6 +40250,49 @@
       "eventId": 10894,
       "day": 1,
       "updatedAt": 1739322455
+    }, {
+      "isDeemedLogin": false,
+      "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10890,
+      "day": 1,
+      "updatedAt": 1739363320
+    }, {
+      "isDeemedLogin": false,
+      "name": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
+      "detail": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250212_e8r627/e8r627_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10896,
+      "day": 1,
+      "updatedAt": 1739363320
     }]
   }
 }
