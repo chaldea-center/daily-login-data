@@ -3,20 +3,42 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "2月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
         "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,26 +48,12 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10890,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
-        "detail": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
-        "addDetail": "",
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 592,
         "items": [],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250212_e8r627/e8r627_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10896,
-        "day": 1
+        "script": {}
       }]
     },
     "fail": {},
@@ -4045,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 49,
-        "totalLoginCount": 591,
-        "lastLoginAt": 1739363320,
+        "seqLoginCount": 50,
+        "totalLoginCount": 592,
+        "lastLoginAt": 1739408884,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41584,66 +41592,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 85012766515,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10087,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1730510013,
-        "createdAt": 1730510013
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 85012766536,
-        "messageRefType": 3,
-        "messageId": 2893,
-        "message": "秋の戦力増強キャンペーン特別ログインボーナスです。(4/7)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1730510013,
-        "createdAt": 1730510013
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 85104293993,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1730596787,
-        "createdAt": 1730596787
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 85104293994,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10087,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1730596787,
-        "createdAt": 1730596787
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 85104294128,
         "messageRefType": 3,
         "messageId": 2894,
@@ -47927,6 +47875,66 @@
         "flag": 0,
         "updatedAt": 1739363320,
         "createdAt": 1739363320
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89566770296,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739408884,
+        "createdAt": 1739408884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89566770297,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10090,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739408884,
+        "createdAt": 1739408884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89566770326,
+        "messageRefType": 3,
+        "messageId": 3020,
+        "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739408884,
+        "createdAt": 1739408884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89566770331,
+        "messageRefType": 4,
+        "messageId": 610,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (2/12 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1739408884,
+        "createdAt": 1739408884
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52034,7 +52042,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1739286000,
+        "commandSpellRecoverAt": 1739372400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52047,7 +52055,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1739322455,
+        "updatedAt": 1739408884,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52062,6 +52070,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1739363320
+    "serverTime": 1739408884
   }
 }
