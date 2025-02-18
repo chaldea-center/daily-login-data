@@ -40716,6 +40716,27 @@
       "eventId": 10890,
       "day": 7,
       "updatedAt": 1739840864
+    }, {
+      "isDeemedLogin": false,
+      "name": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
+      "detail": "「小野小町古今抄 ～雪消月のキラキラ蓮華～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250218_u7ndud/u7ndud_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/valentine2025_chocolate/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10897,
+      "day": 1,
+      "updatedAt": 1739881738
     }]
   }
 }
