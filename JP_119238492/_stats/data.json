@@ -26813,6 +26813,81 @@
     "flag": 0,
     "updatedAt": 1740532186,
     "createdAt": 1740532186
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89876515703,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740618585,
+    "createdAt": 1740618585
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89876515704,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10090,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740618585,
+    "createdAt": 1740618585
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89876515755,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740618585,
+    "createdAt": 1740618585
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89876515756,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740618585,
+    "createdAt": 1740618585
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89876515757,
+    "messageRefType": 3,
+    "messageId": 3034,
+    "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740618585,
+    "createdAt": 1740618585
   }],
   "loginResult": {
     "loginMessages": [{
@@ -41382,6 +41457,55 @@
       "eventId": 10898,
       "day": 1,
       "updatedAt": 1740532186
+    }, {
+      "isDeemedLogin": false,
+      "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10890,
+      "day": 16,
+      "updatedAt": 1740618585
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250227_4icy01/4icy01_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10901,
+      "day": 1,
+      "updatedAt": 1740618585
     }]
   }
 }
