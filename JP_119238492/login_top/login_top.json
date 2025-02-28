@@ -3,79 +3,31 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "2月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "name": "「大統領特異点」クリア応援\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "巡霊の葉",
-          "num": 30
+          "name": "叡智の業火",
+          "num": 10
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250228_4icy02/4icy02_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250228_rdx79w/rdx79w_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10907,
+        "eventId": 10899,
         "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_17.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10890,
-        "day": 17
-      }],
-      "totalLoginBonus": [{
-        "num": 607,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4077,7 +4029,7 @@
         "userId": 119238492,
         "seqLoginCount": 65,
         "totalLoginCount": 607,
-        "lastLoginAt": 1740705006,
+        "lastLoginAt": 1740745753,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41544,21 +41496,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 86430173501,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1731979118,
-        "createdAt": 1731979118
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 86430173502,
         "messageRefType": 3,
         "messageId": 21,
@@ -47887,6 +47824,21 @@
         "flag": 0,
         "updatedAt": 1740705006,
         "createdAt": 1740705006
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 89911335062,
+        "messageRefType": 3,
+        "messageId": 3041,
+        "message": "「大統領特異点」クリア応援\n特別ログインボーナスです。(1/5)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1740745753,
+        "createdAt": 1740745753
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51547,6 +51499,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71527,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71524,
         "value": 0,
         "flag": 0,
@@ -51975,6 +51937,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80521,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -52032,6 +52004,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1740705006
+    "serverTime": 1740745753
   }
 }
