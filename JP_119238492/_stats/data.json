@@ -27083,6 +27083,96 @@
     "flag": 16,
     "updatedAt": 1740832037,
     "createdAt": 1740832037
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274881,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274882,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274906,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274907,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 80,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274908,
+    "messageRefType": 3,
+    "messageId": 3037,
+    "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(19/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 89978274909,
+    "messageRefType": 3,
+    "messageId": 3043,
+    "message": "「大統領特異点」クリア応援\n特別ログインボーナスです。(3/5)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1740878039,
+    "createdAt": 1740878039
   }],
   "loginResult": {
     "loginMessages": [{
@@ -41864,6 +41954,79 @@
       "eventId": 10921,
       "day": 1,
       "updatedAt": 1740832037
+    }, {
+      "isDeemedLogin": false,
+      "name": "小野小町古今抄 ～雪消月のキラキラ蓮華～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250212_zp48e3/zp48e3_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10890,
+      "day": 19,
+      "updatedAt": 1740878039
+    }, {
+      "isDeemedLogin": false,
+      "name": "「大統領特異点」クリア応援\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250228_rdx79w/rdx79w_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10899,
+      "day": 3,
+      "updatedAt": 1740878039
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 80
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250302_4icy04/4icy04_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10909,
+      "day": 1,
+      "updatedAt": 1740878039
     }]
   }
 }
