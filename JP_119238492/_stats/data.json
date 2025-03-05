@@ -27353,6 +27353,96 @@
     "flag": 0,
     "updatedAt": 1741050660,
     "createdAt": 1741050660
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175719,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175720,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175721,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175815,
+    "messageRefType": 3,
+    "messageId": 3047,
+    "message": "「CBC2025」開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175816,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90095175817,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741137053,
+    "createdAt": 1741137053
   }],
   "loginResult": {
     "loginMessages": [{
@@ -42393,6 +42483,55 @@
       "eventId": 10911,
       "day": 1,
       "updatedAt": 1741050660
+    }, {
+      "isDeemedLogin": false,
+      "name": "「CBC2025」開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_6rjdg3/6rjdg3_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10904,
+      "day": 1,
+      "updatedAt": 1741137053
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 3
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_4icy07/4icy07_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10912,
+      "day": 1,
+      "updatedAt": 1741137053
     }]
   }
 }
