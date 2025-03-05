@@ -3,70 +3,44 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "3月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "freeShopIds": [6001061],
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「CBC2025」開催直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "name": "「カルデアボーイズコレクション2025」開催記念初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで\n「CBC2025特別交換券」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "呼符",
+          "name": "CBC2025特別交換券",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250305_6rjdg3/6rjdg3_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250305_g3s4ds/g3s4ds_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/cbc2025_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10904,
+        "eventId": 10920,
         "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "聖晶石",
-          "num": 3
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
+          "name": "黄金の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250305_4icy07/4icy07_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -75,13 +49,27 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10912,
+        "eventId": 10906,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 612,
+      }, {
+        "isDeemedLogin": false,
+        "name": "「CBC2025 彼の名はダンテ　～ホテル・デノヴォのコンシェルジュ～」開催中！",
+        "detail": "「CBC2025 彼の名はダンテ　～ホテル・デノヴォのコンシェルジュ～」開催中！",
+        "addDetail": "",
         "items": [],
-        "script": {}
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250305_fsg5sd/fsg5sd_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10905,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4083,7 +4071,7 @@
         "userId": 119238492,
         "seqLoginCount": 70,
         "totalLoginCount": 612,
-        "lastLoginAt": 1741137053,
+        "lastLoginAt": 1741177815,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41585,36 +41573,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 87112352860,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732756787,
-        "createdAt": 1732756787
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87112352979,
-        "messageRefType": 3,
-        "messageId": 2883,
-        "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(16/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732756787,
-        "createdAt": 1732756787
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 87189144196,
         "messageRefType": 3,
         "messageId": 21,
@@ -47928,6 +47886,36 @@
         "flag": 0,
         "updatedAt": 1741137053,
         "createdAt": 1741137053
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90108244139,
+        "messageRefType": 3,
+        "messageId": 3048,
+        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741177815,
+        "createdAt": 1741177815
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90108244140,
+        "messageRefType": 3,
+        "messageId": 3062,
+        "message": "「カルデアボーイズコレクション2025」 \n期間限定概念礼装交換券\n「CBC2025特別交換券」のプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94141504,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 2,
+        "updatedAt": 1741177815,
+        "createdAt": 1741177815
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51508,16 +51496,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71522,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71527,
         "value": 0,
         "flag": 0,
@@ -51538,6 +51516,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71525,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71526,
         "value": 0,
         "flag": 0,
@@ -51549,6 +51537,36 @@
       }, {
         "userId": 119238492,
         "eventId": 80514,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80529,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71523,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71528,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -51609,6 +51627,16 @@
       }, {
         "userId": 119238492,
         "eventId": 80530,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80520,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52093,6 +52121,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1741137053
+    "serverTime": 1741177815
   }
 }
