@@ -3,21 +3,42 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "freeShopIds": [6001061],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "3月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「カルデアボーイズコレクション2025」開催記念初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで\n「CBC2025特別交換券」をプレゼント！",
+        "name": "Fate/Grand Order カルデア放送局 ライト版 CBC2025&新規イベント情報 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "CBC2025特別交換券",
-          "num": 1
+          "name": "聖晶石",
+          "num": 14
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250305_g3s4ds/g3s4ds_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250306_amr8sx/amr8sx_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
@@ -27,7 +48,7 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10920,
+        "eventId": 10922,
         "day": 1
       }, {
         "isDeemedLogin": false,
@@ -35,12 +56,12 @@
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,16 +71,22 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 10906,
-        "day": 1
+        "day": 2
       }, {
         "isDeemedLogin": false,
-        "name": "「CBC2025 彼の名はダンテ　～ホテル・デノヴォのコンシェルジュ～」開催中！",
-        "detail": "「CBC2025 彼の名はダンテ　～ホテル・デノヴォのコンシェルジュ～」開催中！",
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
         "addDetail": "",
-        "items": [],
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "巡霊の葉",
+          "num": 50
+        }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250305_fsg5sd/fsg5sd_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250306_4icy08/4icy08_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -68,8 +95,13 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10905,
+        "eventId": 10913,
         "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 613,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4069,9 +4101,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 70,
-        "totalLoginCount": 612,
-        "lastLoginAt": 1741177815,
+        "seqLoginCount": 71,
+        "totalLoginCount": 613,
+        "lastLoginAt": 1741223454,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41573,111 +41605,6 @@
         "createdAt": 1728045106
       }, {
         "receiveUserId": 119238492,
-        "presentId": 87189144196,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732843196,
-        "createdAt": 1732843196
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87189144248,
-        "messageRefType": 3,
-        "messageId": 2884,
-        "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(17/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732843196,
-        "createdAt": 1732843196
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87265350259,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732929486,
-        "createdAt": 1732929486
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87265350283,
-        "messageRefType": 3,
-        "messageId": 2885,
-        "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(18/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1732929486,
-        "createdAt": 1732929486
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87339317032,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1733017167,
-        "createdAt": 1733017167
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87339317033,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10088,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1733017167,
-        "createdAt": 1733017167
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87339317083,
-        "messageRefType": 3,
-        "messageId": 2886,
-        "message": "ぶち壊せ！ ミステリーハウス・クラフターズ\n～星の鉱員と日の出の翼～開幕記念 ログインボーナスです。\n(19/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1733017167,
-        "createdAt": 1733017167
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 87433782456,
         "messageRefType": 3,
         "messageId": 21,
@@ -47916,6 +47843,111 @@
         "flag": 2,
         "updatedAt": 1741177815,
         "createdAt": 1741177815
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248290,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248291,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10091,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248297,
+        "messageRefType": 3,
+        "messageId": 3046,
+        "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248298,
+        "messageRefType": 3,
+        "messageId": 3046,
+        "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 50,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248299,
+        "messageRefType": 3,
+        "messageId": 3064,
+        "message": "FGO カルデア放送局 ライト版\nCBC2025&新規イベント情報\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248300,
+        "messageRefType": 3,
+        "messageId": 3049,
+        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90143248310,
+        "messageRefType": 4,
+        "messageId": 613,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/5 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1741223454,
+        "createdAt": 1741223454
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52093,7 +52125,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1741100400,
+        "commandSpellRecoverAt": 1741186800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52106,7 +52138,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1741137053,
+        "updatedAt": 1741223454,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52121,6 +52153,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1741177815
+    "serverTime": 1741223454
   }
 }
