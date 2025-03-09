@@ -27698,6 +27698,81 @@
     "flag": 0,
     "updatedAt": 1741395412,
     "createdAt": 1741395412
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90245889851,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741482114,
+    "createdAt": 1741482114
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90245889852,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741482114,
+    "createdAt": 1741482114
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90245889879,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741482114,
+    "createdAt": 1741482114
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90245889880,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 80,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741482114,
+    "createdAt": 1741482114
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90245889881,
+    "messageRefType": 3,
+    "messageId": 3052,
+    "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(5/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741482114,
+    "createdAt": 1741482114
   }],
   "loginResult": {
     "loginMessages": [{
@@ -43019,6 +43094,55 @@
       "eventId": 10915,
       "day": 1,
       "updatedAt": 1741395412
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10906,
+      "day": 5,
+      "updatedAt": 1741482114
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 80
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250309_4icy11/4icy11_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10916,
+      "day": 1,
+      "updatedAt": 1741482114
     }]
   }
 }
