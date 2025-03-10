@@ -27773,6 +27773,66 @@
     "flag": 0,
     "updatedAt": 1741482114,
     "createdAt": 1741482114
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90282634238,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1741568420,
+    "createdAt": 1741568420
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90282634239,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741568420,
+    "createdAt": 1741568420
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90282634257,
+    "messageRefType": 3,
+    "messageId": 3046,
+    "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741568420,
+    "createdAt": 1741568420
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90282634258,
+    "messageRefType": 3,
+    "messageId": 3053,
+    "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(6/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1741568420,
+    "createdAt": 1741568420
   }],
   "loginResult": {
     "loginMessages": [{
@@ -43143,6 +43203,52 @@
       "eventId": 10916,
       "day": 1,
       "updatedAt": 1741482114
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10906,
+      "day": 6,
+      "updatedAt": 1741568420
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250310_4icy12/4icy12_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10917,
+      "day": 1,
+      "updatedAt": 1741568420
     }]
   }
 }
