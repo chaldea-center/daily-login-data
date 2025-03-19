@@ -28253,6 +28253,66 @@
     "flag": 0,
     "updatedAt": 1742260311,
     "createdAt": 1742260311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90514575013,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742346757,
+    "createdAt": 1742346757
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90514575014,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742346757,
+    "createdAt": 1742346757
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90514575015,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742346757,
+    "createdAt": 1742346757
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90514575024,
+    "messageRefType": 3,
+    "messageId": 3076,
+    "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742346757,
+    "createdAt": 1742346757
   }],
   "loginResult": {
     "loginMessages": [{
@@ -43922,6 +43982,29 @@
       "eventId": 10906,
       "day": 14,
       "updatedAt": 1742260311
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10906,
+      "day": 15,
+      "updatedAt": 1742346757
     }]
   }
 }

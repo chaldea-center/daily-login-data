@@ -3,8 +3,61 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "3月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_15.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10906,
+        "day": 15
+      }],
+      "totalLoginBonus": [{
+        "num": 626,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4056,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 83,
-        "totalLoginCount": 625,
-        "lastLoginAt": 1742301080,
+        "seqLoginCount": 84,
+        "totalLoginCount": 626,
+        "lastLoginAt": 1742346757,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41567,66 +41620,6 @@
         "createdAt": 1733927629
       }, {
         "receiveUserId": 119238492,
-        "presentId": 87859770265,
-        "messageRefType": 4,
-        "messageId": 600,
-        "message": "緊急メンテナンスに伴う不具合対応の方針変更に関するお詫び",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1734192345,
-        "createdAt": 1734192345
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87875050212,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1734233587,
-        "createdAt": 1734233587
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87875050213,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10088,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1734233587,
-        "createdAt": 1734233587
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 87875050282,
-        "messageRefType": 3,
-        "messageId": 2926,
-        "message": "ポホヨラのクリスマス・イブ 夢見るサンタとくるみ割り人形\n開演記念 ログインボーナスです。\n(5/14)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1734233587,
-        "createdAt": 1734233587
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 87924988230,
         "messageRefType": 3,
         "messageId": 21,
@@ -47895,6 +47888,66 @@
         "flag": 0,
         "updatedAt": 1742260311,
         "createdAt": 1742260311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90514575013,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1742346757,
+        "createdAt": 1742346757
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90514575014,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1742346757,
+        "createdAt": 1742346757
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90514575015,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10091,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1742346757,
+        "createdAt": 1742346757
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90514575024,
+        "messageRefType": 3,
+        "messageId": 3076,
+        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(15/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1742346757,
+        "createdAt": 1742346757
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52012,7 +52065,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1742223600,
+        "commandSpellRecoverAt": 1742310000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52025,7 +52078,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1742260311,
+        "updatedAt": 1742346757,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52040,6 +52093,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1742301080
+    "serverTime": 1742346757
   }
 }
