@@ -28553,6 +28553,51 @@
     "flag": 0,
     "updatedAt": 1742778878,
     "createdAt": 1742778878
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90650565673,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742865218,
+    "createdAt": 1742865218
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90650565674,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742865218,
+    "createdAt": 1742865218
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90650565687,
+    "messageRefType": 3,
+    "messageId": 3082,
+    "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(21/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1742865218,
+    "createdAt": 1742865218
   }],
   "loginResult": {
     "loginMessages": [{
@@ -44383,6 +44428,29 @@
       "eventId": 10928,
       "day": 1,
       "updatedAt": 1742778878
+    }, {
+      "isDeemedLogin": false,
+      "name": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250305_557afe/557afe_k_21.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10906,
+      "day": 21,
+      "updatedAt": 1742865218
     }]
   }
 }
