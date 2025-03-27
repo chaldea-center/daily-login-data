@@ -28643,6 +28643,51 @@
     "flag": 0,
     "updatedAt": 1742951578,
     "createdAt": 1742951578
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90693784145,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743037950,
+    "createdAt": 1743037950
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90693784146,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743037950,
+    "createdAt": 1743037950
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90693784154,
+    "messageRefType": 4,
+    "messageId": 614,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (3/26 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743037950,
+    "createdAt": 1743037950
   }],
   "loginResult": {
     "loginMessages": [{
