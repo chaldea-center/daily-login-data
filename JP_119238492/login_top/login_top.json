@@ -3,8 +3,35 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "3月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 635,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4030,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 92,
-        "totalLoginCount": 634,
-        "lastLoginAt": 1743078702,
+        "seqLoginCount": 93,
+        "totalLoginCount": 635,
+        "lastLoginAt": 1743124370,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41487,36 +41514,6 @@
         "createdAt": 1733927629
       }, {
         "receiveUserId": 119238492,
-        "presentId": 88250466061,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1735154319,
-        "createdAt": 1735154319
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 88250466062,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10088,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1735154319,
-        "createdAt": 1735154319
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 88250466073,
         "messageRefType": 3,
         "messageId": 2912,
@@ -47815,6 +47812,36 @@
         "flag": 0,
         "updatedAt": 1743037950,
         "createdAt": 1743037950
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90716513689,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1743124370,
+        "createdAt": 1743124370
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90716513690,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10091,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1743124370,
+        "createdAt": 1743124370
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51922,7 +51949,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1743001200,
+        "commandSpellRecoverAt": 1743087600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -51935,7 +51962,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1743037950,
+        "updatedAt": 1743124370,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -51950,6 +51977,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1743078702
+    "serverTime": 1743124370
   }
 }
