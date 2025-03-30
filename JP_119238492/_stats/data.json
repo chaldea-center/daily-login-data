@@ -28778,6 +28778,51 @@
     "flag": 0,
     "updatedAt": 1743251271,
     "createdAt": 1743251271
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90766705953,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743297505,
+    "createdAt": 1743297505
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90766705954,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743297505,
+    "createdAt": 1743297505
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90766705978,
+    "messageRefType": 3,
+    "messageId": 3089,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(2/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743297505,
+    "createdAt": 1743297505
   }],
   "loginResult": {
     "loginMessages": [{
@@ -44698,6 +44743,29 @@
       "eventId": 10962,
       "day": 1,
       "updatedAt": 1743251271
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 2,
+      "updatedAt": 1743297505
     }]
   }
 }
