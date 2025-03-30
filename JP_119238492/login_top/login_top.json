@@ -3,42 +3,20 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "3月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "聖晶石",
-          "num": 1
+          "name": "霊脈石",
+          "num": 3
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_02.png",
+            "bannerUrl": "/webview/loginbonus/20250330_6ertkz/6ertkz_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -47,13 +25,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10946,
-        "day": 2
-      }],
-      "totalLoginBonus": [{
-        "num": 637,
-        "items": [],
-        "script": {}
+        "eventId": 10925,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4055,7 +4028,7 @@
         "userId": 119238492,
         "seqLoginCount": 95,
         "totalLoginCount": 637,
-        "lastLoginAt": 1743297505,
+        "lastLoginAt": 1743337702,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41886,21 +41859,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 88333941826,
-        "messageRefType": 4,
-        "messageId": 602,
-        "message": "臨時メンテナンス実施のお詫び (12/27 2:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1735347998,
-        "createdAt": 1735347998
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 88333941827,
         "messageRefType": 4,
         "messageId": 603,
@@ -47884,6 +47842,21 @@
         "flag": 0,
         "updatedAt": 1743297505,
         "createdAt": 1743297505
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90774582316,
+        "messageRefType": 3,
+        "messageId": 3075,
+        "message": "「奏章Ⅳ」開幕直前キャンペーン\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94143201,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1743337702,
+        "createdAt": 1743337702
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51574,7 +51547,27 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71534,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71529,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71542,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52039,6 +52032,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1743297505
+    "serverTime": 1743337702
   }
 }
