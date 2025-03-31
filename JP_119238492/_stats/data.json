@@ -28838,6 +28838,51 @@
     "flag": 16,
     "updatedAt": 1743337702,
     "createdAt": 1743337702
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90803431430,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1743383825,
+    "createdAt": 1743383825
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90803431431,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10091,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743383825,
+    "createdAt": 1743383825
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90803431466,
+    "messageRefType": 3,
+    "messageId": 3090,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(3/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743383825,
+    "createdAt": 1743383825
   }],
   "loginResult": {
     "loginMessages": [{
@@ -44804,6 +44849,50 @@
       "eventId": 10925,
       "day": 1,
       "updatedAt": 1743337702
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 3,
+      "updatedAt": 1743383825
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ」開幕直前キャンペーン開催中！",
+      "detail": "「奏章Ⅳ」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250331_kyn2de/kyn2de_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10968,
+      "day": 1,
+      "updatedAt": 1743383825
     }]
   }
 }
