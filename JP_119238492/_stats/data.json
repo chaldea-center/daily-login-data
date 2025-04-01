@@ -28883,6 +28883,66 @@
     "flag": 0,
     "updatedAt": 1743383825,
     "createdAt": 1743383825
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90841811337,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743470498,
+    "createdAt": 1743470498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90841811338,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743470498,
+    "createdAt": 1743470498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90841811348,
+    "messageRefType": 3,
+    "messageId": 3084,
+    "message": "「Fate/Final Journey」リリース記念\n初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743470498,
+    "createdAt": 1743470498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90841811349,
+    "messageRefType": 3,
+    "messageId": 3091,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(4/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743470498,
+    "createdAt": 1743470498
   }],
   "loginResult": {
     "loginMessages": [{
@@ -44893,6 +44953,53 @@
       "eventId": 10968,
       "day": 1,
       "updatedAt": 1743383825
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Final Journey」リリース記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250401_jui9nj/jui9nj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://www.fate-go.jp/fate-fj/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10930,
+      "day": 1,
+      "updatedAt": 1743470498
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 4,
+      "updatedAt": 1743470498
     }]
   }
 }
