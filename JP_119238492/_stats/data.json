@@ -28943,6 +28943,66 @@
     "flag": 0,
     "updatedAt": 1743470498,
     "createdAt": 1743470498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90877231927,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743556441,
+    "createdAt": 1743556441
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90877231928,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743556441,
+    "createdAt": 1743556441
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90877231929,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743556441,
+    "createdAt": 1743556441
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90877231944,
+    "messageRefType": 3,
+    "messageId": 3092,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(5/14)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1743556441,
+    "createdAt": 1743556441
   }],
   "loginResult": {
     "loginMessages": [{
@@ -45000,6 +45060,29 @@
       "eventId": 10946,
       "day": 4,
       "updatedAt": 1743470498
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 5,
+      "updatedAt": 1743556441
     }]
   }
 }
