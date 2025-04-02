@@ -3,45 +3,20 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "4月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+        "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "叡智の業火",
-          "num": 10
+          "name": "黄金の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_05.png",
+            "bannerUrl": "/webview/loginbonus/20250402_zet0a1/zet0a1_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,13 +25,27 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10946,
-        "day": 5
-      }],
-      "totalLoginBonus": [{
-        "num": 640,
+        "eventId": 10965,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開催中！",
+        "detail": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開催中！",
+        "addDetail": "",
         "items": [],
-        "script": {}
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250402_aetuy4/aetuy4_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10966,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4058,7 +4047,7 @@
         "userId": 119238492,
         "seqLoginCount": 98,
         "totalLoginCount": 640,
-        "lastLoginAt": 1743556441,
+        "lastLoginAt": 1743597117,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -41954,21 +41943,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 88412722157,
-        "messageRefType": 3,
-        "messageId": 2917,
-        "message": "スペース・ファンタズムーン アナザー・クリスマス\n開幕記念 ログインボーナスです。(6/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1735607258,
-        "createdAt": 1735607258
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 88412722158,
         "messageRefType": 3,
         "messageId": 2945,
@@ -46409,21 +46383,6 @@
         "createdAt": 1741177815
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90108244140,
-        "messageRefType": 3,
-        "messageId": 3062,
-        "message": "「カルデアボーイズコレクション2025」 \n期間限定概念礼装交換券\n「CBC2025特別交換券」のプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94141504,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 2,
-        "updatedAt": 1741177815,
-        "createdAt": 1741177815
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90143248290,
         "messageRefType": 3,
         "messageId": 21,
@@ -47952,6 +47911,21 @@
         "flag": 0,
         "updatedAt": 1743556441,
         "createdAt": 1743556441
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 90886464955,
+        "messageRefType": 3,
+        "messageId": 3116,
+        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1743597117,
+        "createdAt": 1743597117
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51532,7 +51506,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80520,
+        "eventId": 71543,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -51572,7 +51546,27 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71541,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71536,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80534,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52087,6 +52081,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1743556441
+    "serverTime": 1743597117
   }
 }
