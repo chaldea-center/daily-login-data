@@ -45353,6 +45353,26 @@
       "eventId": 10965,
       "day": 3,
       "updatedAt": 1743729184
+    }, {
+      "isDeemedLogin": false,
+      "name": "「巡霊の祝祭 第11弾」開催中！",
+      "detail": "「巡霊の祝祭 第11弾」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250404_mknh32/mknh32_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10964,
+      "day": 1,
+      "updatedAt": 1743769856
     }]
   }
 }
