@@ -29138,6 +29138,96 @@
     "flag": 0,
     "updatedAt": 1743729184,
     "createdAt": 1743729184
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821786,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821787,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821824,
+    "messageRefType": 3,
+    "messageId": 3086,
+    "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821825,
+    "messageRefType": 3,
+    "messageId": 3086,
+    "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821826,
+    "messageRefType": 3,
+    "messageId": 3119,
+    "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(4/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 90997821827,
+    "messageRefType": 3,
+    "messageId": 3095,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(8/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743815531,
+    "createdAt": 1743815531
   }],
   "loginResult": {
     "loginMessages": [{
@@ -45373,6 +45463,78 @@
       "eventId": 10964,
       "day": 1,
       "updatedAt": 1743769856
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250405_35tp01/35tp01_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10931,
+      "day": 1,
+      "updatedAt": 1743815531
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 8,
+      "updatedAt": 1743815531
+    }, {
+      "isDeemedLogin": false,
+      "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250402_zet0a1/zet0a1_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10965,
+      "day": 4,
+      "updatedAt": 1743815531
     }]
   }
 }
