@@ -29303,6 +29303,81 @@
     "flag": 0,
     "updatedAt": 1743902259,
     "createdAt": 1743902259
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91087124409,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1743988541,
+    "createdAt": 1743988541
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91087124410,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743988541,
+    "createdAt": 1743988541
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91087124422,
+    "messageRefType": 3,
+    "messageId": 3086,
+    "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743988541,
+    "createdAt": 1743988541
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91087124423,
+    "messageRefType": 3,
+    "messageId": 3121,
+    "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(6/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743988541,
+    "createdAt": 1743988541
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91087124424,
+    "messageRefType": 3,
+    "messageId": 3097,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(10/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1743988541,
+    "createdAt": 1743988541
   }],
   "loginResult": {
     "loginMessages": [{
@@ -45679,6 +45754,75 @@
       "eventId": 10965,
       "day": 5,
       "updatedAt": 1743902259
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250407_35tp03/35tp03_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10933,
+      "day": 1,
+      "updatedAt": 1743988541
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 10,
+      "updatedAt": 1743988541
+    }, {
+      "isDeemedLogin": false,
+      "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250402_zet0a1/zet0a1_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10965,
+      "day": 6,
+      "updatedAt": 1743988541
     }]
   }
 }
