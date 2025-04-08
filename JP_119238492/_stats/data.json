@@ -45985,6 +45985,26 @@
       "eventId": 10965,
       "day": 7,
       "updatedAt": 1744074835
+    }, {
+      "isDeemedLogin": false,
+      "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開催中！",
+      "detail": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250408_ztjt5p/ztjt5p_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10967,
+      "day": 1,
+      "updatedAt": 1744115537
     }]
   }
 }
