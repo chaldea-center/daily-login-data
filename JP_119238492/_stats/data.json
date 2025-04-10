@@ -29558,6 +29558,126 @@
     "flag": 0,
     "updatedAt": 1744161219,
     "createdAt": 1744161219
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615147,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615148,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615186,
+    "messageRefType": 3,
+    "messageId": 3086,
+    "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615187,
+    "messageRefType": 3,
+    "messageId": 3124,
+    "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(9/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615188,
+    "messageRefType": 3,
+    "messageId": 3100,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(13/14)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615189,
+    "messageRefType": 3,
+    "messageId": 3137,
+    "message": "3100万DL突破記念\n3100万DL突破おめでとう！\nキミへの贈り物だよ、気に入ってくれると嬉しいな！ by レディ・アヴァロン(1/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 100,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615190,
+    "messageRefType": 3,
+    "messageId": 3137,
+    "message": "3100万DL突破記念\n3100万DL突破おめでとう！\nキミへの贈り物だよ、気に入ってくれると嬉しいな！ by レディ・アヴァロン(1/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91221615197,
+    "messageRefType": 4,
+    "messageId": 615,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/9 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1744247621,
+    "createdAt": 1744247621
   }],
   "loginResult": {
     "loginMessages": [{
@@ -46164,6 +46284,102 @@
       "eventId": 10965,
       "day": 8,
       "updatedAt": 1744161219
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250410_35tp06/35tp06_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10936,
+      "day": 1,
+      "updatedAt": 1744247621
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250329_02k3bd/02k3bd_k_13.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10946,
+      "day": 13,
+      "updatedAt": 1744247621
+    }, {
+      "isDeemedLogin": false,
+      "name": "3100万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 100
+      }, {
+        "name": "白銀の果実",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250410_jmds0j/jmds0j_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3100man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10963,
+      "day": 1,
+      "updatedAt": 1744247621
+    }, {
+      "isDeemedLogin": false,
+      "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250402_zet0a1/zet0a1_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10965,
+      "day": 9,
+      "updatedAt": 1744247621
     }]
   }
 }
