@@ -3,8 +3,103 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "4月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "3100万DL突破記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250410_jmds0j/jmds0j_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/3100man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10963,
+        "day": 4
+      }, {
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "巡霊の葉",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250413_35tp09/35tp09_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10939,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250402_zet0a1/zet0a1_k_12.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 10965,
+        "day": 12
+      }],
+      "totalLoginBonus": [{
+        "num": 651,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4003,9 +4098,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 108,
-        "totalLoginCount": 650,
-        "lastLoginAt": 1744460886,
+        "seqLoginCount": 109,
+        "totalLoginCount": 651,
+        "lastLoginAt": 1744511276,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34842,6 +34937,11 @@
         "missionId": 1033781,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033782,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42189,81 +42289,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 88747331651,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1736644497,
-        "createdAt": 1736644497
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 88747331652,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10089,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1736644497,
-        "createdAt": 1736644497
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 88747331708,
-        "messageRefType": 3,
-        "messageId": 3003,
-        "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1736644497,
-        "createdAt": 1736644497
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 88747331709,
-        "messageRefType": 3,
-        "messageId": 3000,
-        "message": "「FGO カルデア・サテライトステーション 2024-2025」\n福島会場開催記念 初回ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1736644497,
-        "createdAt": 1736644497
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 88747331710,
-        "messageRefType": 3,
-        "messageId": 2999,
-        "message": "「FGO カルデア・サテライトステーション 2024-2025」\n福島会場開催記念 3万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 6,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1736644497,
-        "createdAt": 1736644497
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 88747331711,
         "messageRefType": 3,
         "messageId": 2949,
@@ -48187,6 +48212,81 @@
         "flag": 0,
         "updatedAt": 1744420361,
         "createdAt": 1744420361
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91323636460,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1744511276,
+        "createdAt": 1744511276
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91323636461,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10092,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1744511276,
+        "createdAt": 1744511276
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91323636470,
+        "messageRefType": 3,
+        "messageId": 3086,
+        "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1744511276,
+        "createdAt": 1744511276
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91323636471,
+        "messageRefType": 3,
+        "messageId": 3127,
+        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(12/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1744511276,
+        "createdAt": 1744511276
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91323636472,
+        "messageRefType": 3,
+        "messageId": 3140,
+        "message": "3100万DL突破記念\n3100万DL突破おめでとう！\nキミへの贈り物だよ、気に入ってくれると嬉しいな！ by レディ・アヴァロン(4/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1744511276,
+        "createdAt": 1744511276
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52304,7 +52404,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1744383600,
+        "commandSpellRecoverAt": 1744470000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52317,7 +52417,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1744420361,
+        "updatedAt": 1744511276,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52332,6 +52432,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1744460885
+    "serverTime": 1744511276
   }
 }
