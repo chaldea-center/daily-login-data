@@ -48129,6 +48129,26 @@
       "eventId": 10965,
       "day": 21,
       "updatedAt": 1745284510
+    }, {
+      "isDeemedLogin": false,
+      "name": "「巡霊の祝祭 第12弾」開催中！",
+      "detail": "「巡霊の祝祭 第12弾」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250423_3h767h/3h767h_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10990,
+      "day": 1,
+      "updatedAt": 1745411539
     }]
   }
 }
