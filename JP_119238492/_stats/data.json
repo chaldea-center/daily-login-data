@@ -30668,6 +30668,66 @@
     "flag": 0,
     "updatedAt": 1745370925,
     "createdAt": 1745370925
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91591804159,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745457335,
+    "createdAt": 1745457335
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91591804160,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745457335,
+    "createdAt": 1745457335
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91591804174,
+    "messageRefType": 3,
+    "messageId": 3149,
+    "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745457335,
+    "createdAt": 1745457335
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91591804175,
+    "messageRefType": 3,
+    "messageId": 3149,
+    "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745457335,
+    "createdAt": 1745457335
   }],
   "loginResult": {
     "loginMessages": [{
@@ -48149,6 +48209,32 @@
       "eventId": 10990,
       "day": 1,
       "updatedAt": 1745411539
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250424_cg4501/cg4501_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10975,
+      "day": 1,
+      "updatedAt": 1745457335
     }]
   }
 }
