@@ -30773,6 +30773,66 @@
     "flag": 0,
     "updatedAt": 1745543768,
     "createdAt": 1745543768
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91625928731,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1745630000,
+    "createdAt": 1745630000
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91625928732,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10092,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745630000,
+    "createdAt": 1745630000
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91625928736,
+    "messageRefType": 3,
+    "messageId": 3148,
+    "message": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕直前\nカウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1745630000,
+    "createdAt": 1745630000
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91625928737,
+    "messageRefType": 3,
+    "messageId": 3149,
+    "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1745630000,
+    "createdAt": 1745630000
   }],
   "loginResult": {
     "loginMessages": [{
@@ -48303,6 +48363,53 @@
       "eventId": 10976,
       "day": 1,
       "updatedAt": 1745543768
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 5日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・流星のフォウくん",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250426_2jg742/2jg742_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10970,
+      "day": 1,
+      "updatedAt": 1745630000
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250426_cg4503/cg4503_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10977,
+      "day": 1,
+      "updatedAt": 1745630000
     }]
   }
 }
