@@ -3,68 +3,38 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "4月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 5日間日替りでログインボーナスをプレゼント！",
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！10万リポスト達成プレゼント",
+        "detail": "開催期間中、初回ログインで10万リポスト達成報酬をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250427_xbp765/xbp765_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10971,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
+          "name": "QP",
+          "num": 5000000
+        }, {
           "name": "聖晶石",
+          "num": 12
+        }, {
+          "name": "マナプリズム",
+          "num": 100
+        }, {
+          "name": "レアプリズム",
           "num": 1
         }, {
-          "name": "巡霊の葉",
-          "num": 80
+          "name": "黄金の果実",
+          "num": 5
+        }, {
+          "name": "白銀の果実",
+          "num": 5
+        }, {
+          "name": "呼符",
+          "num": 5
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250427_cg4504/cg4504_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250427_gs35g4/gs35g4_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -73,13 +43,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10978,
+        "eventId": 10960,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 665,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4081,7 +4046,7 @@
         "userId": 119238492,
         "seqLoginCount": 123,
         "totalLoginCount": 665,
-        "lastLoginAt": 1745716803,
+        "lastLoginAt": 1745756927,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43800,111 +43765,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89168277273,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1737940061,
-        "createdAt": 1737940061
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89168277274,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10089,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1737940061,
-        "createdAt": 1737940061
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89168277284,
-        "messageRefType": 3,
-        "messageId": 3004,
-        "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1737940061,
-        "createdAt": 1737940061
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89168277285,
-        "messageRefType": 3,
-        "messageId": 2987,
-        "message": "育て！ マイ・リトル・ドラゴン ～鱗ある者たちの見る幻想～\n開幕記念 ログインボーナスです。\n(13/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1737940061,
-        "createdAt": 1737940061
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89195210044,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1738026379,
-        "createdAt": 1738026379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89195210045,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10089,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1738026379,
-        "createdAt": 1738026379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89195210051,
-        "messageRefType": 3,
-        "messageId": 3004,
-        "message": "「巡霊の祝祭 第9弾」開催記念\n特別日替りログインボーナス第2弾です。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1738026379,
-        "createdAt": 1738026379
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89195210052,
         "messageRefType": 3,
         "messageId": 2988,
@@ -49798,6 +49658,111 @@
         "flag": 0,
         "updatedAt": 1745716803,
         "createdAt": 1745716803
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072851,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 5000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072852,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 12,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072853,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 3,
+        "num": 100,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072854,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 18,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072855,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072856,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91663072857,
+        "messageRefType": 3,
+        "messageId": 3147,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1745756927,
+        "createdAt": 1745756927
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53488,6 +53453,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71081,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71102,
         "value": 0,
         "flag": 0,
@@ -53943,6 +53918,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1745716803
+    "serverTime": 1745756927
   }
 }
