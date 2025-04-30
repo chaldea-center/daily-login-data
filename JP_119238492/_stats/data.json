@@ -31223,6 +31223,21 @@
     "flag": 0,
     "updatedAt": 1745975775,
     "createdAt": 1745975775
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91742904772,
+    "messageRefType": 3,
+    "messageId": 3150,
+    "message": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン\n特別回数ログインボーナスです。\n(1/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 103,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1746016330,
+    "createdAt": 1746016330
   }],
   "loginResult": {
     "loginMessages": [{
@@ -49035,6 +49050,50 @@
       "eventId": 10981,
       "day": 1,
       "updatedAt": 1745975775
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ 人類裁決法廷トリニティ・メタトロニオス」開幕！",
+      "detail": "「奏章Ⅳ 人類裁決法廷トリニティ・メタトロニオス」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250430_95xa2r/95xa2r_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10926,
+      "day": 1,
+      "updatedAt": 1746016330
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン 特別回数ログインボーナス！",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "青銅の苗木",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250430_9urkst/9urkst_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_opening_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11006,
+      "day": 1,
+      "updatedAt": 1746016330
     }]
   }
 }
