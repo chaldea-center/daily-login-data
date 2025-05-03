@@ -31403,6 +31403,66 @@
     "flag": 4,
     "updatedAt": 1746148600,
     "createdAt": 1746148600
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91812877812,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1746234909,
+    "createdAt": 1746234909
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91812877813,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10093,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1746234909,
+    "createdAt": 1746234909
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91812877831,
+    "messageRefType": 3,
+    "messageId": 3149,
+    "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1746234909,
+    "createdAt": 1746234909
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 91812877832,
+    "messageRefType": 3,
+    "messageId": 3153,
+    "message": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン\n特別回数ログインボーナスです。\n(4/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 103,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1746234909,
+    "createdAt": 1746234909
   }],
   "loginResult": {
     "loginMessages": [{
@@ -49380,6 +49440,53 @@
       "eventId": 11006,
       "day": 3,
       "updatedAt": 1746148600
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250503_cg4510/cg4510_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10984,
+      "day": 1,
+      "updatedAt": 1746234909
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン 特別回数ログインボーナス！",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "青銅の苗木",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250430_9urkst/9urkst_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_opening_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11006,
+      "day": 4,
+      "updatedAt": 1746234909
     }]
   }
 }
