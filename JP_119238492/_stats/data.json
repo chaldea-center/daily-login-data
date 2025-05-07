@@ -49966,6 +49966,26 @@
       "eventId": 11006,
       "day": 8,
       "updatedAt": 1746580650
+    }, {
+      "isDeemedLogin": false,
+      "name": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕！",
+      "detail": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250507_68nuid/68nuid_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10927,
+      "day": 1,
+      "updatedAt": 1746621316
     }]
   }
 }

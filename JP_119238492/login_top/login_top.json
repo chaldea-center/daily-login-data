@@ -3,71 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "5月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン 特別回数ログインボーナス！",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "name": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕！",
+        "detail": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕！",
         "addDetail": "",
-        "items": [{
-          "name": "青銅の苗木",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250430_9urkst/9urkst_k_08.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_opening_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11006,
-        "day": 8
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 3
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250507_cg4514/cg4514_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250507_68nuid/68nuid_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -76,13 +22,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 10988,
+        "eventId": 10927,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 675,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4084,7 +4025,7 @@
         "userId": 119238492,
         "seqLoginCount": 133,
         "totalLoginCount": 675,
-        "lastLoginAt": 1746580650,
+        "lastLoginAt": 1746621316,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -34913,74 +34854,34 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033760,
+        "missionId": 1033794,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033761,
+        "missionId": 1033795,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033762,
+        "missionId": 1033796,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033763,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033764,
+        "missionId": 1033797,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033765,
+        "missionId": 1033798,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033766,
+        "missionId": 1033799,
         "progressType": 3,
         "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033767,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033768,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033769,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033770,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033771,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033772,
-        "progressType": 3,
-        "num": 1
-      }, {
-        "userId": 119238492,
-        "missionId": 1033773,
-        "progressType": 3,
-        "num": 1
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -37327,48 +37228,6 @@
         "missionProgressType": 4,
         "updatedAt": 1746016330,
         "createdAt": 1744201933
-      }, {
-        "userId": 119238492,
-        "missionId": 1033763,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743251271
-      }, {
-        "userId": 119238492,
-        "missionId": 1033769,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743470498
-      }, {
-        "userId": 119238492,
-        "missionId": 1033770,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743470498
-      }, {
-        "userId": 119238492,
-        "missionId": 1033771,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743470498
-      }, {
-        "userId": 119238492,
-        "missionId": 1033772,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743470498
-      }, {
-        "userId": 119238492,
-        "missionId": 1033773,
-        "missionTargetId": 200213,
-        "missionProgressType": 4,
-        "updatedAt": 1743470498,
-        "createdAt": 1743470498
       }, {
         "userId": 119238492,
         "missionId": 30000060,
@@ -52008,36 +51867,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71538,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71544,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80539,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71534,
         "value": 0,
         "flag": 0,
@@ -52099,6 +51928,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71546,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71551,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71556,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52573,6 +52422,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1746580650
+    "serverTime": 1746621316
   }
 }
