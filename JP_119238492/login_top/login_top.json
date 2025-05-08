@@ -3,19 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "5月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「巡霊の祝祭 第13弾」開催中！",
+        "detail": "「巡霊の祝祭 第13弾」開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "bannerUrl": "/webview/loginbonus/20250508_tr92gc/tr92gc_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,38 +21,9 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン 特別回数ログインボーナス！",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "青銅の苗木",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250430_9urkst/9urkst_k_09.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_opening_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
         },
-        "eventId": 11006,
-        "day": 9
-      }],
-      "totalLoginBonus": [{
-        "num": 676,
-        "items": [],
-        "script": {}
+        "eventId": 11005,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4056,7 +4025,7 @@
         "userId": 119238492,
         "seqLoginCount": 134,
         "totalLoginCount": 676,
-        "lastLoginAt": 1746667090,
+        "lastLoginAt": 1746707576,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -51908,6 +51877,46 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71545,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71547,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71548,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80541,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80517,
         "value": 0,
         "flag": 0,
@@ -52453,6 +52462,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1746667090
+    "serverTime": 1746707576
   }
 }
