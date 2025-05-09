@@ -3,83 +3,28 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "5月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "name": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
+        "detail": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250509_62i511/62i511_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 10991,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン 特別回数ログインボーナス！",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "青銅の苗木",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250430_9urkst/9urkst_k_10.png",
+            "bannerUrl": "/webview/loginbonus/20250509_13cser/13cser_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/ordeal_call_4_opening_cp/"
+            "urlLink": "https://news.fate-go.jp/2025/grand_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11006,
-        "day": 10
-      }],
-      "totalLoginBonus": [{
-        "num": 677,
-        "items": [],
-        "script": {}
+        "eventId": 11008,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4081,7 +4026,7 @@
         "userId": 119238492,
         "seqLoginCount": 135,
         "totalLoginCount": 677,
-        "lastLoginAt": 1746753458,
+        "lastLoginAt": 1746793936,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -51973,7 +51918,17 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80517,
+        "eventId": 71549,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71550,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52443,6 +52398,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80517,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80518,
         "value": 0,
         "flag": 0,
@@ -52518,6 +52483,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1746753458
+    "serverTime": 1746793936
   }
 }

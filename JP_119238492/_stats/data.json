@@ -50200,6 +50200,27 @@
       "eventId": 11006,
       "day": 10,
       "updatedAt": 1746753458
+    }, {
+      "isDeemedLogin": false,
+      "name": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
+      "detail": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250509_13cser/13cser_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11008,
+      "day": 1,
+      "updatedAt": 1746793936
     }]
   }
 }
