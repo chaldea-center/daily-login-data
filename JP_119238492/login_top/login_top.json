@@ -3,28 +3,57 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
-        "detail": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前キャンペーン開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "5月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250509_13cser/13cser_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_cp/"
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "巡霊の葉",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250510_62i512/62i512_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11008,
+        "eventId": 10992,
         "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 678,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4024,9 +4053,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 135,
-        "totalLoginCount": 677,
-        "lastLoginAt": 1746793936,
+        "seqLoginCount": 136,
+        "totalLoginCount": 678,
+        "lastLoginAt": 1746839680,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42290,51 +42319,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89498747341,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1739149736,
-        "createdAt": 1739149736
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89498747342,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10090,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1739149736,
-        "createdAt": 1739149736
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89498747351,
-        "messageRefType": 3,
-        "messageId": 3017,
-        "message": "「バレンタイン2025」\n開幕直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1739149736,
-        "createdAt": 1739149736
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89498747352,
         "messageRefType": 3,
         "messageId": 3009,
@@ -48288,6 +48272,51 @@
         "flag": 4,
         "updatedAt": 1746753458,
         "createdAt": 1746753458
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91985346338,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1746839680,
+        "createdAt": 1746839680
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91985346339,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10093,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1746839680,
+        "createdAt": 1746839680
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 91985346364,
+        "messageRefType": 3,
+        "messageId": 3161,
+        "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1746839680,
+        "createdAt": 1746839680
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52455,7 +52484,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1746716400,
+        "commandSpellRecoverAt": 1746802800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52468,7 +52497,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1746753458,
+        "updatedAt": 1746839680,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52483,6 +52512,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1746793936
+    "serverTime": 1746839680
   }
 }
