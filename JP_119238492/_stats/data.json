@@ -31958,6 +31958,66 @@
     "flag": 0,
     "updatedAt": 1746926529,
     "createdAt": 1746926529
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92044484553,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1747012819,
+    "createdAt": 1747012819
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92044484554,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10093,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747012819,
+    "createdAt": 1747012819
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92044484577,
+    "messageRefType": 3,
+    "messageId": 3161,
+    "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747012819,
+    "createdAt": 1747012819
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92044484578,
+    "messageRefType": 3,
+    "messageId": 3161,
+    "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 80,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747012819,
+    "createdAt": 1747012819
   }],
   "loginResult": {
     "loginMessages": [{
@@ -50357,6 +50417,32 @@
       "eventId": 10993,
       "day": 1,
       "updatedAt": 1746926529
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 80
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250512_62i514/62i514_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10994,
+      "day": 1,
+      "updatedAt": 1747012819
     }]
   }
 }
