@@ -32198,6 +32198,81 @@
     "flag": 0,
     "updatedAt": 1747271741,
     "createdAt": 1747271741
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92144307957,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747358310,
+    "createdAt": 1747358310
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92144307958,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10093,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747358310,
+    "createdAt": 1747358310
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92144307986,
+    "messageRefType": 3,
+    "messageId": 3161,
+    "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747358310,
+    "createdAt": 1747358310
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92144307987,
+    "messageRefType": 3,
+    "messageId": 3161,
+    "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747358310,
+    "createdAt": 1747358310
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92144307988,
+    "messageRefType": 3,
+    "messageId": 3162,
+    "message": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕\n直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747358310,
+    "createdAt": 1747358310
   }],
   "loginResult": {
     "loginMessages": [{
@@ -50719,6 +50794,56 @@
       "eventId": 11015,
       "day": 1,
       "updatedAt": 1747271741
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250516_62i518/62i518_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 10998,
+      "day": 1,
+      "updatedAt": 1747358310
+    }, {
+      "isDeemedLogin": false,
+      "name": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250511_dga2q5/dga2q5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11016,
+      "day": 1,
+      "updatedAt": 1747358310
     }]
   }
 }
