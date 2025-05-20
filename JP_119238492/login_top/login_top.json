@@ -3,81 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "5月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「グランドグラフシステム」解放＆「冠位戴冠戦」開幕 直前カウントダウンログインボーナス",
-        "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 1000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250515_bd64ea/bd64ea_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11020,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "巡霊の葉",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250520_62i522/62i522_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11002,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 688,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4078,7 +4005,7 @@
         "userId": 119238492,
         "seqLoginCount": 146,
         "totalLoginCount": 688,
-        "lastLoginAt": 1747703968,
+        "lastLoginAt": 1747744509,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -52660,6 +52587,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1747703968
+    "serverTime": 1747744509
   }
 }
