@@ -32603,6 +32603,21 @@
     "flag": 0,
     "updatedAt": 1747790339,
     "createdAt": 1747790339
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92282943985,
+    "messageRefType": 3,
+    "messageId": 3163,
+    "message": "冠位戴冠戦：Saber開幕記念 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1747830837,
+    "createdAt": 1747830837
   }],
   "loginResult": {
     "loginMessages": [{
@@ -51412,6 +51427,49 @@
       "eventId": 11021,
       "day": 1,
       "updatedAt": 1747790339
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Saber開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250521_fgs5s3/fgs5s3_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11024,
+      "day": 1,
+      "updatedAt": 1747830837
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Saber」開催中！",
+      "detail": "「冠位戴冠戦：Saber」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250521_s2dg4s/s2dg4s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11026,
+      "day": 1,
+      "updatedAt": 1747830837
     }]
   }
 }
