@@ -3,22 +3,19 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Saber」開催中！",
-        "detail": "「冠位戴冠戦：Saber」開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "5月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250521_s2dg4s/s2dg4s_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,8 +23,37 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局 ライト版「冠位戴冠戦」\n配信記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250522_k33l9m/k33l9m_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/0521nico/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
         },
-        "eventId": 11026,
+        "eventId": 11025,
         "day": 1
       }, {
         "isDeemedLogin": false,
@@ -40,7 +66,7 @@
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250521_fgs5s3/fgs5s3_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250521_fgs5s3/fgs5s3_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,7 +76,37 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11024,
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "日替りログインボーナス",
+        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 3
+        }, {
+          "name": "巡霊の葉",
+          "num": 50
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250522_62i524/62i524_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11004,
         "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 690,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4428,9 +4484,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 147,
-        "totalLoginCount": 689,
-        "lastLoginAt": 1747830837,
+        "seqLoginCount": 148,
+        "totalLoginCount": 690,
+        "lastLoginAt": 1747876684,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35314,6 +35370,11 @@
         "missionId": 1033823,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033824,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42777,111 +42838,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89761446252,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740273187,
-        "createdAt": 1740273187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89761446253,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10090,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740273187,
-        "createdAt": 1740273187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89761446264,
-        "messageRefType": 3,
-        "messageId": 3030,
-        "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(12/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740273187,
-        "createdAt": 1740273187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89792270957,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1740359436,
-        "createdAt": 1740359436
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89792270958,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10090,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740359436,
-        "createdAt": 1740359436
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89792270998,
-        "messageRefType": 3,
-        "messageId": 3031,
-        "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(13/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740359436,
-        "createdAt": 1740359436
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89818010549,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740445792,
-        "createdAt": 1740445792
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89818010550,
         "messageRefType": 3,
         "messageId": 21,
@@ -48775,6 +48731,111 @@
         "flag": 0,
         "updatedAt": 1747830837,
         "createdAt": 1747830837
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455267,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455268,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10093,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455295,
+        "messageRefType": 3,
+        "messageId": 3161,
+        "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455296,
+        "messageRefType": 3,
+        "messageId": 3161,
+        "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 48,
+        "num": 50,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455297,
+        "messageRefType": 3,
+        "messageId": 3164,
+        "message": "冠位戴冠戦：Saber開幕記念 ログインボーナスです。\n(2/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455298,
+        "messageRefType": 3,
+        "messageId": 3170,
+        "message": "Fate/Grand Order カルデア放送局 ライト版「冠位戴冠戦」\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92320455301,
+        "messageRefType": 4,
+        "messageId": 617,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (5/21 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1747876684,
+        "createdAt": 1747876684
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53038,7 +53099,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1747753200,
+        "commandSpellRecoverAt": 1747839600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53051,7 +53112,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1747790339,
+        "updatedAt": 1747876684,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53066,6 +53127,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1747830837
+    "serverTime": 1747876684
   }
 }
