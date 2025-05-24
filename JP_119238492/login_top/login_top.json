@@ -3,13 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "5月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "冠位戴冠戦：Saber開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250521_fgs5s3/fgs5s3_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11024,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 692,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 149,
-        "totalLoginCount": 691,
-        "lastLoginAt": 1748003564,
+        "seqLoginCount": 150,
+        "totalLoginCount": 692,
+        "lastLoginAt": 1748049320,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35327,6 +35377,26 @@
         "missionId": 1033830,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033826,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033831,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033832,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033833,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42790,51 +42860,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89843211024,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740532186,
-        "createdAt": 1740532186
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89843211025,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10090,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740532186,
-        "createdAt": 1740532186
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89843211058,
-        "messageRefType": 3,
-        "messageId": 3040,
-        "message": "【リリース3500日突破キャンペーン】\nグランドオーダー発令から3500日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740532186,
-        "createdAt": 1740532186
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89843211059,
         "messageRefType": 3,
         "messageId": 3033,
@@ -48788,6 +48813,51 @@
         "flag": 0,
         "updatedAt": 1747963094,
         "createdAt": 1747963094
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92379462948,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1748049320,
+        "createdAt": 1748049320
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92379462949,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10093,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748049320,
+        "createdAt": 1748049320
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92379462969,
+        "messageRefType": 3,
+        "messageId": 3166,
+        "message": "冠位戴冠戦：Saber開幕記念 ログインボーナスです。\n(4/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748049320,
+        "createdAt": 1748049320
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53011,7 +53081,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1747926000,
+        "commandSpellRecoverAt": 1748012400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53024,7 +53094,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1747963094,
+        "updatedAt": 1748049320,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53039,6 +53109,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1748003564
+    "serverTime": 1748049320
   }
 }
