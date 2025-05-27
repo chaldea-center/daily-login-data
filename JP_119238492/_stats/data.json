@@ -32903,6 +32903,51 @@
     "flag": 0,
     "updatedAt": 1748222428,
     "createdAt": 1748222428
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92431553003,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748308653,
+    "createdAt": 1748308653
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92431553004,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10093,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748308653,
+    "createdAt": 1748308653
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92431553013,
+    "messageRefType": 3,
+    "messageId": 3169,
+    "message": "冠位戴冠戦：Saber開幕記念 ログインボーナスです。\n(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748308653,
+    "createdAt": 1748308653
   }],
   "loginResult": {
     "loginMessages": [{
@@ -51920,6 +51965,29 @@
       "eventId": 11024,
       "day": 6,
       "updatedAt": 1748222428
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Saber開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250521_fgs5s3/fgs5s3_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11024,
+      "day": 7,
+      "updatedAt": 1748308653
     }]
   }
 }
