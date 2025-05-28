@@ -3,13 +3,43 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "5月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 696,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4416,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 153,
-        "totalLoginCount": 695,
-        "lastLoginAt": 1748349269,
+        "seqLoginCount": 154,
+        "totalLoginCount": 696,
+        "lastLoginAt": 1748395160,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42855,51 +42885,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89902928657,
-        "messageRefType": 3,
-        "messageId": 3035,
-        "message": "小野小町古今抄 ～雪消月のキラキラ蓮華～\n開幕記念 ログインボーナスです。\n(17/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740705006,
-        "createdAt": 1740705006
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89911335062,
-        "messageRefType": 3,
-        "messageId": 3041,
-        "message": "「大統領特異点」クリア応援\n特別ログインボーナスです。(1/5)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1740745753,
-        "createdAt": 1740745753
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89934844020,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1740791693,
-        "createdAt": 1740791693
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89934844021,
         "messageRefType": 3,
         "messageId": 21,
@@ -48853,6 +48838,51 @@
         "flag": 0,
         "updatedAt": 1748308653,
         "createdAt": 1748308653
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92446256283,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748395160,
+        "createdAt": 1748395160
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92446256284,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748395160,
+        "createdAt": 1748395160
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92446256285,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10093,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748395160,
+        "createdAt": 1748395160
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53076,7 +53106,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1748271600,
+        "commandSpellRecoverAt": 1748358000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53089,7 +53119,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1748308653,
+        "updatedAt": 1748395160,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53104,6 +53134,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1748349269
+    "serverTime": 1748395160
   }
 }
