@@ -3,13 +3,64 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "5月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「落涙の翼」開幕直前\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250529_ynh7i5/ynh7i5_k_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/rakuruinotsubasa_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11009,
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 698,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4437,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 155,
-        "totalLoginCount": 697,
-        "lastLoginAt": 1748522015,
+        "seqLoginCount": 156,
+        "totalLoginCount": 698,
+        "lastLoginAt": 1748567814,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42850,51 +42901,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 89934844033,
-        "messageRefType": 3,
-        "messageId": 3042,
-        "message": "「大統領特異点」クリア応援\n特別ログインボーナスです。(2/5)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 2000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740791693,
-        "createdAt": 1740791693
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89934844034,
-        "messageRefType": 4,
-        "messageId": 611,
-        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (2/28 13:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740791693,
-        "createdAt": 1740791693
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 89934844035,
-        "messageRefType": 4,
-        "messageId": 612,
-        "message": "2025年2月28日(金)18:00以降、「星見のティーポット」を使用してバトルを開始した際に「クエストエラー」のダイアログが表示され、バトルを開始することができない不具合についてのお詫び (2/28 21:30掲載分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1740791693,
-        "createdAt": 1740791693
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 89954237020,
         "messageRefType": 3,
         "messageId": 3063,
@@ -48848,6 +48854,51 @@
         "flag": 0,
         "updatedAt": 1748481535,
         "createdAt": 1748481535
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92472355968,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748567814,
+        "createdAt": 1748567814
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92472355969,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10093,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748567814,
+        "createdAt": 1748567814
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92472355979,
+        "messageRefType": 3,
+        "messageId": 3172,
+        "message": "「落涙の翼」開幕直前\n特別ログインボーナスです。(2/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1748567814,
+        "createdAt": 1748567814
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53061,7 +53112,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1748444400,
+        "commandSpellRecoverAt": 1748530800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53074,7 +53125,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1748481535,
+        "updatedAt": 1748567814,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53089,6 +53140,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1748522015
+    "serverTime": 1748567814
   }
 }
