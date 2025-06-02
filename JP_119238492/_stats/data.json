@@ -33188,6 +33188,66 @@
     "flag": 0,
     "updatedAt": 1748742079,
     "createdAt": 1748742079
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92516536894,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1748827329,
+    "createdAt": 1748827329
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92516536895,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10094,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748827329,
+    "createdAt": 1748827329
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92516536903,
+    "messageRefType": 3,
+    "messageId": 3178,
+    "message": "「落涙の翼」開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748827329,
+    "createdAt": 1748827329
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92516536904,
+    "messageRefType": 3,
+    "messageId": 3175,
+    "message": "「落涙の翼」開幕直前\n特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1748827329,
+    "createdAt": 1748827329
   }],
   "loginResult": {
     "loginMessages": [{
@@ -52342,6 +52402,53 @@
       "eventId": 11009,
       "day": 4,
       "updatedAt": 1748742079
+    }, {
+      "isDeemedLogin": false,
+      "name": "「落涙の翼」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250529_ynh7i5/ynh7i5_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/rakuruinotsubasa_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11009,
+      "day": 5,
+      "updatedAt": 1748827329
+    }, {
+      "isDeemedLogin": false,
+      "name": "「落涙の翼」開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250602_ncr9mu/ncr9mu_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11010,
+      "day": 1,
+      "updatedAt": 1748827329
     }]
   }
 }
