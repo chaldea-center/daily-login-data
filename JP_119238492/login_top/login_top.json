@@ -3,86 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "6月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「落涙の翼」開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 2
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250603_6k36zu/6k36zu_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11011,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "「落涙の翼」開幕直前\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 5
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250529_ynh7i5/ynh7i5_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/rakuruinotsubasa_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11009,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 702,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4461,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 160,
         "totalLoginCount": 702,
-        "lastLoginAt": 1748913621,
+        "lastLoginAt": 1748954097,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53077,6 +53004,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1748913621
+    "serverTime": 1748954097
   }
 }
