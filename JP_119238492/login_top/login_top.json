@@ -3,50 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "6月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「落涙の翼」開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "name": "「落涙の翼」開催中！",
+        "detail": "「落涙の翼」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "呼符",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250604_p4ph82/p4ph82_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250604_zp6cb8/zp6cb8_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,36 +27,30 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11012,
+        "eventId": 11013,
         "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "「落涙の翼」開幕直前\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "落涙の翼開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 5
+          "name": "黄金の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250529_ynh7i5/ynh7i5_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/rakuruinotsubasa_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11009,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 703,
-        "items": [],
-        "script": {}
+        "eventId": 11023,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4464,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 161,
         "totalLoginCount": 703,
-        "lastLoginAt": 1749000000,
+        "lastLoginAt": 1749040488,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35328,106 +35294,6 @@
         "missionId": 1033812,
         "progressType": 3,
         "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033828,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033829,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033830,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033831,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033832,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033833,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033834,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033835,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033836,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033837,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033838,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033839,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033840,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033841,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033842,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033843,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033844,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033845,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033846,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033827,
-        "progressType": 3,
-        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42891,21 +42757,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90095175719,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741137053,
-        "createdAt": 1741137053
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90095175720,
         "messageRefType": 3,
         "messageId": 21,
@@ -48889,6 +48740,21 @@
         "flag": 0,
         "updatedAt": 1749000000,
         "createdAt": 1749000000
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92556977290,
+        "messageRefType": 3,
+        "messageId": 3181,
+        "message": "落涙の翼開幕記念 ログインボーナスです。\n(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749040488,
+        "createdAt": 1749040488
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52545,26 +52411,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71554,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71555,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71553,
         "value": 0,
         "flag": 0,
@@ -52585,7 +52431,27 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71561,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71552,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80540,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -53080,6 +52946,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1749000000
+    "serverTime": 1749040488
   }
 }
