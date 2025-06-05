@@ -33398,6 +33398,81 @@
     "flag": 0,
     "updatedAt": 1749040488,
     "createdAt": 1749040488
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92571015636,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749086355,
+    "createdAt": 1749086355
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92571015637,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10094,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749086355,
+    "createdAt": 1749086355
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92571015645,
+    "messageRefType": 3,
+    "messageId": 3180,
+    "message": "FGO カルデア放送局 ライト版 新規イベント「落涙の翼」\n＆「FGO Fes. 2025」最新情報 \n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749086355,
+    "createdAt": 1749086355
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92571015646,
+    "messageRefType": 3,
+    "messageId": 3182,
+    "message": "落涙の翼開幕記念 ログインボーナスです。\n(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749086355,
+    "createdAt": 1749086355
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92571015650,
+    "messageRefType": 4,
+    "messageId": 618,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (6/4 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749086355,
+    "createdAt": 1749086355
   }],
   "loginResult": {
     "loginMessages": [{
@@ -52736,6 +52811,53 @@
       "eventId": 11023,
       "day": 1,
       "updatedAt": 1749040488
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版落涙の翼初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250605_hwe3i7/hwe3i7_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/rakuruinotsubasa/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11022,
+      "day": 1,
+      "updatedAt": 1749086355
+    }, {
+      "isDeemedLogin": false,
+      "name": "落涙の翼開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11023,
+      "day": 2,
+      "updatedAt": 1749086355
     }]
   }
 }
