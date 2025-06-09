@@ -53183,6 +53183,27 @@
       "eventId": 11023,
       "day": 6,
       "updatedAt": 1749432229
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Berserker」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Berserker」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250609_jz25dc/jz25dc_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_berserker_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11028,
+      "day": 1,
+      "updatedAt": 1749472488
     }]
   }
 }
