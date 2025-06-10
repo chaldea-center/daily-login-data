@@ -53272,6 +53272,26 @@
       "eventId": 11023,
       "day": 7,
       "updatedAt": 1749518470
+    }, {
+      "isDeemedLogin": false,
+      "name": "「落涙の翼」開催中！",
+      "detail": "「落涙の翼」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250610_bf35nm/bf35nm_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11014,
+      "day": 1,
+      "updatedAt": 1749558923
     }]
   }
 }
