@@ -33683,6 +33683,51 @@
     "flag": 0,
     "updatedAt": 1749432229,
     "createdAt": 1749432229
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92658096334,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749518470,
+    "createdAt": 1749518470
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92658096335,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10094,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749518470,
+    "createdAt": 1749518470
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92658096341,
+    "messageRefType": 3,
+    "messageId": 3187,
+    "message": "落涙の翼開幕記念 ログインボーナスです。\n(7/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1749518470,
+    "createdAt": 1749518470
   }],
   "loginResult": {
     "loginMessages": [{
@@ -53204,6 +53249,29 @@
       "eventId": 11028,
       "day": 1,
       "updatedAt": 1749472488
+    }, {
+      "isDeemedLogin": false,
+      "name": "落涙の翼開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11023,
+      "day": 7,
+      "updatedAt": 1749518470
     }]
   }
 }

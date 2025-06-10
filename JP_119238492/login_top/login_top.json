@@ -3,33 +3,62 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "6月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Berserker」開幕直前キャンペーン開催中！",
-        "detail": "「冠位戴冠戦：Berserker」開幕直前キャンペーン開催中！",
+        "name": "落涙の翼開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
-        "items": [],
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250609_jz25dc/jz25dc_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_07.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_berserker_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11028,
-        "day": 1
+        "eventId": 11023,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 709,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4407,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 166,
-        "totalLoginCount": 708,
-        "lastLoginAt": 1749472488,
+        "seqLoginCount": 167,
+        "totalLoginCount": 709,
+        "lastLoginAt": 1749518470,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42701,51 +42730,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90209559009,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10091,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741395412,
-        "createdAt": 1741395412
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90209559040,
-        "messageRefType": 3,
-        "messageId": 3046,
-        "message": "「巡霊の祝祭 第10弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741395412,
-        "createdAt": 1741395412
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90209559041,
-        "messageRefType": 3,
-        "messageId": 3051,
-        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(4/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741395412,
-        "createdAt": 1741395412
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90245889851,
         "messageRefType": 3,
         "messageId": 21,
@@ -48714,6 +48698,51 @@
         "flag": 0,
         "updatedAt": 1749432229,
         "createdAt": 1749432229
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92658096334,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749518470,
+        "createdAt": 1749518470
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92658096335,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10094,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749518470,
+        "createdAt": 1749518470
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92658096341,
+        "messageRefType": 3,
+        "messageId": 3187,
+        "message": "落涙の翼開幕記念 ログインボーナスです。\n(7/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749518470,
+        "createdAt": 1749518470
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52887,7 +52916,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1749394800,
+        "commandSpellRecoverAt": 1749481200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52900,7 +52929,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1749432229,
+        "updatedAt": 1749518470,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52915,6 +52944,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1749472488
+    "serverTime": 1749518470
   }
 }
