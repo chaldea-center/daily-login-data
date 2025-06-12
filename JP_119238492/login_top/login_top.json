@@ -3,13 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "6月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "落涙の翼開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_09.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11023,
+        "day": 9
+      }],
+      "totalLoginBonus": [{
+        "num": 711,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 168,
-        "totalLoginCount": 710,
-        "lastLoginAt": 1749645316,
+        "seqLoginCount": 169,
+        "totalLoginCount": 711,
+        "lastLoginAt": 1749691178,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35222,6 +35272,11 @@
         "missionId": 1033847,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033848,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42685,51 +42740,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90245889881,
-        "messageRefType": 3,
-        "messageId": 3052,
-        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(5/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741482114,
-        "createdAt": 1741482114
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90282634238,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1741568420,
-        "createdAt": 1741568420
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90282634239,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10091,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1741568420,
-        "createdAt": 1741568420
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90282634257,
         "messageRefType": 3,
         "messageId": 3046,
@@ -48698,6 +48708,51 @@
         "flag": 0,
         "updatedAt": 1749604861,
         "createdAt": 1749604861
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92691902738,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749691178,
+        "createdAt": 1749691178
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92691902739,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10094,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749691178,
+        "createdAt": 1749691178
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 92691902743,
+        "messageRefType": 3,
+        "messageId": 3189,
+        "message": "落涙の翼開幕記念 ログインボーナスです。\n(9/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1749691178,
+        "createdAt": 1749691178
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52851,7 +52906,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1749567600,
+        "commandSpellRecoverAt": 1749654000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52864,7 +52919,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1749604861,
+        "updatedAt": 1749691178,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52879,6 +52934,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1749645316
+    "serverTime": 1749691178
   }
 }
