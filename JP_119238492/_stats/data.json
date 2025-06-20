@@ -34208,6 +34208,21 @@
     "flag": 0,
     "updatedAt": 1750382399,
     "createdAt": 1750382399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92901511069,
+    "messageRefType": 3,
+    "messageId": 3203,
+    "message": "冠位戴冠戦：Berserker開幕記念 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1750422907,
+    "createdAt": 1750422907
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54002,6 +54017,49 @@
       "eventId": 11023,
       "day": 17,
       "updatedAt": 1750382399
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Berserker開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250620_a7n4rp/a7n4rp_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11036,
+      "day": 1,
+      "updatedAt": 1750422907
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Berserker」開催中！",
+      "detail": "「冠位戴冠戦：Berserker」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250620_3e2hnr/3e2hnr_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11037,
+      "day": 1,
+      "updatedAt": 1750422907
     }]
   }
 }
