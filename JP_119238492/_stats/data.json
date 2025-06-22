@@ -34298,6 +34298,66 @@
     "flag": 0,
     "updatedAt": 1750468742,
     "createdAt": 1750468742
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92955290293,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1750555665,
+    "createdAt": 1750555665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92955290294,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10094,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1750555665,
+    "createdAt": 1750555665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92955290309,
+    "messageRefType": 3,
+    "messageId": 3199,
+    "message": "落涙の翼開幕記念 ログインボーナスです。\n(19/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1750555665,
+    "createdAt": 1750555665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 92955290310,
+    "messageRefType": 3,
+    "messageId": 3205,
+    "message": "冠位戴冠戦：Berserker開幕記念 ログインボーナスです。\n(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1750555665,
+    "createdAt": 1750555665
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54181,6 +54241,52 @@
       "eventId": 11036,
       "day": 2,
       "updatedAt": 1750468742
+    }, {
+      "isDeemedLogin": false,
+      "name": "落涙の翼開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250604_iar8r3/iar8r3_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11023,
+      "day": 19,
+      "updatedAt": 1750555665
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Berserker開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250620_a7n4rp/a7n4rp_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11036,
+      "day": 3,
+      "updatedAt": 1750555665
     }]
   }
 }
