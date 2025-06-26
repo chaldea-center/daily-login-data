@@ -3,13 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "6月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "冠位戴冠戦：Berserker開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250620_a7n4rp/a7n4rp_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11036,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 725,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 182,
-        "totalLoginCount": 724,
-        "lastLoginAt": 1750854941,
+        "seqLoginCount": 183,
+        "totalLoginCount": 725,
+        "lastLoginAt": 1750900832,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35347,6 +35397,21 @@
         "missionId": 1033873,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033874,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033875,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033876,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42866,51 +42931,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90626070404,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10091,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1742778878,
-        "createdAt": 1742778878
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90626070440,
-        "messageRefType": 3,
-        "messageId": 3081,
-        "message": "CBC2025 彼の名はダンテ ～ホテル・デノヴォのコンシェルジュ～\n開幕記念 ログインボーナスです。\n(20/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1742778878,
-        "createdAt": 1742778878
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90626070441,
-        "messageRefType": 3,
-        "messageId": 3085,
-        "message": "「AnimeJapan 2025」出展記念\n初回ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1742778878,
-        "createdAt": 1742778878
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90650565673,
         "messageRefType": 3,
         "messageId": 21,
@@ -48879,6 +48899,51 @@
         "flag": 0,
         "updatedAt": 1750814493,
         "createdAt": 1750814493
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93039985021,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1750900832,
+        "createdAt": 1750900832
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93039985022,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10094,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1750900832,
+        "createdAt": 1750900832
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93039985024,
+        "messageRefType": 3,
+        "messageId": 3209,
+        "message": "冠位戴冠戦：Berserker開幕記念 ログインボーナスです。\n(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1750900832,
+        "createdAt": 1750900832
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53072,7 +53137,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1750777200,
+        "commandSpellRecoverAt": 1750863600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53085,7 +53150,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1750814493,
+        "updatedAt": 1750900832,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53100,6 +53165,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1750854941
+    "serverTime": 1750900832
   }
 }
