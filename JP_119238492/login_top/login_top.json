@@ -3,19 +3,48 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「OVER THE SAME SKY」特別概念礼装「英霊星行：マシュ・キリエライト」プレゼント",
+        "detail": "開催期間中、初回ログインで「OVER THE SAME SKY」特別概念礼装「英霊星行：マシュ・キリエライト」をプレゼント！",
+        "addDetail": "",
         "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "6月交換券(2025)",
+          "name": "英霊星行：マシュ・キリエライト",
           "num": 1
         }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
+            "bannerUrl": "/webview/loginbonus/20250630_kyz5m3/kyz5m3_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://10th.fate-go.jp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11039,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」をプレゼント！",
+        "detail": "開催期間中、初回ログインで「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "OVER THE SAME SKY 英霊星行チケット〔JUNE〕",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250630_o6xnfy/o6xnfy_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -23,43 +52,9 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「7月ボックスイベント」 開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250630_gaehl9/gaehl9_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/july_boxevent_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
         },
-        "eventId": 11029,
+        "eventId": 11038,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 729,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4439,7 +4434,7 @@
         "userId": 119238492,
         "seqLoginCount": 187,
         "totalLoginCount": 729,
-        "lastLoginAt": 1751246726,
+        "lastLoginAt": 1751286910,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35235,6 +35230,41 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
+        "missionId": 2003241,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003242,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003243,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003244,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003245,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003246,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003247,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1033847,
         "progressType": 3,
         "num": 0
@@ -35397,41 +35427,6 @@
         "userId": 119238492,
         "missionId": 1033861,
         "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003241,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003242,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003243,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003244,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003245,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003246,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003247,
-        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -42952,36 +42947,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90716513689,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743124370,
-        "createdAt": 1743124370
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90716513690,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10091,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743124370,
-        "createdAt": 1743124370
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90738031815,
         "messageRefType": 3,
         "messageId": 21,
@@ -48965,6 +48930,36 @@
         "flag": 0,
         "updatedAt": 1751246726,
         "createdAt": 1751246726
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93088634352,
+        "messageRefType": 3,
+        "messageId": 3210,
+        "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94146601,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 2,
+        "updatedAt": 1751286910,
+        "createdAt": 1751286910
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93088634353,
+        "messageRefType": 3,
+        "messageId": 3211,
+        "message": "「OVER THE SAME SKY」特別概念礼装\n「英霊星行：マシュ・キリエライト」のプレゼントです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9309130,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1751286910,
+        "createdAt": 1751286910
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52671,6 +52666,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80553,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71559,
         "value": 0,
         "flag": 0,
@@ -53156,6 +53161,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1751246726
+    "serverTime": 1751286910
   }
 }

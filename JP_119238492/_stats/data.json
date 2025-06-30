@@ -34718,6 +34718,36 @@
     "flag": 0,
     "updatedAt": 1751246726,
     "createdAt": 1751246726
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93088634352,
+    "messageRefType": 3,
+    "messageId": 3210,
+    "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94146601,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1751286910,
+    "createdAt": 1751286910
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93088634353,
+    "messageRefType": 3,
+    "messageId": 3211,
+    "message": "「OVER THE SAME SKY」特別概念礼装\n「英霊星行：マシュ・キリエライト」のプレゼントです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9309130,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1751286910,
+    "createdAt": 1751286910
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54809,6 +54839,53 @@
       "eventId": 11029,
       "day": 1,
       "updatedAt": 1751246726
+    }, {
+      "isDeemedLogin": false,
+      "name": "「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」をプレゼント！",
+      "detail": "開催期間中、初回ログインで「OVER THE SAME SKY 英霊星行チケット〔JUNE〕」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "OVER THE SAME SKY 英霊星行チケット〔JUNE〕",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250630_o6xnfy/o6xnfy_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11038,
+      "day": 1,
+      "updatedAt": 1751286910
+    }, {
+      "isDeemedLogin": false,
+      "name": "「OVER THE SAME SKY」特別概念礼装「英霊星行：マシュ・キリエライト」プレゼント",
+      "detail": "開催期間中、初回ログインで「OVER THE SAME SKY」特別概念礼装「英霊星行：マシュ・キリエライト」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊星行：マシュ・キリエライト",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250630_kyz5m3/kyz5m3_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://10th.fate-go.jp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11039,
+      "day": 1,
+      "updatedAt": 1751286910
     }]
   }
 }
