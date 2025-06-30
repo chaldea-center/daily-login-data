@@ -34673,6 +34673,51 @@
     "flag": 0,
     "updatedAt": 1751161041,
     "createdAt": 1751161041
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93083086456,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1751246726,
+    "createdAt": 1751246726
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93083086457,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10094,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751246726,
+    "createdAt": 1751246726
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93083086462,
+    "messageRefType": 3,
+    "messageId": 3202,
+    "message": "「7月ボックスイベント」\n開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751246726,
+    "createdAt": 1751246726
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54740,6 +54785,30 @@
       "eventId": 11036,
       "day": 7,
       "updatedAt": 1750900832
+    }, {
+      "isDeemedLogin": false,
+      "name": "「7月ボックスイベント」 開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250630_gaehl9/gaehl9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/july_boxevent_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11029,
+      "day": 1,
+      "updatedAt": 1751246726
     }]
   }
 }
