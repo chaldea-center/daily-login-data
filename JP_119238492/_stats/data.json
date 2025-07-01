@@ -34748,6 +34748,51 @@
     "flag": 0,
     "updatedAt": 1751286910,
     "createdAt": 1751286910
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93094291950,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751333951,
+    "createdAt": 1751333951
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93094291951,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751333951,
+    "createdAt": 1751333951
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93094291962,
+    "messageRefType": 3,
+    "messageId": 3202,
+    "message": "「7月ボックスイベント」\n開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751333951,
+    "createdAt": 1751333951
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54886,6 +54931,30 @@
       "eventId": 11039,
       "day": 1,
       "updatedAt": 1751286910
+    }, {
+      "isDeemedLogin": false,
+      "name": "「7月ボックスイベント」 開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250701_wqo5kl/wqo5kl_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/july_boxevent_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11030,
+      "day": 1,
+      "updatedAt": 1751333951
     }]
   }
 }
