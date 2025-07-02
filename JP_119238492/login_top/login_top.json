@@ -3,13 +3,67 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "7月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「7月ボックスイベント」 開幕直前カウントダウン ログインボーナス",
+        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "呼符",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250702_ae0lk0/ae0lk03_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/july_boxevent_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11031,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 731,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4440,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 188,
-        "totalLoginCount": 730,
-        "lastLoginAt": 1751373353,
+        "seqLoginCount": 189,
+        "totalLoginCount": 731,
+        "lastLoginAt": 1751419266,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42831,36 +42885,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90747235733,
-        "messageRefType": 3,
-        "messageId": 3088,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(1/14)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1743251271,
-        "createdAt": 1743251271
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90766705953,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743297505,
-        "createdAt": 1743297505
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90766705978,
         "messageRefType": 3,
         "messageId": 3089,
@@ -48814,6 +48838,66 @@
         "flag": 0,
         "updatedAt": 1751333951,
         "createdAt": 1751333951
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93100797638,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751419266,
+        "createdAt": 1751419266
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93100797639,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751419266,
+        "createdAt": 1751419266
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93100797640,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751419266,
+        "createdAt": 1751419266
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93100797642,
+        "messageRefType": 3,
+        "messageId": 3202,
+        "message": "「7月ボックスイベント」\n開幕直前カウントダウン ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751419266,
+        "createdAt": 1751419266
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52987,7 +53071,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1751295600,
+        "commandSpellRecoverAt": 1751382000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53000,7 +53084,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1751333951,
+        "updatedAt": 1751419266,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53015,6 +53099,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1751373353
+    "serverTime": 1751419266
   }
 }

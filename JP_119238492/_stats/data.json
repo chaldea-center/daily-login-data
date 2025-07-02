@@ -34793,6 +34793,66 @@
     "flag": 0,
     "updatedAt": 1751333951,
     "createdAt": 1751333951
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93100797638,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751419266,
+    "createdAt": 1751419266
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93100797639,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751419266,
+    "createdAt": 1751419266
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93100797640,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751419266,
+    "createdAt": 1751419266
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93100797642,
+    "messageRefType": 3,
+    "messageId": 3202,
+    "message": "「7月ボックスイベント」\n開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751419266,
+    "createdAt": 1751419266
   }],
   "loginResult": {
     "loginMessages": [{
@@ -54955,6 +55015,30 @@
       "eventId": 11030,
       "day": 1,
       "updatedAt": 1751333951
+    }, {
+      "isDeemedLogin": false,
+      "name": "「7月ボックスイベント」 開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250702_ae0lk0/ae0lk03_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/july_boxevent_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11031,
+      "day": 1,
+      "updatedAt": 1751419266
     }]
   }
 }
