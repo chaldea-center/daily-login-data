@@ -34868,6 +34868,96 @@
     "flag": 0,
     "updatedAt": 1751459701,
     "createdAt": 1751459701
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967705,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967706,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967723,
+    "messageRefType": 3,
+    "messageId": 3224,
+    "message": "FGO カルデア放送局 ライト版\nインドラの大試練 ～巡るブロークン・スカイ～\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967724,
+    "messageRefType": 3,
+    "messageId": 3213,
+    "message": "インドラの大試練 ～巡るブロークン・スカイ～ \n開幕記念 ログインボーナスです。\n(2/12)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967735,
+    "messageRefType": 4,
+    "messageId": 620,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/2 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93130967736,
+    "messageRefType": 4,
+    "messageId": 621,
+    "message": "概念礼装「剣士の頂に立つもの」を獲得した際に「概念礼装のLv.が達成条件となる一部のマスターミッション」をすべて達成できてしまう不具合についてのお詫び (7/2 18:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1751505666,
+    "createdAt": 1751505666
   }],
   "loginResult": {
     "loginMessages": [{
@@ -55097,6 +55187,53 @@
       "eventId": 11034,
       "day": 1,
       "updatedAt": 1751459701
+    }, {
+      "isDeemedLogin": false,
+      "name": "インドラの大試練 ～巡るブロークン・スカイ～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大12回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250702_pat2e9/pat2e9_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11034,
+      "day": 2,
+      "updatedAt": 1751505666
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版インドラの大試練 ～巡るブロークン・スカイ～ 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250703_valu5r/valu5r_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/0702nico/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11035,
+      "day": 1,
+      "updatedAt": 1751505666
     }]
   }
 }
