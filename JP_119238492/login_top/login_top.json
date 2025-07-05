@@ -3,13 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "7月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "インドラの大試練 ～巡るブロークン・スカイ～ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大12回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250702_pat2e9/pat2e9_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11034,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 734,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 191,
-        "totalLoginCount": 733,
-        "lastLoginAt": 1751632478,
+        "seqLoginCount": 192,
+        "totalLoginCount": 734,
+        "lastLoginAt": 1751678290,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42737,51 +42787,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90877231944,
-        "messageRefType": 3,
-        "messageId": 3092,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(5/14)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1743556441,
-        "createdAt": 1743556441
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90886464955,
-        "messageRefType": 3,
-        "messageId": 3116,
-        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(1/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743597117,
-        "createdAt": 1743597117
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90917942141,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743642799,
-        "createdAt": 1743642799
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90917942142,
         "messageRefType": 3,
         "messageId": 21,
@@ -48750,6 +48755,51 @@
         "flag": 0,
         "updatedAt": 1751592060,
         "createdAt": 1751592060
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93185125750,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1751678290,
+        "createdAt": 1751678290
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93185125751,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751678290,
+        "createdAt": 1751678290
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93185125767,
+        "messageRefType": 3,
+        "messageId": 3215,
+        "message": "インドラの大試練 ～巡るブロークン・スカイ～ \n開幕記念 ログインボーナスです。\n(4/12)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751678290,
+        "createdAt": 1751678290
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52924,7 +52974,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1751554800,
+        "commandSpellRecoverAt": 1751641200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52937,7 +52987,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1751592060,
+        "updatedAt": 1751678290,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52952,6 +53002,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1751632478
+    "serverTime": 1751678290
   }
 }
