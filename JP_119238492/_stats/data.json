@@ -55370,6 +55370,27 @@
       "eventId": 11034,
       "day": 4,
       "updatedAt": 1751678290
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Lancer」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Lancer」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250705_zggi9o/zggi9o_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_lancer_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11040,
+      "day": 1,
+      "updatedAt": 1751718680
     }]
   }
 }
