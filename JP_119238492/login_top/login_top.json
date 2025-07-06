@@ -3,33 +3,62 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "7月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Lancer」開幕直前キャンペーン開催中！",
-        "detail": "「冠位戴冠戦：Lancer」開幕直前キャンペーン開催中！",
+        "name": "インドラの大試練 ～巡るブロークン・スカイ～ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大12回 ログインボーナスをプレゼント！",
         "addDetail": "",
-        "items": [],
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250705_zggi9o/zggi9o_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250702_pat2e9/pat2e9_k_05.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_lancer_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11040,
-        "day": 1
+        "eventId": 11034,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 735,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4407,9 +4436,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 192,
-        "totalLoginCount": 734,
-        "lastLoginAt": 1751718680,
+        "seqLoginCount": 193,
+        "totalLoginCount": 735,
+        "lastLoginAt": 1751765291,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42758,51 +42787,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 90917942142,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10092,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743642799,
-        "createdAt": 1743642799
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90917942146,
-        "messageRefType": 3,
-        "messageId": 3117,
-        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(2/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743642799,
-        "createdAt": 1743642799
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 90917942147,
-        "messageRefType": 3,
-        "messageId": 3093,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(6/14)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1743642799,
-        "createdAt": 1743642799
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 90953424250,
         "messageRefType": 3,
         "messageId": 21,
@@ -48771,6 +48755,51 @@
         "flag": 0,
         "updatedAt": 1751678290,
         "createdAt": 1751678290
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93210021832,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751765291,
+        "createdAt": 1751765291
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93210021833,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751765291,
+        "createdAt": 1751765291
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93210021848,
+        "messageRefType": 3,
+        "messageId": 3216,
+        "message": "インドラの大試練 ～巡るブロークン・スカイ～ \n開幕記念 ログインボーナスです。\n(5/12)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1751765291,
+        "createdAt": 1751765291
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52955,7 +52984,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1751641200,
+        "commandSpellRecoverAt": 1751727600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52968,7 +52997,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1751678290,
+        "updatedAt": 1751765291,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52983,6 +53012,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1751718680
+    "serverTime": 1751765291
   }
 }
