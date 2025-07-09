@@ -55678,6 +55678,26 @@
       "eventId": 11034,
       "day": 8,
       "updatedAt": 1752024165
+    }, {
+      "isDeemedLogin": false,
+      "name": "「インドラの大試練 ～巡るブロークン・スカイ～」開催中！",
+      "detail": "「インドラの大試練 ～巡るブロークン・スカイ～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250709_ktjja9/ktjja9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11033,
+      "day": 1,
+      "updatedAt": 1752064540
     }]
   }
 }

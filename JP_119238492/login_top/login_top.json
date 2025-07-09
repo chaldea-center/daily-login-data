@@ -3,50 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "7月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "インドラの大試練 ～巡るブロークン・スカイ～ 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大12回 ログインボーナスをプレゼント！",
+        "name": "「インドラの大試練 ～巡るブロークン・スカイ～」開催中！",
+        "detail": "「インドラの大試練 ～巡るブロークン・スカイ～」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250702_pat2e9/pat2e9_k_08.png",
+            "bannerUrl": "/webview/loginbonus/20250709_ktjja9/ktjja9_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,13 +27,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11034,
-        "day": 8
-      }],
-      "totalLoginBonus": [{
-        "num": 738,
-        "items": [],
-        "script": {}
+        "eventId": 11033,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4441,7 +4408,7 @@
         "userId": 119238492,
         "seqLoginCount": 196,
         "totalLoginCount": 738,
-        "lastLoginAt": 1752024165,
+        "lastLoginAt": 1752064540,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -52475,26 +52442,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71562,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71563,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80549,
         "value": 0,
         "flag": 0,
@@ -53030,6 +52977,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1752024165
+    "serverTime": 1752064540
   }
 }
