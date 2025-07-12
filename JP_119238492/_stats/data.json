@@ -35333,6 +35333,51 @@
     "flag": 0,
     "updatedAt": 1752197015,
     "createdAt": 1752197015
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93336183984,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1752283503,
+    "createdAt": 1752283503
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93336183985,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752283503,
+    "createdAt": 1752283503
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93336183993,
+    "messageRefType": 3,
+    "messageId": 3222,
+    "message": "インドラの大試練 ～巡るブロークン・スカイ～ \n開幕記念 ログインボーナスです。\n(11/12)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752283503,
+    "createdAt": 1752283503
   }],
   "loginResult": {
     "loginMessages": [{
@@ -55834,6 +55879,29 @@
       "eventId": 11034,
       "day": 10,
       "updatedAt": 1752197015
+    }, {
+      "isDeemedLogin": false,
+      "name": "インドラの大試練 ～巡るブロークン・スカイ～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大12回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250702_pat2e9/pat2e9_k_11.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11034,
+      "day": 11,
+      "updatedAt": 1752283503
     }]
   }
 }
