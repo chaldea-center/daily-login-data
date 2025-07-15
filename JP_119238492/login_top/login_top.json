@@ -3,13 +3,40 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "7月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 744,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4413,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 201,
-        "totalLoginCount": 743,
-        "lastLoginAt": 1752496616,
+        "seqLoginCount": 202,
+        "totalLoginCount": 744,
+        "lastLoginAt": 1752547671,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35258,6 +35285,11 @@
         "missionId": 1033887,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033888,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42777,36 +42809,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91130537472,
-        "messageRefType": 3,
-        "messageId": 3122,
-        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(7/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744074835,
-        "createdAt": 1744074835
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91130537473,
-        "messageRefType": 3,
-        "messageId": 3098,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n特別ログインボーナスです。(11/14)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 3,
-        "num": 50,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744074835,
-        "createdAt": 1744074835
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91176819724,
         "messageRefType": 3,
         "messageId": 21,
@@ -48790,6 +48792,36 @@
         "flag": 0,
         "updatedAt": 1752456426,
         "createdAt": 1752456426
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93425883243,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1752547671,
+        "createdAt": 1752547671
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93425883244,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1752547671,
+        "createdAt": 1752547671
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52954,7 +52986,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1752418800,
+        "commandSpellRecoverAt": 1752505200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -52967,7 +52999,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1752456426,
+        "updatedAt": 1752547671,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -52982,6 +53014,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1752496616
+    "serverTime": 1752547671
   }
 }
