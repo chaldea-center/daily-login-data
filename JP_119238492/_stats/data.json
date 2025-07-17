@@ -35543,6 +35543,66 @@
     "flag": 0,
     "updatedAt": 1752670151,
     "createdAt": 1752670151
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93466594009,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752717336,
+    "createdAt": 1752717336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93466594010,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752717336,
+    "createdAt": 1752717336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93466594018,
+    "messageRefType": 3,
+    "messageId": 3243,
+    "message": "冠位戴冠戦：Lancer開幕記念 ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752717336,
+    "createdAt": 1752717336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93466594021,
+    "messageRefType": 4,
+    "messageId": 622,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/16 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1752717336,
+    "createdAt": 1752717336
   }],
   "loginResult": {
     "loginMessages": [{
@@ -56133,6 +56193,29 @@
       "eventId": 11056,
       "day": 1,
       "updatedAt": 1752670151
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Lancer開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250716_g3g0ka/g3g0ka_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11055,
+      "day": 2,
+      "updatedAt": 1752717336
     }]
   }
 }
