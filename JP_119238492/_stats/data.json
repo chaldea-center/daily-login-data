@@ -35738,6 +35738,66 @@
     "flag": 0,
     "updatedAt": 1752977076,
     "createdAt": 1752977076
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93564896681,
+    "messageRefType": 3,
+    "messageId": 10028,
+    "message": "通算ログイン750日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753063319,
+    "createdAt": 1753063319
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93564896682,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1753063319,
+    "createdAt": 1753063319
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93564896683,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753063319,
+    "createdAt": 1753063319
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93564896695,
+    "messageRefType": 3,
+    "messageId": 3247,
+    "message": "冠位戴冠戦：Lancer開幕記念 ログインボーナスです。\n(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753063319,
+    "createdAt": 1753063319
   }],
   "loginResult": {
     "loginMessages": [{
@@ -35929,6 +35989,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1748742079
+    }, {
+      "num": 750,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00750.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1753063319
     }],
     "loginFortuneBonus": [{
       "eventId": 10854,
@@ -56420,6 +56498,29 @@
       "eventId": 11055,
       "day": 5,
       "updatedAt": 1752977076
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Lancer開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250716_g3g0ka/g3g0ka_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11055,
+      "day": 6,
+      "updatedAt": 1753063319
     }]
   }
 }
