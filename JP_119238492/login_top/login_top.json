@@ -3,76 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "7月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "冠位戴冠戦：Lancer開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250716_g3g0ka/g3g0ka_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11055,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 750,
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00750.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4451,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 208,
         "totalLoginCount": 750,
-        "lastLoginAt": 1753063319,
+        "lastLoginAt": 1753102201,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -4475,8 +4412,7 @@
         "flag": 0,
         "resetNum": 0,
         "updatedAt": 1705327573
-      }],
-      "boxGachaHistory": []
+      }]
     },
     "deleted": {},
     "replaced": {
@@ -35248,6 +35184,41 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
+        "missionId": 2003262,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003263,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003264,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003265,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003266,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003267,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003268,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1033880,
         "progressType": 3,
         "num": 0
@@ -35375,41 +35346,6 @@
         "userId": 119238492,
         "missionId": 1033906,
         "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003262,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003263,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003264,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003265,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003266,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003267,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003268,
-        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -47921,21 +47857,6 @@
         "createdAt": 1751246726
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93088634352,
-        "messageRefType": 3,
-        "messageId": 3210,
-        "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94146601,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 2,
-        "updatedAt": 1751286910,
-        "createdAt": 1751286910
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93088634353,
         "messageRefType": 3,
         "messageId": 3211,
@@ -49920,7 +49841,6 @@
         "name": "",
         "cost": 0
       }],
-      "userBoxGacha": [],
       "userGachaOverwrite": [],
       "userItem": [{
         "userId": 119238492,
@@ -52656,26 +52576,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80549,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80553,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71568,
         "value": 0,
         "flag": 0,
@@ -53211,6 +53111,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1753063319
+    "serverTime": 1753102201
   }
 }
