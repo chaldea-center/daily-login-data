@@ -3,64 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "7月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 2000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250725_fbx6ir/fbx6ir_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11042,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 754,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4439,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 212,
         "totalLoginCount": 754,
-        "lastLoginAt": 1753408562,
+        "lastLoginAt": 1753447676,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -52687,7 +52636,37 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71573,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71574,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71571,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71575,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -53115,6 +53094,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80550,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -53172,6 +53161,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1753408562
+    "serverTime": 1753447676
   }
 }
