@@ -36113,6 +36113,66 @@
     "flag": 0,
     "updatedAt": 1753581927,
     "createdAt": 1753581927
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93672580331,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1753668185,
+    "createdAt": 1753668185
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93672580332,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753668185,
+    "createdAt": 1753668185
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93672580344,
+    "messageRefType": 3,
+    "messageId": 3239,
+    "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 2000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753668185,
+    "createdAt": 1753668185
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93672580345,
+    "messageRefType": 3,
+    "messageId": 3251,
+    "message": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(3/5)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1753668185,
+    "createdAt": 1753668185
   }],
   "loginResult": {
     "loginMessages": [{
@@ -57003,6 +57063,54 @@
       "eventId": 11057,
       "day": 2,
       "updatedAt": 1753581927
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 2000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250728_hx99ak/hx99ak_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11045,
+      "day": 1,
+      "updatedAt": 1753668185
+    }, {
+      "isDeemedLogin": false,
+      "name": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250726_g25d5j/g25d5j_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11057,
+      "day": 3,
+      "updatedAt": 1753668185
     }]
   }
 }
