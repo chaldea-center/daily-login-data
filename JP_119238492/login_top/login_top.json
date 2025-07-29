@@ -3,25 +3,19 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「OVER THE SAME SKY 英霊星行チケット〔JULY〕」をプレゼント！",
-        "detail": "開催期間中、初回ログインで「OVER THE SAME SKY 英霊星行チケット〔JULY〕」をプレゼント！",
-        "addDetail": "",
+      "seqLoginBonus": [{
+        "num": 6,
         "items": [{
-          "name": "OVER THE SAME SKY 英霊星行チケット〔JULY〕",
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "7月交換券(2025)",
           "num": 1
         }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250728_f7gep2/f7gep2_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_06.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -29,9 +23,66 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 5
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250726_g25d5j/g25d5j_k_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp2/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
         },
-        "eventId": 11053,
+        "eventId": 11057,
+        "day": 4
+      }, {
+        "isDeemedLogin": false,
+        "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+        "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "星見のティーポット",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250729_58eiwe/58eiwe_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11046,
         "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 758,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4409,9 +4460,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 215,
-        "totalLoginCount": 757,
-        "lastLoginAt": 1753707053,
+        "seqLoginCount": 216,
+        "totalLoginCount": 758,
+        "lastLoginAt": 1753754919,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42910,66 +42961,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91402383435,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744766145,
-        "createdAt": 1744766145
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91402383436,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744766145,
-        "createdAt": 1744766145
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91402383437,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10092,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744766145,
-        "createdAt": 1744766145
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91402383454,
-        "messageRefType": 3,
-        "messageId": 3086,
-        "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744766145,
-        "createdAt": 1744766145
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91402383455,
         "messageRefType": 3,
         "messageId": 3130,
@@ -48923,6 +48914,66 @@
         "flag": 2,
         "updatedAt": 1753707053,
         "createdAt": 1753707053
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93682693224,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753754919,
+        "createdAt": 1753754919
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93682693225,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753754919,
+        "createdAt": 1753754919
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93682693228,
+        "messageRefType": 3,
+        "messageId": 3239,
+        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94138211,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753754919,
+        "createdAt": 1753754919
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93682693229,
+        "messageRefType": 3,
+        "messageId": 3252,
+        "message": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(4/5)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1753754919,
+        "createdAt": 1753754919
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53106,7 +53157,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1753628400,
+        "commandSpellRecoverAt": 1753714800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53119,7 +53170,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1753668185,
+        "updatedAt": 1753754919,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53134,6 +53185,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1753707053
+    "serverTime": 1753754919
   }
 }
