@@ -36248,6 +36248,81 @@
     "flag": 0,
     "updatedAt": 1753754919,
     "createdAt": 1753754919
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93696980421,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753840746,
+    "createdAt": 1753840746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93696980422,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753840746,
+    "createdAt": 1753840746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93696980423,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753840746,
+    "createdAt": 1753840746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93696980427,
+    "messageRefType": 3,
+    "messageId": 3239,
+    "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753840746,
+    "createdAt": 1753840746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93696980428,
+    "messageRefType": 3,
+    "messageId": 3253,
+    "message": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(5/5)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753840746,
+    "createdAt": 1753840746
   }],
   "loginResult": {
     "loginMessages": [{
@@ -57257,6 +57332,54 @@
       "eventId": 11057,
       "day": 4,
       "updatedAt": 1753754919
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250730_wmtfj6/wmtfj6_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11047,
+      "day": 1,
+      "updatedAt": 1753840746
+    }, {
+      "isDeemedLogin": false,
+      "name": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250726_g25d5j/g25d5j_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp2/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11057,
+      "day": 5,
+      "updatedAt": 1753840746
     }]
   }
 }
