@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "7月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "サウンドプレイヤーに新曲を追加！",
+        "detail": "サウンドプレイヤーに新曲を追加！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_07.png",
+            "bannerUrl": "/webview/loginbonus/20250730_ho2ire/ho2ire_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,66 +26,54 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
+        },
+        "eventId": 11060,
+        "day": 1
+      }, {
         "isDeemedLogin": false,
-        "name": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大5回 ログインボーナスをプレゼント！",
+        "name": "Fate/Grand Order Servant Art Chronicle -最終再臨展-\n開催記念 特別ログインボーナス",
+        "detail": "開催期間中、初回ログインで「限定概念礼装」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "呼符",
+          "name": "Servant Art Chronicle",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250726_g25d5j/g25d5j_k_05.png",
+            "bannerUrl": "/webview/loginbonus/20250730_7twmiw/7twmiw_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/olgamally_quest_clear_cp2/"
+            "urlLink": "https://art.fate-go.jp/chronicle/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11057,
-        "day": 5
+        "eventId": 11052,
+        "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "QP",
-          "num": 3000000
+          "name": "霊脈石",
+          "num": 3
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250730_wmtfj6/wmtfj6_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250730_5dgbwx/5dgbwx_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11047,
+        "eventId": 11054,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 759,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4465,7 +4453,7 @@
         "userId": 119238492,
         "seqLoginCount": 217,
         "totalLoginCount": 759,
-        "lastLoginAt": 1753840746,
+        "lastLoginAt": 1753879884,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35294,101 +35282,6 @@
         "missionId": 2003275,
         "progressType": 0,
         "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033894,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033895,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033896,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033897,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033898,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033899,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033900,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033901,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033902,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033903,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033904,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033905,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033906,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033907,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033908,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033909,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033910,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033911,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033912,
-        "progressType": 3,
-        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -42964,36 +42857,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91434183441,
-        "messageRefType": 3,
-        "messageId": 3086,
-        "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744852504,
-        "createdAt": 1744852504
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91434183442,
-        "messageRefType": 3,
-        "messageId": 3131,
-        "message": "「復刻:昭和キ神計画 ぐだぐだ龍馬危機一髪！ 消えたノッブヘッドの謎 ライト版」開幕記念 ログインボーナスです。\n(16/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744852504,
-        "createdAt": 1744852504
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91434183443,
         "messageRefType": 3,
         "messageId": 3144,
@@ -48977,6 +48840,51 @@
         "flag": 0,
         "updatedAt": 1753840746,
         "createdAt": 1753840746
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93701252366,
+        "messageRefType": 3,
+        "messageId": 3240,
+        "message": "Fate/Grand Order Servant Art Chronicle -最終再臨展-\n開催記念 特別ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9310550,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1753879884,
+        "createdAt": 1753879884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93701252367,
+        "messageRefType": 3,
+        "messageId": 3241,
+        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\nカウントダウンキャンペーン\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94146911,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1753879884,
+        "createdAt": 1753879884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93701252375,
+        "messageRefType": 1,
+        "messageId": 0,
+        "message": "「【期間限定】オルガマリークエスト_４・リプレイ」にて発生していた星見のティーポットが増加する不具合において、「不具合に遭遇されていた方の最大増加数(5個)」ぶんの星見のティーポットを、すべてのみなさまにいきわたるよう補填させていただきます (7/30 18:00掲載分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 94138211,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1753879884,
+        "createdAt": 1753879884
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -52633,16 +52541,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71559,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71573,
         "value": 0,
         "flag": 0,
@@ -52663,6 +52561,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80556,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80570,
         "value": 0,
         "flag": 0,
@@ -52673,7 +52581,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71571,
+        "eventId": 71570,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -52684,6 +52592,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71575,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71559,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71571,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -53188,6 +53116,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1753840746
+    "serverTime": 1753879884
   }
 }
