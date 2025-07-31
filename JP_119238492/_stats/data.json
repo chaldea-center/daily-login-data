@@ -36368,6 +36368,66 @@
     "flag": 0,
     "updatedAt": 1753879884,
     "createdAt": 1753879884
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93709201877,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753927116,
+    "createdAt": 1753927116
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93709201878,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10095,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753927116,
+    "createdAt": 1753927116
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93709201884,
+    "messageRefType": 3,
+    "messageId": 3239,
+    "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1753927116,
+    "createdAt": 1753927116
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93709201887,
+    "messageRefType": 4,
+    "messageId": 624,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/30 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1753927116,
+    "createdAt": 1753927116
   }],
   "loginResult": {
     "loginMessages": [{
@@ -57492,6 +57552,30 @@
       "eventId": 11060,
       "day": 1,
       "updatedAt": 1753879884
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250731_7huafg/7huafg_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11048,
+      "day": 1,
+      "updatedAt": 1753927115
     }]
   }
 }

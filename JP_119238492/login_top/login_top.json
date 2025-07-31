@@ -3,77 +3,63 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "7月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20220901_d26ren/d26ren_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "サウンドプレイヤーに新曲を追加！",
-        "detail": "サウンドプレイヤーに新曲を追加！",
-        "addDetail": "",
-        "items": [],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250730_ho2ire/ho2ire_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11060,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "Fate/Grand Order Servant Art Chronicle -最終再臨展-\n開催記念 特別ログインボーナス",
-        "detail": "開催期間中、初回ログインで「限定概念礼装」をプレゼント！",
+        "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+        "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "Servant Art Chronicle",
-          "num": 1
+          "name": "叡智の業火",
+          "num": 10
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250730_7twmiw/7twmiw_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250731_7huafg/7huafg_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://art.fate-go.jp/chronicle/"
+            "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11052,
+        "eventId": 11048,
         "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "使用期限付コンティニューアイテムプレゼント！",
-        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "霊脈石",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250730_5dgbwx/5dgbwx_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11054,
-        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 760,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4451,9 +4437,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 217,
-        "totalLoginCount": 759,
-        "lastLoginAt": 1753879884,
+        "seqLoginCount": 218,
+        "totalLoginCount": 760,
+        "lastLoginAt": 1753927116,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -42857,66 +42843,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91434183443,
-        "messageRefType": 3,
-        "messageId": 3144,
-        "message": "3100万DL突破記念\n3100万DL突破おめでとう！\nキミへの贈り物だよ、気に入ってくれると嬉しいな！ by レディ・アヴァロン(8/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 18,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744852504,
-        "createdAt": 1744852504
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91466894994,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744938839,
-        "createdAt": 1744938839
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91466894995,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10092,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744938839,
-        "createdAt": 1744938839
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91466894999,
-        "messageRefType": 3,
-        "messageId": 3086,
-        "message": "「巡霊の祝祭 第11弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1744938839,
-        "createdAt": 1744938839
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91466895000,
         "messageRefType": 3,
         "messageId": 3086,
@@ -48885,6 +48811,66 @@
         "flag": 0,
         "updatedAt": 1753879884,
         "createdAt": 1753879884
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93709201877,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753927116,
+        "createdAt": 1753927116
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93709201878,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10095,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753927116,
+        "createdAt": 1753927116
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93709201884,
+        "messageRefType": 3,
+        "messageId": 3239,
+        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1753927116,
+        "createdAt": 1753927116
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93709201887,
+        "messageRefType": 4,
+        "messageId": 624,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/30 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1753927116,
+        "createdAt": 1753927116
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53088,7 +53074,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1753801200,
+        "commandSpellRecoverAt": 1753887600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53101,7 +53087,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1753840746,
+        "updatedAt": 1753927116,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53116,6 +53102,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1753879884
+    "serverTime": 1753927115
   }
 }
