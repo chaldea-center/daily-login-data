@@ -36428,6 +36428,51 @@
     "flag": 0,
     "updatedAt": 1753927116,
     "createdAt": 1753927116
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93739931828,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754014125,
+    "createdAt": 1754014125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93739931829,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754014125,
+    "createdAt": 1754014125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93739931831,
+    "messageRefType": 3,
+    "messageId": 3239,
+    "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754014125,
+    "createdAt": 1754014125
   }],
   "loginResult": {
     "loginMessages": [{
@@ -57576,6 +57621,30 @@
       "eventId": 11048,
       "day": 1,
       "updatedAt": 1753927115
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」 開催直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250801_x4z876/x4z876_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/10th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11049,
+      "day": 1,
+      "updatedAt": 1754014125
     }]
   }
 }
