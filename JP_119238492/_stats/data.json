@@ -36548,6 +36548,36 @@
     "flag": 0,
     "updatedAt": 1754186821,
     "createdAt": 1754186821
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93780425941,
+    "messageRefType": 3,
+    "messageId": 3303,
+    "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」10時間限定特別ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754225244,
+    "createdAt": 1754225244
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93780426036,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「メインクエスト」のクリア報酬増量にともない、すでにクリア済みのクエストについてクリア報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 103,
+    "num": 1501,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 4,
+    "updatedAt": 1754225244,
+    "createdAt": 1754225244
   }],
   "loginResult": {
     "loginMessages": [{
@@ -57744,6 +57774,80 @@
       "eventId": 11050,
       "day": 1,
       "updatedAt": 1754099581
+    }, {
+      "isDeemedLogin": false,
+      "name": "",
+      "detail": "『青銅の苗木』入手の条件を達成したため、\n『青銅の苗木』をプレゼントボックスに\n送りました。",
+      "addDetail": "",
+      "items": [],
+      "script": {},
+      "eventId": 0,
+      "day": 0,
+      "updatedAt": 1754225244
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order ～10th Anniversary～ 開催中！",
+      "detail": "Fate/Grand Order ～10th Anniversary～ 開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250803_ba2fhk/ba2fhk_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11062,
+      "day": 1,
+      "updatedAt": 1754225244
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Extra」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Extra」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250803_8h7xrx/8h7xrx_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_extra_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11074,
+      "day": 1,
+      "updatedAt": 1754225244
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」10時間限定特別ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250803_3gpj32/3gpj32_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11079,
+      "day": 1,
+      "updatedAt": 1754225244
     }]
   }
 }
