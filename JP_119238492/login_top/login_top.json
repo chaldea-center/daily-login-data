@@ -3,94 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "8月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」配信番組連動キャンペーン報酬プレゼント",
-        "detail": "開催期間中、初回ログインで「聖晶石×100」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 100
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_bakdr7/bakdr7_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11061,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "10周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "叡智の業火",
-          "num": 50
-        }, {
-          "name": "QP",
-          "num": 3000000
-        }, {
-          "name": "黄金の果実",
-          "num": 10
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11059,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 764,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4469,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 222,
         "totalLoginCount": 764,
-        "lastLoginAt": 1754273232,
+        "lastLoginAt": 1754311909,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53539,6 +53458,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1754273232
+    "serverTime": 1754311909
   }
 }
