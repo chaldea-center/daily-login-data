@@ -36863,6 +36863,36 @@
     "flag": 0,
     "updatedAt": 1754445588,
     "createdAt": 1754445588
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93885640276,
+    "messageRefType": 3,
+    "messageId": 3289,
+    "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754484705,
+    "createdAt": 1754484705
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93885640277,
+    "messageRefType": 3,
+    "messageId": 3255,
+    "message": "ショートアニメ「FGO 藤丸立香はわからない」Season3\n公開記念 特別ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9310560,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1754484705,
+    "createdAt": 1754484705
   }],
   "loginResult": {
     "loginMessages": [{
@@ -58243,6 +58273,73 @@
       "eventId": 11059,
       "day": 3,
       "updatedAt": 1754445588
+    }, {
+      "isDeemedLogin": false,
+      "name": "ショートアニメ「FGO 藤丸立香はわからない」Season3公開記念 特別ログインボーナス",
+      "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "「FGO 藤丸立香はわからない」Season3",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250806_cc4p4p/cc4p4p_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://anime.fate-go.jp/nazomaru/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11063,
+      "day": 1,
+      "updatedAt": 1754484705
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11080,
+      "day": 1,
+      "updatedAt": 1754484705
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Extra」開催中！",
+      "detail": "「冠位戴冠戦：Extra」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250806_gis46x/gis46x_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11081,
+      "day": 1,
+      "updatedAt": 1754484705
     }]
   }
 }
