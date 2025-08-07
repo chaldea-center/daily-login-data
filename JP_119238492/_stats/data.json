@@ -36893,6 +36893,126 @@
     "flag": 0,
     "updatedAt": 1754484705,
     "createdAt": 1754484705
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584889,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584890,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584891,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584902,
+    "messageRefType": 3,
+    "messageId": 3290,
+    "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584903,
+    "messageRefType": 3,
+    "messageId": 3260,
+    "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584904,
+    "messageRefType": 3,
+    "messageId": 3260,
+    "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584905,
+    "messageRefType": 3,
+    "messageId": 3260,
+    "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93911584927,
+    "messageRefType": 4,
+    "messageId": 625,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (8/6 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754532026,
+    "createdAt": 1754532026
   }],
   "loginResult": {
     "loginMessages": [{
@@ -58340,6 +58460,58 @@
       "eventId": 11081,
       "day": 1,
       "updatedAt": 1754484705
+    }, {
+      "isDeemedLogin": false,
+      "name": "10周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 10
+      }, {
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 10
+      }, {
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11059,
+      "day": 4,
+      "updatedAt": 1754532026
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11080,
+      "day": 2,
+      "updatedAt": 1754532026
     }]
   }
 }

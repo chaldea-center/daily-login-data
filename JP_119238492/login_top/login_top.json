@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Extra」開催中！",
-        "detail": "「冠位戴冠戦：Extra」開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "8月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250806_gis46x/gis46x_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,10 +26,16 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 11081,
-        "day": 1
-      }, {
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
         "isDeemedLogin": false,
         "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
         "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
@@ -40,7 +46,7 @@
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,30 +56,40 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11080,
-        "day": 1
+        "day": 2
       }, {
         "isDeemedLogin": false,
-        "name": "ショートアニメ「FGO 藤丸立香はわからない」Season3公開記念 特別ログインボーナス",
-        "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+        "name": "10周年記念特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "「FGO 藤丸立香はわからない」Season3",
-          "num": 1
+          "name": "英霊結晶・星のフォウくん",
+          "num": 10
+        }, {
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 10
+        }, {
+          "name": "QP",
+          "num": 3000000
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250806_cc4p4p/cc4p4p_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_04.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://anime.fate-go.jp/nazomaru/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11063,
-        "day": 1
+        "eventId": 11059,
+        "day": 4
+      }],
+      "totalLoginBonus": [{
+        "num": 767,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4451,9 +4467,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 224,
-        "totalLoginCount": 766,
-        "lastLoginAt": 1754484705,
+        "seqLoginCount": 225,
+        "totalLoginCount": 767,
+        "lastLoginAt": 1754532026,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35292,6 +35308,11 @@
         "missionId": 1033934,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033935,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -43231,126 +43252,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91608819090,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745543768,
-        "createdAt": 1745543768
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91625928731,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1745630000,
-        "createdAt": 1745630000
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91625928736,
-        "messageRefType": 3,
-        "messageId": 3148,
-        "message": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕直前\nカウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1745630000,
-        "createdAt": 1745630000
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91625928737,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745630000,
-        "createdAt": 1745630000
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91644637754,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745716803,
-        "createdAt": 1745716803
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91644637758,
-        "messageRefType": 3,
-        "messageId": 3148,
-        "message": "「奏章Ⅳ 人類裁決法廷 トリニティ・メタトロニオス」開幕直前\nカウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1745716803,
-        "createdAt": 1745716803
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91644637759,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745716803,
-        "createdAt": 1745716803
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91644637760,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 80,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745716803,
-        "createdAt": 1745716803
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91663072851,
         "messageRefType": 3,
         "messageId": 3147,
@@ -49274,6 +49175,126 @@
         "flag": 0,
         "updatedAt": 1754484705,
         "createdAt": 1754484705
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584889,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584890,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584891,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10096,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584902,
+        "messageRefType": 3,
+        "messageId": 3290,
+        "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(2/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584903,
+        "messageRefType": 3,
+        "messageId": 3260,
+        "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584904,
+        "messageRefType": 3,
+        "messageId": 3260,
+        "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584905,
+        "messageRefType": 3,
+        "messageId": 3260,
+        "message": "10周年記念\n特別回数ログインボーナスです。(4/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93911584927,
+        "messageRefType": 4,
+        "messageId": 625,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (8/6 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754532026,
+        "createdAt": 1754532026
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53637,7 +53658,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1754406000,
+        "commandSpellRecoverAt": 1754492400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53650,7 +53671,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1754445588,
+        "updatedAt": 1754532026,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53665,6 +53686,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1754484705
+    "serverTime": 1754532026
   }
 }
