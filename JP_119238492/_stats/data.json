@@ -37013,6 +37013,36 @@
     "flag": 0,
     "updatedAt": 1754532026,
     "createdAt": 1754532026
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93931120745,
+    "messageRefType": 3,
+    "messageId": 3256,
+    "message": "『Fate/hollow ataraxia REMASTERED』\nリリース記念 特別ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9310570,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1754571067,
+    "createdAt": 1754571067
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 93931120749,
+    "messageRefType": 4,
+    "messageId": 626,
+    "message": "「英霊祝装:伊吹童子」が、「FGO 10th Anniversary 英霊祝装チケット〔バーサーカー〕」ではなく「FGO 10th Anniversary 英霊祝装チケット〔セイバー〕」の交換対象となっていた不具合についてのお詫び (8/7 18:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 94146901,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754571067,
+    "createdAt": 1754571067
   }],
   "loginResult": {
     "loginMessages": [{
@@ -58512,6 +58542,30 @@
       "eventId": 11080,
       "day": 2,
       "updatedAt": 1754532026
+    }, {
+      "isDeemedLogin": false,
+      "name": "『Fate/hollow ataraxia REMASTERED』リリース記念\n特別ログインボーナス",
+      "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "Fate/hollow ataraxia REMASTERED",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250807_c5rn8d/c5rn8d_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "http://typemoon.com/products/f-ha/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11064,
+      "day": 1,
+      "updatedAt": 1754571067
     }]
   }
 }

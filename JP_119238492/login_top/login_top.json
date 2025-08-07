@@ -3,93 +3,36 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "8月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "『Fate/hollow ataraxia REMASTERED』リリース記念\n特別ログインボーナス",
+        "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "Fate/hollow ataraxia REMASTERED",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_02.png",
+            "bannerUrl": "/webview/loginbonus/20250807_c5rn8d/c5rn8d_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "http://typemoon.com/products/f-ha/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11080,
-        "day": 2
-      }, {
-        "isDeemedLogin": false,
-        "name": "10周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 10
-        }, {
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 10
-        }, {
-          "name": "QP",
-          "num": 3000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11059,
-        "day": 4
-      }],
-      "totalLoginBonus": [{
-        "num": 767,
-        "items": [],
-        "script": {}
+        "eventId": 11064,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4469,7 +4412,7 @@
         "userId": 119238492,
         "seqLoginCount": 225,
         "totalLoginCount": 767,
-        "lastLoginAt": 1754532026,
+        "lastLoginAt": 1754571067,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43252,36 +43195,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91663072851,
-        "messageRefType": 3,
-        "messageId": 3147,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 5000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745756927,
-        "createdAt": 1745756927
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91663072852,
-        "messageRefType": 3,
-        "messageId": 3147,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2025！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 12,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1745756927,
-        "createdAt": 1745756927
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91663072853,
         "messageRefType": 3,
         "messageId": 3147,
@@ -49295,6 +49208,36 @@
         "flag": 0,
         "updatedAt": 1754532026,
         "createdAt": 1754532026
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93931120745,
+        "messageRefType": 3,
+        "messageId": 3256,
+        "message": "『Fate/hollow ataraxia REMASTERED』\nリリース記念 特別ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9310570,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1754571067,
+        "createdAt": 1754571067
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 93931120749,
+        "messageRefType": 4,
+        "messageId": 626,
+        "message": "「英霊祝装:伊吹童子」が、「FGO 10th Anniversary 英霊祝装チケット〔バーサーカー〕」ではなく「FGO 10th Anniversary 英霊祝装チケット〔セイバー〕」の交換対象となっていた不具合についてのお詫び (8/7 18:00掲載分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 94146901,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1754571067,
+        "createdAt": 1754571067
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53686,6 +53629,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1754532026
+    "serverTime": 1754571067
   }
 }
