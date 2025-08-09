@@ -3,94 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "8月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11080,
-        "day": 4
-      }, {
-        "isDeemedLogin": false,
-        "name": "10周年記念特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 3000000
-        }, {
-          "name": "マナプリズム",
-          "num": 100
-        }, {
-          "name": "レアプリズム",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11059,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 769,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4469,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 227,
         "totalLoginCount": 769,
-        "lastLoginAt": 1754704148,
+        "lastLoginAt": 1754743368,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35320,6 +35239,11 @@
         "num": 0
       }, {
         "userId": 119238492,
+        "missionId": 1033937,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1033955,
         "progressType": 3,
         "num": 0
@@ -35331,11 +35255,6 @@
       }, {
         "userId": 119238492,
         "missionId": 1033957,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033937,
         "progressType": 3,
         "num": 0
       }, {
@@ -53726,6 +53645,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1754704148
+    "serverTime": 1754743368
   }
 }
