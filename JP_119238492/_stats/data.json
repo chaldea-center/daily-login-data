@@ -37253,6 +37253,96 @@
     "flag": 0,
     "updatedAt": 1754704148,
     "createdAt": 1754704148
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033010807,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033010808,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033010809,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033010999,
+    "messageRefType": 3,
+    "messageId": 3293,
+    "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033011000,
+    "messageRefType": 3,
+    "messageId": 3263,
+    "message": "10周年記念\n特別回数ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94033011001,
+    "messageRefType": 3,
+    "messageId": 3263,
+    "message": "10周年記念\n特別回数ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1754791401,
+    "createdAt": 1754791401
   }],
   "loginResult": {
     "loginMessages": [{
@@ -58880,6 +58970,55 @@
       "eventId": 11080,
       "day": 4,
       "updatedAt": 1754704148
+    }, {
+      "isDeemedLogin": false,
+      "name": "10周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "呼符",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250804_kj3o9m/kj3o9m_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11059,
+      "day": 7,
+      "updatedAt": 1754791401
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 前編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250806_3wjysj/3wjysj_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11080,
+      "day": 5,
+      "updatedAt": 1754791401
     }]
   }
 }
