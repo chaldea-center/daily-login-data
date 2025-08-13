@@ -37598,6 +37598,21 @@
     "flag": 0,
     "updatedAt": 1755049814,
     "createdAt": 1755049814
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94145778765,
+    "messageRefType": 3,
+    "messageId": 3267,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755089263,
+    "createdAt": 1755089263
   }],
   "loginResult": {
     "loginMessages": [{
@@ -59418,6 +59433,49 @@
       "eventId": 11059,
       "day": 10,
       "updatedAt": 1755049814
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 1,
+      "updatedAt": 1755089263
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開幕！",
+      "detail": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_w9adu3/w9adu3_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11087,
+      "day": 1,
+      "updatedAt": 1755089263
     }]
   }
 }
