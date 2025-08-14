@@ -3,89 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "8月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "Fate/Grand Order カルデア放送局 ライト版 ～水着イベント2025～ 配信記念初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 14
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250814_6yghkj/6yghkj_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/0813nico/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11066,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11065,
-        "day": 2
-      }],
-      "totalLoginBonus": [{
-        "num": 774,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4464,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 232,
         "totalLoginCount": 774,
-        "lastLoginAt": 1755136227,
+        "lastLoginAt": 1755175709,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35465,6 +35389,11 @@
         "num": 0
       }, {
         "userId": 119238492,
+        "missionId": 1033942,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1033955,
         "progressType": 3,
         "num": 0
@@ -35551,11 +35480,6 @@
       }, {
         "userId": 119238492,
         "missionId": 1033972,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1033942,
         "progressType": 3,
         "num": 0
       }],
@@ -53936,6 +53860,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1755136227
+    "serverTime": 1755175709
   }
 }
