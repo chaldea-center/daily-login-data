@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開幕！",
-        "detail": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開幕！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "8月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250813_w9adu3/w9adu3_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,8 +26,37 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局 ライト版 ～水着イベント2025～ 配信記念初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250814_6yghkj/6yghkj_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/0813nico/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
         },
-        "eventId": 11087,
+        "eventId": 11066,
         "day": 1
       }, {
         "isDeemedLogin": false,
@@ -35,12 +64,12 @@
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,7 +79,12 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11065,
-        "day": 1
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 774,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4428,9 +4462,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 231,
-        "totalLoginCount": 773,
-        "lastLoginAt": 1755089263,
+        "seqLoginCount": 232,
+        "totalLoginCount": 774,
+        "lastLoginAt": 1755136227,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35519,6 +35553,11 @@
         "missionId": 1033972,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1033942,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -43493,96 +43532,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 91868522833,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10093,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1746407975,
-        "createdAt": 1746407975
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91868522844,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1746407975,
-        "createdAt": 1746407975
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91868522845,
-        "messageRefType": 3,
-        "messageId": 3155,
-        "message": "「奏章Ⅳ」開幕記念スタートダッシュキャンペーン\n特別回数ログインボーナスです。\n(6/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 103,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 4,
-        "updatedAt": 1746407975,
-        "createdAt": 1746407975
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91889487237,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1746494215,
-        "createdAt": 1746494215
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91889487238,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10093,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1746494215,
-        "createdAt": 1746494215
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 91889487248,
-        "messageRefType": 3,
-        "messageId": 3149,
-        "message": "「巡霊の祝祭 第12弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1746494215,
-        "createdAt": 1746494215
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 91889487249,
         "messageRefType": 3,
         "messageId": 3156,
@@ -49536,6 +49485,96 @@
         "flag": 0,
         "updatedAt": 1755089263,
         "createdAt": 1755089263
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656574,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656575,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656576,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10096,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656584,
+        "messageRefType": 3,
+        "messageId": 3288,
+        "message": "Fate/Grand Order カルデア放送局 ライト版 ～水着イベント2025～\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656585,
+        "messageRefType": 3,
+        "messageId": 3268,
+        "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94158656587,
+        "messageRefType": 4,
+        "messageId": 628,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (8/13 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755136227,
+        "createdAt": 1755136227
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53869,7 +53908,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1755010800,
+        "commandSpellRecoverAt": 1755097200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53882,7 +53921,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1755049814,
+        "updatedAt": 1755136227,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53897,6 +53936,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1755089263
+    "serverTime": 1755136227
   }
 }

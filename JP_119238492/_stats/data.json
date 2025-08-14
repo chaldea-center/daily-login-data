@@ -37613,6 +37613,96 @@
     "flag": 0,
     "updatedAt": 1755089263,
     "createdAt": 1755089263
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656574,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656575,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656576,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656584,
+    "messageRefType": 3,
+    "messageId": 3288,
+    "message": "Fate/Grand Order カルデア放送局 ライト版 ～水着イベント2025～\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656585,
+    "messageRefType": 3,
+    "messageId": 3268,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94158656587,
+    "messageRefType": 4,
+    "messageId": 628,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (8/13 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1755136227,
+    "createdAt": 1755136227
   }],
   "loginResult": {
     "loginMessages": [{
@@ -59476,6 +59566,53 @@
       "eventId": 11087,
       "day": 1,
       "updatedAt": 1755089263
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 2,
+      "updatedAt": 1755136227
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版 ～水着イベント2025～ 配信記念初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250814_6yghkj/6yghkj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/0813nico/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11066,
+      "day": 1,
+      "updatedAt": 1755136227
     }]
   }
 }
