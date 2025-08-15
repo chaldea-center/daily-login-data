@@ -37778,6 +37778,51 @@
     "flag": 0,
     "updatedAt": 1755222672,
     "createdAt": 1755222672
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94203355234,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「2025年8月4日(月) 4:00以降に変化するはずのリニューアル後の内容」が事前に受け取れてしまっていた不具合において、「連続ログインボーナス」の内容が公平になるようリニューアル後のログインボーナスを付与させていただきます (8/15 18:00掲載)",
+    "fromType": 6,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 4,
+    "updatedAt": 1755261808,
+    "createdAt": 1755261808
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94203355235,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「2025年8月4日(月) 4:00以降に変化するはずのリニューアル後の内容」が事前に受け取れてしまっていた不具合において、「連続ログインボーナス」の内容が公平になるようリニューアル後のログインボーナスを付与させていただきます (8/15 18:00掲載)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1755261808,
+    "createdAt": 1755261808
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94203355236,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「2025年8月4日(月) 4:00以降に変化するはずのリニューアル後の内容」が事前に受け取れてしまっていた不具合において、「連続ログインボーナス」の内容が公平になるようリニューアル後のログインボーナスを付与させていただきます (8/15 18:00掲載)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1755261808,
+    "createdAt": 1755261808
   }],
   "loginResult": {
     "loginMessages": [{
