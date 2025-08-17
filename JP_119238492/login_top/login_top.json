@@ -3,66 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "8月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11065,
-        "day": 5
-      }],
-      "totalLoginBonus": [{
-        "num": 777,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4441,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 235,
         "totalLoginCount": 777,
-        "lastLoginAt": 1755395796,
+        "lastLoginAt": 1755434524,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53958,6 +53905,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1755395796
+    "serverTime": 1755434524
   }
 }
