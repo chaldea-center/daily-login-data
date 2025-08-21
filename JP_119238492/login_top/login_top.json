@@ -3,13 +3,66 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "8月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_09.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11065,
+        "day": 9
+      }],
+      "totalLoginBonus": [{
+        "num": 781,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4439,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 238,
-        "totalLoginCount": 780,
-        "lastLoginAt": 1755693817,
+        "seqLoginCount": 239,
+        "totalLoginCount": 781,
+        "lastLoginAt": 1755740538,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43291,66 +43344,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 92071267327,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1747099123,
-        "createdAt": 1747099123
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92071267328,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10093,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1747099123,
-        "createdAt": 1747099123
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92071267349,
-        "messageRefType": 3,
-        "messageId": 3161,
-        "message": "「巡霊の祝祭 第13弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1747099123,
-        "createdAt": 1747099123
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92093612481,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1747185445,
-        "createdAt": 1747185445
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 92093612482,
         "messageRefType": 3,
         "messageId": 21,
@@ -49379,6 +49372,66 @@
         "flag": 0,
         "updatedAt": 1755654204,
         "createdAt": 1755654204
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94434032234,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1755740538,
+        "createdAt": 1755740538
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94434032235,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755740538,
+        "createdAt": 1755740538
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94434032236,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10096,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755740538,
+        "createdAt": 1755740538
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94434032247,
+        "messageRefType": 3,
+        "messageId": 3275,
+        "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(9/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1755740538,
+        "createdAt": 1755740538
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53712,7 +53765,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1755615600,
+        "commandSpellRecoverAt": 1755702000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -53725,7 +53778,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1755654204,
+        "updatedAt": 1755740538,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -53740,6 +53793,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1755693817
+    "serverTime": 1755740538
   }
 }
