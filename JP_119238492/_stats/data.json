@@ -60312,6 +60312,26 @@
       "eventId": 11065,
       "day": 9,
       "updatedAt": 1755740538
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開催中！",
+      "detail": "「カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250821_3s54rd/3s54rd_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11088,
+      "day": 1,
+      "updatedAt": 1755780181
     }]
   }
 }
