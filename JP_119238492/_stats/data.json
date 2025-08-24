@@ -38318,6 +38318,66 @@
     "flag": 0,
     "updatedAt": 1755913174,
     "createdAt": 1755913174
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94503114782,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1756000423,
+    "createdAt": 1756000423
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94503114783,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756000423,
+    "createdAt": 1756000423
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94503114784,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756000423,
+    "createdAt": 1756000423
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94503114793,
+    "messageRefType": 3,
+    "messageId": 3278,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(12/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756000423,
+    "createdAt": 1756000423
   }],
   "loginResult": {
     "loginMessages": [{
@@ -60498,6 +60558,29 @@
       "eventId": 11065,
       "day": 11,
       "updatedAt": 1755913174
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_12.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 12,
+      "updatedAt": 1756000423
     }]
   }
 }
