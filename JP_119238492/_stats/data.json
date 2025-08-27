@@ -38528,6 +38528,81 @@
     "flag": 0,
     "updatedAt": 1756172629,
     "createdAt": 1756172629
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94580850775,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1756258838,
+    "createdAt": 1756258838
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94580850776,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756258838,
+    "createdAt": 1756258838
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94580850777,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756258838,
+    "createdAt": 1756258838
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94580850789,
+    "messageRefType": 3,
+    "messageId": 3304,
+    "message": "「冠位戴冠戦：Extra」カウントダウン\nログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756258838,
+    "createdAt": 1756258838
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94580850790,
+    "messageRefType": 3,
+    "messageId": 3281,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756258838,
+    "createdAt": 1756258838
   }],
   "loginResult": {
     "loginMessages": [{
@@ -60845,6 +60920,53 @@
       "eventId": 11076,
       "day": 1,
       "updatedAt": 1756172629
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 15,
+      "updatedAt": 1756258838
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Extra」カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250827_9bg5ig/9bg5ig_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_extra_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11077,
+      "day": 1,
+      "updatedAt": 1756258838
     }]
   }
 }
