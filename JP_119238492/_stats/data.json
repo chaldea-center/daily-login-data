@@ -38603,6 +38603,21 @@
     "flag": 0,
     "updatedAt": 1756258838,
     "createdAt": 1756258838
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94590921038,
+    "messageRefType": 3,
+    "messageId": 3296,
+    "message": "冠位戴冠戦：Extra開幕記念 後編 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756298556,
+    "createdAt": 1756298556
   }],
   "loginResult": {
     "loginMessages": [{
@@ -60967,6 +60982,49 @@
       "eventId": 11077,
       "day": 1,
       "updatedAt": 1756258838
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 後編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250827_k5kkt5/k5kkt5_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11082,
+      "day": 1,
+      "updatedAt": 1756298556
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Extra」開催中！",
+      "detail": "「冠位戴冠戦：Extra」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250827_4wng5c/4wng5c_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11083,
+      "day": 1,
+      "updatedAt": 1756298556
     }]
   }
 }
