@@ -38618,6 +38618,81 @@
     "flag": 0,
     "updatedAt": 1756298556,
     "createdAt": 1756298556
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94604286250,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1756345239,
+    "createdAt": 1756345239
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94604286251,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756345239,
+    "createdAt": 1756345239
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94604286252,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756345239,
+    "createdAt": 1756345239
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94604286264,
+    "messageRefType": 3,
+    "messageId": 3282,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756345239,
+    "createdAt": 1756345239
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94604286265,
+    "messageRefType": 3,
+    "messageId": 3297,
+    "message": "冠位戴冠戦：Extra開幕記念 後編 ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756345239,
+    "createdAt": 1756345239
   }],
   "loginResult": {
     "loginMessages": [{
@@ -61025,6 +61100,52 @@
       "eventId": 11083,
       "day": 1,
       "updatedAt": 1756298556
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 16,
+      "updatedAt": 1756345239
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 後編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250827_k5kkt5/k5kkt5_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11082,
+      "day": 2,
+      "updatedAt": 1756345239
     }]
   }
 }
