@@ -38903,6 +38903,111 @@
     "flag": 0,
     "updatedAt": 1756517249,
     "createdAt": 1756517249
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842974,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842975,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842976,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10096,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842997,
+    "messageRefType": 3,
+    "messageId": 3285,
+    "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(19/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842998,
+    "messageRefType": 3,
+    "messageId": 3300,
+    "message": "冠位戴冠戦：Extra開幕記念 後編 ログインボーナスです。\n(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672842999,
+    "messageRefType": 3,
+    "messageId": 3306,
+    "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(2/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 100,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94672843000,
+    "messageRefType": 3,
+    "messageId": 3306,
+    "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(2/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1756604688,
+    "createdAt": 1756604688
   }],
   "loginResult": {
     "loginMessages": [{
@@ -61495,6 +61600,79 @@
       "eventId": 11085,
       "day": 1,
       "updatedAt": 1756517249
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250813_k83q0f/k83q0f_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11065,
+      "day": 19,
+      "updatedAt": 1756604688
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Extra開幕記念 ログインボーナス 後編",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250827_k5kkt5/k5kkt5_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11082,
+      "day": 5,
+      "updatedAt": 1756604688
+    }, {
+      "isDeemedLogin": false,
+      "name": "3200万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 100
+      }, {
+        "name": "黄金の果実",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3200man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11085,
+      "day": 2,
+      "updatedAt": 1756604688
     }]
   }
 }
