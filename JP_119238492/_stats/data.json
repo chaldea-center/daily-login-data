@@ -62115,6 +62115,27 @@
       "eventId": 11085,
       "day": 5,
       "updatedAt": 1756862839
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Rider」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250903_lk2lmf/lk2lmf_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_rider_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11084,
+      "day": 1,
+      "updatedAt": 1756903293
     }]
   }
 }
