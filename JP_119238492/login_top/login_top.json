@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "9月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟」開催中！",
+        "detail": "「失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟」開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
+            "bannerUrl": "/webview/loginbonus/20250905_zruo6p/zruo6p_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,46 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
+        },
+        "eventId": 11091,
+        "day": 1
+      }, {
         "isDeemedLogin": false,
-        "name": "3200万DL突破記念 特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "英霊結晶・日輪のフォウくん",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/3200man/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11085,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 796,
-        "items": [],
-        "script": {}
+        "eventId": 11089,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4445,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 254,
         "totalLoginCount": 796,
-        "lastLoginAt": 1757036274,
+        "lastLoginAt": 1757076041,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43950,21 +43935,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 92534092205,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10094,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1748913621,
-        "createdAt": 1748913621
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 92534092215,
         "messageRefType": 3,
         "messageId": 3178,
@@ -50038,6 +50008,21 @@
         "flag": 0,
         "updatedAt": 1757036274,
         "createdAt": 1757036274
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94803160649,
+        "messageRefType": 3,
+        "messageId": 3315,
+        "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(1/20)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757076041,
+        "createdAt": 1757076041
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53784,6 +53769,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80559,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71570,
         "value": 0,
         "flag": 0,
@@ -54299,6 +54294,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1757036274
+    "serverTime": 1757076041
   }
 }

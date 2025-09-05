@@ -39398,6 +39398,21 @@
     "flag": 0,
     "updatedAt": 1757036274,
     "createdAt": 1757036274
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94803160649,
+    "messageRefType": 3,
+    "messageId": 3315,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(1/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757076041,
+    "createdAt": 1757076041
   }],
   "loginResult": {
     "loginMessages": [{
@@ -62322,6 +62337,49 @@
       "eventId": 11085,
       "day": 7,
       "updatedAt": 1757036274
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 1,
+      "updatedAt": 1757076041
+    }, {
+      "isDeemedLogin": false,
+      "name": "「失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟」開催中！",
+      "detail": "「失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_zruo6p/zruo6p_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11091,
+      "day": 1,
+      "updatedAt": 1757076041
     }]
   }
 }
