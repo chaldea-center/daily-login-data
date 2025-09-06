@@ -39413,6 +39413,111 @@
     "flag": 0,
     "updatedAt": 1757076041,
     "createdAt": 1757076041
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086212,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086213,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086214,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086228,
+    "messageRefType": 3,
+    "messageId": 3312,
+    "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(8/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 18,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086229,
+    "messageRefType": 3,
+    "messageId": 3335,
+    "message": "FGO カルデア放送局 ライト版 9月開幕予定 新規イベント情報\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086230,
+    "messageRefType": 3,
+    "messageId": 3316,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(2/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94823086231,
+    "messageRefType": 4,
+    "messageId": 632,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (9/5 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757122054,
+    "createdAt": 1757122054
   }],
   "loginResult": {
     "loginMessages": [{
@@ -62380,6 +62485,77 @@
       "eventId": 11091,
       "day": 1,
       "updatedAt": 1757076041
+    }, {
+      "isDeemedLogin": false,
+      "name": "3200万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "レアプリズム",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3200man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11085,
+      "day": 8,
+      "updatedAt": 1757122054
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 2,
+      "updatedAt": 1757122054
+    }, {
+      "isDeemedLogin": false,
+      "name": "FGO カルデア放送局 ライト版 9月開幕予定 新規イベント情報 配信記念初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250906_9hii2m/9hii2m_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/vanished_beginning/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11090,
+      "day": 1,
+      "updatedAt": 1757122054
     }]
   }
 }
