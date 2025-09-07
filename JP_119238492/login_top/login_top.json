@@ -3,50 +3,28 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "9月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+        "name": "「レイドバトル」参加応援ログインボーナス",
+        "detail": "開催期間中、初回ログインで「黄金の果実×5」＆「星見のティーポット×10」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "白銀の果実",
-          "num": 1
+          "name": "黄金の果実",
+          "num": 5
+        }, {
+          "name": "星見のティーポット",
+          "num": 10
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_03.png",
+            "bannerUrl": "/webview/loginbonus/20250907_nn9s3p/nn9s3p_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,36 +33,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11089,
-        "day": 3
-      }, {
-        "isDeemedLogin": false,
-        "name": "3200万DL突破記念 特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "伝承結晶",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_09.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/3200man/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11085,
-        "day": 9
-      }],
-      "totalLoginBonus": [{
-        "num": 798,
-        "items": [],
-        "script": {}
+        "eventId": 11111,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4464,7 +4414,7 @@
         "userId": 119238492,
         "seqLoginCount": 256,
         "totalLoginCount": 798,
-        "lastLoginAt": 1757209397,
+        "lastLoginAt": 1757248635,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43979,36 +43929,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 92571015650,
-        "messageRefType": 4,
-        "messageId": 618,
-        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (6/4 13:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749086355,
-        "createdAt": 1749086355
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92592807674,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749172742,
-        "createdAt": 1749172742
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 92592807675,
         "messageRefType": 3,
         "messageId": 21,
@@ -50067,6 +49987,36 @@
         "flag": 0,
         "updatedAt": 1757209397,
         "createdAt": 1757209397
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94855405450,
+        "messageRefType": 3,
+        "messageId": 3384,
+        "message": "「レイドバトル」参加応援ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757248635,
+        "createdAt": 1757248635
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94855405451,
+        "messageRefType": 3,
+        "messageId": 3384,
+        "message": "「レイドバトル」参加応援ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94138212,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757248635,
+        "createdAt": 1757248635
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54338,6 +54288,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1757209397
+    "serverTime": 1757248635
   }
 }
