@@ -3,28 +3,50 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "9月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「レイドバトル」参加応援ログインボーナス",
-        "detail": "開催期間中、初回ログインで「黄金の果実×5」＆「星見のティーポット×10」をプレゼント！",
+        "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
-          "num": 5
-        }, {
-          "name": "星見のティーポット",
-          "num": 10
+          "name": "白銀の果実",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250907_nn9s3p/nn9s3p_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_04.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -33,8 +55,36 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11111,
-        "day": 1
+        "eventId": 11089,
+        "day": 4
+      }, {
+        "isDeemedLogin": false,
+        "name": "3200万DL突破記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 30
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_10.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/3200man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11085,
+        "day": 10
+      }],
+      "totalLoginBonus": [{
+        "num": 799,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4412,9 +4462,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 256,
-        "totalLoginCount": 798,
-        "lastLoginAt": 1757248635,
+        "seqLoginCount": 257,
+        "totalLoginCount": 799,
+        "lastLoginAt": 1757295759,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35210,41 +35260,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003304,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003305,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003306,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003307,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003308,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003309,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003310,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033913,
         "progressType": 3,
         "num": 0
@@ -35522,6 +35537,46 @@
         "userId": 119238492,
         "missionId": 1034035,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034036,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003311,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003312,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003313,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003314,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003315,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003316,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003317,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -43929,81 +43984,6 @@
         "createdAt": 1735261671
       }, {
         "receiveUserId": 119238492,
-        "presentId": 92592807675,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10094,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749172742,
-        "createdAt": 1749172742
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92592807681,
-        "messageRefType": 3,
-        "messageId": 3179,
-        "message": "【リリース3600日突破キャンペーン】\nグランドオーダー発令から3600日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749172742,
-        "createdAt": 1749172742
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92592807682,
-        "messageRefType": 3,
-        "messageId": 3183,
-        "message": "落涙の翼開幕記念 ログインボーナスです。\n(3/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749172742,
-        "createdAt": 1749172742
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92609705503,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1749259116,
-        "createdAt": 1749259116
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 92609705504,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10094,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1749259116,
-        "createdAt": 1749259116
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 92609705513,
         "messageRefType": 3,
         "messageId": 3184,
@@ -50017,6 +49997,81 @@
         "flag": 0,
         "updatedAt": 1757248635,
         "createdAt": 1757248635
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94870273127,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1757295759,
+        "createdAt": 1757295759
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94870273128,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757295759,
+        "createdAt": 1757295759
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94870273129,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10097,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757295759,
+        "createdAt": 1757295759
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94870273145,
+        "messageRefType": 3,
+        "messageId": 3314,
+        "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(10/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 30,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757295759,
+        "createdAt": 1757295759
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 94870273146,
+        "messageRefType": 3,
+        "messageId": 3318,
+        "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(4/20)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1757295759,
+        "createdAt": 1757295759
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54260,7 +54315,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1757170800,
+        "commandSpellRecoverAt": 1757257200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54273,7 +54328,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1757209397,
+        "updatedAt": 1757295759,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54288,6 +54343,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1757248635
+    "serverTime": 1757295759
   }
 }

@@ -39623,6 +39623,81 @@
     "flag": 0,
     "updatedAt": 1757248635,
     "createdAt": 1757248635
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94870273127,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757295759,
+    "createdAt": 1757295759
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94870273128,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757295759,
+    "createdAt": 1757295759
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94870273129,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757295759,
+    "createdAt": 1757295759
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94870273145,
+    "messageRefType": 3,
+    "messageId": 3314,
+    "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757295759,
+    "createdAt": 1757295759
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94870273146,
+    "messageRefType": 3,
+    "messageId": 3318,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(4/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757295759,
+    "createdAt": 1757295759
   }],
   "loginResult": {
     "loginMessages": [{
@@ -62734,6 +62809,53 @@
       "eventId": 11111,
       "day": 1,
       "updatedAt": 1757248635
+    }, {
+      "isDeemedLogin": false,
+      "name": "3200万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250830_r36gy9/r36gy9_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3200man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11085,
+      "day": 10,
+      "updatedAt": 1757295759
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 4,
+      "updatedAt": 1757295759
     }]
   }
 }
