@@ -39698,6 +39698,81 @@
     "flag": 0,
     "updatedAt": 1757295759,
     "createdAt": 1757295759
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94895882974,
+    "messageRefType": 3,
+    "messageId": 10029,
+    "message": "通算ログイン800日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757381970,
+    "createdAt": 1757381970
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94895882975,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757381970,
+    "createdAt": 1757381970
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94895882976,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757381970,
+    "createdAt": 1757381970
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94895882977,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757381970,
+    "createdAt": 1757381970
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94895882983,
+    "messageRefType": 3,
+    "messageId": 3319,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(5/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757381970,
+    "createdAt": 1757381970
   }],
   "loginResult": {
     "loginMessages": [{
@@ -39907,6 +39982,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1753063319
+    }, {
+      "num": 800,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00800.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1757381970
     }],
     "loginFortuneBonus": [{
       "eventId": 10854,
@@ -62876,6 +62969,29 @@
       "eventId": 11071,
       "day": 1,
       "updatedAt": 1757335444
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 5,
+      "updatedAt": 1757381970
     }]
   }
 }
