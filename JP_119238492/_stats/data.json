@@ -39863,6 +39863,81 @@
     "flag": 0,
     "updatedAt": 1757467724,
     "createdAt": 1757467724
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94946499782,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757554724,
+    "createdAt": 1757554724
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94946499783,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757554724,
+    "createdAt": 1757554724
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94946499784,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757554724,
+    "createdAt": 1757554724
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94946499835,
+    "messageRefType": 3,
+    "messageId": 3371,
+    "message": "冠位戴冠戦：Rider開幕記念 ログインボーナスです。\n(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757554724,
+    "createdAt": 1757554724
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 94946499836,
+    "messageRefType": 3,
+    "messageId": 3321,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(7/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757554724,
+    "createdAt": 1757554724
   }],
   "loginResult": {
     "loginMessages": [{
@@ -63171,6 +63246,52 @@
       "eventId": 11103,
       "day": 2,
       "updatedAt": 1757467724
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 7,
+      "updatedAt": 1757554724
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Rider開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250909_yb3b09/yb3b09_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11103,
+      "day": 3,
+      "updatedAt": 1757554724
     }]
   }
 }
