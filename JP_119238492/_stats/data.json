@@ -40088,6 +40088,96 @@
     "flag": 0,
     "updatedAt": 1757726629,
     "createdAt": 1757726629
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549958,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549959,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549960,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549979,
+    "messageRefType": 3,
+    "messageId": 3346,
+    "message": "【リリース3700日突破キャンペーン】\nグランドオーダー発令から3700日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549980,
+    "messageRefType": 3,
+    "messageId": 3374,
+    "message": "冠位戴冠戦：Rider開幕記念 ログインボーナスです。\n(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95004549981,
+    "messageRefType": 3,
+    "messageId": 3324,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(10/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1757814132,
+    "createdAt": 1757814132
   }],
   "loginResult": {
     "loginMessages": [{
@@ -63534,6 +63624,75 @@
       "eventId": 11103,
       "day": 5,
       "updatedAt": 1757726629
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 10,
+      "updatedAt": 1757814132
+    }, {
+      "isDeemedLogin": false,
+      "name": "リリース3700日突破キャンペーン 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250914_sri5ok/sri5ok_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11097,
+      "day": 1,
+      "updatedAt": 1757814132
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Rider開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250909_yb3b09/yb3b09_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11103,
+      "day": 6,
+      "updatedAt": 1757814132
     }]
   }
 }
