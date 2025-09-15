@@ -63814,6 +63814,26 @@
       "eventId": 11103,
       "day": 7,
       "updatedAt": 1757900611
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Final Order Project [Lostbelt No.6]クリア応援キャンペーン」開催中！",
+      "detail": "「Final Order Project [Lostbelt No.6]クリア応援キャンペーン」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250915_gdio1e/gdio1e_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11072,
+      "day": 1,
+      "updatedAt": 1757940159
     }]
   }
 }
