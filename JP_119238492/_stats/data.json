@@ -40313,6 +40313,81 @@
     "flag": 0,
     "updatedAt": 1757986085,
     "createdAt": 1757986085
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95071880319,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1758072490,
+    "createdAt": 1758072490
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95071880320,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758072490,
+    "createdAt": 1758072490
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95071880321,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758072490,
+    "createdAt": 1758072490
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95071880335,
+    "messageRefType": 3,
+    "messageId": 3327,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(13/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758072490,
+    "createdAt": 1758072490
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95071880337,
+    "messageRefType": 4,
+    "messageId": 633,
+    "message": "「オルガマリークエスト_2」において、特定の状況下でエクストラアタック以外の攻撃でエネミーをBreakさせようとした際にHPが1になりBreakさせることができない不具合についてのお詫びをお送りいたします (9/16 17:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758072490,
+    "createdAt": 1758072490
   }],
   "loginResult": {
     "loginMessages": [{
@@ -63917,6 +63992,29 @@
       "eventId": 11089,
       "day": 12,
       "updatedAt": 1757986085
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_13.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 13,
+      "updatedAt": 1758072490
     }]
   }
 }
