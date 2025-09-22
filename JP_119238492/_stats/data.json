@@ -40853,6 +40853,21 @@
     "flag": 0,
     "updatedAt": 1758505502,
     "createdAt": 1758505502
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95177702827,
+    "messageRefType": 3,
+    "messageId": 3210,
+    "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94149901,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1758544981,
+    "createdAt": 1758544981
   }],
   "loginResult": {
     "loginMessages": [{
@@ -64869,6 +64884,49 @@
       "eventId": 11106,
       "day": 6,
       "updatedAt": 1758505502
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Final Order Project [Lostbelt No.7]クリア応援キャンペーン」開催中！",
+      "detail": "「Final Order Project [Lostbelt No.7]クリア応援キャンペーン」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250922_zpo09f/zpo09f_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11073,
+      "day": 1,
+      "updatedAt": 1758544981
+    }, {
+      "isDeemedLogin": false,
+      "name": "「OVER THE SAME SKY 英霊星行チケット〔SEPTEMBER〕」をプレゼント！",
+      "detail": "開催期間中、初回ログインで「OVER THE SAME SKY 英霊星行チケット〔SEPTEMBER〕」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "OVER THE SAME SKY 英霊星行チケット〔SEPTEMBER〕",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250922_apt9w2/apt9w2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11102,
+      "day": 1,
+      "updatedAt": 1758544981
     }]
   }
 }
