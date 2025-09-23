@@ -40868,6 +40868,96 @@
     "flag": 2,
     "updatedAt": 1758544981,
     "createdAt": 1758544981
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884965,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884966,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884967,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884977,
+    "messageRefType": 3,
+    "messageId": 3333,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(19/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884978,
+    "messageRefType": 3,
+    "messageId": 3382,
+    "message": "「冠位戴冠戦：Saber」＆「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95194884979,
+    "messageRefType": 3,
+    "messageId": 3340,
+    "message": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド \nREVENGE OF MAKOTO」\n開幕直前特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758591400,
+    "createdAt": 1758591400
   }],
   "loginResult": {
     "loginMessages": [{
@@ -64927,6 +65017,76 @@
       "eventId": 11102,
       "day": 1,
       "updatedAt": 1758544981
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 19,
+      "updatedAt": 1758591400
+    }, {
+      "isDeemedLogin": false,
+      "name": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 2
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250919_31g1o3/31g1o3_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/shinsengumi_the_end_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11093,
+      "day": 5,
+      "updatedAt": 1758591400
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Saber」＆「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250917_68ag3l/68ag3l_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11106,
+      "day": 7,
+      "updatedAt": 1758591400
     }]
   }
 }
