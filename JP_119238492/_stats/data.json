@@ -41033,6 +41033,21 @@
     "flag": 0,
     "updatedAt": 1758677886,
     "createdAt": 1758677886
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95219096926,
+    "messageRefType": 3,
+    "messageId": 3348,
+    "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758717740,
+    "createdAt": 1758717740
   }],
   "loginResult": {
     "loginMessages": [{
@@ -65209,6 +65224,49 @@
       "eventId": 11093,
       "day": 6,
       "updatedAt": 1758677886
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250924_9eq3j8/9eq3j8_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11099,
+      "day": 1,
+      "updatedAt": 1758717740
+    }, {
+      "isDeemedLogin": false,
+      "name": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開幕！",
+      "detail": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250924_68q53g/68q53g_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11100,
+      "day": 1,
+      "updatedAt": 1758717740
     }]
   }
 }
