@@ -3,13 +3,89 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "9月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 5
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250919_31g1o3/31g1o3_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/shinsengumi_the_end_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11093,
+        "day": 6
+      }, {
+        "isDeemedLogin": false,
+        "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_20.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11089,
+        "day": 20
+      }],
+      "totalLoginBonus": [{
+        "num": 815,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4462,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 272,
-        "totalLoginCount": 814,
-        "lastLoginAt": 1758631300,
+        "seqLoginCount": 273,
+        "totalLoginCount": 815,
+        "lastLoginAt": 1758677886,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43919,81 +43995,6 @@
         "createdAt": 1749385850
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93100797642,
-        "messageRefType": 3,
-        "messageId": 3202,
-        "message": "「7月ボックスイベント」\n開幕直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1751419266,
-        "createdAt": 1751419266
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93111516439,
-        "messageRefType": 3,
-        "messageId": 3212,
-        "message": "インドラの大試練 ～巡るブロークン・スカイ～ \n開幕記念 ログインボーナスです。\n(1/12)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1751459701,
-        "createdAt": 1751459701
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93130967705,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1751505666,
-        "createdAt": 1751505666
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93130967706,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10095,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1751505666,
-        "createdAt": 1751505666
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93130967723,
-        "messageRefType": 3,
-        "messageId": 3224,
-        "message": "FGO カルデア放送局 ライト版\nインドラの大試練 ～巡るブロークン・スカイ～\n配信記念 初回ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 14,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1751505666,
-        "createdAt": 1751505666
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93130967724,
         "messageRefType": 3,
         "messageId": 3213,
@@ -49992,6 +49993,81 @@
         "flag": 0,
         "updatedAt": 1758591400,
         "createdAt": 1758591400
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95214585797,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1758677886,
+        "createdAt": 1758677886
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95214585798,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1758677886,
+        "createdAt": 1758677886
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95214585799,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10097,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1758677886,
+        "createdAt": 1758677886
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95214585800,
+        "messageRefType": 3,
+        "messageId": 3334,
+        "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(20/20)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1758677886,
+        "createdAt": 1758677886
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95214585801,
+        "messageRefType": 3,
+        "messageId": 3341,
+        "message": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド \nREVENGE OF MAKOTO」\n開幕直前特別ログインボーナスです。(6/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1758677886,
+        "createdAt": 1758677886
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54235,7 +54311,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1758553200,
+        "commandSpellRecoverAt": 1758639600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54248,7 +54324,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1758591400,
+        "updatedAt": 1758677886,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54263,6 +54339,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1758631300
+    "serverTime": 1758677886
   }
 }

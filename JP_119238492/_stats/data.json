@@ -40958,6 +40958,81 @@
     "flag": 0,
     "updatedAt": 1758591400,
     "createdAt": 1758591400
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95214585797,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1758677886,
+    "createdAt": 1758677886
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95214585798,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758677886,
+    "createdAt": 1758677886
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95214585799,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10097,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758677886,
+    "createdAt": 1758677886
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95214585800,
+    "messageRefType": 3,
+    "messageId": 3334,
+    "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(20/20)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1758677886,
+    "createdAt": 1758677886
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95214585801,
+    "messageRefType": 3,
+    "messageId": 3341,
+    "message": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド \nREVENGE OF MAKOTO」\n開幕直前特別ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1758677886,
+    "createdAt": 1758677886
   }],
   "loginResult": {
     "loginMessages": [{
@@ -65087,6 +65162,53 @@
       "eventId": 11106,
       "day": 7,
       "updatedAt": 1758591400
+    }, {
+      "isDeemedLogin": false,
+      "name": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大20回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250905_6tz7ye/6tz7ye_k_20.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11089,
+      "day": 20,
+      "updatedAt": 1758677886
+    }, {
+      "isDeemedLogin": false,
+      "name": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250919_31g1o3/31g1o3_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/shinsengumi_the_end_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11093,
+      "day": 6,
+      "updatedAt": 1758677886
     }]
   }
 }
