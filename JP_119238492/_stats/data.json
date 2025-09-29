@@ -65775,6 +65775,26 @@
       "eventId": 11099,
       "day": 6,
       "updatedAt": 1759110045
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Final Order Project [Ordeal CallⅠ]クリア応援キャンペーン」開催中！",
+      "detail": "「Final Order Project [Ordeal CallⅠ]クリア応援キャンペーン」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250929_msri3k/msri3k_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11114,
+      "day": 1,
+      "updatedAt": 1759149901
     }]
   }
 }
