@@ -65878,6 +65878,26 @@
       "eventId": 11099,
       "day": 7,
       "updatedAt": 1759196166
+    }, {
+      "isDeemedLogin": false,
+      "name": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開催中！",
+      "detail": "「幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250930_58sfe3/58sfe3_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11101,
+      "day": 1,
+      "updatedAt": 1759236294
     }]
   }
 }
