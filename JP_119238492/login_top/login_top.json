@@ -3,65 +3,33 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "10月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン開催中！",
+        "detail": "「冠位戴冠戦：Assassin」開幕直前キャンペーン開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250924_9eq3j8/9eq3j8_k_11.png",
+            "bannerUrl": "/webview/loginbonus/20251004_5ga8gi/5ga8gi_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11099,
-        "day": 11
-      }],
-      "totalLoginBonus": [{
-        "num": 825,
-        "items": [],
-        "script": {}
+        "eventId": 11105,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4441,7 +4409,7 @@
         "userId": 119238492,
         "seqLoginCount": 283,
         "totalLoginCount": 825,
-        "lastLoginAt": 1759541131,
+        "lastLoginAt": 1759581450,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53641,6 +53609,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71593,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80576,
         "value": 0,
         "flag": 0,
@@ -54176,6 +54154,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1759541131
+    "serverTime": 1759581450
   }
 }

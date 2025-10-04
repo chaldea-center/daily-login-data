@@ -66230,6 +66230,27 @@
       "eventId": 11099,
       "day": 11,
       "updatedAt": 1759541131
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Assassin」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251004_5ga8gi/5ga8gi_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11105,
+      "day": 1,
+      "updatedAt": 1759581450
     }]
   }
 }
