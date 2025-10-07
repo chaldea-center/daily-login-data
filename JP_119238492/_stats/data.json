@@ -41813,6 +41813,66 @@
     "flag": 0,
     "updatedAt": 1759714738,
     "createdAt": 1759714738
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95429070018,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1759801019,
+    "createdAt": 1759801019
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95429070019,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1759801019,
+    "createdAt": 1759801019
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95429070020,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1759801019,
+    "createdAt": 1759801019
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95429070028,
+    "messageRefType": 3,
+    "messageId": 3361,
+    "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(14/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1759801019,
+    "createdAt": 1759801019
   }],
   "loginResult": {
     "loginMessages": [{
@@ -66438,6 +66498,29 @@
       "eventId": 11115,
       "day": 1,
       "updatedAt": 1759754639
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250924_9eq3j8/9eq3j8_k_14.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11099,
+      "day": 14,
+      "updatedAt": 1759801019
     }]
   }
 }
