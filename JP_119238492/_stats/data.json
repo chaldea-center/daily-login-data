@@ -66604,6 +66604,26 @@
       "eventId": 11099,
       "day": 15,
       "updatedAt": 1759887451
+    }, {
+      "isDeemedLogin": false,
+      "name": "3300万DL突破キャンペーン　開催中！",
+      "detail": "3300万DL突破キャンペーン　開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251008_3p9hna/3p9hna_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11119,
+      "day": 1,
+      "updatedAt": 1759927408
     }]
   }
 }
