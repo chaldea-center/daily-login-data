@@ -67339,6 +67339,27 @@
       "eventId": 11118,
       "day": 5,
       "updatedAt": 1760319859
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Final Order Project [Ordeal CallⅢ]クリア応援キャンペーン」開催中！",
+      "detail": "「Final Order Project [Ordeal CallⅢ]クリア応援キャンペーン」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251013_lae89d/lae89d_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fop.fate-go.jp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11116,
+      "day": 1,
+      "updatedAt": 1760359421
     }]
   }
 }
