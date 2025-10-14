@@ -42383,6 +42383,111 @@
     "flag": 0,
     "updatedAt": 1760319859,
     "createdAt": 1760319859
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670334,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670335,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670336,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670350,
+    "messageRefType": 3,
+    "messageId": 3383,
+    "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670351,
+    "messageRefType": 3,
+    "messageId": 3368,
+    "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(21/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670352,
+    "messageRefType": 3,
+    "messageId": 3390,
+    "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95573670353,
+    "messageRefType": 3,
+    "messageId": 3390,
+    "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760405876,
+    "createdAt": 1760405876
   }],
   "loginResult": {
     "loginMessages": [{
@@ -67360,6 +67465,80 @@
       "eventId": 11116,
       "day": 1,
       "updatedAt": 1760359421
+    }, {
+      "isDeemedLogin": false,
+      "name": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20250924_9eq3j8/9eq3j8_k_21.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11099,
+      "day": 21,
+      "updatedAt": 1760405876
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251014_h8w9j2/h8w9j2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11109,
+      "day": 1,
+      "updatedAt": 1760405876
+    }, {
+      "isDeemedLogin": false,
+      "name": "3300万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 10
+      }, {
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251009_2rykmc/2rykmc_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3300man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11118,
+      "day": 6,
+      "updatedAt": 1760405876
     }]
   }
 }

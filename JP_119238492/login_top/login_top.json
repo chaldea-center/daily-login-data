@@ -3,33 +3,114 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "英霊結晶・流星のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "10月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「Final Order Project [Ordeal CallⅢ]クリア応援キャンペーン」開催中！",
-        "detail": "「Final Order Project [Ordeal CallⅢ]クリア応援キャンペーン」開催中！",
+        "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン ログインボーナス",
+        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
         "addDetail": "",
-        "items": [],
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251013_lae89d/lae89d_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251014_h8w9j2/h8w9j2_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://fop.fate-go.jp/"
+            "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11116,
+        "eventId": 11109,
         "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "3300万DL突破記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 10
+        }, {
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251009_2rykmc/2rykmc_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/3300man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11118,
+        "day": 6
+      }, {
+        "isDeemedLogin": false,
+        "name": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250924_9eq3j8/9eq3j8_k_21.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11099,
+        "day": 21
+      }],
+      "totalLoginBonus": [{
+        "num": 835,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4407,9 +4488,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 292,
-        "totalLoginCount": 834,
-        "lastLoginAt": 1760359421,
+        "seqLoginCount": 293,
+        "totalLoginCount": 835,
+        "lastLoginAt": 1760405876,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35293,6 +35374,11 @@
         "missionId": 1034085,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034074,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -43905,96 +43991,6 @@
         "createdAt": 1749385850
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93696980421,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753840746,
-        "createdAt": 1753840746
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93696980422,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753840746,
-        "createdAt": 1753840746
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93696980423,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10095,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753840746,
-        "createdAt": 1753840746
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93696980427,
-        "messageRefType": 3,
-        "messageId": 3239,
-        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753840746,
-        "createdAt": 1753840746
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93696980428,
-        "messageRefType": 3,
-        "messageId": 3253,
-        "message": "「大統領特異点」クリア応援キャンペーン 第2弾\n特別ログインボーナスです。(5/5)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753840746,
-        "createdAt": 1753840746
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93701252366,
-        "messageRefType": 3,
-        "messageId": 3240,
-        "message": "Fate/Grand Order Servant Art Chronicle -最終再臨展-\n開催記念 特別ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9310550,
-        "num": 1,
-        "limitCount": 4,
-        "lv": 80,
-        "flag": 0,
-        "updatedAt": 1753879884,
-        "createdAt": 1753879884
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93701252367,
         "messageRefType": 3,
         "messageId": 3241,
@@ -49948,6 +49944,111 @@
         "flag": 0,
         "updatedAt": 1760319859,
         "createdAt": 1760319859
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670334,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670335,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670336,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10098,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670350,
+        "messageRefType": 3,
+        "messageId": 3383,
+        "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670351,
+        "messageRefType": 3,
+        "messageId": 3368,
+        "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(21/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670352,
+        "messageRefType": 3,
+        "messageId": 3390,
+        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95573670353,
+        "messageRefType": 3,
+        "messageId": 3390,
+        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1760405876,
+        "createdAt": 1760405876
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54201,7 +54302,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1760281200,
+        "commandSpellRecoverAt": 1760367600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54214,7 +54315,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1760319859,
+        "updatedAt": 1760405876,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54229,6 +54330,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1760359421
+    "serverTime": 1760405876
   }
 }
