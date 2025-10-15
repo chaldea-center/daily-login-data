@@ -3,13 +3,90 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "10月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン ログインボーナス",
+        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251015_k285ha/k285ha_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11110,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "3300万DL突破記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251009_2rykmc/2rykmc_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/3300man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11118,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 836,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4463,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 293,
-        "totalLoginCount": 835,
-        "lastLoginAt": 1760445993,
+        "seqLoginCount": 294,
+        "totalLoginCount": 836,
+        "lastLoginAt": 1760492466,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35277,6 +35354,11 @@
         "missionId": 1034085,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034075,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -43889,81 +43971,6 @@
         "createdAt": 1749385850
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93701252367,
-        "messageRefType": 3,
-        "messageId": 3241,
-        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\nカウントダウンキャンペーン\n使用期限付コンティニューアイテムプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94146911,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
-        "updatedAt": 1753879884,
-        "createdAt": 1753879884
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93709201877,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753927116,
-        "createdAt": 1753927116
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93709201878,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10095,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753927116,
-        "createdAt": 1753927116
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93709201884,
-        "messageRefType": 3,
-        "messageId": 3239,
-        "message": "「Fate/Grand Order Fes. 2025 ～10th Anniversary～」\n開催直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1753927116,
-        "createdAt": 1753927116
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93709201887,
-        "messageRefType": 4,
-        "messageId": 624,
-        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (7/30 13:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1753927116,
-        "createdAt": 1753927116
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93739931828,
         "messageRefType": 3,
         "messageId": 21,
@@ -49947,6 +49954,81 @@
         "flag": 0,
         "updatedAt": 1760405876,
         "createdAt": 1760405876
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95596917790,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1760492466,
+        "createdAt": 1760492466
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95596917791,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760492466,
+        "createdAt": 1760492466
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95596917792,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10098,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760492466,
+        "createdAt": 1760492466
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95596917810,
+        "messageRefType": 3,
+        "messageId": 3383,
+        "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760492466,
+        "createdAt": 1760492466
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95596917811,
+        "messageRefType": 3,
+        "messageId": 3391,
+        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(7/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1760492466,
+        "createdAt": 1760492466
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54200,7 +54282,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1760367600,
+        "commandSpellRecoverAt": 1760454000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54213,7 +54295,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1760405876,
+        "updatedAt": 1760492466,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54228,6 +54310,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1760445993
+    "serverTime": 1760492466
   }
 }

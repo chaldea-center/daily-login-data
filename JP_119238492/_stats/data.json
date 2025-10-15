@@ -42488,6 +42488,81 @@
     "flag": 0,
     "updatedAt": 1760405876,
     "createdAt": 1760405876
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95596917790,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760492466,
+    "createdAt": 1760492466
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95596917791,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760492466,
+    "createdAt": 1760492466
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95596917792,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760492466,
+    "createdAt": 1760492466
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95596917810,
+    "messageRefType": 3,
+    "messageId": 3383,
+    "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760492466,
+    "createdAt": 1760492466
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95596917811,
+    "messageRefType": 3,
+    "messageId": 3391,
+    "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760492466,
+    "createdAt": 1760492466
   }],
   "loginResult": {
     "loginMessages": [{
@@ -67539,6 +67614,54 @@
       "eventId": 11118,
       "day": 6,
       "updatedAt": 1760405876
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Assassin」開幕直前キャンペーン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251015_k285ha/k285ha_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_assassin_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11110,
+      "day": 1,
+      "updatedAt": 1760492466
+    }, {
+      "isDeemedLogin": false,
+      "name": "3300万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251009_2rykmc/2rykmc_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3300man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11118,
+      "day": 7,
+      "updatedAt": 1760492466
     }]
   }
 }
