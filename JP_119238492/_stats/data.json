@@ -42578,6 +42578,111 @@
     "flag": 0,
     "updatedAt": 1760532324,
     "createdAt": 1760532324
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423639,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423640,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423641,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423652,
+    "messageRefType": 3,
+    "messageId": 3397,
+    "message": "冠位戴冠戦：Assassin開幕記念 ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423653,
+    "messageRefType": 3,
+    "messageId": 3392,
+    "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(8/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423654,
+    "messageRefType": 3,
+    "messageId": 3392,
+    "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(8/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95622423663,
+    "messageRefType": 4,
+    "messageId": 638,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/15 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760578809,
+    "createdAt": 1760578809
   }],
   "loginResult": {
     "loginMessages": [{
@@ -67720,6 +67825,56 @@
       "eventId": 11113,
       "day": 1,
       "updatedAt": 1760532324
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Assassin開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251015_68ag3l/68ag3l_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11112,
+      "day": 2,
+      "updatedAt": 1760578809
+    }, {
+      "isDeemedLogin": false,
+      "name": "3300万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・流星のフォウくん",
+        "num": 1
+      }, {
+        "name": "英霊結晶・日輪のフォウくん",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251009_2rykmc/2rykmc_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/3300man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11118,
+      "day": 8,
+      "updatedAt": 1760578809
     }]
   }
 }
