@@ -42893,6 +42893,81 @@
     "flag": 0,
     "updatedAt": 1760838597,
     "createdAt": 1760838597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95697874241,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1760924847,
+    "createdAt": 1760924847
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95697874242,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760924847,
+    "createdAt": 1760924847
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95697874243,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760924847,
+    "createdAt": 1760924847
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95697874250,
+    "messageRefType": 3,
+    "messageId": 3395,
+    "message": "「ハロウィン2025」開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760924847,
+    "createdAt": 1760924847
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95697874251,
+    "messageRefType": 3,
+    "messageId": 3401,
+    "message": "冠位戴冠戦：Assassin開幕記念 ログインボーナスです。\n(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1760924847,
+    "createdAt": 1760924847
   }],
   "loginResult": {
     "loginMessages": [{
@@ -68202,6 +68277,53 @@
       "eventId": 11112,
       "day": 5,
       "updatedAt": 1760838597
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Assassin開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251015_68ag3l/68ag3l_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11112,
+      "day": 6,
+      "updatedAt": 1760924847
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ハロウィン2025」 開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251020_e9wqf1/e9wqf1_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/halloween2025_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11123,
+      "day": 1,
+      "updatedAt": 1760924847
     }]
   }
 }
