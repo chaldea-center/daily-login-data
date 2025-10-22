@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "10月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
+        "detail": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "bannerUrl": "/webview/loginbonus/20251022_sasf0a/sasf0a_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,43 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
+        },
+        "eventId": 11142,
+        "day": 1
+      }, {
         "isDeemedLogin": false,
-        "name": "「ハロウィン2025」 開幕直前カウントダウン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "呼符",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_gwe92f/gwe92f_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/halloween2025_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11125,
+        "eventId": 11121,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 843,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4442,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 301,
         "totalLoginCount": 843,
-        "lastLoginAt": 1761097493,
+        "lastLoginAt": 1761137203,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35238,506 +35226,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 80576001,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576002,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576006,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576007,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576008,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576009,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576010,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576011,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576012,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576013,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576014,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576015,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576016,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576017,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576018,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576019,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576020,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576021,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576022,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576023,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576024,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576025,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576026,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576027,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576028,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576029,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576030,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576031,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576032,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576033,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576034,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576035,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576036,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576037,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576038,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576039,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576040,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576041,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576042,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576043,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576044,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576045,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576046,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576047,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576048,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576049,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576050,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576051,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576052,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576053,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576054,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576055,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576056,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576057,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576058,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576059,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576060,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576061,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576069,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576070,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576071,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576072,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576073,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576074,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576075,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576076,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576077,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576079,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576080,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576081,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576082,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576083,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576084,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576085,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576086,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576087,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576088,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576089,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576090,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576091,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576092,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576093,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576094,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576095,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576096,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576097,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576098,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576099,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576100,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576202,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576239,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576253,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576262,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576263,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576264,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576265,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576266,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576267,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576268,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 80576269,
-        "progressType": 2,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 2003353,
         "progressType": 3,
         "num": 0
@@ -35929,6 +35417,26 @@
       }, {
         "userId": 119238492,
         "missionId": 1034110,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034095,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034111,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034112,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034113,
         "progressType": 3,
         "num": 0
       }],
@@ -44558,21 +44066,6 @@
         "createdAt": 1754225244
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93959697324,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93959697325,
         "messageRefType": 3,
         "messageId": 21,
@@ -50601,6 +50094,21 @@
         "flag": 0,
         "updatedAt": 1761097493,
         "createdAt": 1761097493
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95744900535,
+        "messageRefType": 3,
+        "messageId": 3403,
+        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761137203,
+        "createdAt": 1761137203
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54257,7 +53765,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71591,
+        "eventId": 71604,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54267,107 +53775,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71593,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71598,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71599,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71600,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71601,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71602,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71603,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71606,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71607,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80576,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80581,
+        "eventId": 71605,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54378,6 +53786,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71587,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71608,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80580,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54902,6 +54330,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761097493
+    "serverTime": 1761137203
   }
 }

@@ -43133,6 +43133,21 @@
     "flag": 0,
     "updatedAt": 1761097493,
     "createdAt": 1761097493
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95744900535,
+    "messageRefType": 3,
+    "messageId": 3403,
+    "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761137203,
+    "createdAt": 1761137203
   }],
   "loginResult": {
     "loginMessages": [{
@@ -68581,6 +68596,49 @@
       "eventId": 11125,
       "day": 1,
       "updatedAt": 1761097493
+    }, {
+      "isDeemedLogin": false,
+      "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11121,
+      "day": 1,
+      "updatedAt": 1761137203
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
+      "detail": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_sasf0a/sasf0a_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11142,
+      "day": 1,
+      "updatedAt": 1761137203
     }]
   }
 }
