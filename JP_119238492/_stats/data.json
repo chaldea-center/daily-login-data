@@ -43073,6 +43073,66 @@
     "flag": 0,
     "updatedAt": 1761010922,
     "createdAt": 1761010922
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95739831033,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1761097493,
+    "createdAt": 1761097493
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95739831034,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761097493,
+    "createdAt": 1761097493
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95739831035,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761097493,
+    "createdAt": 1761097493
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95739831039,
+    "messageRefType": 3,
+    "messageId": 3395,
+    "message": "「ハロウィン2025」開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761097493,
+    "createdAt": 1761097493
   }],
   "loginResult": {
     "loginMessages": [{
@@ -68497,6 +68557,30 @@
       "eventId": 11124,
       "day": 1,
       "updatedAt": 1761010922
+    }, {
+      "isDeemedLogin": false,
+      "name": "「ハロウィン2025」 開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_gwe92f/gwe92f_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/halloween2025_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11125,
+      "day": 1,
+      "updatedAt": 1761097493
     }]
   }
 }
