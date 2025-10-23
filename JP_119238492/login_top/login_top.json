@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
-        "detail": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開幕！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "10月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_sasf0a/sasf0a_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,8 +26,37 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局 ライト版 ～ハロウィン2025～ 配信記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251023_4w2kj1/4w2kj1_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/halloween2025/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
         },
-        "eventId": 11142,
+        "eventId": 11122,
         "day": 1
       }, {
         "isDeemedLogin": false,
@@ -35,12 +64,12 @@
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,7 +79,12 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11121,
-        "day": 1
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 844,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4428,9 +4462,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 301,
-        "totalLoginCount": 843,
-        "lastLoginAt": 1761137203,
+        "seqLoginCount": 302,
+        "totalLoginCount": 844,
+        "lastLoginAt": 1761183646,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35346,6 +35380,11 @@
         "num": 0
       }, {
         "userId": 119238492,
+        "missionId": 1034095,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1034096,
         "progressType": 3,
         "num": 0
@@ -35417,11 +35456,6 @@
       }, {
         "userId": 119238492,
         "missionId": 1034110,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034095,
         "progressType": 3,
         "num": 0
       }, {
@@ -44066,96 +44100,6 @@
         "createdAt": 1754225244
       }, {
         "receiveUserId": 119238492,
-        "presentId": 93959697325,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10096,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93959697356,
-        "messageRefType": 3,
-        "messageId": 3291,
-        "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93959697357,
-        "messageRefType": 3,
-        "messageId": 3261,
-        "message": "10周年記念\n特別回数ログインボーナスです。(5/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93959697358,
-        "messageRefType": 3,
-        "messageId": 3261,
-        "message": "10周年記念\n特別回数ログインボーナスです。(5/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93959697359,
-        "messageRefType": 3,
-        "messageId": 3261,
-        "message": "10周年記念\n特別回数ログインボーナスです。(5/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754618379,
-        "createdAt": 1754618379
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 93998953612,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1754704148,
-        "createdAt": 1754704148
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 93998953613,
         "messageRefType": 3,
         "messageId": 21,
@@ -50109,6 +50053,96 @@
         "flag": 0,
         "updatedAt": 1761137203,
         "createdAt": 1761137203
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788771,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788772,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788773,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10098,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788788,
+        "messageRefType": 3,
+        "messageId": 3424,
+        "message": "Fate/Grand Order カルデア放送局 ライト版 ～ハロウィン2025～\n配信記念 初回ログインボーナスです。\n",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788789,
+        "messageRefType": 3,
+        "messageId": 3404,
+        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95756788799,
+        "messageRefType": 4,
+        "messageId": 641,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/22 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761183646,
+        "createdAt": 1761183646
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54302,7 +54336,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1761058800,
+        "commandSpellRecoverAt": 1761145200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54315,7 +54349,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1761097493,
+        "updatedAt": 1761183646,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54330,6 +54364,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761137203
+    "serverTime": 1761183646
   }
 }

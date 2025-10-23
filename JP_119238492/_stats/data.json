@@ -43148,6 +43148,96 @@
     "flag": 0,
     "updatedAt": 1761137203,
     "createdAt": 1761137203
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788771,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788772,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788773,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10098,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788788,
+    "messageRefType": 3,
+    "messageId": 3424,
+    "message": "Fate/Grand Order カルデア放送局 ライト版 ～ハロウィン2025～\n配信記念 初回ログインボーナスです。\n",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788789,
+    "messageRefType": 3,
+    "messageId": 3404,
+    "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95756788799,
+    "messageRefType": 4,
+    "messageId": 641,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/22 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1761183646,
+    "createdAt": 1761183646
   }],
   "loginResult": {
     "loginMessages": [{
@@ -68639,6 +68729,53 @@
       "eventId": 11142,
       "day": 1,
       "updatedAt": 1761137203
+    }, {
+      "isDeemedLogin": false,
+      "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11121,
+      "day": 2,
+      "updatedAt": 1761183646
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版 ～ハロウィン2025～ 配信記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251023_4w2kj1/4w2kj1_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/halloween2025/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11122,
+      "day": 1,
+      "updatedAt": 1761183646
     }]
   }
 }
