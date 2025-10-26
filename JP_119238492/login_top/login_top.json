@@ -3,13 +3,66 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "10月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11121,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 847,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4439,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 304,
-        "totalLoginCount": 846,
-        "lastLoginAt": 1761395920,
+        "seqLoginCount": 305,
+        "totalLoginCount": 847,
+        "lastLoginAt": 1761443201,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35219,76 +35272,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034066,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034067,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034068,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034069,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034070,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034071,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034072,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034073,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034074,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034075,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034076,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034077,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034078,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034079,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034086,
         "progressType": 3,
         "num": 0
@@ -44024,66 +44007,6 @@
         "createdAt": 1754225244
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94033010809,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10096,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754791401,
-        "createdAt": 1754791401
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94033010999,
-        "messageRefType": 3,
-        "messageId": 3293,
-        "message": "冠位戴冠戦：Extra開幕記念 前編 ログインボーナスです。\n(5/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754791401,
-        "createdAt": 1754791401
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94033011000,
-        "messageRefType": 3,
-        "messageId": 3263,
-        "message": "10周年記念\n特別回数ログインボーナスです。(7/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754791401,
-        "createdAt": 1754791401
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94033011001,
-        "messageRefType": 3,
-        "messageId": 3263,
-        "message": "10周年記念\n特別回数ログインボーナスです。(7/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754791401,
-        "createdAt": 1754791401
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94074847693,
         "messageRefType": 3,
         "messageId": 21,
@@ -50067,6 +49990,66 @@
         "flag": 0,
         "updatedAt": 1761356310,
         "createdAt": 1761356310
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95801105521,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1761443201,
+        "createdAt": 1761443201
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95801105522,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761443201,
+        "createdAt": 1761443201
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95801105523,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10098,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761443201,
+        "createdAt": 1761443201
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95801105533,
+        "messageRefType": 3,
+        "messageId": 3407,
+        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(5/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761443201,
+        "createdAt": 1761443201
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54260,7 +54243,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1761318000,
+        "commandSpellRecoverAt": 1761404400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54273,7 +54256,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1761356310,
+        "updatedAt": 1761443201,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54288,6 +54271,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761395920
+    "serverTime": 1761443201
   }
 }
