@@ -3,50 +3,25 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "10月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "「OVER THE SAME SKY 英霊星行チケット〔OCTOBER〕」をプレゼント！",
+        "detail": "開催期間中、初回ログインで「OVER THE SAME SKY 英霊星行チケット〔OCTOBER〕」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "白銀の果実",
+          "name": "OVER THE SAME SKY 英霊星行チケット〔OCTOBER〕",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_06.png",
+            "bannerUrl": "/webview/loginbonus/20251027_loae8w/loae8w_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,13 +30,30 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11121,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 848,
-        "items": [],
-        "script": {}
+        "eventId": 11120,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251027_dhiw5f/dhiw5f_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11134,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4441,7 +4433,7 @@
         "userId": 119238492,
         "seqLoginCount": 306,
         "totalLoginCount": 848,
-        "lastLoginAt": 1761529816,
+        "lastLoginAt": 1761569204,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35237,18 +35229,38 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 1034086,
+        "missionId": 2003360,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034087,
+        "missionId": 2003361,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034088,
+        "missionId": 2003362,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003363,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003364,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003365,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003366,
+        "progressType": 0,
         "num": 0
       }, {
         "userId": 119238492,
@@ -35347,38 +35359,18 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003360,
+        "missionId": 1034089,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003361,
+        "missionId": 1034090,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003362,
+        "missionId": 1034091,
         "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003363,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003364,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003365,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003366,
-        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -44007,36 +43999,6 @@
         "createdAt": 1754225244
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94074847707,
-        "messageRefType": 3,
-        "messageId": 3264,
-        "message": "10周年記念\n特別回数ログインボーナスです。(8/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754877598,
-        "createdAt": 1754877598
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94074847708,
-        "messageRefType": 3,
-        "messageId": 3264,
-        "message": "10周年記念\n特別回数ログインボーナスです。(8/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1754877598,
-        "createdAt": 1754877598
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94108319518,
         "messageRefType": 3,
         "messageId": 21,
@@ -50050,6 +50012,36 @@
         "flag": 0,
         "updatedAt": 1761529816,
         "createdAt": 1761529816
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95820497826,
+        "messageRefType": 3,
+        "messageId": 3428,
+        "message": "Final Order Project『第2部 終章』間近！ファイナルダッシュキャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94146911,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1761569204,
+        "createdAt": 1761569204
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95820497827,
+        "messageRefType": 3,
+        "messageId": 3210,
+        "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94150701,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 2,
+        "updatedAt": 1761569204,
+        "createdAt": 1761569204
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53746,6 +53738,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80583,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80580,
         "value": 0,
         "flag": 0,
@@ -53767,6 +53769,16 @@
       }, {
         "userId": 119238492,
         "eventId": 71570,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71609,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54271,6 +54283,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761529816
+    "serverTime": 1761569204
   }
 }
