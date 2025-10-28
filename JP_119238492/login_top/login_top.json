@@ -3,50 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "10月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開催中！",
+        "detail": "「ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20251028_2gad87/2gad87_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,13 +27,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11121,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 849,
-        "items": [],
-        "script": {}
+        "eventId": 11162,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4441,7 +4408,7 @@
         "userId": 119238492,
         "seqLoginCount": 307,
         "totalLoginCount": 849,
-        "lastLoginAt": 1761615643,
+        "lastLoginAt": 1761655449,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -54291,6 +54258,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761615643
+    "serverTime": 1761655449
   }
 }
