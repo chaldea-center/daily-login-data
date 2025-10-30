@@ -3,13 +3,66 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "10月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_09.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11121,
+        "day": 9
+      }],
+      "totalLoginBonus": [{
+        "num": 851,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4439,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 308,
-        "totalLoginCount": 850,
-        "lastLoginAt": 1761742015,
+        "seqLoginCount": 309,
+        "totalLoginCount": 851,
+        "lastLoginAt": 1761788810,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -43859,81 +43912,6 @@
         "createdAt": 1754225244
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94139709776,
-        "messageRefType": 3,
-        "messageId": 3266,
-        "message": "10周年記念\n特別回数ログインボーナスです。(10/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1755049814,
-        "createdAt": 1755049814
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94139709777,
-        "messageRefType": 3,
-        "messageId": 3266,
-        "message": "10周年記念\n特別回数ログインボーナスです。(10/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1755049814,
-        "createdAt": 1755049814
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94145778765,
-        "messageRefType": 3,
-        "messageId": 3267,
-        "message": "カルデア・Ｕ－サマーアイランド ～大統領は夏の夢を見るか？～\n開幕記念 ログインボーナスです。\n(1/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1755089263,
-        "createdAt": 1755089263
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94158656574,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1755136227,
-        "createdAt": 1755136227
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94158656575,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1755136227,
-        "createdAt": 1755136227
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94158656576,
         "messageRefType": 3,
         "messageId": 21,
@@ -49902,6 +49880,81 @@
         "flag": 0,
         "updatedAt": 1761702431,
         "createdAt": 1761702431
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95861531761,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1761788810,
+        "createdAt": 1761788810
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95861531762,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761788810,
+        "createdAt": 1761788810
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95861531763,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10098,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761788810,
+        "createdAt": 1761788810
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95861531771,
+        "messageRefType": 3,
+        "messageId": 3411,
+        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(9/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761788810,
+        "createdAt": 1761788810
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 95861531777,
+        "messageRefType": 4,
+        "messageId": 642,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/29 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1761788810,
+        "createdAt": 1761788810
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54115,7 +54168,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1761663600,
+        "commandSpellRecoverAt": 1761750000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54128,7 +54181,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1761702431,
+        "updatedAt": 1761788810,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54143,6 +54196,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1761742015
+    "serverTime": 1761788810
   }
 }
