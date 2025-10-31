@@ -69584,6 +69584,46 @@
       "eventId": 11121,
       "day": 10,
       "updatedAt": 1761875008
+    }, {
+      "isDeemedLogin": false,
+      "name": "「巡霊の祝祭 第14弾」開催中！",
+      "detail": "「巡霊の祝祭 第14弾」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251031_etz92l/etz92l_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11157,
+      "day": 1,
+      "updatedAt": 1761914684
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン」開催中！",
+      "detail": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251031_yz6hms/yz6hms_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11213,
+      "day": 1,
+      "updatedAt": 1761914684
     }]
   }
 }
