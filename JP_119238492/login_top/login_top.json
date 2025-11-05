@@ -3,113 +3,33 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "11月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+        "name": "「冠位戴冠戦：Archer」開幕直前キャンペーン開催中！",
+        "detail": "「冠位戴冠戦：Archer」開幕直前キャンペーン開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "黄金の果実",
-          "num": 10
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251105_m6n7o8/m6n7o8_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251105_93gkw3/93gkw3_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+            "urlLink": "https://news.fate-go.jp/2025/grand_archer_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11167,
+        "eventId": 11158,
         "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "巡霊の葉",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251105_vae34s/vae34s_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11147,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_15.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11121,
-        "day": 15
-      }],
-      "totalLoginBonus": [{
-        "num": 857,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4489,7 +4409,7 @@
         "userId": 119238492,
         "seqLoginCount": 315,
         "totalLoginCount": 857,
-        "lastLoginAt": 1762307116,
+        "lastLoginAt": 1762346727,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53714,16 +53634,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71608,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71612,
         "value": 0,
         "flag": 0,
@@ -53755,6 +53665,16 @@
       }, {
         "userId": 119238492,
         "eventId": 80580,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71608,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54339,6 +54259,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1762307116
+    "serverTime": 1762346727
   }
 }

@@ -70537,6 +70537,27 @@
       "eventId": 11167,
       "day": 1,
       "updatedAt": 1762307116
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Archer」開幕直前キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Archer」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251105_93gkw3/93gkw3_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_archer_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11158,
+      "day": 1,
+      "updatedAt": 1762346727
     }]
   }
 }
