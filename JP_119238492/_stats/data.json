@@ -44378,6 +44378,21 @@
     "flag": 0,
     "updatedAt": 1762393513,
     "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96006291029,
+    "messageRefType": 3,
+    "messageId": 3429,
+    "message": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762439468,
+    "createdAt": 1762439468
   }],
   "loginResult": {
     "loginMessages": [{
@@ -70718,6 +70733,49 @@
       "eventId": 11168,
       "day": 1,
       "updatedAt": 1762393513
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251106_53gw91/53gw91_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11218,
+      "day": 1,
+      "updatedAt": 1762439468
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開催中！",
+      "detail": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251106_a382j9/a382j9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11219,
+      "day": 1,
+      "updatedAt": 1762439468
     }]
   }
 }
