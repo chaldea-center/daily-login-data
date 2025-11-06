@@ -44393,6 +44393,156 @@
     "flag": 0,
     "updatedAt": 1762439468,
     "createdAt": 1762439468
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588236,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588237,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588238,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10099,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588242,
+    "messageRefType": 3,
+    "messageId": 3426,
+    "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588243,
+    "messageRefType": 3,
+    "messageId": 3426,
+    "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588244,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588245,
+    "messageRefType": 3,
+    "messageId": 3419,
+    "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(17/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588246,
+    "messageRefType": 3,
+    "messageId": 3430,
+    "message": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588248,
+    "messageRefType": 4,
+    "messageId": 643,
+    "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (11/6 20:02実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96010588249,
+    "messageRefType": 4,
+    "messageId": 644,
+    "message": "緊急メンテナンスによりゲームをプレイできなかったことへのお詫び (11/6 20:02実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762457498,
+    "createdAt": 1762457498
   }],
   "loginResult": {
     "loginMessages": [{
@@ -70776,6 +70926,102 @@
       "eventId": 11219,
       "day": 1,
       "updatedAt": 1762439468
+    }, {
+      "isDeemedLogin": false,
+      "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_17.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11121,
+      "day": 17,
+      "updatedAt": 1762457498
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 3
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251107_vae36s/vae36s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11149,
+      "day": 1,
+      "updatedAt": 1762457498
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251107_s3t4u5/s3t4u5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11169,
+      "day": 1,
+      "updatedAt": 1762457498
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251106_53gw91/53gw91_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11218,
+      "day": 2,
+      "updatedAt": 1762457498
     }]
   }
 }
