@@ -44288,6 +44288,96 @@
     "flag": 0,
     "updatedAt": 1762307116,
     "createdAt": 1762307116
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526506,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526507,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526508,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10099,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526518,
+    "messageRefType": 3,
+    "messageId": 3426,
+    "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526519,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 95996526520,
+    "messageRefType": 3,
+    "messageId": 3418,
+    "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(16/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1762393513,
+    "createdAt": 1762393513
   }],
   "loginResult": {
     "loginMessages": [{
@@ -70558,6 +70648,76 @@
       "eventId": 11158,
       "day": 1,
       "updatedAt": 1762346727
+    }, {
+      "isDeemedLogin": false,
+      "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_16.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11121,
+      "day": 16,
+      "updatedAt": 1762393513
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251106_vae35s/vae35s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11148,
+      "day": 1,
+      "updatedAt": 1762393513
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251106_p9q1r2/p9q1r2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11168,
+      "day": 1,
+      "updatedAt": 1762393513
     }]
   }
 }
