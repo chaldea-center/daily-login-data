@@ -4388,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 317,
         "totalLoginCount": 859,
-        "lastLoginAt": 1762479851,
+        "lastLoginAt": 1762519397,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -53598,16 +53598,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71613,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71621,
         "value": 0,
         "flag": 0,
@@ -53669,6 +53659,16 @@
       }, {
         "userId": 119238492,
         "eventId": 71608,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71610,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54253,6 +54253,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1762479851
+    "serverTime": 1762519397
   }
 }
