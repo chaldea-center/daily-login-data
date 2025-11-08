@@ -3,136 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "11月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Lancer」＆「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251106_53gw91/53gw91_k_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11218,
-        "day": 3
-      }, {
-        "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251108_v6w7x8/v6w7x8_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11170,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251108_vae37s/vae37s_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11150,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～ ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251022_8a7fra/8a7fra_k_18.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11121,
-        "day": 18
-      }],
-      "totalLoginBonus": [{
-        "num": 860,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4511,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 318,
         "totalLoginCount": 860,
-        "lastLoginAt": 1762565923,
+        "lastLoginAt": 1762605549,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -54381,6 +54258,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1762565923
+    "serverTime": 1762605549
   }
 }
