@@ -45218,6 +45218,111 @@
     "flag": 0,
     "updatedAt": 1762998387,
     "createdAt": 1762998387
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212365,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212366,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212367,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10099,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212385,
+    "messageRefType": 3,
+    "messageId": 3426,
+    "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212386,
+    "messageRefType": 3,
+    "messageId": 3426,
+    "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212387,
+    "messageRefType": 3,
+    "messageId": 3425,
+    "message": "「冠位戴冠戦：Archer」開幕直前キャンペーン\nログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96211212388,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763084752,
+    "createdAt": 1763084752
   }],
   "loginResult": {
     "loginMessages": [{
@@ -72287,6 +72392,80 @@
       "eventId": 11175,
       "day": 1,
       "updatedAt": 1762998387
+    }, {
+      "isDeemedLogin": false,
+      "name": "日替りログインボーナス",
+      "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 3
+      }, {
+        "name": "巡霊の葉",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_vae43s/vae43s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11156,
+      "day": 1,
+      "updatedAt": 1763084752
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Archer」開幕直前キャンペーン ログインボーナス",
+      "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_46afsj/46afsj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/grand_archer_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11161,
+      "day": 1,
+      "updatedAt": 1763084752
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_n6o7p8/n6o7p8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11176,
+      "day": 1,
+      "updatedAt": 1763084752
     }]
   }
 }
