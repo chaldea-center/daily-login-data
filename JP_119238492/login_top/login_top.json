@@ -3,99 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "11月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Archer」開幕直前キャンペーン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
+        "name": "「冠位戴冠戦：Archer」開催中！",
+        "detail": "「冠位戴冠戦：Archer」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 3
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251114_46afsj/46afsj_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_archer_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11161,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251114_n6o7p8/n6o7p8_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11176,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "日替りログインボーナス",
-        "detail": "開催期間中、1日1回 2週間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 3
-        }, {
-          "name": "巡霊の葉",
-          "num": 50
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251114_vae43s/vae43s_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251114_735j0s/735j0s_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -104,13 +27,30 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11156,
+        "eventId": 11221,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 866,
-        "items": [],
-        "script": {}
+      }, {
+        "isDeemedLogin": false,
+        "name": "冠位戴冠戦：Archer開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251114_73kj74/73kj74_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11220,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4490,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 324,
         "totalLoginCount": 866,
-        "lastLoginAt": 1763084752,
+        "lastLoginAt": 1763124304,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35356,6 +35296,11 @@
         "num": 0
       }, {
         "userId": 119238492,
+        "missionId": 1034134,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1034141,
         "progressType": 3,
         "num": 0
@@ -35406,7 +35351,32 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034134,
+        "missionId": 1034121,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034122,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034123,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034124,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034125,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034126,
         "progressType": 3,
         "num": 0
       }],
@@ -38945,6 +38915,55 @@
         "missionProgressType": 4,
         "updatedAt": 1760964294,
         "createdAt": 1756471301
+      }, {
+        "userId": 119238492,
+        "missionId": 11871,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11872,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11873,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11874,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11875,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11876,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
+      }, {
+        "userId": 119238492,
+        "missionId": 11877,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
       }, {
         "userId": 119238492,
         "missionId": 30000060,
@@ -44079,21 +44098,6 @@
         "flag": 4,
         "updatedAt": 1755261808,
         "createdAt": 1755261808
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94780346601,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10097,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1756949247,
-        "createdAt": 1756949247
       }, {
         "receiveUserId": 119238492,
         "presentId": 94780346617,
@@ -50079,6 +50083,21 @@
         "flag": 0,
         "updatedAt": 1763084752,
         "createdAt": 1763084752
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96220900034,
+        "messageRefType": 3,
+        "messageId": 3437,
+        "message": "冠位戴冠戦：Archer開幕記念 ログインボーナスです。\n(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763124304,
+        "createdAt": 1763124304
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53735,26 +53754,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71612,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80591,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80583,
         "value": 0,
         "flag": 0,
@@ -53796,6 +53795,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71610,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71629,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80595,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54323,6 +54342,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80584,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -54380,6 +54409,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1763084752
+    "serverTime": 1763124304
   }
 }

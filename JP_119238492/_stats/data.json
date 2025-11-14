@@ -45323,6 +45323,21 @@
     "flag": 0,
     "updatedAt": 1763084752,
     "createdAt": 1763084752
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96220900034,
+    "messageRefType": 3,
+    "messageId": 3437,
+    "message": "冠位戴冠戦：Archer開幕記念 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763124304,
+    "createdAt": 1763124304
   }],
   "loginResult": {
     "loginMessages": [{
@@ -72466,6 +72481,49 @@
       "eventId": 11176,
       "day": 1,
       "updatedAt": 1763084752
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Archer開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_73kj74/73kj74_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11220,
+      "day": 1,
+      "updatedAt": 1763124304
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Archer」開催中！",
+      "detail": "「冠位戴冠戦：Archer」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_735j0s/735j0s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11221,
+      "day": 1,
+      "updatedAt": 1763124304
     }]
   }
 }
