@@ -45593,6 +45593,21 @@
     "flag": 0,
     "updatedAt": 1763343996,
     "createdAt": 1763343996
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96291695773,
+    "messageRefType": 3,
+    "messageId": 3428,
+    "message": "Final Order Project『第2部 終章』間近！ファイナルダッシュキャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94146911,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1763383591,
+    "createdAt": 1763383591
   }],
   "loginResult": {
     "loginMessages": [{
@@ -72923,6 +72938,50 @@
       "eventId": 11220,
       "day": 4,
       "updatedAt": 1763343996
+    }, {
+      "isDeemedLogin": false,
+      "name": "Final Order Project『第2部 終章』まであと少し！第2部ふり返りキャンペーン開催中！",
+      "detail": "Final Order Project『第2部 終章』まであと少し！第2部ふり返りキャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251117_huidp4/huidp4_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fop.fate-go.jp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11129,
+      "day": 1,
+      "updatedAt": 1763383591
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251117_buexe2/buexe2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11137,
+      "day": 1,
+      "updatedAt": 1763383591
     }]
   }
 }

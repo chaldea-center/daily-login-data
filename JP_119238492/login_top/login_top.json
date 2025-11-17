@@ -3,50 +3,45 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "11月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "冠位戴冠戦：Archer開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "Final Order Project『第2部 終章』まであと少し！第2部ふり返りキャンペーン開催中！",
+        "detail": "Final Order Project『第2部 終章』まであと少し！第2部ふり返りキャンペーン開催中！",
+        "addDetail": "",
+        "items": [],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251117_huidp4/huidp4_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://fop.fate-go.jp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11129,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
-          "num": 1
+          "name": "霊脈石",
+          "num": 10
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251114_73kj74/73kj74_k_04.png",
+            "bannerUrl": "/webview/loginbonus/20251117_buexe2/buexe2_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,36 +50,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11220,
-        "day": 4
-      }, {
-        "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251117_w6x7y8/w6x7y8_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11179,
+        "eventId": 11137,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 869,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4464,7 +4431,7 @@
         "userId": 119238492,
         "seqLoginCount": 327,
         "totalLoginCount": 869,
-        "lastLoginAt": 1763343996,
+        "lastLoginAt": 1763383591,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35260,6 +35227,41 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
+        "missionId": 2003381,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003382,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003383,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003384,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003385,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003386,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003387,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
         "missionId": 1034121,
         "progressType": 3,
         "num": 0
@@ -35340,52 +35342,7 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034141,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034142,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034143,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034144,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034145,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034146,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034147,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034148,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034149,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034150,
+        "missionId": 1034137,
         "progressType": 3,
         "num": 0
       }, {
@@ -35405,11 +35362,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034137,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034295,
         "progressType": 3,
         "num": 0
@@ -35425,38 +35377,53 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003381,
+        "missionId": 1034151,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003382,
+        "missionId": 1034152,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003383,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003384,
+        "missionId": 1034153,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003385,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003386,
+        "missionId": 1034154,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003387,
-        "progressType": 0,
+        "missionId": 1034155,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034156,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034157,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034158,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034159,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034160,
+        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -44179,21 +44146,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94844732061,
-        "messageRefType": 3,
-        "messageId": 3313,
-        "message": "3200万DL突破記念\n3200万DLおめでとうございます。\n貴方への祝いの品を用意しました。遠慮せず受け取りなさい。\nby モルガン(9/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 6999,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757209397,
-        "createdAt": 1757209397
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94844732062,
         "messageRefType": 3,
         "messageId": 3317,
@@ -48079,21 +48031,6 @@
         "createdAt": 1761569204
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95820497827,
-        "messageRefType": 3,
-        "messageId": 3210,
-        "message": "「OVER THE SAME SKY」特別概念礼装\n特別交換チケットのプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94150701,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 2,
-        "updatedAt": 1761569204,
-        "createdAt": 1761569204
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95832435562,
         "messageRefType": 3,
         "messageId": 21,
@@ -50177,6 +50114,21 @@
         "flag": 0,
         "updatedAt": 1763343996,
         "createdAt": 1763343996
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96291695773,
+        "messageRefType": 3,
+        "messageId": 3428,
+        "message": "Final Order Project『第2部 終章』間近！ファイナルダッシュキャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94146911,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1763383591,
+        "createdAt": 1763383591
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53833,26 +53785,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80583,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71622,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80580,
         "value": 0,
         "flag": 0,
@@ -53903,6 +53835,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71623,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71597,
         "value": 0,
         "flag": 0,
@@ -53943,7 +53885,47 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71615,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71616,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71617,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71618,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71619,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54488,6 +54470,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1763343996
+    "serverTime": 1763383591
   }
 }
