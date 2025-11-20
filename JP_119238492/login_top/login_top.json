@@ -3,13 +3,95 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "11月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "冠位戴冠戦：Archer開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251114_73kj74/73kj74_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11220,
+        "day": 7
+      }, {
+        "isDeemedLogin": false,
+        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・終局のフォウくん",
+          "num": 1
+        }, {
+          "name": "英霊結晶・原初のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251120_f6g7h8/f6g7h8_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11182,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 872,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4468,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 329,
-        "totalLoginCount": 871,
-        "lastLoginAt": 1763556398,
+        "seqLoginCount": 330,
+        "totalLoginCount": 872,
+        "lastLoginAt": 1763603005,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35422,6 +35504,26 @@
         "missionId": 1034303,
         "progressType": 3,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034140,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034304,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034305,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034306,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -44143,111 +44245,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94895882976,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757381970,
-        "createdAt": 1757381970
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94895882977,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10097,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757381970,
-        "createdAt": 1757381970
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94895882983,
-        "messageRefType": 3,
-        "messageId": 3319,
-        "message": "失われた創世（ヴァニッシュド・ビギニング） 未来からの方舟\n開幕記念 ログインボーナスです。\n(5/20)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757381970,
-        "createdAt": 1757381970
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94910842509,
-        "messageRefType": 3,
-        "messageId": 3369,
-        "message": "冠位戴冠戦：Rider開幕記念 ログインボーナスです。\n(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757421875,
-        "createdAt": 1757421875
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94924550533,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1757467724,
-        "createdAt": 1757467724
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94924550534,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757467724,
-        "createdAt": 1757467724
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 94924550535,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10097,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757467724,
-        "createdAt": 1757467724
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94924550537,
         "messageRefType": 3,
         "messageId": 3370,
@@ -50141,6 +50138,111 @@
         "flag": 0,
         "updatedAt": 1763516696,
         "createdAt": 1763516696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336617,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336618,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336619,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10099,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336629,
+        "messageRefType": 3,
+        "messageId": 3427,
+        "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336630,
+        "messageRefType": 3,
+        "messageId": 3427,
+        "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336631,
+        "messageRefType": 3,
+        "messageId": 3427,
+        "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96344336632,
+        "messageRefType": 3,
+        "messageId": 3443,
+        "message": "冠位戴冠戦：Archer開幕記念 ログインボーナスです。\n(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763603005,
+        "createdAt": 1763603005
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54444,7 +54546,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1763478000,
+        "commandSpellRecoverAt": 1763564400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54457,7 +54559,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1763516696,
+        "updatedAt": 1763603005,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54472,6 +54574,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1763556398
+    "serverTime": 1763603005
   }
 }

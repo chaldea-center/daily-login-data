@@ -45758,6 +45758,111 @@
     "flag": 0,
     "updatedAt": 1763516696,
     "createdAt": 1763516696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336617,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336618,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336619,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10099,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336629,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336630,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336631,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96344336632,
+    "messageRefType": 3,
+    "messageId": 3443,
+    "message": "冠位戴冠戦：Archer開幕記念 ログインボーナスです。\n(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1763603005,
+    "createdAt": 1763603005
   }],
   "loginResult": {
     "loginMessages": [{
@@ -73226,6 +73331,59 @@
       "eventId": 11220,
       "day": 6,
       "updatedAt": 1763516696
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・終局のフォウくん",
+        "num": 1
+      }, {
+        "name": "英霊結晶・原初のフォウくん",
+        "num": 1
+      }, {
+        "name": "聖晶石",
+        "num": 3
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251120_f6g7h8/f6g7h8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11182,
+      "day": 1,
+      "updatedAt": 1763603005
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Archer開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251114_73kj74/73kj74_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11220,
+      "day": 7,
+      "updatedAt": 1763603005
     }]
   }
 }
