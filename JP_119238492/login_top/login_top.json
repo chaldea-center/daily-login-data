@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "11月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「冠位戴冠戦：Rider」＆「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開催中！",
+        "detail": "「冠位戴冠戦：Rider」＆「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
+            "bannerUrl": "/webview/loginbonus/20251121_y2uh46/y2uh46_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,43 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
+        },
+        "eventId": 11226,
+        "day": 1
+      }, {
         "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+        "name": "「冠位戴冠戦：Rider」＆「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "聖晶石",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251121_i9j1k2/i9j1k2_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251121_3f2k1d/3f2k1d_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11183,
+        "eventId": 11225,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 873,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4442,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 331,
         "totalLoginCount": 873,
-        "lastLoginAt": 1763689471,
+        "lastLoginAt": 1763728995,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35273,36 +35261,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034121,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034122,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034123,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034124,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034125,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034126,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034127,
         "progressType": 3,
         "num": 0
@@ -35494,6 +35452,26 @@
       }, {
         "userId": 119238492,
         "missionId": 1034306,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034291,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034307,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034308,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034309,
         "progressType": 3,
         "num": 0
       }],
@@ -44217,21 +44195,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 94946499784,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10097,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1757554724,
-        "createdAt": 1757554724
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 94946499835,
         "messageRefType": 3,
         "messageId": 3371,
@@ -50215,6 +50178,21 @@
         "flag": 0,
         "updatedAt": 1763689471,
         "createdAt": 1763689471
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96368172217,
+        "messageRefType": 3,
+        "messageId": 3444,
+        "message": "「冠位戴冠戦：Rider」＆「冠位戴冠戦：Assassin」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1763728995,
+        "createdAt": 1763728995
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -53871,47 +53849,17 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71608,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71610,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71629,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80595,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71623,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71635,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54546,6 +54494,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1763689471
+    "serverTime": 1763728995
   }
 }
