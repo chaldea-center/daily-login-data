@@ -46448,6 +46448,66 @@
     "flag": 0,
     "updatedAt": 1764207864,
     "createdAt": 1764207864
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96497314101,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1764294245,
+    "createdAt": 1764294245
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96497314102,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764294245,
+    "createdAt": 1764294245
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96497314103,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10099,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764294245,
+    "createdAt": 1764294245
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96497314109,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764294245,
+    "createdAt": 1764294245
   }],
   "loginResult": {
     "loginMessages": [{
@@ -74409,6 +74469,30 @@
       "eventId": 11225,
       "day": 7,
       "updatedAt": 1764207864
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251128_d3e4f5/d3e4f5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11190,
+      "day": 1,
+      "updatedAt": 1764294245
     }]
   }
 }
