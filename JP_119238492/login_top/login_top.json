@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "12月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「冠位戴冠戦：Caster」開催中！",
+        "detail": "「冠位戴冠戦：Caster」開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "bannerUrl": "/webview/loginbonus/20251203_zgr98e/zgr98e_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,66 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「冠位戴冠戦：Caster」開幕直前キャンペーン ログインボーナス",
-        "detail": "開催期間中、1日1回 3日間日替りでログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251203_ae9o1w/ae9o1w_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/grand_caster_cp/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
         },
-        "eventId": 11217,
+        "eventId": 11228,
         "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+        "name": "冠位戴冠戦：Caster開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "聖晶石",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251203_s9t1u2/s9t1u2_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20251203_so0k2f/so0k2f_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11195,
+        "eventId": 11227,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 885,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4465,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 343,
         "totalLoginCount": 885,
-        "lastLoginAt": 1764726495,
+        "lastLoginAt": 1764766222,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -4489,7 +4454,8 @@
         "flag": 0,
         "resetNum": 0,
         "updatedAt": 1705327573
-      }]
+      }],
+      "boxGachaHistory": []
     },
     "deleted": {},
     "replaced": {
@@ -39021,6 +38987,153 @@
         "createdAt": 1763124304
       }, {
         "userId": 119238492,
+        "missionId": 11913,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11914,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11915,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11916,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11917,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11918,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11919,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11920,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11921,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11955,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11956,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11967,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11968,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11969,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11970,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11971,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11972,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11973,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11974,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11975,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
+        "missionId": 11976,
+        "missionTargetId": 10001,
+        "missionProgressType": 4,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
+      }, {
+        "userId": 119238492,
         "missionId": 30000060,
         "missionTargetId": 300020,
         "missionProgressType": 5,
@@ -44138,21 +44251,6 @@
         "flag": 4,
         "updatedAt": 1755261808,
         "createdAt": 1755261808
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95194884967,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10097,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1758591400,
-        "createdAt": 1758591400
       }, {
         "receiveUserId": 119238492,
         "presentId": 95194884977,
@@ -50138,6 +50236,21 @@
         "flag": 0,
         "updatedAt": 1764726495,
         "createdAt": 1764726495
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 96618791463,
+        "messageRefType": 3,
+        "messageId": 3468,
+        "message": "冠位戴冠戦：Caster開幕記念 ログインボーナスです。\n(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1764766222,
+        "createdAt": 1764766222
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -51059,6 +51172,7 @@
         "name": "",
         "cost": 0
       }],
+      "userBoxGacha": [],
       "userGachaOverwrite": [],
       "userItem": [{
         "userId": 119238492,
@@ -53824,7 +53938,37 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71636,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80596,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80592,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80586,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -54412,6 +54556,16 @@
         "scriptFlag": 0,
         "updatedAt": 0,
         "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80587,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
       }],
       "userClassBoardSquare": [],
       "userSvtCommandCard": [],
@@ -54469,6 +54623,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1764726495
+    "serverTime": 1764766222
   }
 }

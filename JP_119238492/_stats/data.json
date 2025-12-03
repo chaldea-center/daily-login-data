@@ -46913,6 +46913,21 @@
     "flag": 0,
     "updatedAt": 1764726495,
     "createdAt": 1764726495
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96618791463,
+    "messageRefType": 3,
+    "messageId": 3468,
+    "message": "冠位戴冠戦：Caster開幕記念 ログインボーナスです。\n(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764766222,
+    "createdAt": 1764766222
   }],
   "loginResult": {
     "loginMessages": [{
@@ -75181,6 +75196,49 @@
       "eventId": 11217,
       "day": 1,
       "updatedAt": 1764726495
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Caster開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251203_so0k2f/so0k2f_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11227,
+      "day": 1,
+      "updatedAt": 1764766222
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Caster」開催中！",
+      "detail": "「冠位戴冠戦：Caster」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251203_zgr98e/zgr98e_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11228,
+      "day": 1,
+      "updatedAt": 1764766222
     }]
   }
 }
