@@ -46928,6 +46928,96 @@
     "flag": 0,
     "updatedAt": 1764766222,
     "createdAt": 1764766222
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419890,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419891,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419892,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419916,
+    "messageRefType": 3,
+    "messageId": 3427,
+    "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419917,
+    "messageRefType": 3,
+    "messageId": 3469,
+    "message": "冠位戴冠戦：Caster開幕記念 ログインボーナスです。\n(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96665419931,
+    "messageRefType": 4,
+    "messageId": 648,
+    "message": "一部メインストーリー内に年代表記の誤りが判明したため修正した件についてのお詫び (12/3 18:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1764812932,
+    "createdAt": 1764812932
   }],
   "loginResult": {
     "loginMessages": [{
@@ -75239,6 +75329,53 @@
       "eventId": 11228,
       "day": 1,
       "updatedAt": 1764766222
+    }, {
+      "isDeemedLogin": false,
+      "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251204_v3w4x5/v3w4x5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11196,
+      "day": 1,
+      "updatedAt": 1764812932
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦：Caster開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251203_so0k2f/so0k2f_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11227,
+      "day": 2,
+      "updatedAt": 1764812932
     }]
   }
 }
