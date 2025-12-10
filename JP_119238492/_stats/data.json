@@ -47498,6 +47498,36 @@
     "flag": 0,
     "updatedAt": 1765331459,
     "createdAt": 1765331459
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96980273501,
+    "messageRefType": 3,
+    "messageId": 3451,
+    "message": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1765371050,
+    "createdAt": 1765371050
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 96980273502,
+    "messageRefType": 3,
+    "messageId": 3466,
+    "message": "「第2部 終章」限定概念礼装\n特別交換チケットのプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94152401,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1765371050,
+    "createdAt": 1765371050
   }],
   "loginResult": {
     "loginMessages": [{
@@ -76165,6 +76195,92 @@
       "eventId": 11202,
       "day": 1,
       "updatedAt": 1765331459
+    }, {
+      "isDeemedLogin": false,
+      "name": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251210_4f29ds/4f29ds_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11229,
+      "day": 1,
+      "updatedAt": 1765371050
+    }, {
+      "isDeemedLogin": false,
+      "name": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン開催中！",
+      "detail": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251210_3j29as/3j29as_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11230,
+      "day": 1,
+      "updatedAt": 1765371050
+    }, {
+      "isDeemedLogin": false,
+      "name": "「英霊極点交換チケット」をプレゼント！",
+      "detail": "開催期間中、初回ログインで「英霊極点交換チケット」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊極点交換チケット",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251210_x1p3za/x1p3za_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11232,
+      "day": 1,
+      "updatedAt": 1765371050
+    }, {
+      "isDeemedLogin": false,
+      "name": "「第2部 終章」開幕直前キャンペーン開催中！",
+      "detail": "「第2部 終章」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251210_4pu5dm/4pu5dm_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11244,
+      "day": 1,
+      "updatedAt": 1765371050
     }]
   }
 }
