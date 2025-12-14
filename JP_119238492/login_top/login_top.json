@@ -3,13 +3,89 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251210_4f29ds/4f29ds_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11229,
+        "day": 5
+      }, {
+        "isDeemedLogin": false,
+        "name": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナス！",
+        "detail": "開催期間中、1日1回 50日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖杯",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251214_z6a7b8/z6a7b8_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/2025_fop_final_countdown_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11206,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 896,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4462,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 353,
-        "totalLoginCount": 895,
-        "lastLoginAt": 1765629746,
+        "seqLoginCount": 354,
+        "totalLoginCount": 896,
+        "lastLoginAt": 1765677483,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44386,81 +44462,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95390968887,
-        "messageRefType": 3,
-        "messageId": 3359,
-        "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(12/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1759628708,
-        "createdAt": 1759628708
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95407880668,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1759714738,
-        "createdAt": 1759714738
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95407880669,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1759714738,
-        "createdAt": 1759714738
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95407880670,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1759714738,
-        "createdAt": 1759714738
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95407880675,
-        "messageRefType": 3,
-        "messageId": 3360,
-        "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(13/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1759714738,
-        "createdAt": 1759714738
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95429070018,
         "messageRefType": 3,
         "messageId": 21,
@@ -50384,6 +50385,81 @@
         "flag": 0,
         "updatedAt": 1765590332,
         "createdAt": 1765590332
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97076798364,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1765677483,
+        "createdAt": 1765677483
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97076798365,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1765677483,
+        "createdAt": 1765677483
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97076798366,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1765677483,
+        "createdAt": 1765677483
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97076798382,
+        "messageRefType": 3,
+        "messageId": 3427,
+        "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 7999,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1765677483,
+        "createdAt": 1765677483
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97076798383,
+        "messageRefType": 3,
+        "messageId": 3455,
+        "message": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1765677483,
+        "createdAt": 1765677483
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54708,7 +54784,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1765551600,
+        "commandSpellRecoverAt": 1765638000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -54721,7 +54797,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1765590332,
+        "updatedAt": 1765677483,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -54736,6 +54812,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1765629746
+    "serverTime": 1765677483
   }
 }
