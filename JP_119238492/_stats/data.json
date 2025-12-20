@@ -48308,6 +48308,36 @@
     "flag": 0,
     "updatedAt": 1766195143,
     "createdAt": 1766195143
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97213236982,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「メインクエスト」のクリア報酬増量にともない、\nすでにクリア済みのクエストについてクリア報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 16,
+    "num": 7,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1766234562,
+    "createdAt": 1766234562
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97213236984,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「メインクエスト」のクリア報酬増量にともない、\nすでにクリア済みのクエストについてクリア報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 103,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1766234562,
+    "createdAt": 1766234562
   }],
   "loginResult": {
     "loginMessages": [{
@@ -77570,6 +77600,26 @@
       "eventId": 11212,
       "day": 1,
       "updatedAt": 1766195143
+    }, {
+      "isDeemedLogin": false,
+      "name": "「第2部 終章」開幕！",
+      "detail": "「第2部 終章」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251220_6edbk8/6edbk8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11233,
+      "day": 1,
+      "updatedAt": 1766234562
     }]
   }
 }
