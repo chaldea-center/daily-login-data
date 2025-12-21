@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「第2部 終章」開幕！",
-        "detail": "「第2部 終章」開幕！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251220_6edbk8/6edbk8_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,9 +26,19 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 11233,
-        "day": 1
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 903,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4406,9 +4416,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 360,
-        "totalLoginCount": 902,
-        "lastLoginAt": 1766234562,
+        "seqLoginCount": 361,
+        "totalLoginCount": 903,
+        "lastLoginAt": 1766282256,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44816,81 +44826,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95526727893,
-        "messageRefType": 3,
-        "messageId": 3388,
-        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(4/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760233279,
-        "createdAt": 1760233279
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95547479797,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760319859,
-        "createdAt": 1760319859
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95547479798,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760319859,
-        "createdAt": 1760319859
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95547479799,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760319859,
-        "createdAt": 1760319859
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95547479818,
-        "messageRefType": 3,
-        "messageId": 3383,
-        "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760319859,
-        "createdAt": 1760319859
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95547479819,
         "messageRefType": 3,
         "messageId": 3367,
@@ -50844,6 +50779,81 @@
         "flag": 4,
         "updatedAt": 1766234562,
         "createdAt": 1766234562
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97223300377,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1766282256,
+        "createdAt": 1766282256
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97223300378,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766282256,
+        "createdAt": 1766282256
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97223300379,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766282256,
+        "createdAt": 1766282256
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97223300382,
+        "messageRefType": 4,
+        "messageId": 652,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (12/20 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766282256,
+        "createdAt": 1766282256
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97223300383,
+        "messageRefType": 4,
+        "messageId": 653,
+        "message": "第2部 終章のメインクエストのバトルにおいて、一部エネミーが意図しない行動をする場合がある不具合のお詫び (12/21 1:50掲載分) ",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766282256,
+        "createdAt": 1766282256
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55057,7 +55067,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1766156400,
+        "commandSpellRecoverAt": 1766242800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55070,7 +55080,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1766195143,
+        "updatedAt": 1766282256,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55085,6 +55095,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766234562
+    "serverTime": 1766282256
   }
 }
