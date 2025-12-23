@@ -3,66 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "12月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "リリース3800日突破キャンペーン 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 10
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20251223_xpe39j/xpe39j_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11235,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 905,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4441,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 363,
         "totalLoginCount": 905,
-        "lastLoginAt": 1766454769,
+        "lastLoginAt": 1766494202,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -25423,6 +25370,153 @@
         "endedAt": 1653469201,
         "timeLimitAt": 0,
         "defeatedMessage": ""
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 1,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "オロチ・フロストレルム",
+        "shortName": "オロチ",
+        "maxHp": 20000000,
+        "iconId": 8059301,
+        "finishQuestId": 4000751,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 2,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "ソンブレロ・アポカリプス",
+        "shortName": "ソンブレロ",
+        "maxHp": 20000000,
+        "iconId": 8059302,
+        "finishQuestId": 4000752,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 3,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "メイオール・エタニティ",
+        "shortName": "メイオール",
+        "maxHp": 20000000,
+        "iconId": 8059303,
+        "finishQuestId": 4000753,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 4,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "スパイラル・レイザー",
+        "shortName": "スパイラル",
+        "maxHp": 20000000,
+        "iconId": 8059304,
+        "finishQuestId": 4000754,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 5,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "マゼラン・スターロード",
+        "shortName": "マゼラン",
+        "maxHp": 20000000,
+        "iconId": 8059305,
+        "finishQuestId": 4000755,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 6,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "セイファート・ライムライト",
+        "shortName": "セイファート",
+        "maxHp": 20000000,
+        "iconId": 8059306,
+        "finishQuestId": 4000756,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151712
+        },
+        "eventId": 80593,
+        "day": 7,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "クエーサー・ジェネシス",
+        "shortName": "クエーサー",
+        "maxHp": 20000000,
+        "iconId": 8059307,
+        "finishQuestId": 4000757,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
       }],
       "exchangeSvtCoinGivenNum": [],
       "userSvtVoicePlayed": [{
@@ -55118,6 +55212,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766454769
+    "serverTime": 1766494202
   }
 }
