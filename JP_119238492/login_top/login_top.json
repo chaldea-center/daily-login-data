@@ -3,13 +3,66 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "英霊結晶・流星のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "リリース3800日突破キャンペーン 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251223_xpe39j/xpe39j_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11235,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 905,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4439,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 362,
-        "totalLoginCount": 904,
-        "lastLoginAt": 1766407715,
+        "seqLoginCount": 363,
+        "totalLoginCount": 905,
+        "lastLoginAt": 1766454769,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35790,11 +35843,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034360,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034261,
         "progressType": 3,
         "num": 0
@@ -35941,6 +35989,11 @@
       }, {
         "userId": 119238492,
         "missionId": 1034290,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034360,
         "progressType": 3,
         "num": 0
       }],
@@ -44796,66 +44849,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95573670335,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95573670336,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95573670350,
-        "messageRefType": 3,
-        "messageId": 3383,
-        "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95573670351,
-        "messageRefType": 3,
-        "messageId": 3368,
-        "message": "幕末チャンバラ神話 ぐだぐだ新選組・ジ・エンド REVENGE OF MAKOTO\n開幕記念 ログインボーナスです。\n(21/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95573670352,
         "messageRefType": 3,
         "messageId": 3390,
@@ -50824,6 +50817,66 @@
         "flag": 0,
         "updatedAt": 1766368632,
         "createdAt": 1766368632
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97258383028,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1766454769,
+        "createdAt": 1766454769
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97258383029,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766454769,
+        "createdAt": 1766454769
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97258383030,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766454769,
+        "createdAt": 1766454769
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97258383036,
+        "messageRefType": 3,
+        "messageId": 3467,
+        "message": "【リリース3800日突破キャンペーン】\nグランドオーダー発令から3800日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766454769,
+        "createdAt": 1766454769
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55037,7 +55090,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1766329200,
+        "commandSpellRecoverAt": 1766415600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55050,7 +55103,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1766368632,
+        "updatedAt": 1766454769,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55065,6 +55118,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766407715
+    "serverTime": 1766454769
   }
 }
