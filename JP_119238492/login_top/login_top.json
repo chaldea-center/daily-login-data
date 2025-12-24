@@ -3,13 +3,43 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 906,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4416,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 363,
-        "totalLoginCount": 905,
-        "lastLoginAt": 1766494202,
+        "seqLoginCount": 364,
+        "totalLoginCount": 906,
+        "lastLoginAt": 1766541045,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44943,51 +44973,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95573670352,
-        "messageRefType": 3,
-        "messageId": 3390,
-        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95573670353,
-        "messageRefType": 3,
-        "messageId": 3390,
-        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(6/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760405876,
-        "createdAt": 1760405876
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95596917790,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760492466,
-        "createdAt": 1760492466
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95596917791,
         "messageRefType": 3,
         "messageId": 21,
@@ -50971,6 +50956,51 @@
         "flag": 0,
         "updatedAt": 1766454769,
         "createdAt": 1766454769
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97278451741,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1766541045,
+        "createdAt": 1766541045
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97278451742,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766541045,
+        "createdAt": 1766541045
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97278451743,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766541045,
+        "createdAt": 1766541045
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55184,7 +55214,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1766415600,
+        "commandSpellRecoverAt": 1766502000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55197,7 +55227,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1766454769,
+        "updatedAt": 1766541045,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55212,6 +55242,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766494202
+    "serverTime": 1766541045
   }
 }
