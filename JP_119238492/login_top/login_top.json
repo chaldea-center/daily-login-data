@@ -3,13 +3,61 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "campaignDirectBonus": [{
+        "giftId": 209,
+        "directBonusItems": [],
+        "hideCampaignBonusNotify": true,
+        "script": {
+          "buttonOffset": [0, 0],
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "hideCampaignBonusNotify": 1,
+          "messageOffset": [-50000, 0],
+          "titleOffset": [10000, 0],
+          "changeDispCampaignBonus": 1
+        }
+      }],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 907,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4434,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 364,
-        "totalLoginCount": 906,
-        "lastLoginAt": 1766580488,
+        "seqLoginCount": 365,
+        "totalLoginCount": 907,
+        "lastLoginAt": 1766627572,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44943,66 +44991,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95596917791,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760492466,
-        "createdAt": 1760492466
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95596917792,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760492466,
-        "createdAt": 1760492466
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95596917810,
-        "messageRefType": 3,
-        "messageId": 3383,
-        "message": "「冠位戴冠戦：Assassin」開幕直前キャンペーン\nログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760492466,
-        "createdAt": 1760492466
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95596917811,
-        "messageRefType": 3,
-        "messageId": 3391,
-        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(7/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760492466,
-        "createdAt": 1760492466
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95605267417,
         "messageRefType": 3,
         "messageId": 3396,
@@ -50971,6 +50959,66 @@
         "flag": 0,
         "updatedAt": 1766541045,
         "createdAt": 1766541045
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97294529748,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1766627572,
+        "createdAt": 1766627572
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97294529749,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766627572,
+        "createdAt": 1766627572
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97294529750,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766627572,
+        "createdAt": 1766627572
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97294529762,
+        "messageRefType": 3,
+        "messageId": 3532,
+        "message": "クリスマスプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1766627572,
+        "createdAt": 1766627572
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55184,7 +55232,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1766502000,
+        "commandSpellRecoverAt": 1766588400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55197,7 +55245,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1766541045,
+        "updatedAt": 1766627572,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55212,6 +55260,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766580488
+    "serverTime": 1766627572
   }
 }

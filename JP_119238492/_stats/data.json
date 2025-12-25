@@ -48563,6 +48563,66 @@
     "flag": 0,
     "updatedAt": 1766541045,
     "createdAt": 1766541045
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97294529748,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1766627572,
+    "createdAt": 1766627572
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97294529749,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1766627572,
+    "createdAt": 1766627572
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97294529750,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1766627572,
+    "createdAt": 1766627572
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97294529762,
+    "messageRefType": 3,
+    "messageId": 3532,
+    "message": "クリスマスプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1766627572,
+    "createdAt": 1766627572
   }],
   "loginResult": {
     "loginMessages": [{
@@ -48891,7 +48951,25 @@
       }],
       "updatedAt": 1735866498
     }],
-    "campaignDirectBonus": [],
+    "campaignDirectBonus": [{
+      "giftId": 209,
+      "directBonusItems": [],
+      "hideCampaignBonusNotify": true,
+      "script": {
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "hideCampaignBonusNotify": 1,
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "changeDispCampaignBonus": 1
+      },
+      "updatedAt": 1766627572
+    }],
     "campaignBonus": [{
       "isDeemedLogin": false,
       "name": "Fate/Samurai Remnant×Fate/Grand Order\nコラボレーションイベント\n開幕直前特別ログインボーナス",
