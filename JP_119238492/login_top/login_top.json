@@ -3,43 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "12月交換券(2025)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 908,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4418,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 366,
         "totalLoginCount": 908,
-        "lastLoginAt": 1766713927,
+        "lastLoginAt": 1766753250,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -25542,6 +25512,27 @@
         "maxHp": 20000000,
         "iconId": 8059307,
         "finishQuestId": 4000757,
+        "flag": 0,
+        "startedAt": 1766480400,
+        "endedAt": 1766933999,
+        "timeLimitAt": 1766934000,
+        "defeatedMessage": "{0}を撃破しました！"
+      }, {
+        "splitAiMode": [],
+        "splitHp": [],
+        "bossColor": 16777215,
+        "script": {
+          "uiCommonReleaseId": 20151713
+        },
+        "eventId": 80593,
+        "day": 8,
+        "groupIndex": 0,
+        "subGroupIndex": 0,
+        "name": "Ｍ・スペクトラム",
+        "shortName": "Ｍ・スペクトラム",
+        "maxHp": 20000000,
+        "iconId": 8059308,
+        "finishQuestId": 4000758,
         "flag": 0,
         "startedAt": 1766480400,
         "endedAt": 1766933999,
@@ -55227,6 +55218,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1766713927
+    "serverTime": 1766753250
   }
 }
