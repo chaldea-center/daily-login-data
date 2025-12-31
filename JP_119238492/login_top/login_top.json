@@ -3,13 +3,82 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "12月交換券(2025)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "campaignDirectBonus": [{
+        "giftId": 15000,
+        "directBonusItems": [],
+        "hideCampaignBonusNotify": true,
+        "script": {
+          "buttonOffset": [0, 0],
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "hideCampaignBonusNotify": 1,
+          "messageOffset": [-50000, 0],
+          "titleOffset": [10000, 0],
+          "changeDispCampaignBonus": 1
+        }
+      }],
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate Project 大晦日TVスペシャル2025 本日放送！",
+        "detail": "Fate Project 大晦日TVスペシャル2025 本日放送！",
+        "addDetail": "",
+        "items": [],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20251231_arf9ej/arf9ej_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2025/tvspecial2025/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11243,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 913,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4455,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 370,
-        "totalLoginCount": 912,
-        "lastLoginAt": 1767099017,
+        "seqLoginCount": 371,
+        "totalLoginCount": 913,
+        "lastLoginAt": 1767146015,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44809,66 +44878,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95660449221,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1760750828,
-        "createdAt": 1760750828
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95660449222,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760750828,
-        "createdAt": 1760750828
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95660449233,
-        "messageRefType": 3,
-        "messageId": 3399,
-        "message": "冠位戴冠戦：Assassin開幕記念 ログインボーナスです。\n(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760750828,
-        "createdAt": 1760750828
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95660449234,
-        "messageRefType": 3,
-        "messageId": 3394,
-        "message": "3300万DL突破記念\n3300万DLおめでとうございます。\nあなたへの祝福を形にできればと思い、特別にメタトロン賞として\nプレゼントをあげましょう。 by メタトロン･ジャンヌ(10/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1760750828,
-        "createdAt": 1760750828
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95677482805,
         "messageRefType": 3,
         "messageId": 21,
@@ -50837,6 +50846,66 @@
         "flag": 0,
         "updatedAt": 1767059603,
         "createdAt": 1767059603
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97371303151,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1767146015,
+        "createdAt": 1767146015
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97371303152,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767146015,
+        "createdAt": 1767146015
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97371303153,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767146015,
+        "createdAt": 1767146015
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97371303157,
+        "messageRefType": 3,
+        "messageId": 3533,
+        "message": "Fate Project 大晦日TVスペシャル2025\n放送記念ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767146015,
+        "createdAt": 1767146015
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55040,7 +55109,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1767020400,
+        "commandSpellRecoverAt": 1767106800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55053,7 +55122,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1767059603,
+        "updatedAt": 1767146015,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55068,6 +55137,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767099017
+    "serverTime": 1767146015
   }
 }

@@ -48848,6 +48848,66 @@
     "flag": 0,
     "updatedAt": 1767059603,
     "createdAt": 1767059603
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97371303151,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767146015,
+    "createdAt": 1767146015
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97371303152,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767146015,
+    "createdAt": 1767146015
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97371303153,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767146015,
+    "createdAt": 1767146015
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97371303157,
+    "messageRefType": 3,
+    "messageId": 3533,
+    "message": "Fate Project 大晦日TVスペシャル2025\n放送記念ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767146015,
+    "createdAt": 1767146015
   }],
   "loginResult": {
     "loginMessages": [{
@@ -49194,6 +49254,24 @@
         "changeDispCampaignBonus": 1
       },
       "updatedAt": 1766627572
+    }, {
+      "giftId": 15000,
+      "directBonusItems": [],
+      "hideCampaignBonusNotify": true,
+      "script": {
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "hideCampaignBonusNotify": 1,
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "changeDispCampaignBonus": 1
+      },
+      "updatedAt": 1767146015
     }],
     "campaignBonus": [{
       "isDeemedLogin": false,
@@ -78171,6 +78249,27 @@
       "eventId": 11235,
       "day": 1,
       "updatedAt": 1766454769
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate Project 大晦日TVスペシャル2025 本日放送！",
+      "detail": "Fate Project 大晦日TVスペシャル2025 本日放送！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20251231_arf9ej/arf9ej_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2025/tvspecial2025/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11243,
+      "day": 1,
+      "updatedAt": 1767146015
     }]
   }
 }
