@@ -3,93 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "1月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "loginFortuneBonus": [{
-        "eventId": 11242,
-        "rewards": [{
-          "day": 2,
-          "idx": 5
-        }],
-        "logs": [{
-          "day": 1,
-          "idx": 4
-        }, {
-          "day": 2,
-          "idx": 5
-        }],
-        "details": [{
-          "idx": 4,
-          "iconId": 80586,
-          "name": "ツモ吉",
-          "giftId": 700552,
-          "script": {}
-        }, {
-          "idx": 5,
-          "iconId": 80826,
-          "name": "ハコ吉",
-          "giftId": 700889,
-          "script": {}
-        }]
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
-        "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "伝承結晶",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260102_ig09zk/ig09zk_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11238,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 915,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4468,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 373,
         "totalLoginCount": 915,
-        "lastLoginAt": 1767318914,
+        "lastLoginAt": 1767358027,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -55228,6 +55148,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767318914
+    "serverTime": 1767358027
   }
 }
