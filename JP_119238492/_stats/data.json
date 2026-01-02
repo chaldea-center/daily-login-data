@@ -49028,6 +49028,96 @@
     "flag": 0,
     "updatedAt": 1767233047,
     "createdAt": 1767233047
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047647,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047648,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047649,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047650,
+    "messageRefType": 3,
+    "messageId": 3479,
+    "message": "2026年お正月キャンペーン\n2日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 10000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047651,
+    "messageRefType": 3,
+    "messageId": 3479,
+    "message": "2026年お正月キャンペーン\n2日目のおみくじボーナスです。",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 6563,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97434047657,
+    "messageRefType": 3,
+    "messageId": 3477,
+    "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 6999,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767318914,
+    "createdAt": 1767318914
   }],
   "loginResult": {
     "loginMessages": [{
@@ -49373,6 +49463,33 @@
         "script": {}
       }],
       "updatedAt": 1767233047
+    }, {
+      "eventId": 11242,
+      "rewards": [{
+        "day": 2,
+        "idx": 5
+      }],
+      "logs": [{
+        "day": 1,
+        "idx": 4
+      }, {
+        "day": 2,
+        "idx": 5
+      }],
+      "details": [{
+        "idx": 4,
+        "iconId": 80586,
+        "name": "ツモ吉",
+        "giftId": 700552,
+        "script": {}
+      }, {
+        "idx": 5,
+        "iconId": 80826,
+        "name": "ハコ吉",
+        "giftId": 700889,
+        "script": {}
+      }],
+      "updatedAt": 1767318914
     }],
     "campaignDirectBonus": [{
       "giftId": 209,
@@ -78457,6 +78574,29 @@
       "eventId": 11237,
       "day": 1,
       "updatedAt": 1767233047
+    }, {
+      "isDeemedLogin": false,
+      "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
+      "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "伝承結晶",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260102_ig09zk/ig09zk_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11238,
+      "day": 1,
+      "updatedAt": 1767318914
     }]
   }
 }
