@@ -3,63 +3,8 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 3,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "叡智の業火",
-          "num": 1
-        }, {
-          "name": "1月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
-      "loginFortuneBonus": [{
-        "eventId": 11242,
-        "rewards": [{
-          "day": 3,
-          "idx": 4
-        }],
-        "logs": [{
-          "day": 1,
-          "idx": 4
-        }, {
-          "day": 2,
-          "idx": 5
-        }, {
-          "day": 3,
-          "idx": 4
-        }],
-        "details": [{
-          "idx": 4,
-          "iconId": 80586,
-          "name": "ツモ吉",
-          "giftId": 700552,
-          "script": {}
-        }, {
-          "idx": 5,
-          "iconId": 80826,
-          "name": "ハコ吉",
-          "giftId": 700889,
-          "script": {}
-        }]
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -67,34 +12,27 @@
       },
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
-        "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+        "name": "TVアニメ「Fate/strange Fake」放送記念 特別ログインボーナス",
+        "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 10
-        }, {
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 10
+          "name": "ヴィジター",
+          "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260103_fa0oa2/fa0oa2_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20260103_a3ir7q/a3ir7q_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/2026_f_s_f_cp/"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11239,
+        "eventId": 11248,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 916,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4474,7 +4412,7 @@
         "userId": 119238492,
         "seqLoginCount": 374,
         "totalLoginCount": 916,
-        "lastLoginAt": 1767404939,
+        "lastLoginAt": 1767444255,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -36149,11 +36087,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034370,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034364,
         "progressType": 3,
         "num": 0
@@ -36165,6 +36098,11 @@
       }, {
         "userId": 119238492,
         "missionId": 1034366,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034370,
         "progressType": 3,
         "num": 0
       }, {
@@ -45025,21 +44963,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95719533764,
-        "messageRefType": 3,
-        "messageId": 3402,
-        "message": "冠位戴冠戦：Assassin開幕記念 ログインボーナスです。\n(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761010922,
-        "createdAt": 1761010922
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95719533770,
         "messageRefType": 4,
         "messageId": 639,
@@ -51053,6 +50976,21 @@
         "flag": 0,
         "updatedAt": 1767404939,
         "createdAt": 1767404939
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97474740982,
+        "messageRefType": 3,
+        "messageId": 3506,
+        "message": "TVアニメ「Fate/strange Fake」\n放送記念 特別ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9311710,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1767444255,
+        "createdAt": 1767444255
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54719,6 +54657,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 80601,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71639,
         "value": 0,
         "flag": 0,
@@ -55284,6 +55232,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767404939
+    "serverTime": 1767444255
   }
 }
