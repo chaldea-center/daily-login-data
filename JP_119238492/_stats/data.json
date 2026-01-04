@@ -49238,6 +49238,111 @@
     "flag": 0,
     "updatedAt": 1767444255,
     "createdAt": 1767444255
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949029,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949030,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949031,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949041,
+    "messageRefType": 3,
+    "messageId": 3480,
+    "message": "2026年お正月キャンペーン 10万リポスト達成プレゼント\n限定概念礼装&2026万QPのプレゼントです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9311690,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949042,
+    "messageRefType": 3,
+    "messageId": 3480,
+    "message": "2026年お正月キャンペーン 10万リポスト達成プレゼント\n限定概念礼装&2026万QPのプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 20260000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949043,
+    "messageRefType": 3,
+    "messageId": 3502,
+    "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97490949044,
+    "messageRefType": 3,
+    "messageId": 3502,
+    "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(4/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767492299,
+    "createdAt": 1767492299
   }],
   "loginResult": {
     "loginMessages": [{
@@ -78797,6 +78902,58 @@
       "eventId": 11248,
       "day": 1,
       "updatedAt": 1767444255
+    }, {
+      "isDeemedLogin": false,
+      "name": "2026年お正月キャンペーン 10万リポスト達成プレゼント",
+      "detail": "開催期間中、初回ログインでお正月限定概念礼装&2026万QPをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "アトラスの守り",
+        "num": 1
+      }, {
+        "name": "QP",
+        "num": 20260000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260104_ba82j9/ba82j9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11241,
+      "day": 1,
+      "updatedAt": 1767492299
+    }, {
+      "isDeemedLogin": false,
+      "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
+      "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 10
+      }, {
+        "name": "獣の足跡",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260104_ha9kp0/ha9kp0_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11253,
+      "day": 1,
+      "updatedAt": 1767492299
     }]
   }
 }
