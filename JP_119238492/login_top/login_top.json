@@ -3,13 +3,66 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "1月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
+        "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・終局のフォウくん",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260105_wleh8i/wleh8i_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11254,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 918,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4439,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 375,
-        "totalLoginCount": 917,
-        "lastLoginAt": 1767530719,
+        "seqLoginCount": 376,
+        "totalLoginCount": 918,
+        "lastLoginAt": 1767578703,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35923,41 +35976,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003423,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003424,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003425,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003426,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003427,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003428,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003429,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1033931,
         "progressType": 3,
         "num": 0
@@ -36105,6 +36123,46 @@
         "userId": 119238492,
         "missionId": 1034372,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034373,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003430,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003431,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003432,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003433,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003434,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003435,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003436,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -44959,66 +45017,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95756788771,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1761183646,
-        "createdAt": 1761183646
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95756788772,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761183646,
-        "createdAt": 1761183646
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95756788773,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761183646,
-        "createdAt": 1761183646
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95756788788,
-        "messageRefType": 3,
-        "messageId": 3424,
-        "message": "Fate/Grand Order カルデア放送局 ライト版 ～ハロウィン2025～\n配信記念 初回ログインボーナスです。\n",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 14,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761183646,
-        "createdAt": 1761183646
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95756788789,
         "messageRefType": 3,
         "messageId": 3404,
@@ -50987,6 +50985,66 @@
         "flag": 0,
         "updatedAt": 1767492299,
         "createdAt": 1767492299
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97517068242,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1767578703,
+        "createdAt": 1767578703
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97517068243,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767578703,
+        "createdAt": 1767578703
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97517068244,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10104,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767578703,
+        "createdAt": 1767578703
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97517068245,
+        "messageRefType": 3,
+        "messageId": 3503,
+        "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(5/7)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1767578703,
+        "createdAt": 1767578703
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55200,7 +55258,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1767452400,
+        "commandSpellRecoverAt": 1767538800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55213,7 +55271,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1767492299,
+        "updatedAt": 1767578703,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55228,6 +55286,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767530719
+    "serverTime": 1767578703
   }
 }
