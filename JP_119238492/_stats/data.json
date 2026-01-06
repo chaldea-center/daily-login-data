@@ -49403,6 +49403,66 @@
     "flag": 0,
     "updatedAt": 1767578703,
     "createdAt": 1767578703
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97529682441,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767664515,
+    "createdAt": 1767664515
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97529682442,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767664515,
+    "createdAt": 1767664515
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97529682443,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767664515,
+    "createdAt": 1767664515
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97529682449,
+    "messageRefType": 3,
+    "messageId": 3504,
+    "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767664515,
+    "createdAt": 1767664515
   }],
   "loginResult": {
     "loginMessages": [{
@@ -79037,6 +79097,29 @@
       "eventId": 11254,
       "day": 1,
       "updatedAt": 1767578703
+    }, {
+      "isDeemedLogin": false,
+      "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
+      "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・原初のフォウくん",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260106_zkei01/zkei01_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11255,
+      "day": 1,
+      "updatedAt": 1767664515
     }]
   }
 }
