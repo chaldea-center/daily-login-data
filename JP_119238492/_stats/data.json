@@ -79218,6 +79218,26 @@
       "eventId": 11256,
       "day": 1,
       "updatedAt": 1767750899
+    }, {
+      "isDeemedLogin": false,
+      "name": "「アフタータイムのはじまり」開幕！",
+      "detail": "「アフタータイムのはじまり」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260107_2m2os1/2m2os1_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11249,
+      "day": 1,
+      "updatedAt": 1767790302
     }]
   }
 }

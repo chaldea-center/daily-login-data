@@ -3,50 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "1月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
-        "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+        "name": "「アフタータイムのはじまり」開幕！",
+        "detail": "「アフタータイムのはじまり」開幕！",
         "addDetail": "",
-        "items": [{
-          "name": "聖杯",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260107_guq8kd/guq8kd_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20260107_2m2os1/2m2os1_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,13 +27,8 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11256,
+        "eventId": 11249,
         "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 920,
-        "items": [],
-        "script": {}
       }]
     },
     "fail": {},
@@ -4441,7 +4408,7 @@
         "userId": 119238492,
         "seqLoginCount": 378,
         "totalLoginCount": 920,
-        "lastLoginAt": 1767750899,
+        "lastLoginAt": 1767790302,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -54711,16 +54678,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71641,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80601,
         "value": 0,
         "flag": 0,
@@ -55296,6 +55253,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767750899
+    "serverTime": 1767790302
   }
 }
