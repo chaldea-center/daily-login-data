@@ -49463,6 +49463,81 @@
     "flag": 0,
     "updatedAt": 1767664515,
     "createdAt": 1767664515
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97546576957,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1767750899,
+    "createdAt": 1767750899
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97546576958,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767750899,
+    "createdAt": 1767750899
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97546576959,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767750899,
+    "createdAt": 1767750899
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97546576966,
+    "messageRefType": 3,
+    "messageId": 3505,
+    "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 7999,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767750899,
+    "createdAt": 1767750899
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97546576970,
+    "messageRefType": 4,
+    "messageId": 654,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (1/6 1:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 4,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1767750899,
+    "createdAt": 1767750899
   }],
   "loginResult": {
     "loginMessages": [{
@@ -79120,6 +79195,29 @@
       "eventId": 11255,
       "day": 1,
       "updatedAt": 1767664515
+    }, {
+      "isDeemedLogin": false,
+      "name": "2026年お正月キャンペーン　ニューイヤーログインボーナス",
+      "detail": "開催期間中、ニューイヤーログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖杯",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260107_guq8kd/guq8kd_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11256,
+      "day": 1,
+      "updatedAt": 1767750899
     }]
   }
 }
