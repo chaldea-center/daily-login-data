@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「アフタータイムのはじまり」開幕！",
-        "detail": "「アフタータイムのはじまり」開幕！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "1月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260107_2m2os1/2m2os1_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,9 +26,19 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 11249,
-        "day": 1
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 921,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -4406,9 +4416,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 378,
-        "totalLoginCount": 920,
-        "lastLoginAt": 1767790302,
+        "seqLoginCount": 379,
+        "totalLoginCount": 921,
+        "lastLoginAt": 1767837314,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35978,96 +35988,6 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1033931,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034343,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034344,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034345,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034346,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034347,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034348,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034349,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034350,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034351,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034352,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034353,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034354,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034355,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034356,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034357,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034358,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034359,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034361,
         "progressType": 3,
         "num": 0
@@ -36139,6 +36059,11 @@
       }, {
         "userId": 119238492,
         "missionId": 1034375,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034376,
         "progressType": 3,
         "num": 0
       }],
@@ -44994,51 +44919,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95786455037,
-        "messageRefType": 3,
-        "messageId": 3406,
-        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(4/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761356310,
-        "createdAt": 1761356310
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95801105521,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1761443201,
-        "createdAt": 1761443201
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95801105522,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761443201,
-        "createdAt": 1761443201
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95801105523,
         "messageRefType": 3,
         "messageId": 21,
@@ -51022,6 +50902,51 @@
         "flag": 0,
         "updatedAt": 1767750899,
         "createdAt": 1767750899
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97560513751,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1767837314,
+        "createdAt": 1767837314
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97560513752,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767837314,
+        "createdAt": 1767837314
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97560513753,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10104,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1767837314,
+        "createdAt": 1767837314
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55225,7 +55150,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1767711600,
+        "commandSpellRecoverAt": 1767798000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55238,7 +55163,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1767750899,
+        "updatedAt": 1767837314,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55253,6 +55178,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1767790302
+    "serverTime": 1767837314
   }
 }
