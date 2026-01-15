@@ -3,14 +3,93 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "freeShopIds": [6001212],
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "1月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
-      }
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「FGO カルデア・サテライトステーション 2026」福井会場開催直前 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "サテライトステーション26",
+          "num": 1
+        }, {
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260115_3f5no5/3f5no5_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://fes.fate-go.jp/winter/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11245,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260114_ztij24/ztij24_k_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/01/chaldean_floralia_cp/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11250,
+        "day": 2
+      }],
+      "totalLoginBonus": [{
+        "num": 928,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4382,14 +4461,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40046,
+        "eventId": 40047,
         "day": 950
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 385,
-        "totalLoginCount": 927,
-        "lastLoginAt": 1768395517,
+        "seqLoginCount": 386,
+        "totalLoginCount": 928,
+        "lastLoginAt": 1768442696,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35188,76 +35267,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003437,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003438,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003439,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003440,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003441,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003442,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003443,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034370,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034371,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034372,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034373,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034374,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034375,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034376,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 8059701,
         "progressType": 3,
         "num": 0
@@ -35340,6 +35349,41 @@
         "userId": 119238492,
         "missionId": 8059717,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003437,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003438,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003439,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003440,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003441,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003442,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003443,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -44194,96 +44238,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95861531777,
-        "messageRefType": 4,
-        "messageId": 642,
-        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/29 13:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761788810,
-        "createdAt": 1761788810
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95877421101,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1761875008,
-        "createdAt": 1761875008
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95877421102,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761875008,
-        "createdAt": 1761875008
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95877421103,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10098,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761875008,
-        "createdAt": 1761875008
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95877421114,
-        "messageRefType": 3,
-        "messageId": 3412,
-        "message": "ファイナル・ハロウィン2025 ～パンプキンプラネットに輝く歌姫～\n開幕記念 ログインボーナスです。\n(10/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1761875008,
-        "createdAt": 1761875008
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95895705259,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1761961619,
-        "createdAt": 1761961619
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95895705260,
         "messageRefType": 3,
         "messageId": 21,
@@ -50222,6 +50176,96 @@
         "flag": 0,
         "updatedAt": 1768356624,
         "createdAt": 1768356624
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374148,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374149,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374150,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10104,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374159,
+        "messageRefType": 3,
+        "messageId": 3495,
+        "message": "「FGO カルデア・サテライトステーション 2026」\n福井会場開催直前 ログインボーナスです。(1/3)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9311760,
+        "num": 1,
+        "limitCount": 4,
+        "lv": 80,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374160,
+        "messageRefType": 3,
+        "messageId": 3495,
+        "message": "「FGO カルデア・サテライトステーション 2026」\n福井会場開催直前 ログインボーナスです。(1/3)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97638374161,
+        "messageRefType": 3,
+        "messageId": 3513,
+        "message": "「カルデアン・フロラリア あなたの花が咲く頃に」\n開幕直前特別ログインボーナスです。(2/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768442696,
+        "createdAt": 1768442696
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55184,7 +55228,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1768316400,
+        "commandSpellRecoverAt": 1768402800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55197,7 +55241,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1768356624,
+        "updatedAt": 1768442696,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55212,6 +55256,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1768395517
+    "serverTime": 1768442696
   }
 }

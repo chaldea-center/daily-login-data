@@ -49868,6 +49868,96 @@
     "flag": 0,
     "updatedAt": 1768356624,
     "createdAt": 1768356624
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374148,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374149,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374150,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374159,
+    "messageRefType": 3,
+    "messageId": 3495,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n福井会場開催直前 ログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9311760,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374160,
+    "messageRefType": 3,
+    "messageId": 3495,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n福井会場開催直前 ログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97638374161,
+    "messageRefType": 3,
+    "messageId": 3513,
+    "message": "「カルデアン・フロラリア あなたの花が咲く頃に」\n開幕直前特別ログインボーナスです。(2/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1768442696,
+    "createdAt": 1768442696
   }],
   "loginResult": {
     "loginMessages": [{
@@ -79592,6 +79682,57 @@
       "eventId": 11250,
       "day": 1,
       "updatedAt": 1768356624
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」福井会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "サテライトステーション26",
+        "num": 1
+      }, {
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260115_3f5no5/3f5no5_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11245,
+      "day": 1,
+      "updatedAt": 1768442696
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260114_ztij24/ztij24_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/01/chaldean_floralia_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11250,
+      "day": 2,
+      "updatedAt": 1768442696
     }]
   }
 }
