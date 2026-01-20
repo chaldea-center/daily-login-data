@@ -3,13 +3,67 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "英霊結晶・流星のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "1月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": []
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕直前特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 2
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260114_ztij24/ztij24_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/01/chaldean_floralia_cp/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11250,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 933,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4386,9 +4440,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 390,
-        "totalLoginCount": 932,
-        "lastLoginAt": 1768827688,
+        "seqLoginCount": 391,
+        "totalLoginCount": 933,
+        "lastLoginAt": 1768874798,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44158,66 +44212,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 95957282888,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10099,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1762220659,
-        "createdAt": 1762220659
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95957282908,
-        "messageRefType": 3,
-        "messageId": 3426,
-        "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1762220659,
-        "createdAt": 1762220659
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95957282909,
-        "messageRefType": 3,
-        "messageId": 3426,
-        "message": "「巡霊の祝祭 第14弾」開催記念\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 48,
-        "num": 80,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1762220659,
-        "createdAt": 1762220659
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 95957282910,
-        "messageRefType": 3,
-        "messageId": 3427,
-        "message": "『第2部 終章』目前！ファイナルカウントダウンキャンペーン\n特別日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1762220659,
-        "createdAt": 1762220659
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 95957282911,
         "messageRefType": 3,
         "messageId": 3416,
@@ -50186,6 +50180,66 @@
         "flag": 0,
         "updatedAt": 1768788711,
         "createdAt": 1768788711
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97712515405,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1768874798,
+        "createdAt": 1768874798
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97712515406,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768874798,
+        "createdAt": 1768874798
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97712515407,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10104,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768874798,
+        "createdAt": 1768874798
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 97712515408,
+        "messageRefType": 3,
+        "messageId": 3518,
+        "message": "「カルデアン・フロラリア あなたの花が咲く頃に」\n開幕直前特別ログインボーナスです。(7/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1768874798,
+        "createdAt": 1768874798
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55148,7 +55202,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1768748400,
+        "commandSpellRecoverAt": 1768834800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -55161,7 +55215,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1768788711,
+        "updatedAt": 1768874798,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -55176,6 +55230,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1768827688
+    "serverTime": 1768874798
   }
 }
