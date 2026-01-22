@@ -50378,6 +50378,66 @@
     "flag": 0,
     "updatedAt": 1768961388,
     "createdAt": 1768961388
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97735428657,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1769047866,
+    "createdAt": 1769047866
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97735428658,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769047866,
+    "createdAt": 1769047866
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97735428659,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769047866,
+    "createdAt": 1769047866
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97735428667,
+    "messageRefType": 3,
+    "messageId": 3520,
+    "message": "「カルデアン・フロラリア あなたの花が咲く頃に」\n開幕直前特別ログインボーナスです。(9/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1769047866,
+    "createdAt": 1769047866
   }],
   "loginResult": {
     "loginMessages": [{
@@ -80393,6 +80453,30 @@
       "eventId": 11250,
       "day": 8,
       "updatedAt": 1768961388
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260114_ztij24/ztij24_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/01/chaldean_floralia_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11250,
+      "day": 9,
+      "updatedAt": 1769047866
     }]
   }
 }
