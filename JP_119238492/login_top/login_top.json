@@ -3,67 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "1月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕直前特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 5
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260114_ztij24/ztij24_k_09.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/01/chaldean_floralia_cp/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11250,
-        "day": 9
-      }],
-      "totalLoginBonus": [{
-        "num": 935,
-        "items": [],
-        "script": {}
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {},
     "nid": "login"
@@ -4442,7 +4388,7 @@
         "userId": 119238492,
         "seqLoginCount": 393,
         "totalLoginCount": 935,
-        "lastLoginAt": 1769047866,
+        "lastLoginAt": 1769086895,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -55145,6 +55091,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1769047866
+    "serverTime": 1769086895
   }
 }
