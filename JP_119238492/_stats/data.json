@@ -50498,6 +50498,21 @@
     "flag": 0,
     "updatedAt": 1769134000,
     "createdAt": 1769134000
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97750691175,
+    "messageRefType": 3,
+    "messageId": 3534,
+    "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769173124,
+    "createdAt": 1769173124
   }],
   "loginResult": {
     "loginMessages": [{
@@ -80561,6 +80576,49 @@
       "eventId": 11250,
       "day": 10,
       "updatedAt": 1769134000
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデアン・フロラリア あなたの花が咲く頃にログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_et92ld/et92ld_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11265,
+      "day": 1,
+      "updatedAt": 1769173124
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕！",
+      "detail": "「カルデアン・フロラリア あなたの花が咲く頃に」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_xor29k/xor29k_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11266,
+      "day": 1,
+      "updatedAt": 1769173124
     }]
   }
 }
