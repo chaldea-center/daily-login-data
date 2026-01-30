@@ -50888,6 +50888,66 @@
     "flag": 0,
     "updatedAt": 1769653870,
     "createdAt": 1769653870
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97856535192,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1769740281,
+    "createdAt": 1769740281
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97856535193,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769740281,
+    "createdAt": 1769740281
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97856535194,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10104,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769740281,
+    "createdAt": 1769740281
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97856535201,
+    "messageRefType": 3,
+    "messageId": 3541,
+    "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(8/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1769740281,
+    "createdAt": 1769740281
   }],
   "loginResult": {
     "loginMessages": [{
@@ -81132,6 +81192,29 @@
       "eventId": 11265,
       "day": 7,
       "updatedAt": 1769653870
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデアン・フロラリア あなたの花が咲く頃にログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_et92ld/et92ld_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11265,
+      "day": 8,
+      "updatedAt": 1769740281
     }]
   }
 }
