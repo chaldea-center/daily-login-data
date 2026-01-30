@@ -81215,6 +81215,26 @@
       "eventId": 11265,
       "day": 8,
       "updatedAt": 1769740281
+    }, {
+      "isDeemedLogin": false,
+      "name": "「カルデアン・フロラリア あなたの花が咲く頃に」開催中！",
+      "detail": "「カルデアン・フロラリア あなたの花が咲く頃に」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260130_zgr30o/zgr30o_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11267,
+      "day": 1,
+      "updatedAt": 1769778446
     }]
   }
 }
