@@ -51008,6 +51008,21 @@
     "flag": 0,
     "updatedAt": 1769826419,
     "createdAt": 1769826419
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97874148263,
+    "messageRefType": 3,
+    "messageId": 3511,
+    "message": "TVアニメ「Fate/strange Fake」\n放送記念 特別ログインボーナス 第2弾です。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9311720,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1769864348,
+    "createdAt": 1769864348
   }],
   "loginResult": {
     "loginMessages": [{
@@ -81318,6 +81333,30 @@
       "eventId": 11265,
       "day": 9,
       "updatedAt": 1769826419
+    }, {
+      "isDeemedLogin": false,
+      "name": "TVアニメ「Fate/strange Fake」放送記念 特別ログインボーナス 第2弾",
+      "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "名も無き兵士",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260131_4kd1hj/4kd1hj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/01/2026_f_s_f_cp_2/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11257,
+      "day": 1,
+      "updatedAt": 1769864348
     }]
   }
 }
