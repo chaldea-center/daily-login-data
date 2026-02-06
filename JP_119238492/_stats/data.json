@@ -51413,6 +51413,21 @@
     "flag": 0,
     "updatedAt": 1770345269,
     "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97963336670,
+    "messageRefType": 3,
+    "messageId": 3588,
+    "message": "「バレンタイン2026」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94154811,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1770383514,
+    "createdAt": 1770383514
   }],
   "loginResult": {
     "loginMessages": [{
@@ -81927,6 +81942,29 @@
       "eventId": 11265,
       "day": 15,
       "updatedAt": 1770345269
+    }, {
+      "isDeemedLogin": false,
+      "name": "使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×5」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260206_baop2o/baop2o_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11278,
+      "day": 1,
+      "updatedAt": 1770383514
     }]
   }
 }
