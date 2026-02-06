@@ -51323,6 +51323,96 @@
     "flag": 0,
     "updatedAt": 1770258860,
     "createdAt": 1770258860
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998404,
+    "messageRefType": 3,
+    "messageId": 10032,
+    "message": "通算ログイン950日目のボーナスです",
+    "fromType": 1,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998405,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998406,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998407,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998414,
+    "messageRefType": 3,
+    "messageId": 3522,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n長崎会場開催直前 ログインボーナスです。(1/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97956998415,
+    "messageRefType": 3,
+    "messageId": 3548,
+    "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770345269,
+    "createdAt": 1770345269
   }],
   "loginResult": {
     "loginMessages": [{
@@ -51586,6 +51676,24 @@
         "messageOffset": [-50000, 0]
       },
       "updatedAt": 1766022492
+    }, {
+      "num": 950,
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_00950.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "updatedAt": 1770345269
     }],
     "loginFortuneBonus": [{
       "eventId": 10854,
@@ -81772,6 +81880,53 @@
       "eventId": 11265,
       "day": 14,
       "updatedAt": 1770258860
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」長崎会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260206_0r07ai/0r07ai_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11258,
+      "day": 1,
+      "updatedAt": 1770345269
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデアン・フロラリア あなたの花が咲く頃にログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_et92ld/et92ld_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11265,
+      "day": 15,
+      "updatedAt": 1770345269
     }]
   }
 }
