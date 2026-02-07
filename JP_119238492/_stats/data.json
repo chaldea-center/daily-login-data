@@ -51518,6 +51518,96 @@
     "flag": 0,
     "updatedAt": 1770431405,
     "createdAt": 1770431405
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101077,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101078,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101079,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101120,
+    "messageRefType": 3,
+    "messageId": 3524,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n長崎会場開催直前 ログインボーナスです。(3/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101121,
+    "messageRefType": 3,
+    "messageId": 3550,
+    "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(17/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 97989101122,
+    "messageRefType": 3,
+    "messageId": 3556,
+    "message": "「バレンタイン2026」開幕直前\n特別ログインボーナスです。(2/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1770506615,
+    "createdAt": 1770506615
   }],
   "loginResult": {
     "loginMessages": [{
@@ -82126,6 +82216,77 @@
       "eventId": 11269,
       "day": 1,
       "updatedAt": 1770431405
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」長崎会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260206_0r07ai/0r07ai_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11258,
+      "day": 3,
+      "updatedAt": 1770506615
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデアン・フロラリア あなたの花が咲く頃にログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_et92ld/et92ld_k_17.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11265,
+      "day": 17,
+      "updatedAt": 1770506615
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2026」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260207_rh7xe6/rh7xe6_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/02/valentine2026_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11269,
+      "day": 2,
+      "updatedAt": 1770506615
     }]
   }
 }
