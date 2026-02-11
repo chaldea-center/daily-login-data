@@ -51863,6 +51863,81 @@
     "flag": 0,
     "updatedAt": 1770766433,
     "createdAt": 1770766433
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98067585250,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1770852399,
+    "createdAt": 1770852399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98067585251,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770852399,
+    "createdAt": 1770852399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98067585252,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770852399,
+    "createdAt": 1770852399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98067585261,
+    "messageRefType": 3,
+    "messageId": 3554,
+    "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(21/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770852399,
+    "createdAt": 1770852399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98067585262,
+    "messageRefType": 3,
+    "messageId": 3560,
+    "message": "「バレンタイン2026」開幕直前\n特別ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770852399,
+    "createdAt": 1770852399
   }],
   "loginResult": {
     "loginMessages": [{
@@ -82731,6 +82806,53 @@
       "eventId": 11269,
       "day": 5,
       "updatedAt": 1770766433
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデアン・フロラリア あなたの花が咲く頃にログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260123_et92ld/et92ld_k_21.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11265,
+      "day": 21,
+      "updatedAt": 1770852399
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2026」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260207_rh7xe6/rh7xe6_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/02/valentine2026_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11269,
+      "day": 6,
+      "updatedAt": 1770852399
     }]
   }
 }
