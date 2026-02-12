@@ -51938,6 +51938,66 @@
     "flag": 0,
     "updatedAt": 1770852399,
     "createdAt": 1770852399
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98085137016,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1770938626,
+    "createdAt": 1770938626
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98085137017,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770938626,
+    "createdAt": 1770938626
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98085137018,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770938626,
+    "createdAt": 1770938626
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98085137025,
+    "messageRefType": 3,
+    "messageId": 3561,
+    "message": "「バレンタイン2026」開幕直前\n特別ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770938626,
+    "createdAt": 1770938626
   }],
   "loginResult": {
     "loginMessages": [{
@@ -82853,6 +82913,30 @@
       "eventId": 11269,
       "day": 6,
       "updatedAt": 1770852399
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2026」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260207_rh7xe6/rh7xe6_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/02/valentine2026_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11269,
+      "day": 7,
+      "updatedAt": 1770938626
     }]
   }
 }
