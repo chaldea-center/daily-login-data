@@ -51998,6 +51998,21 @@
     "flag": 0,
     "updatedAt": 1770938626,
     "createdAt": 1770938626
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98093852909,
+    "messageRefType": 3,
+    "messageId": 3565,
+    "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1770986618,
+    "createdAt": 1770986618
   }],
   "loginResult": {
     "loginMessages": [{
@@ -82937,6 +82952,49 @@
       "eventId": 11269,
       "day": 7,
       "updatedAt": 1770938626
+    }, {
+      "isDeemedLogin": false,
+      "name": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260213_ge7bp5/ge7bp5_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11270,
+      "day": 1,
+      "updatedAt": 1770986618
+    }, {
+      "isDeemedLogin": false,
+      "name": "「アフタータイム・バレンタイン2026 ～お母さんチョコの謎～」開幕！",
+      "detail": "「アフタータイム・バレンタイン2026 ～お母さんチョコの謎～」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260213_abver2/abver2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11271,
+      "day": 1,
+      "updatedAt": 1770986618
     }]
   }
 }
