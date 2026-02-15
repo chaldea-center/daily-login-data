@@ -52178,6 +52178,81 @@
     "flag": 0,
     "updatedAt": 1771111127,
     "createdAt": 1771111127
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98158998115,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1771197635,
+    "createdAt": 1771197635
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98158998116,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771197635,
+    "createdAt": 1771197635
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98158998117,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771197635,
+    "createdAt": 1771197635
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98158998120,
+    "messageRefType": 3,
+    "messageId": 3564,
+    "message": "「バレンタイン2026」開幕直前\n特別ログインボーナスです。(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771197635,
+    "createdAt": 1771197635
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98158998121,
+    "messageRefType": 3,
+    "messageId": 3568,
+    "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(4/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771197635,
+    "createdAt": 1771197635
   }],
   "loginResult": {
     "loginMessages": [{
@@ -83254,6 +83329,53 @@
       "eventId": 11270,
       "day": 3,
       "updatedAt": 1771111127
+    }, {
+      "isDeemedLogin": false,
+      "name": "「バレンタイン2026」開幕直前\n特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260207_rh7xe6/rh7xe6_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/02/valentine2026_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11269,
+      "day": 10,
+      "updatedAt": 1771197635
+    }, {
+      "isDeemedLogin": false,
+      "name": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260213_ge7bp5/ge7bp5_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11270,
+      "day": 4,
+      "updatedAt": 1771197635
     }]
   }
 }
