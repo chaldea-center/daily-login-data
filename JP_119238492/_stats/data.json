@@ -52433,6 +52433,66 @@
     "flag": 0,
     "updatedAt": 1771457065,
     "createdAt": 1771457065
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98251026624,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1771543519,
+    "createdAt": 1771543519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98251026625,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771543519,
+    "createdAt": 1771543519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98251026626,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10105,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771543519,
+    "createdAt": 1771543519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98251026631,
+    "messageRefType": 3,
+    "messageId": 3572,
+    "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(8/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1771543519,
+    "createdAt": 1771543519
   }],
   "loginResult": {
     "loginMessages": [{
@@ -83625,6 +83685,29 @@
       "eventId": 11270,
       "day": 7,
       "updatedAt": 1771457065
+    }, {
+      "isDeemedLogin": false,
+      "name": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260213_ge7bp5/ge7bp5_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11270,
+      "day": 8,
+      "updatedAt": 1771543519
     }]
   }
 }
