@@ -83708,6 +83708,26 @@
       "eventId": 11270,
       "day": 8,
       "updatedAt": 1771543519
+    }, {
+      "isDeemedLogin": false,
+      "name": "「アフタータイム・バレンタイン2026 ～お母さんチョコの謎～」開催中！",
+      "detail": "「アフタータイム・バレンタイン2026 ～お母さんチョコの謎～」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260220_dhurs8/dhurs8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11272,
+      "day": 1,
+      "updatedAt": 1771591418
     }]
   }
 }
