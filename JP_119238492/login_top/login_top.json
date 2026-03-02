@@ -3,50 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "3月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン開催中！",
+        "detail": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260213_ge7bp5/ge7bp5_k_18.png",
+            "bannerUrl": "/webview/loginbonus/20260302_at1j0d/at1j0d_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -55,13 +27,30 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11270,
-        "day": 18
-      }],
-      "totalLoginBonus": [{
-        "num": 974,
-        "items": [],
-        "script": {}
+        "eventId": 11282,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260302_elpl19/elpl19_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11281,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4441,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 432,
         "totalLoginCount": 974,
-        "lastLoginAt": 1772407099,
+        "lastLoginAt": 1772455383,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44862,21 +44851,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 96665419931,
-        "messageRefType": 4,
-        "messageId": 648,
-        "message": "一部メインストーリー内に年代表記の誤りが判明したため修正した件についてのお詫び (12/3 18:00掲載分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1764812932,
-        "createdAt": 1764812932
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 96748426807,
         "messageRefType": 3,
         "messageId": 21,
@@ -50890,6 +50864,21 @@
         "flag": 0,
         "updatedAt": 1772407099,
         "createdAt": 1772407099
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98412462188,
+        "messageRefType": 3,
+        "messageId": 3589,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1772455383,
+        "createdAt": 1772455383
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54556,6 +54545,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71657,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80603,
         "value": 0,
         "flag": 0,
@@ -55121,6 +55120,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1772407099
+    "serverTime": 1772455383
   }
 }
