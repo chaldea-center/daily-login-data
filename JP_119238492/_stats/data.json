@@ -53108,6 +53108,81 @@
     "flag": 0,
     "updatedAt": 1772455383,
     "createdAt": 1772455383
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98420985599,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1772493623,
+    "createdAt": 1772493623
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98420985600,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772493623,
+    "createdAt": 1772493623
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98420985601,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772493623,
+    "createdAt": 1772493623
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98420985609,
+    "messageRefType": 3,
+    "messageId": 3583,
+    "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(19/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772493623,
+    "createdAt": 1772493623
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98420985610,
+    "messageRefType": 3,
+    "messageId": 3590,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772493623,
+    "createdAt": 1772493623
   }],
   "loginResult": {
     "loginMessages": [{
@@ -84616,6 +84691,52 @@
       "eventId": 11282,
       "day": 1,
       "updatedAt": 1772455383
+    }, {
+      "isDeemedLogin": false,
+      "name": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260213_ge7bp5/ge7bp5_k_19.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11270,
+      "day": 19,
+      "updatedAt": 1772493623
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260302_elpl19/elpl19_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11281,
+      "day": 2,
+      "updatedAt": 1772493623
     }]
   }
 }
