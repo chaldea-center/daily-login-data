@@ -53423,6 +53423,81 @@
     "flag": 0,
     "updatedAt": 1772754415,
     "createdAt": 1772754415
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98503904635,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1772839336,
+    "createdAt": 1772839336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98503904636,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1772839336,
+    "createdAt": 1772839336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98503904637,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772839336,
+    "createdAt": 1772839336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98503904647,
+    "messageRefType": 3,
+    "messageId": 3529,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n山形会場開催直前 ログインボーナスです。(3/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772839336,
+    "createdAt": 1772839336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98503904648,
+    "messageRefType": 3,
+    "messageId": 3594,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772839336,
+    "createdAt": 1772839336
   }],
   "loginResult": {
     "loginMessages": [{
@@ -85140,6 +85215,53 @@
       "eventId": 11281,
       "day": 5,
       "updatedAt": 1772754415
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」山形会場開催直前 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260305_5qe30x/5qe30x_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://fes.fate-go.jp/winter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11261,
+      "day": 3,
+      "updatedAt": 1772839336
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260302_elpl19/elpl19_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11281,
+      "day": 6,
+      "updatedAt": 1772839336
     }]
   }
 }
