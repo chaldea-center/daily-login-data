@@ -53498,6 +53498,111 @@
     "flag": 0,
     "updatedAt": 1772839336,
     "createdAt": 1772839336
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334214,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334215,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334216,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334292,
+    "messageRefType": 3,
+    "messageId": 3586,
+    "message": "「CBC2026」開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334293,
+    "messageRefType": 3,
+    "messageId": 3595,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334294,
+    "messageRefType": 3,
+    "messageId": 3531,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n山形会場開催記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98524334295,
+    "messageRefType": 3,
+    "messageId": 3530,
+    "message": "「FGO カルデア・サテライトステーション 2026」\n山形会場開催記念 3万リポスト達成プレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 6,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1772925448,
+    "createdAt": 1772925448
   }],
   "loginResult": {
     "loginMessages": [{
@@ -85262,6 +85367,100 @@
       "eventId": 11281,
       "day": 6,
       "updatedAt": 1772839336
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」山形会場開催記念 3万リポスト達成プレゼント",
+      "detail": "開催期間中、初回ログインで「聖晶石×6」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 6
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260308_tr41n8/tr41n8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/03/0307ss/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11262,
+      "day": 1,
+      "updatedAt": 1772925448
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO カルデア・サテライトステーション 2026」山形会場開催記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260308_rcin36/rcin36_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/03/0307ss/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11263,
+      "day": 1,
+      "updatedAt": 1772925448
+    }, {
+      "isDeemedLogin": false,
+      "name": "「CBC2026」開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 4日間日替わりでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260308_s55xn4/s55xn4_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11273,
+      "day": 1,
+      "updatedAt": 1772925448
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260302_elpl19/elpl19_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11281,
+      "day": 7,
+      "updatedAt": 1772925448
     }]
   }
 }
