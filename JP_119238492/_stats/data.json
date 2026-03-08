@@ -53603,6 +53603,66 @@
     "flag": 0,
     "updatedAt": 1772925448,
     "createdAt": 1772925448
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98547885393,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1773011902,
+    "createdAt": 1773011902
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98547885394,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773011902,
+    "createdAt": 1773011902
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98547885395,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773011902,
+    "createdAt": 1773011902
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98547885403,
+    "messageRefType": 3,
+    "messageId": 3586,
+    "message": "「CBC2026」開幕直前カウントダウン ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773011902,
+    "createdAt": 1773011902
   }],
   "loginResult": {
     "loginMessages": [{
@@ -85461,6 +85521,29 @@
       "eventId": 11281,
       "day": 7,
       "updatedAt": 1772925448
+    }, {
+      "isDeemedLogin": false,
+      "name": "「CBC2026」開幕直前カウントダウン ログインボーナス",
+      "detail": "開催期間中、1日1回 4日間日替わりでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260309_2mi9en/2mi9en_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11274,
+      "day": 1,
+      "updatedAt": 1773011902
     }]
   }
 }
