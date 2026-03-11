@@ -85844,6 +85844,26 @@
       "eventId": 11283,
       "day": 3,
       "updatedAt": 1773184910
+    }, {
+      "isDeemedLogin": false,
+      "name": "「CBC2026 マイ・カインド・オブ・アブダクション ～ふたりのモレーと果てなき遺産～」開幕！",
+      "detail": "「CBC2026 マイ・カインド・オブ・アブダクション ～ふたりのモレーと果てなき遺産～」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260311_f2ak8s/f2ak8s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11279,
+      "day": 1,
+      "updatedAt": 1773233052
     }]
   }
 }
