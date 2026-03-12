@@ -53903,6 +53903,66 @@
     "flag": 0,
     "updatedAt": 1773271198,
     "createdAt": 1773271198
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98635232536,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1773357723,
+    "createdAt": 1773357723
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98635232537,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773357723,
+    "createdAt": 1773357723
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98635232538,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773357723,
+    "createdAt": 1773357723
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98635232559,
+    "messageRefType": 3,
+    "messageId": 3600,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Lancer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1773357723,
+    "createdAt": 1773357723
   }],
   "loginResult": {
     "loginMessages": [{
@@ -85962,6 +86022,29 @@
       "eventId": 11283,
       "day": 4,
       "updatedAt": 1773271198
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Lancer」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260309_brw04i/brw04i_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11283,
+      "day": 5,
+      "updatedAt": 1773357723
     }]
   }
 }
