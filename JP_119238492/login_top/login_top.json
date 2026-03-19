@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "3月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「復刻:水怪クライシス 無垢なる者たちの浮島 ライト版」開幕！",
+        "detail": "「復刻:水怪クライシス 無垢なる者たちの浮島 ライト版」開幕！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "bannerUrl": "/webview/loginbonus/20260319_uhnuzy/uhnuzy_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,19 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 991,
-        "items": [],
-        "script": {}
+        },
+        "eventId": 11294,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11293,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4418,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 449,
         "totalLoginCount": 991,
-        "lastLoginAt": 1773876379,
+        "lastLoginAt": 1773924689,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44839,21 +44851,6 @@
         "createdAt": 1755261808
       }, {
         "receiveUserId": 119238492,
-        "presentId": 97187878703,
-        "messageRefType": 3,
-        "messageId": 3509,
-        "message": "全「冠位戴冠戦」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(10/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1766109087,
-        "createdAt": 1766109087
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 97206210879,
         "messageRefType": 3,
         "messageId": 21,
@@ -50867,6 +50864,21 @@
         "flag": 0,
         "updatedAt": 1773876379,
         "createdAt": 1773876379
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98708188414,
+        "messageRefType": 3,
+        "messageId": 3610,
+        "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1773924689,
+        "createdAt": 1773924689
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54563,6 +54575,26 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71664,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80606,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71659,
         "value": 0,
         "flag": 0,
@@ -55098,6 +55130,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1773876379
+    "serverTime": 1773924689
   }
 }
