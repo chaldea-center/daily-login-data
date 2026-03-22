@@ -54458,6 +54458,66 @@
     "flag": 0,
     "updatedAt": 1774135144,
     "createdAt": 1774135144
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98750019443,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1774221701,
+    "createdAt": 1774221701
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98750019444,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774221701,
+    "createdAt": 1774221701
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98750019445,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10106,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774221701,
+    "createdAt": 1774221701
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98750019461,
+    "messageRefType": 3,
+    "messageId": 3614,
+    "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(5/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774221701,
+    "createdAt": 1774221701
   }],
   "loginResult": {
     "loginMessages": [{
@@ -86718,6 +86778,29 @@
       "eventId": 11293,
       "day": 4,
       "updatedAt": 1774135144
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11293,
+      "day": 5,
+      "updatedAt": 1774221701
     }]
   }
 }
