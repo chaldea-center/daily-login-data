@@ -87148,6 +87148,26 @@
       "eventId": 11293,
       "day": 9,
       "updatedAt": 1774567604
+    }, {
+      "isDeemedLogin": false,
+      "name": "「復刻:水怪クライシス 無垢なる者たちの浮島 ライト版」開催中！",
+      "detail": "「復刻:水怪クライシス 無垢なる者たちの浮島 ライト版」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260327_pbjpur/pbjpur_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11295,
+      "day": 1,
+      "updatedAt": 1774615916
     }]
   }
 }
