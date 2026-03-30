@@ -3,72 +3,45 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 5,
-        "items": [{
-          "name": "叡智の業火",
-          "num": 2
-        }, {
-          "name": "獣の足跡",
-          "num": 1
-        }, {
-          "name": "3月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「AnimeJapan 2026」出展記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "name": "「Fate/Grand Order 春の新米マスター応援キャンペーン2026！」開催中！",
+        "detail": "「Fate/Grand Order 春の新米マスター応援キャンペーン2026！」開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 10
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260330_uwbtr3/uwbtr3_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20260330_d3ohx1/d3ohx1_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 0
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/03/new_master_spring_cp2026/index.html"
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11277,
+        "eventId": 11290,
         "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！開催記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「呼符×1」をプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "白銀の果実",
+          "name": "呼符",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_12.png",
+            "bannerUrl": "/webview/loginbonus/20260330_ohoe3g/ohoe3g_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -77,13 +50,52 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11293,
-        "day": 12
-      }],
-      "totalLoginBonus": [{
-        "num": 1002,
-        "items": [],
-        "script": {}
+        "eventId": 11285,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！限定\n使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×3」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 3
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260330_demp0g/demp0g_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11288,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260330_s1s6mp/s1s6mp_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11286,
+        "day": 1
       }]
     },
     "fail": {},
@@ -107,7 +119,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001230,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -117,7 +131,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -127,7 +143,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -137,7 +155,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -147,7 +167,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -157,7 +179,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -176,7 +200,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -186,7 +212,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300401,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -196,7 +224,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300400,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -206,7 +236,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300402,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -216,7 +248,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -226,7 +260,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -245,7 +281,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -255,7 +293,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300417,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -265,7 +305,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300416,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -275,7 +317,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 300418,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -285,7 +329,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -295,7 +341,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -314,7 +362,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -324,7 +374,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -334,7 +386,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -344,7 +398,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -354,7 +410,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -364,7 +422,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -383,7 +443,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000806,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -393,7 +455,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000808,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -403,7 +467,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -413,7 +479,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -423,7 +491,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -433,7 +503,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -452,7 +524,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000804,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -462,7 +536,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000820,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -472,7 +548,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -482,7 +560,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -492,7 +572,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -502,7 +584,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -521,7 +605,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000901,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -531,7 +617,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000806,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -541,7 +629,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -551,7 +641,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -561,7 +653,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -571,7 +665,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -590,7 +686,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -600,7 +698,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000808,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -610,7 +710,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000917,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -620,7 +722,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000803,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -630,7 +734,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000816,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 167706009684,
@@ -640,7 +746,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -659,7 +767,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000806,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -669,7 +779,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -679,7 +791,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -689,7 +803,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -699,7 +815,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -709,7 +827,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -728,7 +848,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000904,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -738,7 +860,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000808,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -748,7 +872,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -758,7 +884,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -768,7 +896,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -778,7 +908,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -797,7 +929,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000907,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -807,7 +941,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -817,7 +953,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -827,7 +965,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -837,7 +977,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -847,7 +989,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -866,7 +1010,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000907,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -876,7 +1022,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000808,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -886,7 +1034,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -896,7 +1046,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -906,7 +1058,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -916,7 +1070,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -935,7 +1091,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -945,7 +1103,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -955,7 +1115,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -965,7 +1127,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -975,7 +1139,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -985,7 +1151,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1004,7 +1172,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000907,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1014,7 +1184,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1024,7 +1196,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1034,7 +1208,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1044,7 +1220,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1054,7 +1232,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1073,7 +1253,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -1083,7 +1265,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -1093,7 +1277,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1103,7 +1289,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1113,7 +1301,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1123,7 +1313,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1142,7 +1334,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1152,7 +1346,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1162,7 +1358,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1172,7 +1370,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1182,7 +1382,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1192,7 +1394,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1211,7 +1415,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000908,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1221,7 +1427,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1231,7 +1439,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1241,7 +1451,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1251,7 +1463,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1261,7 +1475,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1280,7 +1496,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1290,7 +1508,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1300,7 +1520,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1310,7 +1532,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1320,7 +1544,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1330,7 +1556,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1349,7 +1577,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000913,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1359,7 +1589,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1369,7 +1601,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1379,7 +1613,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1389,7 +1625,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1399,7 +1637,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1418,7 +1658,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000908,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1428,7 +1670,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1438,7 +1682,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1448,7 +1694,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1458,7 +1706,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1468,7 +1718,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1487,7 +1739,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000908,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -1497,7 +1751,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000904,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -1507,7 +1763,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1517,7 +1775,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1527,7 +1787,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1537,7 +1799,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1556,7 +1820,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1566,7 +1832,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1576,7 +1844,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1586,7 +1856,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1596,7 +1868,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1606,7 +1880,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1625,7 +1901,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000918,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -1635,7 +1913,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000808,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -1645,7 +1925,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000906,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1655,7 +1937,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1665,7 +1949,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1675,7 +1961,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1694,7 +1982,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000917,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1704,7 +1994,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1714,7 +2006,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1724,7 +2018,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1734,7 +2030,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1744,7 +2042,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1763,7 +2063,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -1773,7 +2075,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -1783,7 +2087,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1793,7 +2099,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1803,7 +2111,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1813,7 +2123,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1832,7 +2144,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000910,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -1842,7 +2156,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -1852,7 +2168,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000803,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1862,7 +2180,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1872,7 +2192,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1882,7 +2204,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1901,7 +2225,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000910,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -1911,7 +2237,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000903,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -1921,7 +2249,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -1931,7 +2261,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -1941,7 +2273,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -1951,7 +2285,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -1970,7 +2306,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000910,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -1980,7 +2318,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -1990,7 +2330,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2000,7 +2342,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2010,7 +2354,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2020,7 +2366,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2039,7 +2387,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000911,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -2049,7 +2399,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2059,7 +2411,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2069,7 +2423,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2079,7 +2435,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2089,7 +2447,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2108,7 +2468,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000911,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2118,7 +2480,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000926,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2128,7 +2492,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2138,7 +2504,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2148,7 +2516,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2158,7 +2528,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2177,7 +2549,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000926,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -2187,7 +2561,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575864,
@@ -2197,7 +2573,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2207,7 +2585,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2217,7 +2597,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2227,7 +2609,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2246,7 +2630,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000911,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2256,7 +2642,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000926,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2266,7 +2654,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2276,7 +2666,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2286,7 +2678,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2296,7 +2690,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2315,7 +2711,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000911,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2325,7 +2723,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000926,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2335,7 +2735,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2345,7 +2747,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2355,7 +2759,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2365,7 +2771,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2384,7 +2792,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2394,7 +2804,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000923,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -2404,7 +2816,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2414,7 +2828,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2424,7 +2840,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2434,7 +2852,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2453,7 +2873,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000912,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -2463,7 +2885,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2473,7 +2897,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2483,7 +2909,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2493,7 +2921,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2503,7 +2933,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2522,7 +2954,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000912,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -2532,7 +2966,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2542,7 +2978,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2552,7 +2990,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2562,7 +3002,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2572,7 +3014,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2591,7 +3035,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000912,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -2601,7 +3047,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2611,7 +3059,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2621,7 +3071,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2631,7 +3083,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2641,7 +3095,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2660,7 +3116,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000912,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2670,7 +3128,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000923,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -2680,7 +3140,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2690,7 +3152,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2700,7 +3164,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2710,7 +3176,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2729,7 +3197,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000810,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2739,7 +3209,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000923,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -2749,7 +3221,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2759,7 +3233,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2769,7 +3245,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2779,7 +3257,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2798,7 +3278,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3000912,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -2808,7 +3290,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2818,7 +3302,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2828,7 +3314,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2838,7 +3326,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2848,7 +3338,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2867,7 +3359,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001001,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2877,7 +3371,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001006,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2887,7 +3383,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2897,7 +3395,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2907,7 +3407,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2917,7 +3419,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -2936,7 +3440,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001001,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -2946,7 +3452,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001006,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -2956,7 +3464,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -2966,7 +3476,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -2976,7 +3488,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -2986,7 +3500,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3005,7 +3521,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001001,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3015,7 +3533,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001006,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -3025,7 +3545,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3035,7 +3557,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3045,7 +3569,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3055,7 +3581,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3074,7 +3602,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001009,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -3084,7 +3614,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -3094,7 +3626,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3104,7 +3638,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3114,7 +3650,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3124,7 +3662,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3143,7 +3683,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001006,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -3153,7 +3695,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575864,
@@ -3163,7 +3707,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3173,7 +3719,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3183,7 +3731,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3193,7 +3743,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3212,7 +3764,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001007,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3222,7 +3776,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001002,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3232,7 +3788,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001003,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3242,7 +3800,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3252,7 +3812,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3262,7 +3824,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3281,7 +3845,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 3001006,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -3291,7 +3857,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575864,
@@ -3301,7 +3869,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3311,7 +3881,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3321,7 +3893,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3331,7 +3905,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3350,7 +3926,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3360,7 +3938,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -3370,7 +3950,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3380,7 +3962,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3390,7 +3974,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3400,7 +3986,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3419,7 +4007,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3429,7 +4019,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001203,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3439,7 +4031,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3449,7 +4043,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3459,7 +4055,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3469,7 +4067,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3488,7 +4088,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -3498,7 +4100,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3508,7 +4112,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3518,7 +4124,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3528,7 +4136,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3538,7 +4148,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3557,7 +4169,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001203,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -3567,7 +4181,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -3577,7 +4193,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3587,7 +4205,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3597,7 +4217,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3607,7 +4229,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3626,7 +4250,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3636,7 +4262,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001224,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3646,7 +4274,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001206,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3656,7 +4286,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3666,7 +4298,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3676,7 +4310,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3695,7 +4331,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001206,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -3705,7 +4343,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3715,7 +4355,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3725,7 +4367,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3735,7 +4379,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3745,7 +4391,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3764,7 +4412,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -3774,7 +4424,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3784,7 +4436,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001206,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3794,7 +4448,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001224,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3804,7 +4460,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001203,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3814,7 +4472,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3833,7 +4493,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001206,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 167706009684,
@@ -3843,7 +4505,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3853,7 +4517,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001203,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3863,7 +4529,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3873,7 +4541,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3883,7 +4553,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3902,7 +4574,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -3912,7 +4586,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 168018575866,
@@ -3922,7 +4598,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -3932,7 +4610,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -3942,7 +4622,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -3952,7 +4634,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -3971,7 +4655,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -3981,7 +4667,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -3991,7 +4679,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4001,7 +4691,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4011,7 +4703,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4021,7 +4715,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4040,7 +4736,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -4050,7 +4748,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -4060,7 +4760,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4070,7 +4772,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4080,7 +4784,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4090,7 +4796,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4109,7 +4817,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -4119,7 +4829,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -4129,7 +4841,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4139,7 +4853,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4149,7 +4865,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4159,7 +4877,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4178,7 +4898,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -4188,7 +4910,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -4198,7 +4922,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4208,7 +4934,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4218,7 +4946,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4228,7 +4958,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4247,7 +4979,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -4257,7 +4991,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -4267,7 +5003,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4277,7 +5015,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4287,7 +5027,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4297,7 +5039,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4316,7 +5060,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -4326,7 +5072,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 3001224,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 167706009684,
@@ -4336,7 +5084,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4346,7 +5096,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4356,7 +5108,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4366,7 +5120,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4385,7 +5141,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -4395,7 +5153,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -4405,7 +5165,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -4415,7 +5177,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -4425,7 +5189,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -4435,7 +5201,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -4456,14 +5224,14 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 40047,
+        "eventId": 40048,
         "day": 1050
       }],
       "userLogin": [{
         "userId": 119238492,
         "seqLoginCount": 460,
         "totalLoginCount": 1002,
-        "lastLoginAt": 1774826798,
+        "lastLoginAt": 1774875922,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -39765,6 +40533,13 @@
         "createdAt": 1764766222
       }, {
         "userId": 119238492,
+        "missionId": 1034380,
+        "missionTargetId": 200274,
+        "missionProgressType": 4,
+        "updatedAt": 1774875922,
+        "createdAt": 1774875922
+      }, {
+        "userId": 119238492,
         "missionId": 30000060,
         "missionTargetId": 300020,
         "missionProgressType": 5,
@@ -39816,6 +40591,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950380,
         "userId": 119238492,
         "exp": 449500,
@@ -39848,6 +40624,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953351830,
         "userId": 119238492,
         "exp": 449500,
@@ -39880,6 +40657,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575866,
         "userId": 119238492,
         "exp": 449500,
@@ -39912,6 +40690,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890507506,
         "userId": 119238492,
         "exp": 8532000,
@@ -39944,6 +40723,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797816378,
         "userId": 119238492,
         "exp": 8532000,
@@ -39976,6 +40756,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797816377,
         "userId": 119238492,
         "exp": 449500,
@@ -40008,6 +40789,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890491837,
         "userId": 119238492,
         "exp": 449500,
@@ -40040,6 +40822,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797817831,
         "userId": 119238492,
         "exp": 449500,
@@ -40072,6 +40855,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359479,
         "userId": 119238492,
         "exp": 449500,
@@ -40104,6 +40888,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063331191,
         "userId": 119238492,
         "exp": 5715500,
@@ -40136,6 +40921,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063355236,
         "userId": 119238492,
         "exp": 449500,
@@ -40168,6 +40954,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063303830,
         "userId": 119238492,
         "exp": 449500,
@@ -40200,6 +40987,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890504035,
         "userId": 119238492,
         "exp": 449500,
@@ -40232,6 +41020,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063329349,
         "userId": 119238492,
         "exp": 388800,
@@ -40264,6 +41053,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363411,
         "userId": 119238492,
         "exp": 449500,
@@ -40296,6 +41086,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575864,
         "userId": 119238492,
         "exp": 449500,
@@ -40328,6 +41119,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363409,
         "userId": 119238492,
         "exp": 449500,
@@ -40360,6 +41152,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063355241,
         "userId": 119238492,
         "exp": 8532000,
@@ -40392,6 +41185,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950381,
         "userId": 119238492,
         "exp": 1066000,
@@ -40424,6 +41218,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575863,
         "userId": 119238492,
         "exp": 0,
@@ -40456,6 +41251,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575870,
         "userId": 119238492,
         "exp": 8532000,
@@ -40488,6 +41284,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063311417,
         "userId": 119238492,
         "exp": 0,
@@ -40520,6 +41317,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063321496,
         "userId": 119238492,
         "exp": 0,
@@ -40552,6 +41350,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953338861,
         "userId": 119238492,
         "exp": 0,
@@ -40584,6 +41383,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063355238,
         "userId": 119238492,
         "exp": 0,
@@ -40616,6 +41416,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950390,
         "userId": 119238492,
         "exp": 8532000,
@@ -40648,6 +41449,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063361592,
         "userId": 119238492,
         "exp": 0,
@@ -40680,6 +41482,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575862,
         "userId": 119238492,
         "exp": 0,
@@ -40712,6 +41515,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359473,
         "userId": 119238492,
         "exp": 0,
@@ -40744,6 +41548,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797817834,
         "userId": 119238492,
         "exp": 0,
@@ -40776,6 +41581,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063307556,
         "userId": 119238492,
         "exp": 0,
@@ -40808,6 +41614,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950375,
         "userId": 119238492,
         "exp": 1066000,
@@ -40840,6 +41647,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063342381,
         "userId": 119238492,
         "exp": 0,
@@ -40872,6 +41680,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953353776,
         "userId": 119238492,
         "exp": 12148500,
@@ -40904,6 +41713,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063365186,
         "userId": 119238492,
         "exp": 0,
@@ -40936,6 +41746,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953280884,
         "userId": 119238492,
         "exp": 0,
@@ -40968,6 +41779,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063357487,
         "userId": 119238492,
         "exp": 0,
@@ -41000,6 +41812,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363410,
         "userId": 119238492,
         "exp": 0,
@@ -41032,6 +41845,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063344279,
         "userId": 119238492,
         "exp": 0,
@@ -41064,6 +41878,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359475,
         "userId": 119238492,
         "exp": 0,
@@ -41096,6 +41911,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063361587,
         "userId": 119238492,
         "exp": 0,
@@ -41128,6 +41944,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063312867,
         "userId": 119238492,
         "exp": 5715500,
@@ -41160,6 +41977,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575861,
         "userId": 119238492,
         "exp": 8532000,
@@ -41192,6 +42010,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 167706009684,
         "userId": 119238492,
         "exp": 12148500,
@@ -41224,6 +42043,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063299449,
         "userId": 119238492,
         "exp": 5715500,
@@ -41256,6 +42076,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168031495700,
         "userId": 119238492,
         "exp": 8532000,
@@ -41288,6 +42109,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950695,
         "userId": 119238492,
         "exp": 8532000,
@@ -41320,6 +42142,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759862698,
         "userId": 119238492,
         "exp": 8532000,
@@ -41352,6 +42175,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759862664,
         "userId": 119238492,
         "exp": 8532000,
@@ -41384,6 +42208,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759862697,
         "userId": 119238492,
         "exp": 8532000,
@@ -41416,6 +42241,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191758814490,
         "userId": 119238492,
         "exp": 8532000,
@@ -41448,6 +42274,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191758814459,
         "userId": 119238492,
         "exp": 8532000,
@@ -41480,6 +42307,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191758814494,
         "userId": 119238492,
         "exp": 8532000,
@@ -41512,6 +42340,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575867,
         "userId": 119238492,
         "exp": 0,
@@ -41544,6 +42373,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797816383,
         "userId": 119238492,
         "exp": 0,
@@ -41576,6 +42406,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 168018575869,
         "userId": 119238492,
         "exp": 0,
@@ -41608,6 +42439,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359477,
         "userId": 119238492,
         "exp": 0,
@@ -41640,6 +42472,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063353523,
         "userId": 119238492,
         "exp": 20000,
@@ -41672,6 +42505,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890507507,
         "userId": 119238492,
         "exp": 0,
@@ -41704,6 +42538,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063357484,
         "userId": 119238492,
         "exp": 0,
@@ -41736,6 +42571,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797816387,
         "userId": 119238492,
         "exp": 0,
@@ -41768,6 +42604,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063365180,
         "userId": 119238492,
         "exp": 0,
@@ -41800,6 +42637,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063353524,
         "userId": 119238492,
         "exp": 0,
@@ -41832,6 +42670,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363408,
         "userId": 119238492,
         "exp": 133000,
@@ -41864,6 +42703,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797819338,
         "userId": 119238492,
         "exp": 0,
@@ -41896,6 +42736,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359480,
         "userId": 119238492,
         "exp": 0,
@@ -41928,6 +42769,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797801740,
         "userId": 119238492,
         "exp": 60000,
@@ -41960,6 +42802,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950382,
         "userId": 119238492,
         "exp": 0,
@@ -41992,6 +42835,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063355245,
         "userId": 119238492,
         "exp": 0,
@@ -42024,6 +42868,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797809376,
         "userId": 119238492,
         "exp": 10000,
@@ -42056,6 +42901,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950383,
         "userId": 119238492,
         "exp": 0,
@@ -42088,6 +42934,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890504039,
         "userId": 119238492,
         "exp": 0,
@@ -42120,6 +42967,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063327505,
         "userId": 119238492,
         "exp": 40000,
@@ -42152,6 +43000,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950384,
         "userId": 119238492,
         "exp": 0,
@@ -42184,6 +43033,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363413,
         "userId": 119238492,
         "exp": 0,
@@ -42216,6 +43066,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950385,
         "userId": 119238492,
         "exp": 0,
@@ -42248,6 +43099,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950386,
         "userId": 119238492,
         "exp": 0,
@@ -42280,6 +43132,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950387,
         "userId": 119238492,
         "exp": 0,
@@ -42312,6 +43165,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363407,
         "userId": 119238492,
         "exp": 0,
@@ -42344,6 +43198,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950388,
         "userId": 119238492,
         "exp": 0,
@@ -42376,6 +43231,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063365184,
         "userId": 119238492,
         "exp": 0,
@@ -42408,6 +43264,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797797638,
         "userId": 119238492,
         "exp": 0,
@@ -42440,6 +43297,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890504041,
         "userId": 119238492,
         "exp": 0,
@@ -42472,6 +43330,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950389,
         "userId": 119238492,
         "exp": 0,
@@ -42504,6 +43363,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063297047,
         "userId": 119238492,
         "exp": 0,
@@ -42536,6 +43396,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063361590,
         "userId": 119238492,
         "exp": 0,
@@ -42568,6 +43429,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063357483,
         "userId": 119238492,
         "exp": 10000,
@@ -42600,6 +43462,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797819337,
         "userId": 119238492,
         "exp": 401000,
@@ -42632,6 +43495,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063365185,
         "userId": 119238492,
         "exp": 0,
@@ -42664,6 +43528,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063359476,
         "userId": 119238492,
         "exp": 0,
@@ -42696,6 +43561,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797819333,
         "userId": 119238492,
         "exp": 10000,
@@ -42728,6 +43594,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063353521,
         "userId": 119238492,
         "exp": 10000,
@@ -42760,6 +43627,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063357479,
         "userId": 119238492,
         "exp": 0,
@@ -42792,6 +43660,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953353781,
         "userId": 119238492,
         "exp": 10000,
@@ -42824,6 +43693,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950391,
         "userId": 119238492,
         "exp": 0,
@@ -42856,6 +43726,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063363406,
         "userId": 119238492,
         "exp": 0,
@@ -42888,6 +43759,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063361585,
         "userId": 119238492,
         "exp": 0,
@@ -42920,6 +43792,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063309555,
         "userId": 119238492,
         "exp": 10000,
@@ -42952,6 +43825,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 184797816385,
         "userId": 119238492,
         "exp": 0,
@@ -42984,6 +43858,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953353783,
         "userId": 119238492,
         "exp": 10000,
@@ -43016,6 +43891,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 191759950594,
         "userId": 119238492,
         "exp": 0,
@@ -43048,6 +43924,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 170063336166,
         "userId": 119238492,
         "exp": 0,
@@ -43080,6 +43957,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890499266,
         "userId": 119238492,
         "exp": 0,
@@ -43112,6 +43990,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890507505,
         "userId": 119238492,
         "exp": 0,
@@ -43144,6 +44023,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953353779,
         "userId": 119238492,
         "exp": 10000,
@@ -43176,6 +44056,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 172953329889,
         "userId": 119238492,
         "exp": 6000,
@@ -43208,6 +44089,7 @@
         "randomLimitCount": 0,
         "randomLimitCountSupport": 0,
         "limitCountSupport": 0,
+        "otherImageType": 0,
         "id": 174890507501,
         "userId": 119238492,
         "exp": 0,
@@ -44912,51 +45794,6 @@
         "flag": 4,
         "updatedAt": 1766234562,
         "createdAt": 1766234562
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97399883476,
-        "messageRefType": 3,
-        "messageId": 3476,
-        "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(1/7)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1767233047,
-        "createdAt": 1767233047
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97399883477,
-        "messageRefType": 3,
-        "messageId": 3476,
-        "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 10000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1767233047,
-        "createdAt": 1767233047
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97399883478,
-        "messageRefType": 3,
-        "messageId": 3475,
-        "message": "2026年お正月キャンペーン\nお年玉ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1767233047,
-        "createdAt": 1767233047
       }, {
         "receiveUserId": 119238492,
         "presentId": 97434047647,
@@ -50912,6 +51749,51 @@
         "flag": 0,
         "updatedAt": 1774826798,
         "createdAt": 1774826798
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98853917096,
+        "messageRefType": 3,
+        "messageId": 3632,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n開催記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1774875922,
+        "createdAt": 1774875922
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98853917097,
+        "messageRefType": 3,
+        "messageId": 3633,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n特別ログインボーナスです。(1/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1774875922,
+        "createdAt": 1774875922
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98853917098,
+        "messageRefType": 3,
+        "messageId": 3667,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94155501,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1774875922,
+        "createdAt": 1774875922
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -50928,7 +51810,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 1,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 170063355241,
@@ -50938,7 +51822,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 2,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -50948,7 +51834,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 3,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -50958,7 +51846,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 4,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -50968,7 +51858,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 5,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -50978,7 +51870,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 6,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -50999,7 +51893,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51009,7 +51905,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51019,7 +51917,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51029,7 +51929,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51039,7 +51941,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51049,7 +51953,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51070,7 +51976,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51080,7 +51988,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51090,7 +52000,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51100,7 +52012,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51110,7 +52024,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51120,7 +52036,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51141,7 +52059,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51151,7 +52071,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51161,7 +52083,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51171,7 +52095,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51181,7 +52107,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51191,7 +52119,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51212,7 +52142,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51222,7 +52154,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51232,7 +52166,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51242,7 +52178,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51252,7 +52190,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51262,7 +52202,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51283,7 +52225,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51293,7 +52237,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51303,7 +52249,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51313,7 +52261,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51323,7 +52273,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51333,7 +52285,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51354,7 +52308,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51364,7 +52320,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51374,7 +52332,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51384,7 +52344,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51394,7 +52356,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51404,7 +52368,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51425,7 +52391,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51435,7 +52403,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51445,7 +52415,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51455,7 +52427,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51465,7 +52439,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51475,7 +52451,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51496,7 +52474,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51506,7 +52486,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51516,7 +52498,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51526,7 +52510,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51536,7 +52522,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51546,7 +52534,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51567,7 +52557,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 168018575866,
@@ -51577,7 +52569,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51587,7 +52581,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 4,
             "userSvtId": 0,
@@ -51597,7 +52593,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 5,
             "userSvtId": 0,
@@ -51607,7 +52605,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 6,
             "userSvtId": 0,
@@ -51617,7 +52617,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51638,7 +52640,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -51648,7 +52652,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51658,7 +52664,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51679,7 +52687,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -51689,7 +52699,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51699,7 +52711,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51720,7 +52734,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -51730,7 +52746,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51740,7 +52758,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51761,7 +52781,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -51771,7 +52793,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51781,7 +52805,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -51802,7 +52828,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 2,
             "userSvtId": 0,
@@ -51812,7 +52840,9 @@
             "isFollowerSvt": false,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }, {
             "id": 3,
             "userSvtId": 0,
@@ -51822,7 +52852,9 @@
             "isFollowerSvt": true,
             "npcFollowerSvtId": 0,
             "initPos": 0,
-            "equipTarget2SkillChange": 0
+            "equipTarget2SkillChange": 0,
+            "isOtherImage": 0,
+            "otherImageType": 0
           }],
           "userEquipId": 129295290,
           "waveSvts": []
@@ -54321,6 +55353,7 @@
         "battleVoice": 0,
         "grandSvt": 0,
         "randomLimitCountTargets": [],
+        "otherImageType": 0,
         "classPassive": [],
         "equipTarget1": {
           "userId": 0,
@@ -54346,6 +55379,7 @@
         "script": {},
         "eventSvtPoint": 0,
         "imagePartsGroupInfo": [],
+        "isOtherImage": 0,
         "userId": 119238492,
         "supportDeckId": 1,
         "classId": 0,
@@ -54608,6 +55642,16 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71663,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 80606,
         "value": 0,
         "flag": 0,
@@ -54618,7 +55662,27 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71661,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71659,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71662,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -55104,7 +56168,7 @@
         "fixEventSupportDeckIds": [],
         "message": "",
         "stone": 2457,
-        "friendKeep": 100,
+        "friendKeep": 103,
         "svtKeep": 1000,
         "svtEquipKeep": 1000,
         "userId": 119238492,
@@ -55153,6 +56217,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1774826798
+    "serverTime": 1774875922
   }
 }
