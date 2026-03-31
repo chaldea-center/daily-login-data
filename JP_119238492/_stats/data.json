@@ -55118,6 +55118,81 @@
     "flag": 0,
     "updatedAt": 1774913386,
     "createdAt": 1774913386
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98883552865,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1774999770,
+    "createdAt": 1774999770
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98883552866,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774999770,
+    "createdAt": 1774999770
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98883552867,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774999770,
+    "createdAt": 1774999770
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98883552891,
+    "messageRefType": 3,
+    "messageId": 3623,
+    "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(14/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774999770,
+    "createdAt": 1774999770
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98883552892,
+    "messageRefType": 3,
+    "messageId": 3635,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n特別ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1774999770,
+    "createdAt": 1774999770
   }],
   "loginResult": {
     "loginMessages": [{
@@ -87759,6 +87834,52 @@
       "eventId": 11293,
       "day": 13,
       "updatedAt": 1774913386
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260330_s1s6mp/s1s6mp_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11286,
+      "day": 3,
+      "updatedAt": 1774999770
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_14.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11293,
+      "day": 14,
+      "updatedAt": 1774999770
     }]
   }
 }
