@@ -55193,6 +55193,111 @@
     "flag": 0,
     "updatedAt": 1774999770,
     "createdAt": 1774999770
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917450,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917451,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917452,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917487,
+    "messageRefType": 3,
+    "messageId": 3631,
+    "message": "【リリース3900日突破キャンペーン】\nグランドオーダー発令から3900日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917488,
+    "messageRefType": 3,
+    "messageId": 3624,
+    "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917489,
+    "messageRefType": 3,
+    "messageId": 3636,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n特別ログインボーナスです。(4/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98901917505,
+    "messageRefType": 4,
+    "messageId": 659,
+    "message": "アプリ内の一部表示や機能において正規のものでないものが\r\n混入する ゆかいな不具合 のお詫び (4/1 0:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1775086297,
+    "createdAt": 1775086297
   }],
   "loginResult": {
     "loginMessages": [{
@@ -87880,6 +87985,75 @@
       "eventId": 11293,
       "day": 14,
       "updatedAt": 1774999770
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260330_s1s6mp/s1s6mp_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11286,
+      "day": 4,
+      "updatedAt": 1775086297
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11293,
+      "day": 15,
+      "updatedAt": 1775086297
+    }, {
+      "isDeemedLogin": false,
+      "name": "リリース3900日突破キャンペーン 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260402_zgr9lw/zgr9lw_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11298,
+      "day": 1,
+      "updatedAt": 1775086297
     }]
   }
 }
