@@ -55388,6 +55388,96 @@
     "flag": 0,
     "updatedAt": 1775220587,
     "createdAt": 1775220587
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611668,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611669,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611670,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611678,
+    "messageRefType": 3,
+    "messageId": 3626,
+    "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(17/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611679,
+    "messageRefType": 3,
+    "messageId": 3604,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Saber」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 98933611680,
+    "messageRefType": 3,
+    "messageId": 3638,
+    "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n特別ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775258912,
+    "createdAt": 1775258912
   }],
   "loginResult": {
     "loginMessages": [{
@@ -88233,6 +88323,75 @@
       "eventId": 11297,
       "day": 1,
       "updatedAt": 1775220587
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260330_s1s6mp/s1s6mp_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11286,
+      "day": 6,
+      "updatedAt": 1775258912
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_17.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11293,
+      "day": 17,
+      "updatedAt": 1775258912
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Saber」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260403_mdf10k/mdf10k_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11296,
+      "day": 2,
+      "updatedAt": 1775258912
     }]
   }
 }

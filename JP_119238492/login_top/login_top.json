@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Saber」ストーム・ポッド消費0！キャンペーン再開催中！",
-        "detail": "新章開放条件クリア応援「冠位戴冠戦：Saber」ストーム・ポッド消費0！キャンペーン再開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "4月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260403_ar6c03/ar6c03_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,10 +26,16 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 11297,
-        "day": 1
-      }, {
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
         "isDeemedLogin": false,
         "name": "新章開放条件クリア応援「冠位戴冠戦：Saber」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
@@ -40,7 +46,7 @@
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260403_mdf10k/mdf10k_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20260403_mdf10k/mdf10k_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,7 +56,56 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11296,
-        "day": 1
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260330_s1s6mp/s1s6mp_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11286,
+        "day": 6
+      }, {
+        "isDeemedLogin": false,
+        "name": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260319_oqv00v/oqv00v_k_17.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11293,
+        "day": 17
+      }],
+      "totalLoginBonus": [{
+        "num": 1007,
+        "items": [],
+        "script": {}
       }]
     },
     "fail": {},
@@ -5184,9 +5239,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 464,
-        "totalLoginCount": 1006,
-        "lastLoginAt": 1775220587,
+        "seqLoginCount": 465,
+        "totalLoginCount": 1007,
+        "lastLoginAt": 1775258912,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45786,96 +45841,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 97517068244,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10104,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1767578703,
-        "createdAt": 1767578703
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97517068245,
-        "messageRefType": 3,
-        "messageId": 3503,
-        "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(5/7)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9570500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1767578703,
-        "createdAt": 1767578703
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97529682441,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1767664515,
-        "createdAt": 1767664515
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97529682442,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1767664515,
-        "createdAt": 1767664515
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97529682443,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10104,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1767664515,
-        "createdAt": 1767664515
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97529682449,
-        "messageRefType": 3,
-        "messageId": 3504,
-        "message": "「2026年お正月キャンペーン」\nニューイヤーログインボーナスです。(6/7)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9670500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1767664515,
-        "createdAt": 1767664515
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 97546576957,
         "messageRefType": 3,
         "messageId": 21,
@@ -51799,6 +51764,96 @@
         "flag": 0,
         "updatedAt": 1775220587,
         "createdAt": 1775220587
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611668,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611669,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611670,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10107,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611678,
+        "messageRefType": 3,
+        "messageId": 3626,
+        "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(17/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611679,
+        "messageRefType": 3,
+        "messageId": 3604,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Saber」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 98933611680,
+        "messageRefType": 3,
+        "messageId": 3638,
+        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n特別ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1775258912,
+        "createdAt": 1775258912
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56194,7 +56249,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1775142000,
+        "commandSpellRecoverAt": 1775228400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56207,7 +56262,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1775172618,
+        "updatedAt": 1775258912,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56222,6 +56277,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1775220587
+    "serverTime": 1775258912
   }
 }
