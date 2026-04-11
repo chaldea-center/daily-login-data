@@ -56048,6 +56048,81 @@
     "flag": 0,
     "updatedAt": 1775864134,
     "createdAt": 1775864134
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99071982915,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1775950519,
+    "createdAt": 1775950519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99071982916,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1775950519,
+    "createdAt": 1775950519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99071982917,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775950519,
+    "createdAt": 1775950519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99071982918,
+    "messageRefType": 3,
+    "messageId": 3671,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Extra」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775950519,
+    "createdAt": 1775950519
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99071982919,
+    "messageRefType": 3,
+    "messageId": 3659,
+    "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 18,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1775950519,
+    "createdAt": 1775950519
   }],
   "loginResult": {
     "loginMessages": [{
@@ -89401,6 +89476,53 @@
       "eventId": 11304,
       "day": 2,
       "updatedAt": 1775864134
+    }, {
+      "isDeemedLogin": false,
+      "name": "3400万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "レアプリズム",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260409_0idz3g/0idz3g_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/04/3400man/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11291,
+      "day": 3,
+      "updatedAt": 1775950519
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Extra」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260410_99x47n/99x47n_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11304,
+      "day": 3,
+      "updatedAt": 1775950519
     }]
   }
 }
