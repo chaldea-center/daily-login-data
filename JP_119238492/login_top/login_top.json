@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "4月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン再開催中！",
+        "detail": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン再開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "bannerUrl": "/webview/loginbonus/20260417_snj3q5/snj3q5_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,69 +26,31 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
-      }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント開幕直前特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260416_5hflzq/5hflzq_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/04/f_s_f_collaboration_cp/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
         },
-        "eventId": 11303,
-        "day": 2
+        "eventId": 11307,
+        "day": 1
       }, {
         "isDeemedLogin": false,
-        "name": "3400万DL突破記念 特別回数ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "英霊結晶・日輪のフォウくん",
+          "name": "黄金の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260409_0idz3g/0idz3g_k_08.png",
+            "bannerUrl": "/webview/loginbonus/20260417_8y1vjn/8y1vjn_k_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/04/3400man/index.html"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11291,
-        "day": 8
-      }],
-      "totalLoginBonus": [{
-        "num": 1019,
-        "items": [],
-        "script": {}
+        "eventId": 11306,
+        "day": 1
       }]
     },
     "fail": {},
@@ -4468,7 +4430,7 @@
         "userId": 119238492,
         "seqLoginCount": 8,
         "totalLoginCount": 1019,
-        "lastLoginAt": 1776382857,
+        "lastLoginAt": 1776432066,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -44961,21 +44923,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 97781444035,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10104,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1769307843,
-        "createdAt": 1769307843
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 97781444045,
         "messageRefType": 3,
         "messageId": 3536,
@@ -50974,6 +50921,21 @@
         "flag": 0,
         "updatedAt": 1776382857,
         "createdAt": 1776382857
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99180855938,
+        "messageRefType": 3,
+        "messageId": 3708,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1776432066,
+        "createdAt": 1776432066
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -54630,16 +54592,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71668,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71665,
         "value": 0,
         "flag": 0,
@@ -54661,6 +54613,16 @@
       }, {
         "userId": 119238492,
         "eventId": 71672,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71674,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -55255,6 +55217,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1776382857
+    "serverTime": 1776432066
   }
 }

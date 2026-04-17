@@ -56648,6 +56648,21 @@
     "flag": 0,
     "updatedAt": 1776382857,
     "createdAt": 1776382857
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99180855938,
+    "messageRefType": 3,
+    "messageId": 3708,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776432066,
+    "createdAt": 1776432066
   }],
   "loginResult": {
     "loginMessages": [{
@@ -90355,6 +90370,49 @@
       "eventId": 11303,
       "day": 2,
       "updatedAt": 1776382857
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260417_8y1vjn/8y1vjn_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11306,
+      "day": 1,
+      "updatedAt": 1776432066
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260417_snj3q5/snj3q5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11307,
+      "day": 1,
+      "updatedAt": 1776432066
     }]
   }
 }
