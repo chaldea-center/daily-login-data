@@ -56753,6 +56753,96 @@
     "flag": 0,
     "updatedAt": 1776469187,
     "createdAt": 1776469187
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561617,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561618,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561619,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561643,
+    "messageRefType": 3,
+    "messageId": 3666,
+    "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561644,
+    "messageRefType": 3,
+    "messageId": 3710,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(3/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99207561645,
+    "messageRefType": 3,
+    "messageId": 3679,
+    "message": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(4/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 3,
+    "num": 50,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776567695,
+    "createdAt": 1776567695
   }],
   "loginResult": {
     "loginMessages": [{
@@ -90574,6 +90664,77 @@
       "eventId": 11306,
       "day": 2,
       "updatedAt": 1776469187
+    }, {
+      "isDeemedLogin": false,
+      "name": "3400万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260409_0idz3g/0idz3g_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/04/3400man/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11291,
+      "day": 10,
+      "updatedAt": 1776567695
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "マナプリズム",
+        "num": 50
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260416_5hflzq/5hflzq_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/04/f_s_f_collaboration_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11303,
+      "day": 4,
+      "updatedAt": 1776567695
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260417_8y1vjn/8y1vjn_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11306,
+      "day": 3,
+      "updatedAt": 1776567695
     }]
   }
 }
