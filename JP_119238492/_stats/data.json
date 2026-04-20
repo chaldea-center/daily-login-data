@@ -56918,6 +56918,81 @@
     "flag": 0,
     "updatedAt": 1776641811,
     "createdAt": 1776641811
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99237220730,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1776728556,
+    "createdAt": 1776728556
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99237220731,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776728556,
+    "createdAt": 1776728556
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99237220732,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776728556,
+    "createdAt": 1776728556
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99237220744,
+    "messageRefType": 3,
+    "messageId": 3712,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776728556,
+    "createdAt": 1776728556
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99237220745,
+    "messageRefType": 3,
+    "messageId": 3681,
+    "message": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1776728556,
+    "createdAt": 1776728556
   }],
   "loginResult": {
     "loginMessages": [{
@@ -90857,6 +90932,53 @@
       "eventId": 11306,
       "day": 4,
       "updatedAt": 1776641811
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260416_5hflzq/5hflzq_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/04/f_s_f_collaboration_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11303,
+      "day": 6,
+      "updatedAt": 1776728556
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Archer」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260417_8y1vjn/8y1vjn_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11306,
+      "day": 5,
+      "updatedAt": 1776728556
     }]
   }
 }
