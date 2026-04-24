@@ -57203,6 +57203,66 @@
     "flag": 0,
     "updatedAt": 1776987946,
     "createdAt": 1776987946
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99290825342,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1777073985,
+    "createdAt": 1777073985
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99290825343,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777073985,
+    "createdAt": 1777073985
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99290825344,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777073985,
+    "createdAt": 1777073985
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99290825347,
+    "messageRefType": 3,
+    "messageId": 3685,
+    "message": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント\n開幕直前特別ログインボーナスです。(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777073985,
+    "createdAt": 1777073985
   }],
   "loginResult": {
     "loginMessages": [{
@@ -91307,6 +91367,30 @@
       "eventId": 11303,
       "day": 9,
       "updatedAt": 1776987946
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント開幕直前特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260416_5hflzq/5hflzq_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/04/f_s_f_collaboration_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11303,
+      "day": 10,
+      "updatedAt": 1777073985
     }]
   }
 }
