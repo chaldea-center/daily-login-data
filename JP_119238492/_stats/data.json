@@ -57278,6 +57278,96 @@
     "flag": 0,
     "updatedAt": 1777122313,
     "createdAt": 1777122313
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323775,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323776,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323777,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10107,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323780,
+    "messageRefType": 3,
+    "messageId": 3686,
+    "message": "Fate/Grand Order カルデア放送局SP\n 「Fate/strange Fake」コラボレーションイベント開幕記念放送\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323781,
+    "messageRefType": 3,
+    "messageId": 3688,
+    "message": "剽滅十字前線 アンティオキア\n開幕記念 ログインボーナスです。(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99305323785,
+    "messageRefType": 4,
+    "messageId": 662,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/25 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777160311,
+    "createdAt": 1777160311
   }],
   "loginResult": {
     "loginMessages": [{
@@ -91449,6 +91539,53 @@
       "eventId": 11301,
       "day": 1,
       "updatedAt": 1777122313
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局SP 「Fate/strange Fake」コラボレーションイベント開幕記念放送 配信記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260426_43ue5e/43ue5e_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/03/f_s_f_collaboration/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11299,
+      "day": 1,
+      "updatedAt": 1777160311
+    }, {
+      "isDeemedLogin": false,
+      "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11300,
+      "day": 2,
+      "updatedAt": 1777160311
     }]
   }
 }

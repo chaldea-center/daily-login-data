@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント「剽滅十字前線 アンティオキア」開幕！",
-        "detail": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント「剽滅十字前線 アンティオキア」開幕！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "4月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_81t1le/81t1le_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,8 +26,41 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局SP 「Fate/strange Fake」コラボレーションイベント開幕記念放送 配信記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260426_43ue5e/43ue5e_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/03/f_s_f_collaboration/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
         },
-        "eventId": 11301,
+        "eventId": 11299,
         "day": 1
       }, {
         "isDeemedLogin": false,
@@ -35,12 +68,12 @@
         "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "黄金の果実",
+          "name": "白銀の果実",
           "num": 1
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,12 +83,13 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11300,
-        "day": 1
+        "day": 2
       }],
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      }
+      "totalLoginBonus": [{
+        "num": 1028,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4432,9 +4466,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 16,
-        "totalLoginCount": 1027,
-        "lastLoginAt": 1777122313,
+        "seqLoginCount": 17,
+        "totalLoginCount": 1028,
+        "lastLoginAt": 1777160311,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45890,96 +45924,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 97928942638,
-        "messageRefType": 3,
-        "messageId": 3546,
-        "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(13/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1770172333,
-        "createdAt": 1770172333
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97942493133,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1770258860,
-        "createdAt": 1770258860
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97942493134,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1770258860,
-        "createdAt": 1770258860
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97942493135,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10105,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1770258860,
-        "createdAt": 1770258860
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97942493140,
-        "messageRefType": 3,
-        "messageId": 3547,
-        "message": "カルデアン・フロラリア あなたの花が咲く頃に\n開幕記念 ログインボーナスです。(14/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1770258860,
-        "createdAt": 1770258860
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 97956998404,
-        "messageRefType": 3,
-        "messageId": 10032,
-        "message": "通算ログイン950日目のボーナスです",
-        "fromType": 1,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 30,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1770345269,
-        "createdAt": 1770345269
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 97956998405,
         "messageRefType": 3,
         "messageId": 21,
@@ -51903,6 +51847,96 @@
         "flag": 0,
         "updatedAt": 1777122313,
         "createdAt": 1777122313
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323775,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323776,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323777,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10107,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323780,
+        "messageRefType": 3,
+        "messageId": 3686,
+        "message": "Fate/Grand Order カルデア放送局SP\n 「Fate/strange Fake」コラボレーションイベント開幕記念放送\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323781,
+        "messageRefType": 3,
+        "messageId": 3688,
+        "message": "剽滅十字前線 アンティオキア\n開幕記念 ログインボーナスです。(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99305323785,
+        "messageRefType": 4,
+        "messageId": 662,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/25 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1777160311,
+        "createdAt": 1777160311
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56137,7 +56171,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1777042800,
+        "commandSpellRecoverAt": 1777129200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56150,7 +56184,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1777073985,
+        "updatedAt": 1777160311,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56165,6 +56199,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1777122313
+    "serverTime": 1777160311
   }
 }
