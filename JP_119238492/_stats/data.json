@@ -57548,6 +57548,36 @@
     "flag": 0,
     "updatedAt": 1777420559,
     "createdAt": 1777420559
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99359435429,
+    "messageRefType": 3,
+    "messageId": 3715,
+    "message": "「レイドバトル」参加応援ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777471069,
+    "createdAt": 1777471069
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99359435430,
+    "messageRefType": 3,
+    "messageId": 3715,
+    "message": "「レイドバトル」参加応援ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94138219,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1777471069,
+    "createdAt": 1777471069
   }],
   "loginResult": {
     "loginMessages": [{
@@ -91835,6 +91865,32 @@
       "eventId": 11300,
       "day": 5,
       "updatedAt": 1777420559
+    }, {
+      "isDeemedLogin": false,
+      "name": "「レイドバトル」参加応援ログインボーナス",
+      "detail": "開催期間中、初回ログインで「黄金の果実×5」＆「星見のティーポット×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 5
+      }, {
+        "name": "星見のティーポット",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260429_sesl1j/sesl1j_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11308,
+      "day": 1,
+      "updatedAt": 1777471069
     }]
   }
 }
