@@ -3,70 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "4月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11300,
-        "day": 6
-      }],
-      "totalLoginBonus": [{
-        "num": 1032,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4445,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 21,
         "totalLoginCount": 1032,
-        "lastLoginAt": 1777506912,
+        "lastLoginAt": 1777557354,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -36032,6 +35979,126 @@
         "missionId": 2003548,
         "progressType": 0,
         "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034377,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034378,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034379,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034380,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034381,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034382,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034383,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034384,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034385,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034386,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034387,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034388,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034389,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034390,
+        "progressType": 3,
+        "num": 1
+      }, {
+        "userId": 119238492,
+        "missionId": 1034391,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034392,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034393,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034394,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034395,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034396,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034397,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034398,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034399,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034400,
+        "progressType": 3,
+        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -55590,16 +55657,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71661,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71659,
         "value": 0,
         "flag": 0,
@@ -56175,6 +56232,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1777506912
+    "serverTime": 1777557354
   }
 }
