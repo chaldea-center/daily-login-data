@@ -92140,6 +92140,26 @@
       "eventId": 11300,
       "day": 8,
       "updatedAt": 1777679573
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント「剽滅十字前線 アンティオキア」開催中！",
+      "detail": "Fate/strange Fake×Fate/Grand Orderコラボレーションイベント「剽滅十字前線 アンティオキア」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260502_9gc3k9/9gc3k9_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11302,
+      "day": 1,
+      "updatedAt": 1777727563
     }]
   }
 }
