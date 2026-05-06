@@ -57998,6 +57998,66 @@
     "flag": 0,
     "updatedAt": 1778024917,
     "createdAt": 1778024917
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99458659832,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1778111565,
+    "createdAt": 1778111565
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99458659833,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778111565,
+    "createdAt": 1778111565
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99458659834,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10108,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778111565,
+    "createdAt": 1778111565
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99458659845,
+    "messageRefType": 3,
+    "messageId": 3699,
+    "message": "剽滅十字前線 アンティオキア\n開幕記念 ログインボーナスです。(13/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778111565,
+    "createdAt": 1778111565
   }],
   "loginResult": {
     "loginMessages": [{
@@ -92492,6 +92552,29 @@
       "eventId": 11300,
       "day": 12,
       "updatedAt": 1778024917
+    }, {
+      "isDeemedLogin": false,
+      "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_13.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11300,
+      "day": 13,
+      "updatedAt": 1778111565
     }]
   }
 }
