@@ -3,92 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Rider」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260508_cpi9wo/cpi9wo_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11309,
-        "day": 2
-      }, {
-        "isDeemedLogin": false,
-        "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_15.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11300,
-        "day": 15
-      }],
-      "totalLoginBonus": [{
-        "num": 1041,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4467,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 30,
         "totalLoginCount": 1041,
-        "lastLoginAt": 1778284568,
+        "lastLoginAt": 1778332701,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -56165,6 +56090,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1778284568
+    "serverTime": 1778332701
   }
 }
