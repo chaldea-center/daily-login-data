@@ -58508,6 +58508,21 @@
     "flag": 0,
     "updatedAt": 1778630393,
     "createdAt": 1778630393
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99557793550,
+    "messageRefType": 3,
+    "messageId": 3731,
+    "message": "「新章」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94157901,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1778682875,
+    "createdAt": 1778682875
   }],
   "loginResult": {
     "loginMessages": [{
@@ -93321,6 +93336,70 @@
       "eventId": 11309,
       "day": 6,
       "updatedAt": 1778630393
+    }, {
+      "isDeemedLogin": false,
+      "name": "「新章」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260513_fhmp3g/fhmp3g_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11324,
+      "day": 1,
+      "updatedAt": 1778682875
+    }, {
+      "isDeemedLogin": false,
+      "name": "「新章」開幕直前キャンペーン開催中！",
+      "detail": "「新章」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260513_5xz8dw/5xz8dw_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11325,
+      "day": 1,
+      "updatedAt": 1778682875
+    }, {
+      "isDeemedLogin": false,
+      "name": "「新章」開幕直前キャンペーン開催中！",
+      "detail": "「新章」開幕直前キャンペーン開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260513_k56yse/k56yse_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://www.fate-go.jp/special/2026-new_chapter/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11357,
+      "day": 1,
+      "updatedAt": 1778682875
     }]
   }
 }

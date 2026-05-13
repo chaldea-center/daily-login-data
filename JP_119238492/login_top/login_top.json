@@ -3,31 +3,6 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -35,60 +10,72 @@
       },
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「新章」開幕直前キャンペーン開催中！",
+        "detail": "「新章」開幕直前キャンペーン開催中！",
+        "addDetail": "",
+        "items": [],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260513_k56yse/k56yse_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://www.fate-go.jp/special/2026-new_chapter/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11357,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「新章」開幕直前キャンペーン開催中！",
+        "detail": "「新章」開幕直前キャンペーン開催中！",
+        "addDetail": "",
+        "items": [],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260513_5xz8dw/5xz8dw_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11325,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「新章」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260513_fhmp3g/fhmp3g_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11324,
+        "day": 1
+      }],
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Rider」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260508_cpi9wo/cpi9wo_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11309,
-        "day": 6
-      }, {
-        "isDeemedLogin": false,
-        "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_19.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11300,
-        "day": 19
-      }],
-      "totalLoginBonus": [{
-        "num": 1045,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4467,7 +4454,7 @@
         "userId": 119238492,
         "seqLoginCount": 34,
         "totalLoginCount": 1045,
-        "lastLoginAt": 1778630393,
+        "lastLoginAt": 1778682875,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45900,21 +45887,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98264309369,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1771629820,
-        "createdAt": 1771629820
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98264309370,
         "messageRefType": 3,
         "messageId": 21,
@@ -51913,6 +51885,21 @@
         "flag": 0,
         "updatedAt": 1778630393,
         "createdAt": 1778630393
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99557793550,
+        "messageRefType": 3,
+        "messageId": 3731,
+        "message": "「新章」開幕直前キャンペーン限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94157901,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1778682875,
+        "createdAt": 1778682875
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55620,6 +55607,36 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
+        "eventId": 71679,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71680,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71683,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
         "eventId": 71681,
         "value": 0,
         "flag": 0,
@@ -56165,6 +56182,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1778630393
+    "serverTime": 1778682875
   }
 }
