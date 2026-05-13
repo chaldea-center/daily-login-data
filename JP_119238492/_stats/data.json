@@ -58523,6 +58523,96 @@
     "flag": 16,
     "updatedAt": 1778682875,
     "createdAt": 1778682875
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886873,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886874,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886875,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10108,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886876,
+    "messageRefType": 3,
+    "messageId": 3723,
+    "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886877,
+    "messageRefType": 3,
+    "messageId": 3722,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Rider」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99565886878,
+    "messageRefType": 3,
+    "messageId": 3706,
+    "message": "剽滅十字前線 アンティオキア\n開幕記念 ログインボーナスです。(20/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1778716746,
+    "createdAt": 1778716746
   }],
   "loginResult": {
     "loginMessages": [{
@@ -93400,6 +93490,76 @@
       "eventId": 11357,
       "day": 1,
       "updatedAt": 1778682875
+    }, {
+      "isDeemedLogin": false,
+      "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_20.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11300,
+      "day": 20,
+      "updatedAt": 1778716746
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Rider」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260508_cpi9wo/cpi9wo_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11309,
+      "day": 7,
+      "updatedAt": 1778716746
+    }, {
+      "isDeemedLogin": false,
+      "name": "「新章」開幕直前キャンペーン 第1弾 日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260514_pw3lq1/pw3lq1_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11317,
+      "day": 1,
+      "updatedAt": 1778716746
     }]
   }
 }
