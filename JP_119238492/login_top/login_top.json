@@ -3,31 +3,6 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -35,45 +10,15 @@
       },
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      },
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「新章」開幕直前キャンペーン 第1弾 日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン再開催中！",
+        "detail": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン再開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260515_pw3lq2/pw3lq2_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11318,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "剽滅十字前線 アンティオキア 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260425_szz4x0/szz4x0_k_21.png",
+            "bannerUrl": "/webview/loginbonus/20260515_8r5kj0/8r5kj0_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -82,14 +27,35 @@
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11300,
-        "day": 21
+        "eventId": 11312,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260515_nw9t19/nw9t19_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11311,
+        "day": 1
       }],
-      "totalLoginBonus": [{
-        "num": 1047,
-        "items": [],
-        "script": {}
-      }]
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4468,7 +4434,7 @@
         "userId": 119238492,
         "seqLoginCount": 36,
         "totalLoginCount": 1047,
-        "lastLoginAt": 1778803080,
+        "lastLoginAt": 1778854039,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45901,21 +45867,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98312445804,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1771889401,
-        "createdAt": 1771889401
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98312445805,
         "messageRefType": 3,
         "messageId": 21,
@@ -51799,7 +51750,7 @@
         "presentId": 99565886876,
         "messageRefType": 3,
         "messageId": 3723,
-        "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。(1/7)",
+        "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。",
         "fromType": 3,
         "giftType": 2,
         "objectId": 100,
@@ -51889,7 +51840,7 @@
         "presentId": 99583234113,
         "messageRefType": 3,
         "messageId": 3724,
-        "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。(2/7)",
+        "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。",
         "fromType": 3,
         "giftType": 2,
         "objectId": 2,
@@ -51914,6 +51865,21 @@
         "flag": 0,
         "updatedAt": 1778803080,
         "createdAt": 1778803080
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99590317138,
+        "messageRefType": 3,
+        "messageId": 3732,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Assassin」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1778854039,
+        "createdAt": 1778854039
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55571,7 +55537,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71675,
+        "eventId": 71673,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -55581,7 +55547,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71673,
+        "eventId": 71676,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -56196,6 +56162,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1778803080
+    "serverTime": 1778854039
   }
 }
