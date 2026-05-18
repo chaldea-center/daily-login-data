@@ -3,106 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 4,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260515_nw9t19/nw9t19_k_04.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11311,
-        "day": 4
-      }, {
-        "isDeemedLogin": false,
-        "name": "「新章」開幕直前キャンペーン 第1弾 日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 2000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260518_pw3lq5/pw3lq5_k_05.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11321,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 1050,
-        "items": [{
-          "name": "聖晶石",
-          "num": 30
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20190804_c42ddy/c42ddy_k_01050.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4481,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 39,
         "totalLoginCount": 1050,
-        "lastLoginAt": 1779062284,
+        "lastLoginAt": 1779116109,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -56699,6 +56610,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1779062284
+    "serverTime": 1779116109
   }
 }
