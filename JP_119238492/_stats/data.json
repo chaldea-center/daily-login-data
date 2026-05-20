@@ -59033,6 +59033,81 @@
     "flag": 0,
     "updatedAt": 1779149195,
     "createdAt": 1779149195
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99662102630,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1779235597,
+    "createdAt": 1779235597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99662102631,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779235597,
+    "createdAt": 1779235597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99662102632,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10108,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779235597,
+    "createdAt": 1779235597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99662102639,
+    "messageRefType": 3,
+    "messageId": 3729,
+    "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779235597,
+    "createdAt": 1779235597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99662102640,
+    "messageRefType": 3,
+    "messageId": 3737,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Assassin」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779235597,
+    "createdAt": 1779235597
   }],
   "loginResult": {
     "loginMessages": [{
@@ -94299,6 +94374,53 @@
       "eventId": 11322,
       "day": 1,
       "updatedAt": 1779149195
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260515_nw9t19/nw9t19_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11311,
+      "day": 6,
+      "updatedAt": 1779235597
+    }, {
+      "isDeemedLogin": false,
+      "name": "「新章」開幕直前キャンペーン 第1弾 日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260520_pw3lq7/pw3lq7_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11323,
+      "day": 1,
+      "updatedAt": 1779235597
     }]
   }
 }
