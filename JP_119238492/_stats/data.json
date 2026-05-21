@@ -59108,6 +59108,81 @@
     "flag": 0,
     "updatedAt": 1779235597,
     "createdAt": 1779235597
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99677265816,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1779322039,
+    "createdAt": 1779322039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99677265817,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779322039,
+    "createdAt": 1779322039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99677265818,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10108,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779322039,
+    "createdAt": 1779322039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99677265829,
+    "messageRefType": 3,
+    "messageId": 3753,
+    "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン\n第2弾 日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779322039,
+    "createdAt": 1779322039
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99677265830,
+    "messageRefType": 3,
+    "messageId": 3738,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Assassin」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779322039,
+    "createdAt": 1779322039
   }],
   "loginResult": {
     "loginMessages": [{
@@ -94421,6 +94496,53 @@
       "eventId": 11323,
       "day": 1,
       "updatedAt": 1779235597
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260515_nw9t19/nw9t19_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11311,
+      "day": 7,
+      "updatedAt": 1779322039
+    }, {
+      "isDeemedLogin": false,
+      "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第2弾　日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260521_cz8j71/cz8j71_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp2/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11326,
+      "day": 1,
+      "updatedAt": 1779322039
     }]
   }
 }
