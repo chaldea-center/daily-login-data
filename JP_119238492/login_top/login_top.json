@@ -3,31 +3,6 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 1,
-        "items": [{
-          "name": "英霊結晶・星のフォウくん",
-          "num": 1
-        }, {
-          "name": "フレンドポイント",
-          "num": 2000
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -35,39 +10,52 @@
       },
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      },
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第2弾　日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
+        "detail": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260522_cz8j72/cz8j72_s_02.png",
+            "bannerUrl": "/webview/loginbonus/20260522_rhhh1s/rhhh1s_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp2/index.html"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11327,
+        "eventId": 11314,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11313,
         "day": 1
       }],
-      "totalLoginBonus": [{
-        "num": 1054,
-        "items": [],
-        "script": {}
-      }]
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4446,7 +4434,7 @@
         "userId": 119238492,
         "seqLoginCount": 43,
         "totalLoginCount": 1054,
-        "lastLoginAt": 1779408165,
+        "lastLoginAt": 1779460768,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46429,21 +46417,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98440356943,
-        "messageRefType": 3,
-        "messageId": 3584,
-        "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(20/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1772580056,
-        "createdAt": 1772580056
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98440356944,
         "messageRefType": 3,
         "messageId": 3591,
@@ -52442,6 +52415,21 @@
         "flag": 0,
         "updatedAt": 1779408165,
         "createdAt": 1779408165
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99696668430,
+        "messageRefType": 3,
+        "messageId": 3739,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Caster」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779460768,
+        "createdAt": 1779460768
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56099,7 +56087,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71676,
+        "eventId": 80608,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -56109,7 +56097,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80608,
+        "eventId": 71677,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -56784,6 +56772,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1779408165
+    "serverTime": 1779460768
   }
 }

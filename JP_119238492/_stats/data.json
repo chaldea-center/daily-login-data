@@ -59243,6 +59243,21 @@
     "flag": 0,
     "updatedAt": 1779408165,
     "createdAt": 1779408165
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99696668430,
+    "messageRefType": 3,
+    "messageId": 3739,
+    "message": "新章開放条件クリア応援「冠位戴冠戦：Caster」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1779460768,
+    "createdAt": 1779460768
   }],
   "loginResult": {
     "loginMessages": [{
@@ -94627,6 +94642,49 @@
       "eventId": 11327,
       "day": 1,
       "updatedAt": 1779408165
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11313,
+      "day": 1,
+      "updatedAt": 1779460768
+    }, {
+      "isDeemedLogin": false,
+      "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260522_rhhh1s/rhhh1s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11314,
+      "day": 1,
+      "updatedAt": 1779460768
     }]
   }
 }
