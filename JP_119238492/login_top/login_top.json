@@ -3,22 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
-        "detail": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
-        "addDetail": "",
-        "items": [],
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "5月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260522_rhhh1s/rhhh1s_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -26,10 +26,20 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        },
-        "eventId": 11314,
-        "day": 1
-      }, {
+        }
+      }],
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
+      },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      },
+      "campaignBonus": [{
         "isDeemedLogin": false,
         "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
         "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
@@ -40,7 +50,7 @@
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_01.png",
+            "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_02.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -50,12 +60,36 @@
           "messageOffset": [-50000, 0]
         },
         "eventId": 11313,
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第2弾　日替りログインボーナス！",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260523_cz8j73/cz8j73_s_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp2/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11328,
         "day": 1
       }],
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      }
+      "totalLoginBonus": [{
+        "num": 1055,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4432,9 +4466,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 43,
-        "totalLoginCount": 1054,
-        "lastLoginAt": 1779460768,
+        "seqLoginCount": 44,
+        "totalLoginCount": 1055,
+        "lastLoginAt": 1779494849,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46417,81 +46451,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98440356944,
-        "messageRefType": 3,
-        "messageId": 3591,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Berserker」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1772580056,
-        "createdAt": 1772580056
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98461032973,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1772666692,
-        "createdAt": 1772666692
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98461032974,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1772666692,
-        "createdAt": 1772666692
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98461032975,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10106,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1772666692,
-        "createdAt": 1772666692
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98461033001,
-        "messageRefType": 3,
-        "messageId": 3585,
-        "message": "アフタータイム・バレンタイン2026 ～お母さんチョコの謎～\n開幕記念 ログインボーナスです。(21/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1772666692,
-        "createdAt": 1772666692
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98461033002,
         "messageRefType": 3,
         "messageId": 3527,
@@ -52430,6 +52389,81 @@
         "flag": 0,
         "updatedAt": 1779460768,
         "createdAt": 1779460768
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99701988903,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1779494849,
+        "createdAt": 1779494849
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99701988904,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779494849,
+        "createdAt": 1779494849
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99701988905,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10108,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779494849,
+        "createdAt": 1779494849
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99701988916,
+        "messageRefType": 3,
+        "messageId": 3755,
+        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン\n第2弾 日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779494849,
+        "createdAt": 1779494849
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99701988917,
+        "messageRefType": 3,
+        "messageId": 3740,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Caster」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779494849,
+        "createdAt": 1779494849
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56744,7 +56778,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1779375600,
+        "commandSpellRecoverAt": 1779462000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56757,7 +56791,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1779377226,
+        "updatedAt": 1779494849,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56772,6 +56806,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1779460768
+    "serverTime": 1779494849
   }
 }
