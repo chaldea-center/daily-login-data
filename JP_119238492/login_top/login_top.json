@@ -3,93 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "5月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "黄金の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11313,
-        "day": 6
-      }, {
-        "isDeemedLogin": false,
-        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第2弾　日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260527_cz8j77/cz8j77_s_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp2/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11332,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 1059,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4468,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 48,
         "totalLoginCount": 1059,
-        "lastLoginAt": 1779840287,
+        "lastLoginAt": 1779896525,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -36038,52 +35962,52 @@
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034401,
+        "missionId": 1034415,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034402,
+        "missionId": 1034416,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034403,
+        "missionId": 1034417,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034404,
+        "missionId": 1034418,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034405,
+        "missionId": 1034419,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034406,
+        "missionId": 1034420,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034407,
+        "missionId": 1034421,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034408,
+        "missionId": 1034422,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034409,
+        "missionId": 1034423,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 1034410,
+        "missionId": 1034424,
         "progressType": 3,
         "num": 0
       }],
@@ -56249,7 +56173,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1779807600,
+        "commandSpellRecoverAt": 1779894000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56262,7 +56186,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1779809354,
+        "updatedAt": 1779896525,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56277,6 +56201,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1779840287
+    "serverTime": 1779896525
   }
 }
