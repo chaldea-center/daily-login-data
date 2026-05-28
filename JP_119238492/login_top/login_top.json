@@ -3,17 +3,93 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "5月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「郷愁永巡刻盤 パスト・カルデア」 開幕直前キャンペーン 第3弾\nカウントダウンログインボーナス！",
+        "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260528_br48wd/br48wd_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/05/2026_new_chapter_cp3/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11333,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "新章開放条件クリア応援「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260522_ieh98w/ieh98w_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11313,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 1060,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4466,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 48,
-        "totalLoginCount": 1059,
-        "lastLoginAt": 1779896525,
+        "seqLoginCount": 49,
+        "totalLoginCount": 1060,
+        "lastLoginAt": 1779926424,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45856,81 +45932,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98547885394,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1773011902,
-        "createdAt": 1773011902
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98547885395,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10106,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1773011902,
-        "createdAt": 1773011902
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98547885403,
-        "messageRefType": 3,
-        "messageId": 3586,
-        "message": "「CBC2026」開幕直前カウントダウン ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1773011902,
-        "createdAt": 1773011902
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98558505834,
-        "messageRefType": 3,
-        "messageId": 3596,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Lancer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1773060446,
-        "createdAt": 1773060446
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98567241903,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1773098531,
-        "createdAt": 1773098531
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98567241904,
         "messageRefType": 3,
         "messageId": 21,
@@ -51869,6 +51870,81 @@
         "flag": 0,
         "updatedAt": 1779840287,
         "createdAt": 1779840287
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99770791531,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1779926424,
+        "createdAt": 1779926424
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99770791532,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779926424,
+        "createdAt": 1779926424
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99770791533,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10108,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779926424,
+        "createdAt": 1779926424
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99770791542,
+        "messageRefType": 3,
+        "messageId": 3760,
+        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン  第3弾\nカウントダウンログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779926424,
+        "createdAt": 1779926424
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99770791543,
+        "messageRefType": 3,
+        "messageId": 3745,
+        "message": "新章開放条件クリア応援「冠位戴冠戦：Caster」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1779926424,
+        "createdAt": 1779926424
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56201,6 +56277,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1779896525
+    "serverTime": 1779926424
   }
 }
