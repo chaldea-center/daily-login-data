@@ -96169,6 +96169,26 @@
       "eventId": 11339,
       "day": 1,
       "updatedAt": 1780446444
+    }, {
+      "isDeemedLogin": false,
+      "name": "「郷愁永巡刻盤 パスト・カルデア」開幕！",
+      "detail": "「郷愁永巡刻盤 パスト・カルデア」開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260603_25bs35/25bs35_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11356,
+      "day": 1,
+      "updatedAt": 1780495890
     }]
   }
 }
