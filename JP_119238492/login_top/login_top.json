@@ -3,33 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕！",
-        "detail": "「郷愁永巡刻盤 パスト・カルデア」開幕！",
-        "addDetail": "",
-        "items": [],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260603_25bs35/25bs35_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11356,
-        "day": 1
-      }],
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
@@ -4412,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 55,
         "totalLoginCount": 1066,
-        "lastLoginAt": 1780495890,
+        "lastLoginAt": 1780505357,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -56133,7 +56113,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1780412400,
+        "commandSpellRecoverAt": 1780498800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56146,7 +56126,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1780417506,
+        "updatedAt": 1780505357,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56161,6 +56141,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1780495890
+    "serverTime": 1780505357
   }
 }
