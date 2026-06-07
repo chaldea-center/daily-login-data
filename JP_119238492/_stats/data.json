@@ -60383,6 +60383,66 @@
     "flag": 0,
     "updatedAt": 1780704380,
     "createdAt": 1780704380
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99917433485,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1780790618,
+    "createdAt": 1780790618
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99917433486,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1780790618,
+    "createdAt": 1780790618
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99917433487,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10109,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1780790618,
+    "createdAt": 1780790618
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99917433498,
+    "messageRefType": 3,
+    "messageId": 3764,
+    "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾\n開幕記念日替りログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1780790618,
+    "createdAt": 1780790618
   }],
   "loginResult": {
     "loginMessages": [{
@@ -96533,6 +96593,30 @@
       "eventId": 11342,
       "day": 1,
       "updatedAt": 1780704380
+    }, {
+      "isDeemedLogin": false,
+      "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾開幕記念日替りログインボーナス！",
+      "detail": "開催期間中、1日1回 最大14回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260607_r9f8s4/r9f8s4_s_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/06/2026_new_chapter_cp4/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11343,
+      "day": 1,
+      "updatedAt": 1780790618
     }]
   }
 }
