@@ -3,17 +3,71 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "6月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾開幕記念日替りログインボーナス！",
+        "detail": "開催期間中、1日1回 最大14回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260608_r9f8s5/r9f8s5_s_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/06/2026_new_chapter_cp4/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11344,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 1071,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4444,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 59,
-        "totalLoginCount": 1070,
-        "lastLoginAt": 1780840364,
+        "seqLoginCount": 60,
+        "totalLoginCount": 1071,
+        "lastLoginAt": 1780877316,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35927,41 +35981,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003577,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003578,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003579,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003580,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003581,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003582,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003583,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034425,
         "progressType": 3,
         "num": 0
@@ -36009,6 +36028,41 @@
         "userId": 119238492,
         "missionId": 1034434,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003584,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003585,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003586,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003587,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003588,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003589,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003590,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -45856,66 +45910,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98736891577,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1774135144,
-        "createdAt": 1774135144
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98736891578,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774135144,
-        "createdAt": 1774135144
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98736891579,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10106,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774135144,
-        "createdAt": 1774135144
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98736891581,
-        "messageRefType": 3,
-        "messageId": 3613,
-        "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(4/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774135144,
-        "createdAt": 1774135144
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98750019443,
         "messageRefType": 3,
         "messageId": 21,
@@ -51869,6 +51863,66 @@
         "flag": 0,
         "updatedAt": 1780790618,
         "createdAt": 1780790618
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99928866371,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1780877316,
+        "createdAt": 1780877316
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99928866372,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1780877316,
+        "createdAt": 1780877316
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99928866373,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10109,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1780877316,
+        "createdAt": 1780877316
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99928866375,
+        "messageRefType": 3,
+        "messageId": 3765,
+        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾\n開幕記念日替りログインボーナスです。",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1780877316,
+        "createdAt": 1780877316
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56103,7 +56157,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1780758000,
+        "commandSpellRecoverAt": 1780844400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56116,7 +56170,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1780790618,
+        "updatedAt": 1780877316,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56131,6 +56185,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1780840364
+    "serverTime": 1780877316
   }
 }
