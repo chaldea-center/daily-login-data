@@ -60623,6 +60623,21 @@
     "flag": 0,
     "updatedAt": 1781050432,
     "createdAt": 1781050432
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99962408065,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "『アニプレックス オンライン』アカウント連携サービス開始\n2周年突破記念のプレゼントです",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1781100682,
+    "createdAt": 1781100682
   }],
   "loginResult": {
     "loginMessages": [{

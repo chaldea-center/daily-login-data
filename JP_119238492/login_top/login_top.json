@@ -3,71 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "6月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾開幕記念日替りログインボーナス！",
-        "detail": "開催期間中、1日1回 最大14回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 3
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260610_r9f8s7/r9f8s7_s_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/06/2026_new_chapter_cp4/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11346,
-        "day": 1
-      }],
-      "totalLoginBonus": [{
-        "num": 1073,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4446,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 62,
         "totalLoginCount": 1073,
-        "lastLoginAt": 1781050432,
+        "lastLoginAt": 1781100682,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -36014,56 +35960,6 @@
         "missionId": 2003590,
         "progressType": 0,
         "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034425,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034426,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034427,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034428,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034429,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034430,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034431,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034432,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034433,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 1034434,
-        "progressType": 3,
-        "num": 0
       }],
       "userEventMission": [{
         "userId": 119238492,
@@ -45895,21 +45791,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98774363997,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1774394809,
-        "createdAt": 1774394809
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98774363998,
         "messageRefType": 3,
         "messageId": 21,
@@ -51908,6 +51789,21 @@
         "flag": 0,
         "updatedAt": 1781050432,
         "createdAt": 1781050432
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 99962408065,
+        "messageRefType": 1,
+        "messageId": 0,
+        "message": "『アニプレックス オンライン』アカウント連携サービス開始\n2周年突破記念のプレゼントです",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1781100682,
+        "createdAt": 1781100682
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56170,6 +56066,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1781050432
+    "serverTime": 1781100682
   }
 }
