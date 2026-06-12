@@ -60758,6 +60758,21 @@
     "flag": 0,
     "updatedAt": 1781223569,
     "createdAt": 1781223569
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 99987341200,
+    "messageRefType": 3,
+    "messageId": 3776,
+    "message": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～\n開幕記念 ログインボーナスです。(1/14)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1781273486,
+    "createdAt": 1781273486
   }],
   "loginResult": {
     "loginMessages": [{
@@ -97052,6 +97067,49 @@
       "eventId": 11348,
       "day": 1,
       "updatedAt": 1781223569
+    }, {
+      "isDeemedLogin": false,
+      "name": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大14回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260612_rqzfs8/rqzfs8_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11359,
+      "day": 1,
+      "updatedAt": 1781273486
+    }, {
+      "isDeemedLogin": false,
+      "name": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開催中！",
+      "detail": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260612_4pwjry/4pwjry_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11360,
+      "day": 1,
+      "updatedAt": 1781273486
     }]
   }
 }
