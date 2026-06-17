@@ -97720,6 +97720,26 @@
       "eventId": 11359,
       "day": 6,
       "updatedAt": 1781655400
+    }, {
+      "isDeemedLogin": false,
+      "name": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開催中！",
+      "detail": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260617_5a2hev/5a2hev_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11361,
+      "day": 1,
+      "updatedAt": 1781705459
     }]
   }
 }
