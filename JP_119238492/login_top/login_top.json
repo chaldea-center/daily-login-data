@@ -3,17 +3,70 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "6月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大14回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260612_rqzfs8/rqzfs8_k_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11359,
+        "day": 7
+      }],
+      "totalLoginBonus": [{
+        "num": 1081,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4443,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 69,
-        "totalLoginCount": 1080,
-        "lastLoginAt": 1781710229,
+        "seqLoginCount": 70,
+        "totalLoginCount": 1081,
+        "lastLoginAt": 1781741774,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45791,66 +45844,6 @@
         "createdAt": 1766234562
       }, {
         "receiveUserId": 119238492,
-        "presentId": 98883552865,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1774999770,
-        "createdAt": 1774999770
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98883552866,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774999770,
-        "createdAt": 1774999770
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98883552867,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10107,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774999770,
-        "createdAt": 1774999770
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 98883552891,
-        "messageRefType": 3,
-        "messageId": 3623,
-        "message": "復刻:水怪クライシス 無垢なる者たちの浮島 ライト版\n開幕記念 ログインボーナスです。(14/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1774999770,
-        "createdAt": 1774999770
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 98883552892,
         "messageRefType": 3,
         "messageId": 3635,
@@ -51804,6 +51797,66 @@
         "flag": 0,
         "updatedAt": 1781655400,
         "createdAt": 1781655400
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100070512645,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1781741774,
+        "createdAt": 1781741774
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100070512646,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1781741774,
+        "createdAt": 1781741774
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100070512647,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10109,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1781741774,
+        "createdAt": 1781741774
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100070512658,
+        "messageRefType": 3,
+        "messageId": 3782,
+        "message": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～\n開幕記念 ログインボーナスです。(7/14)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1781741774,
+        "createdAt": 1781741774
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56086,6 +56139,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1781710229
+    "serverTime": 1781741774
   }
 }
