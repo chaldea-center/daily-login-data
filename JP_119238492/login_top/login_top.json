@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 78,
         "totalLoginCount": 1089,
-        "lastLoginAt": 1782483066,
+        "lastLoginAt": 1782483863,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35927,41 +35927,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003598,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003599,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003600,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003601,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003602,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003603,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003604,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 80611001,
         "progressType": 3,
         "num": 0
@@ -36184,6 +36149,41 @@
         "userId": 119238492,
         "missionId": 80611045,
         "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003598,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003599,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003600,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003601,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003602,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003603,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003604,
+        "progressType": 3,
         "num": 0
       }],
       "userEventMission": [{
@@ -56341,6 +56341,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1782483066
+    "serverTime": 1782483863
   }
 }
