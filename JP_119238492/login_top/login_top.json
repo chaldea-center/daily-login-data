@@ -3,17 +3,71 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 5,
+        "items": [{
+          "name": "叡智の業火",
+          "num": 2
+        }, {
+          "name": "獣の足跡",
+          "num": 1
+        }, {
+          "name": "6月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン5日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "叡智の業火",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11368,
+        "day": 6
+      }],
+      "totalLoginBonus": [{
+        "num": 1093,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4444,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 81,
-        "totalLoginCount": 1092,
-        "lastLoginAt": 1782748009,
+        "seqLoginCount": 82,
+        "totalLoginCount": 1093,
+        "lastLoginAt": 1782777843,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46031,66 +46085,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99045506912,
-        "messageRefType": 3,
-        "messageId": 3609,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Saber」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1775782648,
-        "createdAt": 1775782648
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99045506913,
-        "messageRefType": 3,
-        "messageId": 3657,
-        "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(1/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 3,
-        "num": 100,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1775782648,
-        "createdAt": 1775782648
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99045506914,
-        "messageRefType": 3,
-        "messageId": 3657,
-        "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(1/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1775782648,
-        "createdAt": 1775782648
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99045506921,
-        "messageRefType": 4,
-        "messageId": 661,
-        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (4/8 13:00実施分)",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1775782648,
-        "createdAt": 1775782648
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99052449099,
         "messageRefType": 3,
         "messageId": 3669,
@@ -52029,6 +52023,66 @@
         "flag": 0,
         "updatedAt": 1782691773,
         "createdAt": 1782691773
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100225859227,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1782777843,
+        "createdAt": 1782777843
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100225859228,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2000,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1782777843,
+        "createdAt": 1782777843
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100225859229,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10109,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1782777843,
+        "createdAt": 1782777843
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100225859231,
+        "messageRefType": 3,
+        "messageId": 3818,
+        "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1782777843,
+        "createdAt": 1782777843
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56341,6 +56395,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1782748009
+    "serverTime": 1782777843
   }
 }
