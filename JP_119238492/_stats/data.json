@@ -61958,6 +61958,66 @@
     "flag": 0,
     "updatedAt": 1782777843,
     "createdAt": 1782777843
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100240354893,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1782864330,
+    "createdAt": 1782864330
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100240354894,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1782864330,
+    "createdAt": 1782864330
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100240354895,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10110,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1782864330,
+    "createdAt": 1782864330
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100240354897,
+    "messageRefType": 3,
+    "messageId": 3819,
+    "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1782864330,
+    "createdAt": 1782864330
   }],
   "loginResult": {
     "loginMessages": [{
@@ -98878,6 +98938,30 @@
       "eventId": 11368,
       "day": 6,
       "updatedAt": 1782777843
+    }, {
+      "isDeemedLogin": false,
+      "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11368,
+      "day": 7,
+      "updatedAt": 1782864330
     }]
   }
 }
