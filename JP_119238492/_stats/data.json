@@ -62018,6 +62018,21 @@
     "flag": 0,
     "updatedAt": 1782864330,
     "createdAt": 1782864330
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100247751768,
+    "messageRefType": 3,
+    "messageId": 3790,
+    "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1782915046,
+    "createdAt": 1782915046
   }],
   "loginResult": {
     "loginMessages": [{
@@ -98962,6 +98977,69 @@
       "eventId": 11368,
       "day": 7,
       "updatedAt": 1782864330
+    }, {
+      "isDeemedLogin": false,
+      "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11362,
+      "day": 1,
+      "updatedAt": 1782915046
+    }, {
+      "isDeemedLogin": false,
+      "name": "春の終わりに君を待つ 開幕！",
+      "detail": "春の終わりに君を待つ 開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260701_wm2uke/wm2uke_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11364,
+      "day": 1,
+      "updatedAt": 1782915046
+    }, {
+      "isDeemedLogin": false,
+      "name": "サウンドプレイヤーに新曲を追加！",
+      "detail": "サウンドプレイヤーに新曲を追加！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260701_qsbrt8/qsbrt8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11367,
+      "day": 1,
+      "updatedAt": 1782915046
     }]
   }
 }

@@ -3,31 +3,6 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "7月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -35,39 +10,71 @@
       },
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      },
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "name": "春の終わりに君を待つ 開幕！",
+        "detail": "春の終わりに君を待つ 開幕！",
         "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 1
-        }],
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_07.png",
+            "bannerUrl": "/webview/loginbonus/20260701_wm2uke/wm2uke_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11368,
-        "day": 7
-      }],
-      "totalLoginBonus": [{
-        "num": 1094,
+        "eventId": 11364,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "サウンドプレイヤーに新曲を追加！",
+        "detail": "サウンドプレイヤーに新曲を追加！",
+        "addDetail": "",
         "items": [],
-        "script": {}
-      }]
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260701_qsbrt8/qsbrt8_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11367,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11362,
+        "day": 1
+      }],
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4446,7 +4453,7 @@
         "userId": 119238492,
         "seqLoginCount": 83,
         "totalLoginCount": 1094,
-        "lastLoginAt": 1782864330,
+        "lastLoginAt": 1782915046,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -52138,6 +52145,21 @@
         "flag": 0,
         "updatedAt": 1782864330,
         "createdAt": 1782864330
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100247751768,
+        "messageRefType": 3,
+        "messageId": 3790,
+        "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(1/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1782915046,
+        "createdAt": 1782915046
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -55795,26 +55817,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71697,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71698,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80611,
         "value": 0,
         "flag": 0,
@@ -55856,6 +55858,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71696,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71694,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80612,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -56440,6 +56462,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1782864330
+    "serverTime": 1782915046
   }
 }
