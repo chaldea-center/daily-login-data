@@ -3,116 +3,17 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "seqLoginBonus": [{
-        "num": 7,
-        "items": [{
-          "name": "英霊結晶・日輪のフォウくん",
-          "num": 1
-        }, {
-          "name": "呼符",
-          "num": 1
-        }, {
-          "name": "7月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        }
-      }],
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      },
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "Fate/Grand Order カルデア放送局 ライト版 新規イベント「春の終わりに君を待つ」＆「FGO Fes. 2026」最新情報 配信記念 初回ログインボーナス",
-        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "聖晶石",
-          "num": 14
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260702_oor1nv/oor1nv_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/07/0701nico/"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11363,
-        "day": 1
-      }, {
-        "isDeemedLogin": false,
-        "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11362,
-        "day": 2
-      }, {
-        "isDeemedLogin": false,
-        "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
-        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "QP",
-          "num": 2000000
-        }],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_08.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11368,
-        "day": 8
-      }],
-      "totalLoginBonus": [{
-        "num": 1095,
-        "items": [],
-        "script": {}
-      }]
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4491,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 84,
         "totalLoginCount": 1095,
-        "lastLoginAt": 1782950810,
+        "lastLoginAt": 1783000814,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46200,21 +46101,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99071982919,
-        "messageRefType": 3,
-        "messageId": 3659,
-        "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(3/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 18,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1775950519,
-        "createdAt": 1775950519
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99088688513,
         "messageRefType": 3,
         "messageId": 21,
@@ -52198,6 +52084,21 @@
         "flag": 0,
         "updatedAt": 1782950810,
         "createdAt": 1782950810
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100267341790,
+        "messageRefType": 4,
+        "messageId": 666,
+        "message": "2024年8月28日(水)実施の「サーヴァントコイン増量対応」時、一部補填によるサーヴァントコインが正常に付与されていなかったことへのお詫びをお送りいたします (7/1 18:00掲載分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783000814,
+        "createdAt": 1783000814
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56500,6 +56401,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1782950810
+    "serverTime": 1783000814
   }
 }
