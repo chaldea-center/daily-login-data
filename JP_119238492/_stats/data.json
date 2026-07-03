@@ -62153,6 +62153,81 @@
     "flag": 0,
     "updatedAt": 1783000814,
     "createdAt": 1783000814
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100277019224,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1783037106,
+    "createdAt": 1783037106
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100277019225,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1783037106,
+    "createdAt": 1783037106
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100277019226,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10110,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1783037106,
+    "createdAt": 1783037106
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100277019238,
+    "messageRefType": 3,
+    "messageId": 3821,
+    "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(9/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1783037106,
+    "createdAt": 1783037106
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100277019239,
+    "messageRefType": 3,
+    "messageId": 3792,
+    "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(3/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1783037106,
+    "createdAt": 1783037106
   }],
   "loginResult": {
     "loginMessages": [{
@@ -99231,6 +99306,53 @@
       "eventId": 11368,
       "day": 8,
       "updatedAt": 1782950810
+    }, {
+      "isDeemedLogin": false,
+      "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11362,
+      "day": 3,
+      "updatedAt": 1783037106
+    }, {
+      "isDeemedLogin": false,
+      "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11368,
+      "day": 9,
+      "updatedAt": 1783037106
     }]
   }
 }

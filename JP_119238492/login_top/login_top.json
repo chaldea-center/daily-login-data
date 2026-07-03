@@ -3,17 +3,93 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "7月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11362,
+        "day": 3
+      }, {
+        "isDeemedLogin": false,
+        "name": "「春の終わりに君を待つ」開幕直前 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 5
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260625_ol9gjs/ol9gjs_k_09.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/06/waiting_for_you_cp/index.html"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11368,
+        "day": 9
+      }],
+      "totalLoginBonus": [{
+        "num": 1096,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4466,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 84,
-        "totalLoginCount": 1095,
-        "lastLoginAt": 1783000814,
+        "seqLoginCount": 85,
+        "totalLoginCount": 1096,
+        "lastLoginAt": 1783037106,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46101,81 +46177,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99088688513,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1776036946,
-        "createdAt": 1776036946
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99088688514,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776036946,
-        "createdAt": 1776036946
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99088688515,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10107,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776036946,
-        "createdAt": 1776036946
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99088688539,
-        "messageRefType": 3,
-        "messageId": 3672,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Extra」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(4/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776036946,
-        "createdAt": 1776036946
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99088688540,
-        "messageRefType": 3,
-        "messageId": 3660,
-        "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(4/10)",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1776036946,
-        "createdAt": 1776036946
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99105314528,
         "messageRefType": 3,
         "messageId": 21,
@@ -52099,6 +52100,81 @@
         "flag": 0,
         "updatedAt": 1783000814,
         "createdAt": 1783000814
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100277019224,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1783037106,
+        "createdAt": 1783037106
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100277019225,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783037106,
+        "createdAt": 1783037106
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100277019226,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10110,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783037106,
+        "createdAt": 1783037106
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100277019238,
+        "messageRefType": 3,
+        "messageId": 3821,
+        "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(9/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1783037106,
+        "createdAt": 1783037106
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100277019239,
+        "messageRefType": 3,
+        "messageId": 3792,
+        "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(3/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783037106,
+        "createdAt": 1783037106
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56373,7 +56449,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1782918000,
+        "commandSpellRecoverAt": 1783004400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56386,7 +56462,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1782950810,
+        "updatedAt": 1783037106,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56401,6 +56477,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1783000814
+    "serverTime": 1783037106
   }
 }
