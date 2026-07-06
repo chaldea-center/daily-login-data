@@ -3,17 +3,70 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 4,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "7月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン4日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_04.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11362,
+        "day": 6
+      }],
+      "totalLoginBonus": [{
+        "num": 1099,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4443,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 87,
-        "totalLoginCount": 1098,
-        "lastLoginAt": 1783258703,
+        "seqLoginCount": 88,
+        "totalLoginCount": 1099,
+        "lastLoginAt": 1783296318,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -35927,41 +35980,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003605,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003606,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003607,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003608,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003609,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003610,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003611,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034411,
         "progressType": 3,
         "num": 0
@@ -36028,6 +36046,41 @@
       }, {
         "userId": 119238492,
         "missionId": 1034444,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003612,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003613,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003614,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003615,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003616,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003617,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003618,
         "progressType": 3,
         "num": 0
       }],
@@ -45876,66 +45929,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99116029470,
-        "messageRefType": 3,
-        "messageId": 3668,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 18,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776173232,
-        "createdAt": 1776173232
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99116029471,
-        "messageRefType": 3,
-        "messageId": 3668,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776173232,
-        "createdAt": 1776173232
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99116029472,
-        "messageRefType": 3,
-        "messageId": 3668,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776173232,
-        "createdAt": 1776173232
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99116029473,
-        "messageRefType": 3,
-        "messageId": 3668,
-        "message": "Fate/Grand Order 春の新米マスター応援キャンペーン2026！\n10万リポスト達成プレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 5,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776173232,
-        "createdAt": 1776173232
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99131252699,
         "messageRefType": 3,
         "messageId": 21,
@@ -51874,6 +51867,66 @@
         "flag": 0,
         "updatedAt": 1783209671,
         "createdAt": 1783209671
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100326088298,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1783296318,
+        "createdAt": 1783296318
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100326088299,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783296318,
+        "createdAt": 1783296318
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100326088300,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10110,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783296318,
+        "createdAt": 1783296318
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100326088308,
+        "messageRefType": 3,
+        "messageId": 3795,
+        "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(6/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783296318,
+        "createdAt": 1783296318
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56138,7 +56191,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1783177200,
+        "commandSpellRecoverAt": 1783263600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56151,7 +56204,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1783209671,
+        "updatedAt": 1783296318,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56166,6 +56219,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1783258703
+    "serverTime": 1783296318
   }
 }
