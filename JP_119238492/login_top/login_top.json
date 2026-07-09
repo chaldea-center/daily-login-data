@@ -3,33 +3,13 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "addRecommendSupportFriendPointSvtList": [],
-      "addRecommendSupportFriendPoint": 0,
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "春の終わりに君を待つ 開催中！",
-        "detail": "春の終わりに君を待つ 開催中！",
-        "addDetail": "",
-        "items": [],
-        "script": {
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260709_mcr0f8/mcr0f8_s_01.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "titleOffset": [10000, 0],
-          "buttonOffset": [0, 0],
-          "messageOffset": [-50000, 0]
-        },
-        "eventId": 11365,
-        "day": 1
-      }],
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
@@ -4412,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 91,
         "totalLoginCount": 1102,
-        "lastLoginAt": 1783606292,
+        "lastLoginAt": 1783609110,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -56076,6 +56056,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1783606292
+    "serverTime": 1783609110
   }
 }
