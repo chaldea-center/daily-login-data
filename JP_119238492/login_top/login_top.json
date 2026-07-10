@@ -3,17 +3,115 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "7月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「Fate/Grand Order展 -星見の回廊-」開催記念 カウントダウンログインボーナス",
+        "detail": "開催期間中、1日1回 6日間日替りでログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260711_rxnkye/rxnkye_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/07/exhibition_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11369,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "リリース4000日突破キャンペーン 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260711_tp5exs/tp5exs_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11366,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_11.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11362,
+        "day": 11
+      }],
+      "totalLoginBonus": [{
+        "num": 1104,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4488,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 92,
-        "totalLoginCount": 1103,
-        "lastLoginAt": 1783692686,
+        "seqLoginCount": 93,
+        "totalLoginCount": 1104,
+        "lastLoginAt": 1783727853,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45806,96 +45904,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99180855938,
-        "messageRefType": 3,
-        "messageId": 3708,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776432066,
-        "createdAt": 1776432066
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99187426022,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1776469187,
-        "createdAt": 1776469187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99187426023,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776469187,
-        "createdAt": 1776469187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99187426024,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10107,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776469187,
-        "createdAt": 1776469187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99187426050,
-        "messageRefType": 3,
-        "messageId": 3665,
-        "message": "3400万DL突破記念\n3400万DL突破、めでたきことだ。おまえにふさわしき祝福の品を用意した。\nなに、遠慮はいらぬ。我が愛、ありがたく受け取るがよい。 by スカサハ＝スカディ(9/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 6999,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776469187,
-        "createdAt": 1776469187
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99187426051,
-        "messageRefType": 3,
-        "messageId": 3709,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Archer」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1776469187,
-        "createdAt": 1776469187
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99187426052,
         "messageRefType": 3,
         "messageId": 3678,
@@ -51804,6 +51812,96 @@
         "flag": 0,
         "updatedAt": 1783641903,
         "createdAt": 1783641903
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795253,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795254,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795255,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10110,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795285,
+        "messageRefType": 3,
+        "messageId": 3812,
+        "message": "【リリース4000日突破キャンペーン】\nグランドオーダー発令から4000日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795286,
+        "messageRefType": 3,
+        "messageId": 3823,
+        "message": "「Fate/Grand Order展 -星見の回廊-」開催記念\nカウントダウンログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100392795287,
+        "messageRefType": 3,
+        "messageId": 3800,
+        "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(11/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1783727853,
+        "createdAt": 1783727853
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56028,7 +56126,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1783609200,
+        "commandSpellRecoverAt": 1783695600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56041,7 +56139,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1783641903,
+        "updatedAt": 1783727853,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56056,6 +56154,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1783692686
+    "serverTime": 1783727853
   }
 }
