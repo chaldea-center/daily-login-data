@@ -63218,6 +63218,81 @@
     "flag": 0,
     "updatedAt": 1784246349,
     "createdAt": 1784246349
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100512458906,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1784332357,
+    "createdAt": 1784332357
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100512458907,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784332357,
+    "createdAt": 1784332357
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100512458908,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10110,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784332357,
+    "createdAt": 1784332357
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100512458917,
+    "messageRefType": 3,
+    "messageId": 3807,
+    "message": "春の終わりに君を待つ\n開幕記念 ログインボーナスです。(18/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784332357,
+    "createdAt": 1784332357
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100512458918,
+    "messageRefType": 3,
+    "messageId": 3825,
+    "message": "「Fate/Grand Order展 -星見の回廊-」開催記念 \n特別ログインボーナスです。(2/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784332357,
+    "createdAt": 1784332357
   }],
   "loginResult": {
     "loginMessages": [{
@@ -100918,6 +100993,53 @@
       "eventId": 11375,
       "day": 1,
       "updatedAt": 1784246349
+    }, {
+      "isDeemedLogin": false,
+      "name": "春の終わりに君を待つ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260701_es3x4p/es3x4p_k_18.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11362,
+      "day": 18,
+      "updatedAt": 1784332357
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order展 -星見の回廊-」開催記念 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260717_1hj064/1hj064_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/07/exhibition_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11375,
+      "day": 2,
+      "updatedAt": 1784332357
     }]
   }
 }
