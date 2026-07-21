@@ -3,17 +3,71 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "英霊結晶・流星のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "7月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「Fate/Grand Order展 -星見の回廊-」開催記念 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "フレンドポイント",
+          "num": 2000
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260717_1hj064/1hj064_k_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/07/exhibition_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11375,
+        "day": 6
+      }],
+      "totalLoginBonus": [{
+        "num": 1115,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4444,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 103,
-        "totalLoginCount": 1114,
-        "lastLoginAt": 1784641728,
+        "seqLoginCount": 104,
+        "totalLoginCount": 1115,
+        "lastLoginAt": 1784678169,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45806,66 +45860,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99348783764,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1777420559,
-        "createdAt": 1777420559
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99348783765,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1777420559,
-        "createdAt": 1777420559
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99348783766,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10107,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1777420559,
-        "createdAt": 1777420559
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99348783768,
-        "messageRefType": 3,
-        "messageId": 3691,
-        "message": "剽滅十字前線 アンティオキア\n開幕記念 ログインボーナスです。(5/21)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1777420559,
-        "createdAt": 1777420559
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99359435429,
         "messageRefType": 3,
         "messageId": 3715,
@@ -51804,6 +51798,66 @@
         "flag": 0,
         "updatedAt": 1784591777,
         "createdAt": 1784591777
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100585733472,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1784678169,
+        "createdAt": 1784678169
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100585733473,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1784678169,
+        "createdAt": 1784678169
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100585733474,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10110,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1784678169,
+        "createdAt": 1784678169
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100585733503,
+        "messageRefType": 3,
+        "messageId": 3829,
+        "message": "「Fate/Grand Order展 -星見の回廊-」開催記念 \n特別ログインボーナスです。(6/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1784678169,
+        "createdAt": 1784678169
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -56028,7 +56082,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1784559600,
+        "commandSpellRecoverAt": 1784646000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -56041,7 +56095,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1784591777,
+        "updatedAt": 1784678169,
         "createdAt": 1686492765
       }],
       "exchangeSvt": [{
@@ -56056,6 +56110,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1784641728
+    "serverTime": 1784678169
   }
 }

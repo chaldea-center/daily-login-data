@@ -63518,6 +63518,66 @@
     "flag": 0,
     "updatedAt": 1784591777,
     "createdAt": 1784591777
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100585733472,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1784678169,
+    "createdAt": 1784678169
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100585733473,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784678169,
+    "createdAt": 1784678169
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100585733474,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10110,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784678169,
+    "createdAt": 1784678169
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100585733503,
+    "messageRefType": 3,
+    "messageId": 3829,
+    "message": "「Fate/Grand Order展 -星見の回廊-」開催記念 \n特別ログインボーナスです。(6/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1784678169,
+    "createdAt": 1784678169
   }],
   "loginResult": {
     "loginMessages": [{
@@ -101406,6 +101466,30 @@
       "eventId": 11375,
       "day": 5,
       "updatedAt": 1784591777
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order展 -星見の回廊-」開催記念 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "フレンドポイント",
+        "num": 2000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260717_1hj064/1hj064_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/07/exhibition_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11375,
+      "day": 6,
+      "updatedAt": 1784678169
     }]
   }
 }
