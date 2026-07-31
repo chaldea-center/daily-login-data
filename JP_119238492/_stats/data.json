@@ -64073,6 +64073,66 @@
     "flag": 0,
     "updatedAt": 1785369534,
     "createdAt": 1785369534
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100706880550,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1785456081,
+    "createdAt": 1785456081
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100706880551,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785456081,
+    "createdAt": 1785456081
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100706880552,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10110,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785456081,
+    "createdAt": 1785456081
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100706880554,
+    "messageRefType": 3,
+    "messageId": 3845,
+    "message": "「Fate/Grand Order Fes. 2026 カルデア学園祭\n～11th Anniversary～」開催直前\nカウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785456081,
+    "createdAt": 1785456081
   }],
   "loginResult": {
     "loginMessages": [{
@@ -102201,6 +102261,30 @@
       "eventId": 11384,
       "day": 1,
       "updatedAt": 1785369534
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order Fes. 2026 カルデア学園祭 ～11th Anniversary～」開催直前 カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 10日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260731_m4k9dh/m4k9dh_s_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/07/11th_anniversary_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11385,
+      "day": 1,
+      "updatedAt": 1785456081
     }]
   }
 }
