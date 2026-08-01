@@ -64223,6 +64223,51 @@
     "flag": 0,
     "updatedAt": 1785542515,
     "createdAt": 1785542515
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100740142596,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1785628666,
+    "createdAt": 1785628666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100740142597,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1785628666,
+    "createdAt": 1785628666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100740142598,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10111,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785628666,
+    "createdAt": 1785628666
   }],
   "loginResult": {
     "loginMessages": [{
