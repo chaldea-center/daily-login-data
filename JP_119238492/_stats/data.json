@@ -64268,6 +64268,51 @@
     "flag": 0,
     "updatedAt": 1785628666,
     "createdAt": 1785628666
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100753936443,
+    "messageRefType": 3,
+    "messageId": 3852,
+    "message": "「Fate/Grand Order ～11th Anniversary～」\n11周年記念10時間限定特別ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785676785,
+    "createdAt": 1785676785
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100753936452,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「通算ログインボーナス」の報酬増量にともない、すでに達成済みの「通算ログインボーナス」について報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 6999,
+    "num": 8,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1785676785,
+    "createdAt": 1785676785
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100753936453,
+    "messageRefType": 1,
+    "messageId": 0,
+    "message": "「通算ログインボーナス」の報酬増量にともない、すでに達成済みの「通算ログインボーナス」について報酬増量分をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 1000,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1785676785,
+    "createdAt": 1785676785
   }],
   "loginResult": {
     "loginMessages": [{
@@ -102487,6 +102532,49 @@
       "eventId": 11391,
       "day": 1,
       "updatedAt": 1785542515
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order ～11th Anniversary～  開催中！",
+      "detail": "Fate/Grand Order ～11th Anniversary～  開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260802_hr5q2l/hr5q2l_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11390,
+      "day": 1,
+      "updatedAt": 1785676785
+    }, {
+      "isDeemedLogin": false,
+      "name": "「Fate/Grand Order ～11th Anniversary～」\n11周年記念10時間限定特別ログインボーナス開催！",
+      "detail": "開催期間中、初回ログインで「聖晶石×30」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260802_k86q3a/k86q3a_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11392,
+      "day": 1,
+      "updatedAt": 1785676785
     }]
   }
 }
