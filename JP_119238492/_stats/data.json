@@ -64508,6 +64508,96 @@
     "flag": 0,
     "updatedAt": 1785802133,
     "createdAt": 1785802133
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575882,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575883,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575884,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10111,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575901,
+    "messageRefType": 3,
+    "messageId": 3855,
+    "message": "11周年記念\n特別回数ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575902,
+    "messageRefType": 3,
+    "messageId": 3855,
+    "message": "11周年記念\n特別回数ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100817575903,
+    "messageRefType": 3,
+    "messageId": 3855,
+    "message": "11周年記念\n特別回数ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94138223,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1785888125,
+    "createdAt": 1785888125
   }],
   "loginResult": {
     "loginMessages": [{
@@ -102851,6 +102941,35 @@
       "eventId": 11393,
       "day": 2,
       "updatedAt": 1785802133
+    }, {
+      "isDeemedLogin": false,
+      "name": "11周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "黄金の果実",
+        "num": 10
+      }, {
+        "name": "星見のティーポット",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260803_5nh4zx/5nh4zx_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11393,
+      "day": 3,
+      "updatedAt": 1785888125
     }]
   }
 }
