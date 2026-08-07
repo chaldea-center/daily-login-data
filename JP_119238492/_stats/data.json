@@ -64793,6 +64793,21 @@
     "flag": 0,
     "updatedAt": 1786066885,
     "createdAt": 1786066885
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100877502845,
+    "messageRefType": 3,
+    "messageId": 3864,
+    "message": "ショートアニメ「FGO 藤丸立香はわからない」Season4\n公開記念 特別ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9311890,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1786107706,
+    "createdAt": 1786107706
   }],
   "loginResult": {
     "loginMessages": [{
@@ -103223,6 +103238,30 @@
       "eventId": 11393,
       "day": 5,
       "updatedAt": 1786066885
+    }, {
+      "isDeemedLogin": false,
+      "name": "ショートアニメ「FGO 藤丸立香はわからない」Season4公開記念 特別ログインボーナス",
+      "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "「FGO 藤丸立香はわからない」Season4",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260807_cwp3f2/cwp3f2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://anime.fate-go.jp/nazomaru/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11395,
+      "day": 1,
+      "updatedAt": 1786107706
     }]
   }
 }
