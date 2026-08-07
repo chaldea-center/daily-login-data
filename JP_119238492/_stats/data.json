@@ -64808,6 +64808,96 @@
     "flag": 0,
     "updatedAt": 1786107706,
     "createdAt": 1786107706
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418153,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418154,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418155,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10111,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418173,
+    "messageRefType": 3,
+    "messageId": 3858,
+    "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418174,
+    "messageRefType": 3,
+    "messageId": 3858,
+    "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100886418175,
+    "messageRefType": 3,
+    "messageId": 3858,
+    "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786145586,
+    "createdAt": 1786145586
   }],
   "loginResult": {
     "loginMessages": [{
@@ -103262,6 +103352,35 @@
       "eventId": 11395,
       "day": 1,
       "updatedAt": 1786107706
+    }, {
+      "isDeemedLogin": false,
+      "name": "11周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・終局のフォウくん",
+        "num": 1
+      }, {
+        "name": "英霊結晶・原初のフォウくん",
+        "num": 1
+      }, {
+        "name": "QP",
+        "num": 3000000
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260803_5nh4zx/5nh4zx_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11393,
+      "day": 6,
+      "updatedAt": 1786145586
     }]
   }
 }

@@ -3,6 +3,31 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
+      "seqLoginBonus": [{
+        "num": 2,
+        "items": [{
+          "name": "英霊結晶・太陽のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 1
+        }, {
+          "name": "8月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
@@ -10,34 +35,44 @@
       },
       "addRecommendSupportFriendPointSvtList": [],
       "addRecommendSupportFriendPoint": 0,
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      },
       "campaignBonus": [{
         "isDeemedLogin": false,
-        "name": "ショートアニメ「FGO 藤丸立香はわからない」Season4公開記念 特別ログインボーナス",
-        "detail": "開催期間中、初回ログインで「限定概念礼装×1」をプレゼント！",
+        "name": "11周年記念特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
         "addDetail": "",
         "items": [{
-          "name": "「FGO 藤丸立香はわからない」Season4",
+          "name": "英霊結晶・終局のフォウくん",
           "num": 1
+        }, {
+          "name": "英霊結晶・原初のフォウくん",
+          "num": 1
+        }, {
+          "name": "QP",
+          "num": 3000000
         }],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20260807_cwp3f2/cwp3f2_s_01.png",
+            "bannerUrl": "/webview/loginbonus/20260803_5nh4zx/5nh4zx_k_06.png",
             "offset": [2, 0],
             "size": [748, 448],
-            "urlOpenType": 2,
-            "urlLink": "https://anime.fate-go.jp/nazomaru/"
+            "urlOpenType": 0
           }],
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
         },
-        "eventId": 11395,
-        "day": 1
+        "eventId": 11393,
+        "day": 6
       }],
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      }
+      "totalLoginBonus": [{
+        "num": 1132,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4414,9 +4449,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 120,
-        "totalLoginCount": 1131,
-        "lastLoginAt": 1786107706,
+        "seqLoginCount": 121,
+        "totalLoginCount": 1132,
+        "lastLoginAt": 1786145586,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -46679,96 +46714,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99617433695,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99617433696,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99617433697,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10108,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99617433716,
-        "messageRefType": 3,
-        "messageId": 3726,
-        "message": "「新章」開幕直前キャンペーン 第1弾 \n日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99617433717,
-        "messageRefType": 3,
-        "messageId": 3730,
-        "message": "「FGOゲストトーク in マチ★アソビvol.30」\n開催記念 初回ログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99617433718,
-        "messageRefType": 3,
-        "messageId": 3734,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Assassin」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(3/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1778975607,
-        "createdAt": 1778975607
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99633327982,
         "messageRefType": 3,
         "messageId": 10034,
@@ -52707,6 +52652,96 @@
         "flag": 0,
         "updatedAt": 1786107706,
         "createdAt": 1786107706
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418153,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418154,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418155,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10111,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418173,
+        "messageRefType": 3,
+        "messageId": 3858,
+        "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418174,
+        "messageRefType": 3,
+        "messageId": 3858,
+        "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9670500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 100886418175,
+        "messageRefType": 3,
+        "messageId": 3858,
+        "message": "11周年記念\n特別回数ログインボーナスです。(6/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 1,
+        "num": 3000000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786145586,
+        "createdAt": 1786145586
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57810,7 +57845,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1786028400,
+        "commandSpellRecoverAt": 1786114800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57823,7 +57858,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1786066885,
+        "updatedAt": 1786145586,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57839,6 +57874,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1786107706
+    "serverTime": 1786145586
   }
 }
