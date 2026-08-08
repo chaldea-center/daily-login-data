@@ -64898,6 +64898,81 @@
     "flag": 0,
     "updatedAt": 1786145586,
     "createdAt": 1786145586
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100909980231,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1786231688,
+    "createdAt": 1786231688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100909980232,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1786231688,
+    "createdAt": 1786231688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100909980233,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10111,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786231688,
+    "createdAt": 1786231688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100909980249,
+    "messageRefType": 3,
+    "messageId": 3859,
+    "message": "11周年記念\n特別回数ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 3000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786231688,
+    "createdAt": 1786231688
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 100909980250,
+    "messageRefType": 3,
+    "messageId": 3859,
+    "message": "11周年記念\n特別回数ログインボーナスです。(7/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1786231688,
+    "createdAt": 1786231688
   }],
   "loginResult": {
     "loginMessages": [{
@@ -103381,6 +103456,32 @@
       "eventId": 11393,
       "day": 6,
       "updatedAt": 1786145586
+    }, {
+      "isDeemedLogin": false,
+      "name": "11周年記念特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 3000000
+      }, {
+        "name": "呼符",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260803_5nh4zx/5nh4zx_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11393,
+      "day": 7,
+      "updatedAt": 1786231688
     }]
   }
 }
