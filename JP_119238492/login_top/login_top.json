@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 122,
         "totalLoginCount": 1133,
-        "lastLoginAt": 1786241433,
+        "lastLoginAt": 1786288241,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -36593,41 +36593,6 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003640,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003641,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003642,
-        "progressType": 0,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003643,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003644,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003645,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003646,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
         "missionId": 1034445,
         "progressType": 3,
         "num": 0
@@ -36670,6 +36635,41 @@
         "userId": 119238492,
         "missionId": 1034453,
         "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003647,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003648,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003649,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003650,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003651,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003652,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003653,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -57786,7 +57786,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1786201200,
+        "commandSpellRecoverAt": 1786287600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57799,7 +57799,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1786231688,
+        "updatedAt": 1786288241,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57815,6 +57815,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1786241433
+    "serverTime": 1786288241
   }
 }
