@@ -3,17 +3,70 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 1,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "フレンドポイント",
+          "num": 2000
+        }, {
+          "name": "8月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン1日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "カルデア南海大決戦！ ～マジムンアイランドに謎の巨人の影を見た～ 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260812_0nzjpw/0nzjpw_k_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11400,
+        "day": 3
+      }],
+      "totalLoginBonus": [{
+        "num": 1138,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4443,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 126,
-        "totalLoginCount": 1137,
-        "lastLoginAt": 1786626520,
+        "seqLoginCount": 127,
+        "totalLoginCount": 1138,
+        "lastLoginAt": 1786664412,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47626,81 +47679,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99701988905,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン2日目のボーナスです。（2/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10108,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1779494849,
-        "createdAt": 1779494849
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99701988916,
-        "messageRefType": 3,
-        "messageId": 3755,
-        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン\n第2弾 日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1779494849,
-        "createdAt": 1779494849
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99701988917,
-        "messageRefType": 3,
-        "messageId": 3740,
-        "message": "新章開放条件クリア応援「冠位戴冠戦：Caster」\nストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(2/7)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1779494849,
-        "createdAt": 1779494849
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99716314049,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1779580677,
-        "createdAt": 1779580677
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99716314050,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1779580677,
-        "createdAt": 1779580677
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99716314051,
         "messageRefType": 3,
         "messageId": 21,
@@ -53654,6 +53632,81 @@
         "flag": 0,
         "updatedAt": 1786578032,
         "createdAt": 1786578032
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101022630428,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1786664412,
+        "createdAt": 1786664412
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101022630429,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4,
+        "num": 2000,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786664412,
+        "createdAt": 1786664412
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101022630430,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10111,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786664412,
+        "createdAt": 1786664412
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101022630442,
+        "messageRefType": 3,
+        "messageId": 3869,
+        "message": "カルデア南海大決戦！ ～マジムンアイランドに謎の巨人の影を見た～\n開幕記念 ログインボーナスです。(3/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786664412,
+        "createdAt": 1786664412
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101022630462,
+        "messageRefType": 4,
+        "messageId": 670,
+        "message": " 期間限定イベント「カルデア南海大決戦！ ～マジムンアイランドに謎の巨人の影を見た～」の特定メインクエストにおいて、攻略が困難となる状況があったことについてのお詫び (8/14 3:00掲載分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 3,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1786664412,
+        "createdAt": 1786664412
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57898,7 +57951,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1786546800,
+        "commandSpellRecoverAt": 1786633200,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57911,7 +57964,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1786578032,
+        "updatedAt": 1786664412,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57927,6 +57980,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1786626520
+    "serverTime": 1786664412
   }
 }
