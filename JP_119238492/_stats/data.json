@@ -104549,6 +104549,26 @@
       "eventId": 11400,
       "day": 8,
       "updatedAt": 1787095263
+    }, {
+      "isDeemedLogin": false,
+      "name": "カルデア南海大決戦！ ～マジムンアイランドに謎の巨人の影を見た～  開催中！",
+      "detail": "カルデア南海大決戦！ ～マジムンアイランドに謎の巨人の影を見た～  開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260819_ourae6/ourae6_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11398,
+      "day": 1,
+      "updatedAt": 1787143470
     }]
   }
 }
