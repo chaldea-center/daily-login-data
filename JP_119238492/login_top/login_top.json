@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 134,
         "totalLoginCount": 1145,
-        "lastLoginAt": 1787278258,
+        "lastLoginAt": 1787321454,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -45651,12 +45651,7 @@
         "equipTargetId1": 0,
         "createdAt": 1692506644
       }],
-      "userPrivilege": [{
-        "userId": 119238492,
-        "privilegeId": 400,
-        "startedAt": 1784728353,
-        "num": 1
-      }],
+      "userPrivilege": [],
       "userEquip": [{
         "id": 129295290,
         "userId": 119238492,
@@ -57637,6 +57632,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1787278258
+    "serverTime": 1787321454
   }
 }
