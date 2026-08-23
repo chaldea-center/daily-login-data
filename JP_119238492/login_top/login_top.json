@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 136,
         "totalLoginCount": 1147,
-        "lastLoginAt": 1787451071,
+        "lastLoginAt": 1787488676,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -57026,16 +57026,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80626,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71699,
         "value": 0,
         "flag": 0,
@@ -57632,6 +57622,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1787451071
+    "serverTime": 1787488676
   }
 }
