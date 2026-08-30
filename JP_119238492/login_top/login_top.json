@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 143,
         "totalLoginCount": 1154,
-        "lastLoginAt": 1788099046,
+        "lastLoginAt": 1788106094,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -37329,37 +37329,37 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003661,
+        "missionId": 2003668,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003662,
+        "missionId": 2003669,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003663,
+        "missionId": 2003670,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003664,
+        "missionId": 2003671,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003665,
+        "missionId": 2003672,
+        "progressType": 0,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003673,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003666,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003667,
+        "missionId": 2003674,
         "progressType": 0,
         "num": 0
       }],
@@ -57593,7 +57593,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1788015600,
+        "commandSpellRecoverAt": 1788102000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57606,7 +57606,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1788016244,
+        "updatedAt": 1788106094,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57622,6 +57622,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788099046
+    "serverTime": 1788106094
   }
 }
