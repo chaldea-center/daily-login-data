@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 144,
         "totalLoginCount": 1155,
-        "lastLoginAt": 1788185442,
+        "lastLoginAt": 1788202218,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -57026,26 +57026,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71699,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71700,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71709,
         "value": 0,
         "flag": 0,
@@ -57077,6 +57057,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71703,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71718,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71719,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57593,7 +57593,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1788102000,
+        "commandSpellRecoverAt": 1788188400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57606,7 +57606,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1788106094,
+        "updatedAt": 1788202218,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57622,6 +57622,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788185442
+    "serverTime": 1788202218
   }
 }
