@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 145,
         "totalLoginCount": 1156,
-        "lastLoginAt": 1788271845,
+        "lastLoginAt": 1788278924,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -57668,7 +57668,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1788188400,
+        "commandSpellRecoverAt": 1788274800,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57681,7 +57681,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1788202218,
+        "updatedAt": 1788278924,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57697,6 +57697,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788271845
+    "serverTime": 1788278924
   }
 }
