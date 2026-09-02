@@ -3,26 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
       },
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "9月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "3500万DL突破キャンペーン　開催中！",
+        "detail": "3500万DL突破キャンペーン　開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "bannerUrl": "/webview/loginbonus/20260902_c9dejy/c9dejy_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -30,20 +26,58 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
+        },
+        "eventId": 11405,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "3500万DL突破記念 ★4(SR)サーヴァント交換券プレゼント",
+        "detail": "開催期間中、初回ログインで「3500万DL記念チケット」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "3500万DL記念チケット",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260906_4qu9j2/4qu9j2_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11406,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「3500万DL突破記念」限定\n使用期限付コンティニューアイテムプレゼント！",
+        "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "霊脈石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260902_a3tsaj/a3tsaj_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11404,
+        "day": 1
       }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 1157,
-        "items": [],
-        "script": {}
-      }]
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4422,7 +4456,7 @@
         "userId": 119238492,
         "seqLoginCount": 146,
         "totalLoginCount": 1157,
-        "lastLoginAt": 1788310216,
+        "lastLoginAt": 1788358239,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47446,36 +47480,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99942686222,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10109,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1780963559,
-        "createdAt": 1780963559
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99942686225,
-        "messageRefType": 3,
-        "messageId": 3766,
-        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾\n開幕記念日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 1,
-        "num": 3000000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1780963559,
-        "createdAt": 1780963559
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99955043729,
         "messageRefType": 3,
         "messageId": 21,
@@ -53474,6 +53478,36 @@
         "flag": 0,
         "updatedAt": 1788310216,
         "createdAt": 1788310216
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101355642077,
+        "messageRefType": 3,
+        "messageId": 3888,
+        "message": "3500万DL突破記念\n★4(SR)サーヴァント交換券のプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94161801,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1788358239,
+        "createdAt": 1788358239
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101355642078,
+        "messageRefType": 3,
+        "messageId": 3890,
+        "message": "「3500万DL突破記念」限定\n使用期限付コンティニューアイテムプレゼントです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 94161401,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 16,
+        "updatedAt": 1788358239,
+        "createdAt": 1788358239
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57131,7 +57165,7 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71709,
+        "eventId": 80614,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57141,7 +57175,37 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 80614,
+        "eventId": 71710,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71711,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71712,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71713,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57162,6 +57226,16 @@
       }, {
         "userId": 119238492,
         "eventId": 71703,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 80628,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57716,7 +57790,7 @@
       }],
       "userShopDaily": [],
       "exchangeSvt": [{
-        "eventId": 80513,
+        "eventId": 80628,
         "userSvtIds": [],
         "svtIds": []
       }],
@@ -57727,6 +57801,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788310216
+    "serverTime": 1788358239
   }
 }

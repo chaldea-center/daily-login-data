@@ -66563,6 +66563,36 @@
     "flag": 0,
     "updatedAt": 1788310216,
     "createdAt": 1788310216
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101355642077,
+    "messageRefType": 3,
+    "messageId": 3888,
+    "message": "3500万DL突破記念\n★4(SR)サーヴァント交換券のプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94161801,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1788358239,
+    "createdAt": 1788358239
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101355642078,
+    "messageRefType": 3,
+    "messageId": 3890,
+    "message": "「3500万DL突破記念」限定\n使用期限付コンティニューアイテムプレゼントです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94161401,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 16,
+    "updatedAt": 1788358239,
+    "createdAt": 1788358239
   }],
   "loginResult": {
     "loginMessages": [{
@@ -105741,6 +105771,72 @@
       "eventId": 11400,
       "day": 21,
       "updatedAt": 1788226844
+    }, {
+      "isDeemedLogin": false,
+      "name": "「3500万DL突破記念」限定\n使用期限付コンティニューアイテムプレゼント！",
+      "detail": "開催期間中、初回ログインでコンティニューアイテム「霊脈石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "霊脈石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260902_a3tsaj/a3tsaj_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11404,
+      "day": 1,
+      "updatedAt": 1788358239
+    }, {
+      "isDeemedLogin": false,
+      "name": "3500万DL突破キャンペーン　開催中！",
+      "detail": "3500万DL突破キャンペーン　開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260902_c9dejy/c9dejy_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11405,
+      "day": 1,
+      "updatedAt": 1788358239
+    }, {
+      "isDeemedLogin": false,
+      "name": "3500万DL突破記念 ★4(SR)サーヴァント交換券プレゼント",
+      "detail": "開催期間中、初回ログインで「3500万DL記念チケット」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "3500万DL記念チケット",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260906_4qu9j2/4qu9j2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11406,
+      "day": 1,
+      "updatedAt": 1788358239
     }]
   }
 }
