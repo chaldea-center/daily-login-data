@@ -3,17 +3,47 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      },
+      "seqLoginBonus": [{
+        "num": 6,
+        "items": [{
+          "name": "英霊結晶・流星のフォウくん",
+          "num": 1
+        }, {
+          "name": "聖晶石",
+          "num": 2
+        }, {
+          "name": "9月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
-      }
+      "addRecommendSupportFriendPoint": 0,
+      "addRecommendSupportFriendPointSvtList": [],
+      "totalLoginBonus": [{
+        "num": 1157,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4420,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 145,
-        "totalLoginCount": 1156,
-        "lastLoginAt": 1788278924,
+        "seqLoginCount": 146,
+        "totalLoginCount": 1157,
+        "lastLoginAt": 1788310216,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47416,51 +47446,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99928866375,
-        "messageRefType": 3,
-        "messageId": 3765,
-        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾\n開幕記念日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1780877316,
-        "createdAt": 1780877316
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99942686220,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1780963559,
-        "createdAt": 1780963559
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99942686221,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2000,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1780963559,
-        "createdAt": 1780963559
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99942686222,
         "messageRefType": 3,
         "messageId": 21,
@@ -53444,6 +53429,51 @@
         "flag": 0,
         "updatedAt": 1788226844,
         "createdAt": 1788226844
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101342599690,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1788310216,
+        "createdAt": 1788310216
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101342599691,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 2,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788310216,
+        "createdAt": 1788310216
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101342599692,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10112,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788310216,
+        "createdAt": 1788310216
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57697,6 +57727,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788278924
+    "serverTime": 1788310216
   }
 }
