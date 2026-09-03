@@ -3,17 +3,96 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "9月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "3500万DL突破記念3日間限定特別ログインボーナス開催！",
+        "detail": "開催期間中、1日1回 3日間日替りで合計「聖晶石×30」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260903_nt4tks/nt4tks_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11402,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "3500万DL突破記念 特別回数ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "マナプリズム",
+          "num": 100
+        }, {
+          "name": "白銀の果実",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260903_fnaee9/fnaee9_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/09/3500man/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11403,
+        "day": 1
+      }],
+      "totalLoginBonus": [{
+        "num": 1158,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4469,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 146,
-        "totalLoginCount": 1157,
-        "lastLoginAt": 1788364954,
+        "seqLoginCount": 147,
+        "totalLoginCount": 1158,
+        "lastLoginAt": 1788397079,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47416,96 +47495,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 99955043729,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1781050432,
-        "createdAt": 1781050432
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99955043730,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1781050432,
-        "createdAt": 1781050432
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99955043731,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン6日目のボーナスです。（6/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10109,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1781050432,
-        "createdAt": 1781050432
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99955043733,
-        "messageRefType": 3,
-        "messageId": 3767,
-        "message": "「郷愁永巡刻盤 パスト・カルデア」開幕直前キャンペーン 第4弾\n開幕記念日替りログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1781050432,
-        "createdAt": 1781050432
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99962408065,
-        "messageRefType": 1,
-        "messageId": 0,
-        "message": "『アニプレックス オンライン』アカウント連携サービス開始\n2周年突破記念のプレゼントです",
-        "fromType": 6,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 3,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1781100682,
-        "createdAt": 1781100682
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 99968066944,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1781136916,
-        "createdAt": 1781136916
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 99968066945,
         "messageRefType": 3,
         "messageId": 21,
@@ -53444,6 +53433,96 @@
         "flag": 16,
         "updatedAt": 1788358239,
         "createdAt": 1788358239
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532071,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532072,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532073,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10112,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532078,
+        "messageRefType": 3,
+        "messageId": 3889,
+        "message": "3500万DL突破記念\n3日間限定特別ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532079,
+        "messageRefType": 3,
+        "messageId": 3891,
+        "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(1/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 3,
+        "num": 100,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101367532080,
+        "messageRefType": 3,
+        "messageId": 3891,
+        "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(1/10)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1788397079,
+        "createdAt": 1788397079
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57737,6 +57816,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1788364954
+    "serverTime": 1788397079
   }
 }
