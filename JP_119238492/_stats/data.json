@@ -66848,6 +66848,66 @@
     "flag": 0,
     "updatedAt": 1788568674,
     "createdAt": 1788568674
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101435805445,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788654975,
+    "createdAt": 1788654975
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101435805446,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788654975,
+    "createdAt": 1788654975
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101435805447,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1788654975,
+    "createdAt": 1788654975
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101435805465,
+    "messageRefType": 3,
+    "messageId": 3894,
+    "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(4/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788654975,
+    "createdAt": 1788654975
   }],
   "loginResult": {
     "loginMessages": [{
@@ -106239,6 +106299,30 @@
       "eventId": 11414,
       "day": 1,
       "updatedAt": 1788568674
+    }, {
+      "isDeemedLogin": false,
+      "name": "3500万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "叡智の業火",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260903_fnaee9/fnaee9_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/3500man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11403,
+      "day": 4,
+      "updatedAt": 1788654975
     }]
   }
 }
