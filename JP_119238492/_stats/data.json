@@ -66968,6 +66968,81 @@
     "flag": 0,
     "updatedAt": 1788741761,
     "createdAt": 1788741761
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101473918831,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788828939,
+    "createdAt": 1788828939
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101473918832,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2000,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1788828939,
+    "createdAt": 1788828939
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101473918833,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン5日目のボーナスです。（5/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1788828939,
+    "createdAt": 1788828939
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101473918841,
+    "messageRefType": 3,
+    "messageId": 3896,
+    "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788828939,
+    "createdAt": 1788828939
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101473918842,
+    "messageRefType": 3,
+    "messageId": 3896,
+    "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(6/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1788828939,
+    "createdAt": 1788828939
   }],
   "loginResult": {
     "loginMessages": [{
@@ -106407,6 +106482,33 @@
       "eventId": 11403,
       "day": 5,
       "updatedAt": 1788741761
+    }, {
+      "isDeemedLogin": false,
+      "name": "3500万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 10
+      }, {
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260903_fnaee9/fnaee9_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/3500man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11403,
+      "day": 6,
+      "updatedAt": 1788828939
     }]
   }
 }
