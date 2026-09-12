@@ -67268,6 +67268,81 @@
     "flag": 0,
     "updatedAt": 1789087836,
     "createdAt": 1789087836
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101548430005,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789174547,
+    "createdAt": 1789174547
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101548430006,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789174547,
+    "createdAt": 1789174547
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101548430007,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789174547,
+    "createdAt": 1789174547
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101548430021,
+    "messageRefType": 3,
+    "messageId": 3900,
+    "message": "3500万DL突破記念\n3500万DLおめでとう！\nわたしからのプレゼント、喜んでくれたら嬉しいな。\nby アルトリア･キャスター(10/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 30,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789174547,
+    "createdAt": 1789174547
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101548430022,
+    "messageRefType": 3,
+    "messageId": 3904,
+    "message": "「くたばれ！ パンプキンファーム・スローター」\n開幕直前 特別ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789174547,
+    "createdAt": 1789174547
   }],
   "loginResult": {
     "loginMessages": [{
@@ -106857,6 +106932,54 @@
       "eventId": 11403,
       "day": 9,
       "updatedAt": 1789087836
+    }, {
+      "isDeemedLogin": false,
+      "name": "「くたばれ！ パンプキンファーム・スローター」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260910_y0isci/y0isci_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/halloween2026_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11396,
+      "day": 3,
+      "updatedAt": 1789174547
+    }, {
+      "isDeemedLogin": false,
+      "name": "3500万DL突破記念 特別回数ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 回数ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 30
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260903_fnaee9/fnaee9_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/3500man/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11403,
+      "day": 10,
+      "updatedAt": 1789174547
     }]
   }
 }
