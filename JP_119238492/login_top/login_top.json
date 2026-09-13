@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 157,
         "totalLoginCount": 1168,
-        "lastLoginAt": 1789308661,
+        "lastLoginAt": 1789314103,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -37329,38 +37329,38 @@
       }],
       "userEventMissionFix": [{
         "userId": 119238492,
-        "missionId": 2003675,
+        "missionId": 2003682,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003676,
+        "missionId": 2003683,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003677,
+        "missionId": 2003684,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003685,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 2003686,
         "progressType": 0,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003678,
+        "missionId": 2003687,
         "progressType": 3,
         "num": 0
       }, {
         "userId": 119238492,
-        "missionId": 2003679,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003680,
-        "progressType": 3,
-        "num": 0
-      }, {
-        "userId": 119238492,
-        "missionId": 2003681,
-        "progressType": 3,
+        "missionId": 2003688,
+        "progressType": 0,
         "num": 0
       }],
       "userEventMission": [{
@@ -57663,7 +57663,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1789225200,
+        "commandSpellRecoverAt": 1789311600,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57676,7 +57676,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1789225494,
+        "updatedAt": 1789314103,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57692,6 +57692,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1789308661
+    "serverTime": 1789314103
   }
 }
