@@ -67403,6 +67403,66 @@
     "flag": 0,
     "updatedAt": 1789259897,
     "createdAt": 1789259897
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101584925285,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789346773,
+    "createdAt": 1789346773
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101584925286,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789346773,
+    "createdAt": 1789346773
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101584925287,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789346773,
+    "createdAt": 1789346773
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101584925315,
+    "messageRefType": 3,
+    "messageId": 3906,
+    "message": "「くたばれ！ パンプキンファーム・スローター」\n開幕直前 特別ログインボーナスです。(5/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789346773,
+    "createdAt": 1789346773
   }],
   "loginResult": {
     "loginMessages": [{
@@ -107064,6 +107124,30 @@
       "eventId": 11396,
       "day": 4,
       "updatedAt": 1789259897
+    }, {
+      "isDeemedLogin": false,
+      "name": "「くたばれ！ パンプキンファーム・スローター」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260910_y0isci/y0isci_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/halloween2026_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11396,
+      "day": 5,
+      "updatedAt": 1789346773
     }]
   }
 }
