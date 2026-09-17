@@ -3,17 +3,116 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 7,
+        "items": [{
+          "name": "英霊結晶・日輪のフォウくん",
+          "num": 1
+        }, {
+          "name": "呼符",
+          "num": 1
+        }, {
+          "name": "9月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン7日間到達おめでとうございます！\n明日は1日目からリスタートされます。",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_07.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "Fate/Grand Order カルデア放送局 ライト版 ～くたばれ！ パンプキンファーム・スローター～配信記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 14
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260917_m4rcqa/m4rcqa_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/09/0916nico/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11410,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "くたばれ！ パンプキンファーム・スローター 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260916_yc8pjh/yc8pjh_k_02.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11409,
+        "day": 2
+      }, {
+        "isDeemedLogin": false,
+        "name": "「くたばれ！ パンプキンファーム・スローター」開幕直前 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 5
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260910_y0isci/y0isci_k_08.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 2,
+            "urlLink": "https://news.fate-go.jp/2026/09/halloween2026_cp/"
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11396,
+        "day": 8
+      }],
+      "totalLoginBonus": [{
+        "num": 1172,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4489,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 160,
-        "totalLoginCount": 1171,
-        "lastLoginAt": 1789575266,
+        "seqLoginCount": 161,
+        "totalLoginCount": 1172,
+        "lastLoginAt": 1789607155,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47541,111 +47640,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 100158446153,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670400,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1782346394,
-        "createdAt": 1782346394
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100158446154,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4001,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782346394,
-        "createdAt": 1782346394
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100158446155,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10109,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782346394,
-        "createdAt": 1782346394
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100158446179,
-        "messageRefType": 3,
-        "messageId": 3789,
-        "message": "夏予習版:雀のお宿の活動日誌～閻魔亭繁盛記～\n開幕記念 ログインボーナスです。(14/14)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 101,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782346394,
-        "createdAt": 1782346394
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100158446180,
-        "messageRefType": 3,
-        "messageId": 3813,
-        "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(1/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 100,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782346394,
-        "createdAt": 1782346394
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100171351186,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9570300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1782432576,
-        "createdAt": 1782432576
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100171351187,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン1日目のボーナスです。（1/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 4,
-        "num": 2000,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782432576,
-        "createdAt": 1782432576
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 100171351188,
         "messageRefType": 3,
         "messageId": 21,
@@ -53569,6 +53563,111 @@
         "flag": 0,
         "updatedAt": 1789567864,
         "createdAt": 1789567864
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760209,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9670400,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760210,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 4001,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760211,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10112,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760215,
+        "messageRefType": 3,
+        "messageId": 3909,
+        "message": "「くたばれ！ パンプキンファーム・スローター」\n開幕直前 特別ログインボーナスです。(8/10)",
+        "fromType": 3,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760216,
+        "messageRefType": 3,
+        "messageId": 3915,
+        "message": "Fate/Grand Order カルデア放送局 ライト版 ～くたばれ！ パンプキン\nファーム・スローター～\n配信記念 初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 14,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760217,
+        "messageRefType": 3,
+        "messageId": 3917,
+        "message": "くたばれ！ パンプキンファーム・スローター\n開幕記念 ログインボーナスです。(2/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101638760222,
+        "messageRefType": 4,
+        "messageId": 673,
+        "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (9/16 13:00実施分)",
+        "fromType": 6,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 5,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789607155,
+        "createdAt": 1789607155
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57862,6 +57961,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1789575266
+    "serverTime": 1789607155
   }
 }
