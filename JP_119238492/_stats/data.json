@@ -67733,6 +67733,81 @@
     "flag": 0,
     "updatedAt": 1789607155,
     "createdAt": 1789607155
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101660177416,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789693435,
+    "createdAt": 1789693435
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101660177417,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789693435,
+    "createdAt": 1789693435
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101660177418,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789693435,
+    "createdAt": 1789693435
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101660177425,
+    "messageRefType": 3,
+    "messageId": 3910,
+    "message": "「くたばれ！ パンプキンファーム・スローター」\n開幕直前 特別ログインボーナスです。(9/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789693435,
+    "createdAt": 1789693435
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101660177426,
+    "messageRefType": 3,
+    "messageId": 3918,
+    "message": "くたばれ！ パンプキンファーム・スローター\n開幕記念 ログインボーナスです。(3/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789693435,
+    "createdAt": 1789693435
   }],
   "loginResult": {
     "loginMessages": [{
@@ -107603,6 +107678,53 @@
       "eventId": 11410,
       "day": 1,
       "updatedAt": 1789607155
+    }, {
+      "isDeemedLogin": false,
+      "name": "「くたばれ！ パンプキンファーム・スローター」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260910_y0isci/y0isci_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/09/halloween2026_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11396,
+      "day": 9,
+      "updatedAt": 1789693435
+    }, {
+      "isDeemedLogin": false,
+      "name": "くたばれ！ パンプキンファーム・スローター 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260916_yc8pjh/yc8pjh_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11409,
+      "day": 3,
+      "updatedAt": 1789693435
     }]
   }
 }
