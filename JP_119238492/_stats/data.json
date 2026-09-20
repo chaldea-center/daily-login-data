@@ -67883,6 +67883,81 @@
     "flag": 0,
     "updatedAt": 1789779573,
     "createdAt": 1789779573
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101694528524,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789864906,
+    "createdAt": 1789864906
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101694528525,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1789864906,
+    "createdAt": 1789864906
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101694528526,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789864906,
+    "createdAt": 1789864906
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101694528556,
+    "messageRefType": 3,
+    "messageId": 3914,
+    "message": "「京都国際マンガ・アニメフェア2026」出展記念 \n初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789864906,
+    "createdAt": 1789864906
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101694528557,
+    "messageRefType": 3,
+    "messageId": 3920,
+    "message": "くたばれ！ パンプキンファーム・スローター\n開幕記念 ログインボーナスです。(5/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1789864906,
+    "createdAt": 1789864906
   }],
   "loginResult": {
     "loginMessages": [{
@@ -107847,6 +107922,52 @@
       "eventId": 11409,
       "day": 4,
       "updatedAt": 1789779573
+    }, {
+      "isDeemedLogin": false,
+      "name": "「京都国際マンガ・アニメフェア2026」出展記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260920_o3aad8/o3aad8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11408,
+      "day": 1,
+      "updatedAt": 1789864906
+    }, {
+      "isDeemedLogin": false,
+      "name": "くたばれ！ パンプキンファーム・スローター 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260916_yc8pjh/yc8pjh_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11409,
+      "day": 5,
+      "updatedAt": 1789864906
     }]
   }
 }

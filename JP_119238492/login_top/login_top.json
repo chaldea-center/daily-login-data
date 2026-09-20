@@ -3,17 +3,92 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
+      "seqLoginBonus": [{
+        "num": 3,
+        "items": [{
+          "name": "英霊結晶・星のフォウくん",
+          "num": 1
+        }, {
+          "name": "叡智の業火",
+          "num": 1
+        }, {
+          "name": "9月交換券(2026)",
+          "num": 1
+        }],
+        "message": "連続ログイン3日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_03.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        }
+      }],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
-      }
+      },
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「京都国際マンガ・アニメフェア2026」出展記念 初回ログインボーナス",
+        "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "聖晶石",
+          "num": 10
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260920_o3aad8/o3aad8_s_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11408,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "くたばれ！ パンプキンファーム・スローター 開幕記念 ログインボーナス",
+        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "白銀の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20260916_yc8pjh/yc8pjh_k_05.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11409,
+        "day": 5
+      }],
+      "totalLoginBonus": [{
+        "num": 1175,
+        "items": [],
+        "script": {}
+      }]
     },
     "fail": {},
     "nid": "login"
@@ -4390,9 +4465,9 @@
       }],
       "userLogin": [{
         "userId": 119238492,
-        "seqLoginCount": 163,
-        "totalLoginCount": 1174,
-        "lastLoginAt": 1789831635,
+        "seqLoginCount": 164,
+        "totalLoginCount": 1175,
+        "lastLoginAt": 1789864906,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47541,81 +47616,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 100211498875,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1782691773,
-        "createdAt": 1782691773
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100211498876,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782691773,
-        "createdAt": 1782691773
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100211498877,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 2,
-        "objectId": 10109,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782691773,
-        "createdAt": 1782691773
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100211498891,
-        "messageRefType": 3,
-        "messageId": 3817,
-        "message": " 「春の終わりに君を待つ」\n開幕直前 特別ログインボーナスです。(5/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 2,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1782691773,
-        "createdAt": 1782691773
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100225859227,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン5日目のボーナスです。（5/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9770500,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1782777843,
-        "createdAt": 1782777843
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 100225859228,
         "messageRefType": 3,
         "messageId": 21,
@@ -53569,6 +53569,81 @@
         "flag": 0,
         "updatedAt": 1789779573,
         "createdAt": 1789779573
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101694528524,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9570300,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1789864906,
+        "createdAt": 1789864906
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101694528525,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 1,
+        "objectId": 9770500,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 1,
+        "flag": 0,
+        "updatedAt": 1789864906,
+        "createdAt": 1789864906
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101694528526,
+        "messageRefType": 3,
+        "messageId": 21,
+        "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+        "fromType": 2,
+        "giftType": 2,
+        "objectId": 10112,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789864906,
+        "createdAt": 1789864906
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101694528556,
+        "messageRefType": 3,
+        "messageId": 3914,
+        "message": "「京都国際マンガ・アニメフェア2026」出展記念 \n初回ログインボーナスです。",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 2,
+        "num": 10,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789864906,
+        "createdAt": 1789864906
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101694528557,
+        "messageRefType": 3,
+        "messageId": 3920,
+        "message": "くたばれ！ パンプキンファーム・スローター\n開幕記念 ログインボーナスです。(5/21)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 101,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1789864906,
+        "createdAt": 1789864906
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57862,6 +57937,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1789831635
+    "serverTime": 1789864906
   }
 }
