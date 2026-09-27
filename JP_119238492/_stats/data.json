@@ -68318,6 +68318,66 @@
     "flag": 0,
     "updatedAt": 1790385175,
     "createdAt": 1790385175
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101793352373,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1790471176,
+    "createdAt": 1790471176
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101793352374,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1790471176,
+    "createdAt": 1790471176
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101793352375,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10112,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1790471176,
+    "createdAt": 1790471176
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101793352378,
+    "messageRefType": 3,
+    "messageId": 3927,
+    "message": "くたばれ！ パンプキンファーム・スローター\n開幕記念 ログインボーナスです。(12/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1790471176,
+    "createdAt": 1790471176
   }],
   "loginResult": {
     "loginMessages": [{
@@ -108486,6 +108546,29 @@
       "eventId": 11409,
       "day": 11,
       "updatedAt": 1790385175
+    }, {
+      "isDeemedLogin": false,
+      "name": "くたばれ！ パンプキンファーム・スローター 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260916_yc8pjh/yc8pjh_k_12.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11409,
+      "day": 12,
+      "updatedAt": 1790471176
     }]
   }
 }
