@@ -4392,7 +4392,7 @@
         "userId": 119238492,
         "seqLoginCount": 174,
         "totalLoginCount": 1185,
-        "lastLoginAt": 1790777480,
+        "lastLoginAt": 1790790040,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -48586,21 +48586,6 @@
         "createdAt": 1784937797
       }, {
         "receiveUserId": 119238492,
-        "presentId": 100629292438,
-        "messageRefType": 3,
-        "messageId": 3845,
-        "message": "「Fate/Grand Order Fes. 2026 カルデア学園祭\n～11th Anniversary～」開催直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94138223,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1784937797,
-        "createdAt": 1784937797
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 100642412642,
         "messageRefType": 3,
         "messageId": 21,
@@ -48759,21 +48744,6 @@
         "giftType": 2,
         "objectId": 10110,
         "num": 1,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1785196920,
-        "createdAt": 1785196920
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100667599560,
-        "messageRefType": 3,
-        "messageId": 3845,
-        "message": "「Fate/Grand Order Fes. 2026 カルデア学園祭\n～11th Anniversary～」開催直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94138223,
-        "num": 2,
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
@@ -49002,36 +48972,6 @@
         "limitCount": 0,
         "lv": 0,
         "flag": 0,
-        "updatedAt": 1785542515,
-        "createdAt": 1785542515
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100720073899,
-        "messageRefType": 3,
-        "messageId": 3845,
-        "message": "「Fate/Grand Order Fes. 2026 カルデア学園祭\n～11th Anniversary～」開催直前\nカウントダウンログインボーナスです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94138223,
-        "num": 2,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1785542515,
-        "createdAt": 1785542515
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100720073900,
-        "messageRefType": 3,
-        "messageId": 3851,
-        "message": "「Fate/Grand Order ～11th Anniversary～」限定\n使用期限付コンティニューアイテムプレゼントです。",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94160401,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 16,
         "updatedAt": 1785542515,
         "createdAt": 1785542515
       }, {
@@ -49403,21 +49343,6 @@
         "fromType": 3,
         "giftType": 2,
         "objectId": 100,
-        "num": 10,
-        "limitCount": 0,
-        "lv": 0,
-        "flag": 0,
-        "updatedAt": 1785888125,
-        "createdAt": 1785888125
-      }, {
-        "receiveUserId": 119238492,
-        "presentId": 100817575903,
-        "messageRefType": 3,
-        "messageId": 3855,
-        "message": "11周年記念\n特別回数ログインボーナスです。(3/10)",
-        "fromType": 3,
-        "giftType": 2,
-        "objectId": 94138223,
         "num": 10,
         "limitCount": 0,
         "lv": 0,
@@ -57026,36 +56951,6 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71702,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71703,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 80628,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 71713,
         "value": 0,
         "flag": 0,
@@ -57097,6 +56992,26 @@
       }, {
         "userId": 119238492,
         "eventId": 71719,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71720,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71721,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57613,7 +57528,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1790694000,
+        "commandSpellRecoverAt": 1790780400,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -57626,7 +57541,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1790694687,
+        "updatedAt": 1790790040,
         "createdAt": 1686492765
       }],
       "userShopDaily": [],
@@ -57642,6 +57557,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1790777480
+    "serverTime": 1790790040
   }
 }
