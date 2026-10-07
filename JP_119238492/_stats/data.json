@@ -68963,6 +68963,21 @@
     "flag": 0,
     "updatedAt": 1791338877,
     "createdAt": 1791338877
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101930850998,
+    "messageRefType": 3,
+    "messageId": 3970,
+    "message": "「冠位名代戦」準備応援\n特別ログインボーナスです。(1/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1791382269,
+    "createdAt": 1791382269
   }],
   "loginResult": {
     "loginMessages": [{
@@ -109361,6 +109376,49 @@
       "eventId": 11409,
       "day": 21,
       "updatedAt": 1791252669
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位名代戦」準備応援キャンペーン  開催中！",
+      "detail": "「冠位名代戦」準備応援キャンペーン  開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261007_6pacjz/6pacjz_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11429,
+      "day": 1,
+      "updatedAt": 1791382269
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位名代戦」準備応援 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261007_2ge9pj/2ge9pj_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11430,
+      "day": 1,
+      "updatedAt": 1791382269
     }]
   }
 }

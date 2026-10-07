@@ -3,26 +3,22 @@
     "resCode": "00",
     "success": {
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "lastChallengeQuestInfo": {
-        "questId": 94093603,
-        "questPhase": 1
+      "topAddFriendPointSvtGrand": {
+        "userSvtId": 0,
+        "svtId": 0,
+        "friendPoint": 0
       },
-      "seqLoginBonus": [{
-        "num": 6,
-        "items": [{
-          "name": "英霊結晶・流星のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 2
-        }, {
-          "name": "10月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン6日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
+      "addRecommendSupportFriendPointSvtList": [],
+      "addRecommendSupportFriendPoint": 0,
+      "campaignBonus": [{
+        "isDeemedLogin": false,
+        "name": "「冠位名代戦」準備応援キャンペーン  開催中！",
+        "detail": "「冠位名代戦」準備応援キャンペーン  開催中！",
+        "addDetail": "",
+        "items": [],
         "script": {
           "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_06.png",
+            "bannerUrl": "/webview/loginbonus/20261007_6pacjz/6pacjz_s_01.png",
             "offset": [2, 0],
             "size": [748, 448],
             "urlOpenType": 0
@@ -30,20 +26,36 @@
           "titleOffset": [10000, 0],
           "buttonOffset": [0, 0],
           "messageOffset": [-50000, 0]
-        }
+        },
+        "eventId": 11429,
+        "day": 1
+      }, {
+        "isDeemedLogin": false,
+        "name": "「冠位名代戦」準備応援 特別ログインボーナス",
+        "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+        "addDetail": "",
+        "items": [{
+          "name": "黄金の果実",
+          "num": 1
+        }],
+        "script": {
+          "banners": [{
+            "bannerUrl": "/webview/loginbonus/20261007_2ge9pj/2ge9pj_k_01.png",
+            "offset": [2, 0],
+            "size": [748, 448],
+            "urlOpenType": 0
+          }],
+          "titleOffset": [10000, 0],
+          "buttonOffset": [0, 0],
+          "messageOffset": [-50000, 0]
+        },
+        "eventId": 11430,
+        "day": 1
       }],
-      "topAddFriendPointSvtGrand": {
-        "userSvtId": 0,
-        "svtId": 0,
-        "friendPoint": 0
-      },
-      "addRecommendSupportFriendPoint": 0,
-      "addRecommendSupportFriendPointSvtList": [],
-      "totalLoginBonus": [{
-        "num": 1192,
-        "items": [],
-        "script": {}
-      }]
+      "lastChallengeQuestInfo": {
+        "questId": 94093603,
+        "questPhase": 1
+      }
     },
     "fail": {},
     "nid": "login"
@@ -4422,7 +4434,7 @@
         "userId": 119238492,
         "seqLoginCount": 181,
         "totalLoginCount": 1192,
-        "lastLoginAt": 1791338877,
+        "lastLoginAt": 1791382269,
         "createdAt": 1686492765
       }],
       "userShop": [{
@@ -47446,21 +47458,6 @@
         "createdAt": 1775086297
       }, {
         "receiveUserId": 119238492,
-        "presentId": 100424813101,
-        "messageRefType": 3,
-        "messageId": 21,
-        "message": "連続ログイン4日目のボーナスです。（4/7日間）",
-        "fromType": 2,
-        "giftType": 1,
-        "objectId": 9670300,
-        "num": 1,
-        "limitCount": 0,
-        "lv": 1,
-        "flag": 0,
-        "updatedAt": 1783900447,
-        "createdAt": 1783900447
-      }, {
-        "receiveUserId": 119238492,
         "presentId": 100424813102,
         "messageRefType": 3,
         "messageId": 21,
@@ -53474,6 +53471,21 @@
         "flag": 0,
         "updatedAt": 1791338877,
         "createdAt": 1791338877
+      }, {
+        "receiveUserId": 119238492,
+        "presentId": 101930850998,
+        "messageRefType": 3,
+        "messageId": 3970,
+        "message": "「冠位名代戦」準備応援\n特別ログインボーナスです。(1/7)",
+        "fromType": 3,
+        "giftType": 2,
+        "objectId": 100,
+        "num": 1,
+        "limitCount": 0,
+        "lv": 0,
+        "flag": 0,
+        "updatedAt": 1791382269,
+        "createdAt": 1791382269
       }],
       "userNpcSvtRecord": [],
       "userSupportDeck": [],
@@ -57131,27 +57143,37 @@
         "createdAt": 0
       }, {
         "userId": 119238492,
-        "eventId": 71713,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
-        "eventId": 71724,
-        "value": 0,
-        "flag": 0,
-        "tutorial": 0,
-        "tutorial2": 0,
-        "scriptFlag": 0,
-        "updatedAt": 0,
-        "createdAt": 0
-      }, {
-        "userId": 119238492,
         "eventId": 80627,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71731,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71732,
+        "value": 0,
+        "flag": 0,
+        "tutorial": 0,
+        "tutorial2": 0,
+        "scriptFlag": 0,
+        "updatedAt": 0,
+        "createdAt": 0
+      }, {
+        "userId": 119238492,
+        "eventId": 71733,
         "value": 0,
         "flag": 0,
         "tutorial": 0,
@@ -57737,6 +57759,6 @@
       }],
       "userCommandCode": []
     },
-    "serverTime": 1791338877
+    "serverTime": 1791382269
   }
 }
