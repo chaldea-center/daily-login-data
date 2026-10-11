@@ -69173,6 +69173,66 @@
     "flag": 0,
     "updatedAt": 1791598050,
     "createdAt": 1791598050
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101977884798,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1791682497,
+    "createdAt": 1791682497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101977884799,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1791682497,
+    "createdAt": 1791682497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101977884800,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10113,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1791682497,
+    "createdAt": 1791682497
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 101977884806,
+    "messageRefType": 3,
+    "messageId": 3974,
+    "message": "「冠位名代戦」準備応援\n特別ログインボーナスです。(5/7)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1791682497,
+    "createdAt": 1791682497
   }],
   "loginResult": {
     "loginMessages": [{
@@ -109683,6 +109743,29 @@
       "eventId": 11430,
       "day": 4,
       "updatedAt": 1791598050
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位名代戦」準備応援 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大7回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261007_2ge9pj/2ge9pj_k_05.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11430,
+      "day": 5,
+      "updatedAt": 1791682497
     }]
   }
 }
