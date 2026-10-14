@@ -69398,6 +69398,21 @@
     "flag": 0,
     "updatedAt": 1791941792,
     "createdAt": 1791941792
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102023064403,
+    "messageRefType": 3,
+    "messageId": 3968,
+    "message": "復刻版:盈月剣風帖\n開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1791987075,
+    "createdAt": 1791987075
   }],
   "loginResult": {
     "loginMessages": [{
@@ -109977,6 +109992,49 @@
       "eventId": 11430,
       "day": 7,
       "updatedAt": 1791838669
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11426,
+      "day": 1,
+      "updatedAt": 1791987075
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖  開幕！",
+      "detail": "復刻版:盈月剣風帖  開幕！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_n8h4w2/n8h4w2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11427,
+      "day": 1,
+      "updatedAt": 1791987075
     }]
   }
 }
