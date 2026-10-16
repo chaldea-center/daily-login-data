@@ -69518,6 +69518,66 @@
     "flag": 0,
     "updatedAt": 1792026812,
     "createdAt": 1792026812
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102048451291,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1792112431,
+    "createdAt": 1792112431
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102048451292,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792112431,
+    "createdAt": 1792112431
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102048451293,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10113,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792112431,
+    "createdAt": 1792112431
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102048451305,
+    "messageRefType": 3,
+    "messageId": 3978,
+    "message": "復刻版:盈月剣風帖\n開幕記念 ログインボーナスです。(3/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792112431,
+    "createdAt": 1792112431
   }],
   "loginResult": {
     "loginMessages": [{
@@ -110184,6 +110244,29 @@
       "eventId": 11426,
       "day": 2,
       "updatedAt": 1792026812
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11426,
+      "day": 3,
+      "updatedAt": 1792112431
     }]
   }
 }
