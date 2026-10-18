@@ -69698,6 +69698,21 @@
     "flag": 0,
     "updatedAt": 1792284033,
     "createdAt": 1792284033
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102083742389,
+    "messageRefType": 3,
+    "messageId": 3948,
+    "message": "【リリース4100日突破キャンペーン】\nグランドオーダー発令から4100日を記念しての贈り物です。\nこれからもよろしくお願いします。byマシュ",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792337221,
+    "createdAt": 1792337221
   }],
   "loginResult": {
     "loginMessages": [{
@@ -110433,6 +110448,29 @@
       "eventId": 11426,
       "day": 5,
       "updatedAt": 1792284033
+    }, {
+      "isDeemedLogin": false,
+      "name": "リリース4100日突破キャンペーン 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261019_gga9e2/gga9e2_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11425,
+      "day": 1,
+      "updatedAt": 1792337221
     }]
   }
 }
