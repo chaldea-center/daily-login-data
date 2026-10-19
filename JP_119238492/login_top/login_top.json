@@ -1,6 +1,6 @@
 {
   "cache": {
-    "serverTime": 1792419040,
+    "serverTime": 1792434234,
     "updated": {
       "mstTotalLogin": [{
         "script": {
@@ -4391,7 +4391,7 @@
         "userId": 119238492,
         "seqLoginCount": 193,
         "totalLoginCount": 1204,
-        "lastLoginAt": 1792419040,
+        "lastLoginAt": 1792434234,
         "createdAt": 1686492765
       }]
     },
@@ -11765,7 +11765,7 @@
         "pushUserSvtId": 0,
         "flag": 234881536,
         "commandSpellUseAt": 0,
-        "commandSpellRecoverAt": 1792335600,
+        "commandSpellRecoverAt": 1792422000,
         "svtStorageAdjust": 255,
         "svtEquipStorageAdjust": 0,
         "userEquipId": 129295290,
@@ -11778,7 +11778,7 @@
         "eventSupportDeckId": 0,
         "tutorial1": 989897726,
         "tutorial2": 150,
-        "updatedAt": 1792337221,
+        "updatedAt": 1792434234,
         "createdAt": 1686492765
       }],
       "userEventMissionFix": [{
@@ -11959,6 +11959,11 @@
       }, {
         "userId": 119238492,
         "missionId": 1034594,
+        "progressType": 3,
+        "num": 0
+      }, {
+        "userId": 119238492,
+        "missionId": 1034569,
         "progressType": 3,
         "num": 0
       }],
