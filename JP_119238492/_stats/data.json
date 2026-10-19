@@ -69713,6 +69713,81 @@
     "flag": 0,
     "updatedAt": 1792337221,
     "createdAt": 1792337221
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102093981835,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1792371043,
+    "createdAt": 1792371043
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102093981836,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792371043,
+    "createdAt": 1792371043
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102093981837,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン4日目のボーナスです。（4/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10113,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792371043,
+    "createdAt": 1792371043
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102093981851,
+    "messageRefType": 3,
+    "messageId": 3999,
+    "message": "「FGOゲストトーク in マチ★アソビvol.31」\n開催記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792371043,
+    "createdAt": 1792371043
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102093981852,
+    "messageRefType": 3,
+    "messageId": 3981,
+    "message": "復刻版:盈月剣風帖\n開幕記念 ログインボーナスです。(6/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792371043,
+    "createdAt": 1792371043
   }],
   "loginResult": {
     "loginMessages": [{
@@ -110471,6 +110546,52 @@
       "eventId": 11425,
       "day": 1,
       "updatedAt": 1792337221
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_06.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11426,
+      "day": 6,
+      "updatedAt": 1792371043
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGOゲストトーク in マチ★アソビvol.31」開催記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 10
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261019_zwh175/zwh175_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11443,
+      "day": 1,
+      "updatedAt": 1792371043
     }]
   }
 }
