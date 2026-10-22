@@ -110919,6 +110919,26 @@
       "eventId": 11432,
       "day": 1,
       "updatedAt": 1792631752
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖  開催中！",
+      "detail": "復刻版:盈月剣風帖  開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261022_b5s24u/b5s24u_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11428,
+      "day": 1,
+      "updatedAt": 1792678275
     }]
   }
 }
