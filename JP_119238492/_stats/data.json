@@ -70073,6 +70073,36 @@
     "flag": 0,
     "updatedAt": 1792718071,
     "createdAt": 1792718071
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102159251154,
+    "messageRefType": 3,
+    "messageId": 4017,
+    "message": "「レイドバトル」参加応援ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792764665,
+    "createdAt": 1792764665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102159251155,
+    "messageRefType": 3,
+    "messageId": 4017,
+    "message": "「レイドバトル」参加応援ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94138225,
+    "num": 10,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792764665,
+    "createdAt": 1792764665
   }],
   "loginResult": {
     "loginMessages": [{
@@ -111061,6 +111091,52 @@
       "eventId": 11433,
       "day": 1,
       "updatedAt": 1792718071
+    }, {
+      "isDeemedLogin": false,
+      "name": "「レイドバトル」参加応援ログインボーナス",
+      "detail": "開催期間中、初回ログインで「黄金の果実×5」＆「星見のティーポット×10」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 5
+      }, {
+        "name": "星見のティーポット",
+        "num": 10
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261023_cga58y/cga58y_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11449,
+      "day": 1,
+      "updatedAt": 1792764665
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位名代戦：タマモアリア」開催中！",
+      "detail": "「冠位名代戦：タマモアリア」開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261023_se48n4/se48n4_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11450,
+      "day": 1,
+      "updatedAt": 1792764665
     }]
   }
 }
