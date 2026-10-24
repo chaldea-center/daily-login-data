@@ -4390,7 +4390,7 @@
         "userId": 119238492,
         "seqLoginCount": 198,
         "totalLoginCount": 1209,
-        "lastLoginAt": 1792805030,
+        "lastLoginAt": 1792851064,
         "createdAt": 1686492765
       }]
     },
@@ -57732,77 +57732,24 @@
       "userCommandCode": []
     },
     "deleted": {},
-    "serverTime": 1792805030
+    "serverTime": 1792851064
   },
   "response": [{
     "nid": "login",
     "resCode": "00",
     "success": {
-      "totalLoginBonus": [{
-        "num": 1209,
-        "items": [],
-        "script": {}
-      }],
-      "addRecommendSupportFriendPointSvtList": [],
       "topAddFriendPointSvtGrand": {
         "userSvtId": 0,
         "svtId": 0,
         "friendPoint": 0
       },
-      "seqLoginBonus": [{
-        "num": 2,
-        "items": [{
-          "name": "英霊結晶・太陽のフォウくん",
-          "num": 1
-        }, {
-          "name": "聖晶石",
-          "num": 1
-        }, {
-          "name": "10月交換券(2026)",
-          "num": 1
-        }],
-        "message": "連続ログイン2日目\n※ログインが途切れるか、7日到達すると\n1日目から再開されます",
-        "script": {
-          "messageOffset": [-50000, 0],
-          "titleOffset": [10000, 0],
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20250804_fsyre3/fsyre3_r_02.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "buttonOffset": [0, 0]
-        }
-      }],
       "lastChallengeQuestInfo": {
         "questId": 94093603,
         "questPhase": 1
       },
       "addRecommendSupportFriendPoint": 0,
       "obfuscatedAccountId": "9E-30-AC-66-A9-33-66-E1-4A-CF-71-DC-0D-D0-82-5D",
-      "campaignBonus": [{
-        "isDeemedLogin": false,
-        "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
-        "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
-        "addDetail": "",
-        "items": [{
-          "name": "白銀の果実",
-          "num": 1
-        }],
-        "script": {
-          "messageOffset": [-50000, 0],
-          "titleOffset": [10000, 0],
-          "banners": [{
-            "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_11.png",
-            "offset": [2, 0],
-            "size": [748, 448],
-            "urlOpenType": 0
-          }],
-          "buttonOffset": [0, 0]
-        },
-        "eventId": 11426,
-        "day": 11
-      }]
+      "addRecommendSupportFriendPointSvtList": []
     },
     "fail": {}
   }, {
