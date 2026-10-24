@@ -70103,6 +70103,81 @@
     "flag": 0,
     "updatedAt": 1792764665,
     "createdAt": 1792764665
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102173236252,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1792805030,
+    "createdAt": 1792805030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102173236253,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792805030,
+    "createdAt": 1792805030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102173236254,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10113,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792805030,
+    "createdAt": 1792805030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102173236266,
+    "messageRefType": 3,
+    "messageId": 3986,
+    "message": "復刻版:盈月剣風帖\n開幕記念 ログインボーナスです。(11/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792805030,
+    "createdAt": 1792805030
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102173236271,
+    "messageRefType": 4,
+    "messageId": 676,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (10/23 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1792805030,
+    "createdAt": 1792805030
   }],
   "loginResult": {
     "loginMessages": [{
@@ -111137,6 +111212,29 @@
       "eventId": 11450,
       "day": 1,
       "updatedAt": 1792764665
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_11.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11426,
+      "day": 11,
+      "updatedAt": 1792805030
     }]
   }
 }
