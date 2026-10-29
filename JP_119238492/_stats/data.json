@@ -70478,6 +70478,21 @@
     "flag": 0,
     "updatedAt": 1793239684,
     "createdAt": 1793239684
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102246507891,
+    "messageRefType": 3,
+    "messageId": 4010,
+    "message": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&\n「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(1/13)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793283049,
+    "createdAt": 1793283049
   }],
   "loginResult": {
     "loginMessages": [{
@@ -111650,6 +111665,49 @@
       "eventId": 11426,
       "day": 16,
       "updatedAt": 1793239684
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大13回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_nze7gd/nze7gd_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11455,
+      "day": 1,
+      "updatedAt": 1793283049
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "「冠位戴冠戦：Rider」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_9bi35o/9bi35o_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11456,
+      "day": 1,
+      "updatedAt": 1793283049
     }]
   }
 }
