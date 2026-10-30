@@ -70568,6 +70568,21 @@
     "flag": 0,
     "updatedAt": 1793326254,
     "createdAt": 1793326254
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102264388439,
+    "messageRefType": 3,
+    "messageId": 4025,
+    "message": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演直前\nログインボーナスです。(1/2)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 94163901,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 2,
+    "updatedAt": 1793369453,
+    "createdAt": 1793369453
   }],
   "loginResult": {
     "loginMessages": [{
@@ -111829,6 +111844,29 @@
       "eventId": 11455,
       "day": 2,
       "updatedAt": 1793326254
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大2回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊極点交換チケット",
+        "num": 1
+      }],
+      "script": {
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261030_dqv9dr/dqv9dr_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11457,
+      "day": 1,
+      "updatedAt": 1793369453
     }]
   }
 }
