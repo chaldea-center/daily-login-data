@@ -70673,6 +70673,21 @@
     "flag": 0,
     "updatedAt": 1793412120,
     "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102284022552,
+    "messageRefType": 4,
+    "messageId": 677,
+    "message": "霊衣実装の遅れに伴う特別措置として、\r\n10月31日(土)に★3(R)ヘンリー･ジキル＆ハイドの霊衣開放権\r\n『霊衣「レッドフード＆ビッグバッドウルフ」開放権』をプレゼントいたします。",
+    "fromType": 6,
+    "giftType": 9,
+    "objectId": 60070011,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 4,
+    "updatedAt": 1793455868,
+    "createdAt": 1793455868
   }],
   "loginResult": {
     "loginMessages": [{
