@@ -70583,6 +70583,96 @@
     "flag": 2,
     "updatedAt": 1793369453,
     "createdAt": 1793369453
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892855,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892856,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892857,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10113,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892879,
+    "messageRefType": 3,
+    "messageId": 3993,
+    "message": "復刻版:盈月剣風帖\n開幕記念 ログインボーナスです。(18/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892880,
+    "messageRefType": 3,
+    "messageId": 4026,
+    "message": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演直前\nログインボーナスです。(2/2)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102272892881,
+    "messageRefType": 3,
+    "messageId": 4012,
+    "message": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&\n「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(3/13)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793412120,
+    "createdAt": 1793412120
   }],
   "loginResult": {
     "loginMessages": [{
@@ -111867,6 +111957,75 @@
       "eventId": 11457,
       "day": 1,
       "updatedAt": 1793369453
+    }, {
+      "isDeemedLogin": false,
+      "name": "復刻版:盈月剣風帖開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261014_h39rjy/h39rjy_k_18.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11426,
+      "day": 18,
+      "updatedAt": 1793412120
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大13回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_nze7gd/nze7gd_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11455,
+      "day": 3,
+      "updatedAt": 1793412120
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演直前ログインボーナス",
+      "detail": "開催期間中、1日1回 最大2回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "呼符",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261030_dqv9dr/dqv9dr_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11457,
+      "day": 2,
+      "updatedAt": 1793412120
     }]
   }
 }
