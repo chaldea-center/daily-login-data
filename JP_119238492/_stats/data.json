@@ -112238,6 +112238,47 @@
       "eventId": 11458,
       "day": 1,
       "updatedAt": 1793498005
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "「冠位戴冠戦：Caster」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261101_yormy5/yormy5_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11462,
+      "day": 1,
+      "updatedAt": 1793542265
+    }, {
+      "isDeemedLogin": false,
+      "name": "空想樹「M・スペクトラム」ボイス動画（開始） 公開中！",
+      "detail": "空想樹「M・スペクトラム」ボイス動画（開始） 公開中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261101_cdd7u8/cdd7u8_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://dramalogue.fate-go.jp/special/no-no102/"
+        }]
+      },
+      "eventId": 11468,
+      "day": 1,
+      "updatedAt": 1793542265
     }]
   }
 }
