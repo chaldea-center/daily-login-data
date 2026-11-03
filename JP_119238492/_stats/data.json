@@ -71033,6 +71033,96 @@
     "flag": 0,
     "updatedAt": 1793654786,
     "createdAt": 1793654786
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173181,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173182,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173183,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173195,
+    "messageRefType": 3,
+    "messageId": 3949,
+    "message": "Fate/Grand Order カルデア放送局 全世界同時配信SP\n～全世界1億DL突破キャンペーン～\n配信記念 カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 18,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173196,
+    "messageRefType": 3,
+    "messageId": 4030,
+    "message": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演記念\nログインボーナスです。(4/4)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102364173197,
+    "messageRefType": 3,
+    "messageId": 4016,
+    "message": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&\n「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(7/13)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793732856,
+    "createdAt": 1793732856
   }],
   "loginResult": {
     "loginMessages": [{
@@ -112709,6 +112799,75 @@
       "eventId": 11458,
       "day": 3,
       "updatedAt": 1793654786
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 全世界同時配信SP ～全世界1億DL突破キャンペーン～ 配信記念 カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "レアプリズム",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261104_1b8h9k/1b8h9k_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11436,
+      "day": 1,
+      "updatedAt": 1793732856
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大13回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_nze7gd/nze7gd_k_07.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11455,
+      "day": 7,
+      "updatedAt": 1793732856
+    }, {
+      "isDeemedLogin": false,
+      "name": "「FGO THE DRAMALOGUE -Cosmos in the Lostbelt-」公演記念ログインボーナス",
+      "detail": "開催期間中、1日1回 最大4回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261101_12d2bn/12d2bn_k_04.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11458,
+      "day": 4,
+      "updatedAt": 1793732856
     }]
   }
 }
