@@ -112868,6 +112868,26 @@
       "eventId": 11458,
       "day": 4,
       "updatedAt": 1793732856
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261104_m3nahh/m3nahh_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11463,
+      "day": 1,
+      "updatedAt": 1793801471
     }]
   }
 }
