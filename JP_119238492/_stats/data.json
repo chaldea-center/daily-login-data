@@ -71123,6 +71123,126 @@
     "flag": 0,
     "updatedAt": 1793732856,
     "createdAt": 1793732856
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884090,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884091,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884092,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884110,
+    "messageRefType": 3,
+    "messageId": 3949,
+    "message": "Fate/Grand Order カルデア放送局 全世界同時配信SP\n～全世界1億DL突破キャンペーン～\n配信記念 カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884111,
+    "messageRefType": 3,
+    "messageId": 3949,
+    "message": "Fate/Grand Order カルデア放送局 全世界同時配信SP\n～全世界1億DL突破キャンペーン～\n配信記念 カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884112,
+    "messageRefType": 3,
+    "messageId": 4019,
+    "message": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&\n「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(8/13)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884113,
+    "messageRefType": 3,
+    "messageId": 4000,
+    "message": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～」開幕直前\n特別ログインボーナスです。(1/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102382884122,
+    "messageRefType": 4,
+    "messageId": 678,
+    "message": "期間限定『「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！」開幕直前 沖田総司(セイバー)ピックアップ召喚』において、「召喚詳細」画面のピックアップ対象に記載されているサーヴァントが一部誤っていた不具合についてのお詫び (11/4 23:00掲載分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 3,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1793820338,
+    "createdAt": 1793820338
   }],
   "loginResult": {
     "loginMessages": [{
@@ -112888,6 +113008,79 @@
       "eventId": 11463,
       "day": 1,
       "updatedAt": 1793801471
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 全世界同時配信SP ～全世界1億DL突破キャンペーン～ 配信記念 カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・流星のフォウくん",
+        "num": 1
+      }, {
+        "name": "英霊結晶・日輪のフォウくん",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261105_s4xg4n/s4xg4n_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11437,
+      "day": 1,
+      "updatedAt": 1793820338
+    }, {
+      "isDeemedLogin": false,
+      "name": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261105_wr0djd/wr0djd_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/2026gudaguda_cp/"
+        }]
+      },
+      "eventId": 11444,
+      "day": 1,
+      "updatedAt": 1793820338
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大13回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_nze7gd/nze7gd_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11455,
+      "day": 8,
+      "updatedAt": 1793820338
     }]
   }
 }
