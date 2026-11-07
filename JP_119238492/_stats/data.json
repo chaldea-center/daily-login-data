@@ -113401,6 +113401,26 @@
       "eventId": 11455,
       "day": 10,
       "updatedAt": 1794017442
+    }, {
+      "isDeemedLogin": false,
+      "name": "全世界1億DL突破キャンペーン  開催中！",
+      "detail": "全世界1億DL突破キャンペーン  開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261107_7hl9eq/7hl9eq_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0]
+      },
+      "eventId": 11423,
+      "day": 1,
+      "updatedAt": 1794060687
     }]
   }
 }
