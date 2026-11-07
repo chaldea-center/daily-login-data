@@ -71333,6 +71333,96 @@
     "flag": 0,
     "updatedAt": 1793907199,
     "createdAt": 1793907199
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750952,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750953,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750954,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750977,
+    "messageRefType": 3,
+    "messageId": 3949,
+    "message": "Fate/Grand Order カルデア放送局 全世界同時配信SP\n～全世界1億DL突破キャンペーン～\n配信記念 カウントダウンログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 1,
+    "num": 100000000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750978,
+    "messageRefType": 3,
+    "messageId": 4021,
+    "message": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&\n「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン\n開幕記念 ログインボーナスです。(10/13)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102425750979,
+    "messageRefType": 3,
+    "messageId": 4002,
+    "message": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～」開幕直前\n特別ログインボーナスです。(3/10)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794017442,
+    "createdAt": 1794017442
   }],
   "loginResult": {
     "loginMessages": [{
@@ -113241,6 +113331,76 @@
       "eventId": 11455,
       "day": 9,
       "updatedAt": 1793907199
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 全世界同時配信SP ～全世界1億DL突破キャンペーン～ 配信記念 カウントダウンログインボーナス",
+      "detail": "開催期間中、1日1回 7日間日替りでログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "QP",
+        "num": 100000000
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261107_ibg429/ibg429_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11439,
+      "day": 1,
+      "updatedAt": 1794017442
+    }, {
+      "isDeemedLogin": false,
+      "name": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261105_wr0djd/wr0djd_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/2026gudaguda_cp/"
+        }]
+      },
+      "eventId": 11444,
+      "day": 3,
+      "updatedAt": 1794017442
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Rider」&「冠位戴冠戦：Caster」&「冠位戴冠戦：Assassin」ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大13回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261029_nze7gd/nze7gd_k_10.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11455,
+      "day": 10,
+      "updatedAt": 1794017442
     }]
   }
 }
