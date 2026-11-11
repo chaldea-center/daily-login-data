@@ -71858,6 +71858,111 @@
     "flag": 16,
     "updatedAt": 1794406268,
     "createdAt": 1794406268
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950111,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950112,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950113,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950141,
+    "messageRefType": 3,
+    "messageId": 4007,
+    "message": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～」開幕直前\n特別ログインボーナスです。(8/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950142,
+    "messageRefType": 3,
+    "messageId": 4052,
+    "message": "Fate/Grand Order カルデア放送局 ライト版\n～真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！～\n配信記念 初回ログインボーナスです。",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 14,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950143,
+    "messageRefType": 3,
+    "messageId": 4032,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102532950225,
+    "messageRefType": 4,
+    "messageId": 680,
+    "message": "メンテナンスによりゲームをプレイできなかったことへのお詫び (11/11 13:00実施分)",
+    "fromType": 6,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794424622,
+    "createdAt": 1794424622
   }],
   "loginResult": {
     "loginMessages": [{
@@ -114249,6 +114354,77 @@
       "eventId": 11460,
       "day": 1,
       "updatedAt": 1794406268
+    }, {
+      "isDeemedLogin": false,
+      "name": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・星のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261105_wr0djd/wr0djd_k_08.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/2026gudaguda_cp/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11444,
+      "day": 8,
+      "updatedAt": 1794424622
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11445,
+      "day": 2,
+      "updatedAt": 1794424622
+    }, {
+      "isDeemedLogin": false,
+      "name": "Fate/Grand Order カルデア放送局 ライト版 ～真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！～ 配信記念 初回ログインボーナス",
+      "detail": "開催期間中、初回ログインで「聖晶石×14」をプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "聖晶石",
+        "num": 14
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261112_w2nd8k/w2nd8k_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/1111nico/"
+        }],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11446,
+      "day": 1,
+      "updatedAt": 1794424622
     }]
   }
 }
