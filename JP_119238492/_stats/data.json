@@ -71963,6 +71963,81 @@
     "flag": 0,
     "updatedAt": 1794424622,
     "createdAt": 1794424622
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102557605193,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1794512119,
+    "createdAt": 1794512119
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102557605194,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4,
+    "num": 2000,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794512119,
+    "createdAt": 1794512119
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102557605195,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン1日目のボーナスです。（1/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794512119,
+    "createdAt": 1794512119
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102557605222,
+    "messageRefType": 3,
+    "messageId": 4008,
+    "message": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～」開幕直前\n特別ログインボーナスです。(9/10)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 5,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1794512119,
+    "createdAt": 1794512119
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102557605223,
+    "messageRefType": 3,
+    "messageId": 4033,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(3/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1794512119,
+    "createdAt": 1794512119
   }],
   "loginResult": {
     "loginMessages": [{
@@ -114425,6 +114500,53 @@
       "eventId": 11446,
       "day": 1,
       "updatedAt": 1794424622
+    }, {
+      "isDeemedLogin": false,
+      "name": "「真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～」開幕直前 特別ログインボーナス",
+      "detail": "開催期間中、1日1回 最大10回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "英霊結晶・太陽のフォウくん",
+        "num": 5
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261105_wr0djd/wr0djd_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/2026gudaguda_cp/"
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11444,
+      "day": 9,
+      "updatedAt": 1794512119
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11445,
+      "day": 3,
+      "updatedAt": 1794512119
     }]
   }
 }
