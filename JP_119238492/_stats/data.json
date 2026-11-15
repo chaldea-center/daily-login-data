@@ -114808,6 +114808,27 @@
       "eventId": 11445,
       "day": 5,
       "updatedAt": 1794708661
+    }, {
+      "isDeemedLogin": false,
+      "name": "空想樹「M・スペクトラム」ボイス動画（決断戦） 公開中！",
+      "detail": "空想樹「M・スペクトラム」ボイス動画（決断戦） 公開中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261115_2tvplk/2tvplk_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://dramalogue.fate-go.jp/special/no-no102/"
+        }]
+      },
+      "eventId": 11470,
+      "day": 1,
+      "updatedAt": 1794751855
     }]
   }
 }
