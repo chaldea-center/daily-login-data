@@ -72383,6 +72383,66 @@
     "flag": 0,
     "updatedAt": 1794947420,
     "createdAt": 1794947420
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102667059047,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1795032107,
+    "createdAt": 1795032107
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102667059048,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 4001,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795032107,
+    "createdAt": 1795032107
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102667059049,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン7日目のボーナスです。（7/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795032107,
+    "createdAt": 1795032107
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102667059060,
+    "messageRefType": 3,
+    "messageId": 4039,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(9/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795032107,
+    "createdAt": 1795032107
   }],
   "loginResult": {
     "loginMessages": [{
@@ -115098,6 +115158,29 @@
       "eventId": 11461,
       "day": 1,
       "updatedAt": 1795011084
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_09.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11445,
+      "day": 9,
+      "updatedAt": 1795032107
     }]
   }
 }
