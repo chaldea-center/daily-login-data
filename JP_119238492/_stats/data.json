@@ -115078,6 +115078,26 @@
       "eventId": 11445,
       "day": 8,
       "updatedAt": 1794947420
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開催中！",
+      "detail": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "titleOffset": [10000, 0],
+        "buttonOffset": [0, 0],
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261118_z4mj7s/z4mj7s_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11461,
+      "day": 1,
+      "updatedAt": 1795011084
     }]
   }
 }
