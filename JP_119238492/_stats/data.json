@@ -72503,6 +72503,21 @@
     "flag": 0,
     "updatedAt": 1795118403,
     "createdAt": 1795118403
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102693399324,
+    "messageRefType": 3,
+    "messageId": 4091,
+    "message": "劇場アニメーション「魔法使いの夜」\n公開記念 ログインボーナス第1弾です。(1/3)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9312680,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1795183877,
+    "createdAt": 1795183877
   }],
   "loginResult": {
     "loginMessages": [{
@@ -115264,6 +115279,30 @@
       "eventId": 11445,
       "day": 10,
       "updatedAt": 1795118403
+    }, {
+      "isDeemedLogin": false,
+      "name": "劇場アニメーション「魔法使いの夜」公開記念 ログインボーナス第1弾",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "魔法使いの夜",
+        "num": 1
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261120_l5wp1d/l5wp1d_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+        }],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11465,
+      "day": 1,
+      "updatedAt": 1795183877
     }]
   }
 }
