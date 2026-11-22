@@ -72593,6 +72593,81 @@
     "flag": 0,
     "updatedAt": 1795203569,
     "createdAt": 1795203569
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102721071219,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1795313479,
+    "createdAt": 1795313479
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102721071220,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9770500,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1795313479,
+    "createdAt": 1795313479
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102721071221,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン3日目のボーナスです。（3/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795313479,
+    "createdAt": 1795313479
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102721071250,
+    "messageRefType": 3,
+    "messageId": 4093,
+    "message": "劇場アニメーション「魔法使いの夜」\n公開記念 ログインボーナス第1弾です。(3/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 48,
+    "num": 100,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795313479,
+    "createdAt": 1795313479
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102721071251,
+    "messageRefType": 3,
+    "messageId": 4042,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(12/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795313479,
+    "createdAt": 1795313479
   }],
   "loginResult": {
     "loginMessages": [{
@@ -115425,6 +115500,53 @@
       "eventId": 11465,
       "day": 2,
       "updatedAt": 1795203569
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_12.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "messageOffset": [-50000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11445,
+      "day": 12,
+      "updatedAt": 1795313479
+    }, {
+      "isDeemedLogin": false,
+      "name": "劇場アニメーション「魔法使いの夜」公開記念 ログインボーナス第1弾",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "巡霊の葉",
+        "num": 100
+      }],
+      "script": {
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261120_l5wp1d/l5wp1d_k_03.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+        }],
+        "messageOffset": [-50000, 0],
+        "buttonOffset": [0, 0]
+      },
+      "eventId": 11465,
+      "day": 3,
+      "updatedAt": 1795313479
     }]
   }
 }
