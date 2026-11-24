@@ -72788,6 +72788,66 @@
     "flag": 0,
     "updatedAt": 1795476403,
     "createdAt": 1795476403
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102763739843,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9570400,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1795557434,
+    "createdAt": 1795557434
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102763739844,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 2,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795557434,
+    "createdAt": 1795557434
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102763739845,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン6日目のボーナスです。（6/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795557434,
+    "createdAt": 1795557434
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102763739859,
+    "messageRefType": 3,
+    "messageId": 4045,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(15/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795557434,
+    "createdAt": 1795557434
   }],
   "loginResult": {
     "loginMessages": [{
@@ -115713,6 +115773,29 @@
       "eventId": 11445,
       "day": 14,
       "updatedAt": 1795476403
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "buttonOffset": [0, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_15.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "messageOffset": [-50000, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11445,
+      "day": 15,
+      "updatedAt": 1795557434
     }]
   }
 }
