@@ -72998,6 +72998,96 @@
     "flag": 0,
     "updatedAt": 1795788681,
     "createdAt": 1795788681
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227133,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 1,
+    "objectId": 9670300,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 1,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227134,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 2,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227135,
+    "messageRefType": 3,
+    "messageId": 21,
+    "message": "連続ログイン2日目のボーナスです。（2/7日間）",
+    "fromType": 2,
+    "giftType": 2,
+    "objectId": 10114,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227161,
+    "messageRefType": 3,
+    "messageId": 4048,
+    "message": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！\n～史上最低の爆弾娘～\n開幕記念 ログインボーナスです。(18/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 101,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227162,
+    "messageRefType": 3,
+    "messageId": 4095,
+    "message": "劇場アニメーション「魔法使いの夜」\n公開記念 ログインボーナス第2弾です。(2/3)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102808227163,
+    "messageRefType": 3,
+    "messageId": 4056,
+    "message": "冠位戴冠戦 Berserker＆Saber＆Archer＆Lancer ストーム・ポッド消費0！キャンペーン 開幕記念 ログインボーナスです。(2/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795812217,
+    "createdAt": 1795812217
   }],
   "loginResult": {
     "loginMessages": [{
@@ -116059,6 +116149,76 @@
       "eventId": 11472,
       "day": 1,
       "updatedAt": 1795788681
+    }, {
+      "isDeemedLogin": false,
+      "name": "真冬の水着スペシャル ぐだぐだぷにぷにウォーズ！ ～史上最低の爆弾娘～ 開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "白銀の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261111_gq7x4m/gq7x4m_k_18.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11445,
+      "day": 18,
+      "updatedAt": 1795812217
+    }, {
+      "isDeemedLogin": false,
+      "name": "劇場アニメーション「魔法使いの夜」公開記念 ログインボーナス第2弾",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261127_y59mrq/y59mrq_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+        }]
+      },
+      "eventId": 11466,
+      "day": 2,
+      "updatedAt": 1795812217
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦 Berserker＆Saber＆Archer＆Lancer ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260916_ueoj8b/ueoj8b_k_02.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }]
+      },
+      "eventId": 11471,
+      "day": 2,
+      "updatedAt": 1795812217
     }]
   }
 }
