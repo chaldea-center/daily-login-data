@@ -72968,6 +72968,36 @@
     "flag": 0,
     "updatedAt": 1795726718,
     "createdAt": 1795726718
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102803140819,
+    "messageRefType": 3,
+    "messageId": 4094,
+    "message": "劇場アニメーション「魔法使いの夜」\n公開記念 ログインボーナス第2弾です。(1/3)",
+    "fromType": 3,
+    "giftType": 1,
+    "objectId": 9312690,
+    "num": 1,
+    "limitCount": 4,
+    "lv": 80,
+    "flag": 0,
+    "updatedAt": 1795788681,
+    "createdAt": 1795788681
+  }, {
+    "receiveUserId": 119238492,
+    "presentId": 102803140820,
+    "messageRefType": 3,
+    "messageId": 4055,
+    "message": "冠位戴冠戦 Berserker＆Saber＆Archer＆Lancer ストーム・ポッド消費0！キャンペーン 開幕記念 ログインボーナスです。(1/21)",
+    "fromType": 3,
+    "giftType": 2,
+    "objectId": 100,
+    "num": 1,
+    "limitCount": 0,
+    "lv": 0,
+    "flag": 0,
+    "updatedAt": 1795788681,
+    "createdAt": 1795788681
   }],
   "loginResult": {
     "loginMessages": [{
@@ -115962,6 +115992,73 @@
       "eventId": 11445,
       "day": 17,
       "updatedAt": 1795726718
+    }, {
+      "isDeemedLogin": false,
+      "name": "劇場アニメーション「魔法使いの夜」公開記念 ログインボーナス第2弾",
+      "detail": "開催期間中、1日1回 最大3回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "坂の上の魔女",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261127_y59mrq/y59mrq_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 2,
+          "urlLink": "https://news.fate-go.jp/2026/11/mahoyo_cp/"
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11466,
+      "day": 1,
+      "updatedAt": 1795788681
+    }, {
+      "isDeemedLogin": false,
+      "name": "冠位戴冠戦 Berserker＆Saber＆Archer＆Lancer ストーム・ポッド消費0！キャンペーン開幕記念 ログインボーナス",
+      "detail": "開催期間中、1日1回 最大21回 ログインボーナスをプレゼント！",
+      "addDetail": "",
+      "items": [{
+        "name": "黄金の果実",
+        "num": 1
+      }],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20260916_ueoj8b/ueoj8b_k_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11471,
+      "day": 1,
+      "updatedAt": 1795788681
+    }, {
+      "isDeemedLogin": false,
+      "name": "「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "detail": "「冠位戴冠戦：Berserker」ストーム・ポッド消費0！キャンペーン再開催中！",
+      "addDetail": "",
+      "items": [],
+      "script": {
+        "messageOffset": [-50000, 0],
+        "banners": [{
+          "bannerUrl": "/webview/loginbonus/20261127_tsfzxp/tsfzxp_s_01.png",
+          "offset": [2, 0],
+          "size": [748, 448],
+          "urlOpenType": 0
+        }],
+        "buttonOffset": [0, 0],
+        "titleOffset": [10000, 0]
+      },
+      "eventId": 11472,
+      "day": 1,
+      "updatedAt": 1795788681
     }]
   }
 }
